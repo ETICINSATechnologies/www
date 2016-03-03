@@ -11,9 +11,11 @@
 class StringIdentifier {
 	// identifiants
 	const SID_TITLE = "TITLE"; // titre du site
+	const SID_HOME = "HOME"; // titre du site
 	// tableau des identifiants
 	const SIDS = array(
-		StringIdentifier::SID_TITLE
+		StringIdentifier::SID_TITLE,
+		StringIdentifier::SID_HOME
 		);
 }
 
@@ -44,7 +46,7 @@ class Dictionary implements \JsonSerializable {
 	 *	@brief
 	 */
 	public function translate($stringId, $translation) {
-
+		$dict[$stringId] = $translation; // manquant ?
 	}
 	/**
 	 *	@brief

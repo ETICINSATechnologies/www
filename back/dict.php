@@ -11,11 +11,13 @@ require_once "back/lang.php";
 //
 $dict_fr = new Dictionary('fr');
 $dict_fr->translate(StringIdentifier::SID_TITLE, "ETIC INSA Technologies");
+$dict_fr->translate(StringIdentifier::SID_HOME, "Accueil");
 //
 // ------------------------------------ DICTIONNAIRE  ANGLAIS ------------------------------------
 //
 $dict_en = new Dictionary('en');
 $dict_en->translate(StringIdentifier::SID_TITLE, "ETIC INSA Technologies");
+$dict_fr->translate(StringIdentifier::SID_HOME, "Home");
 //
 // ------------------------------------ DICTIONNAIRE ESPAGNOL ------------------------------------
 //
