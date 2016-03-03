@@ -1,0 +1,5 @@
+<?php
+/*redirige vers accueil*/
+
+
+?>
