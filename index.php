@@ -9,9 +9,11 @@ function notfound() {
 if(isset($_GET['page']) && isset($_GET['lang'])) {
 	// récupération de la page si elle existe
 	$page = "front/".$_GET['page'].".html";
+	$header = "front/header.html";
+	$footer = "front/footer.html";
 	if(file_exists($page)) {
 		// on récupère le contenu
-		$content = file_get_contents($page);
+		$content = file_get_contents($header) . file_get_contents($page) . file_get_contents($footer);
 		// on réalise le changement de langue
 		echo $_TRANSLATOR->translate($_GET['lang'], $content);
 	} else {
