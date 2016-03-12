@@ -17,7 +17,7 @@ $dict_fr->translate(StringIdentifier::SID_HOME, "Accueil");
 //
 $dict_en = new Dictionary('en');
 $dict_en->translate(StringIdentifier::SID_TITLE, "ETIC INSA Technologies");
-$dict_fr->translate(StringIdentifier::SID_HOME, "Home");
+$dict_en->translate(StringIdentifier::SID_HOME, "Home");
 //
 // ------------------------------------ DICTIONNAIRE ESPAGNOL ------------------------------------
 //

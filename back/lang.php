@@ -46,13 +46,17 @@ class Dictionary implements \JsonSerializable {
 	 *	@brief
 	 */
 	public function translate($stringId, $translation) {
-		$dict[$stringId] = $translation; // manquant ?
+		$this->dict[$stringId] = $translation; // manquant ?
 	}
 	/**
 	 *	@brief
 	 */
 	public function GetLang() { 
 		return $this->lang; 
+	}
+
+	public function GetDict() {
+		return $this->dict;
 	}
 }
 
@@ -81,10 +85,10 @@ class Translator  {
 			$lang = Translator::DEFAULT_LANG;
 		}
 		foreach (StringIdentifier::SIDS as $identifier) {
-			if(array_key_exists($identifier, $this->dictionaries[$lang])) {
-				$content = str_replace($identifier, $this->dictionaries[$lang][$identifier], $content);
-			} else if(array_key_exists($identifier, $this->dictionaries[Translator::DEFAULT_LANG])) {
-				$content = str_replace($identifier, $this->dictionaries[Translator::DEFAULT_LANG][$identifier], $content);
+			if(array_key_exists($identifier, $this->dictionaries[$lang]->GetDict())) {
+				$content = str_replace($identifier, $this->dictionaries[$lang]->GetDict()[$identifier], $content);
+			} else if(array_key_exists($identifier, $this->dictionaries[Translator::DEFAULT_LANG]->GetDict())) {
+				$content = str_replace($identifier, $this->dictionaries[Translator::DEFAULT_LANG]->GetDict()[$identifier], $content);
 			} else {
 				$content = str_replace($identifier, "-!- traduction manquante(id=".$identifier.") -!-", $content);
 			}
