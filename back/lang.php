@@ -12,10 +12,27 @@ class StringIdentifier {
 	// identifiants
 	const SID_TITLE = "TITLE"; // titre du site
 	const SID_HOME = "HOME"; // titre du site
+	const SID_PRESTA ="PRESTA"; // titre du menu nos prestations
+	const SID_ETUDE ="ETUDE"; // lien de pres. du déroulement d'une étude
+	const SID_COMPETENCES ="COMPETENCES"; // lien vers la pres. de nos domaines de compétences
+	const SID_ENGAGEMENTS ="ENGAGEMENTS"; // lien vers la pres. de nos engagemnets
+	const SID_NOUS ="NOUS"; // titre du menu nous découvrir
+	const SID_EQUIPE ="EQUIPE"; // lien vers la pres. de l'équipe
+	const SID_PARTENAIRES ="PARTENAIRES"; // lien vers la pres. de nos partenaires
+	const SID_EVENEMENTS ="EVENEMENTS"; // lien vers la pres. de nos évenements
+	
 	// tableau des identifiants
 	const SIDS = array(
 		StringIdentifier::SID_TITLE,
-		StringIdentifier::SID_HOME
+		StringIdentifier::SID_HOME,
+		StringIdentifier::SID_PRESTA,
+		StringIdentifier::SID_ETUDE,
+		StringIdentifier::SID_COMPETENCES,
+		StringIdentifier::SID_ENGAGEMENTS,
+		StringIdentifier::SID_NOUS,
+		StringIdentifier::SID_EQUIPE,
+		StringIdentifier::SID_PARTENAIRES,
+		StringIdentifier::SID_EVENEMENTS,
 		);
 }
 
@@ -88,8 +105,8 @@ class Translator  {
 			if(array_key_exists($identifier, $this->dictionaries[$lang]->GetDict())) {
 				$content = str_replace($identifier, $this->dictionaries[$lang]->GetDict()[$identifier], $content);
 			} else if(array_key_exists($identifier, $this->dictionaries[Translator::DEFAULT_LANG]->GetDict())) {
-				$content = str_replace($identifier, $this->dictionaries[Translator::DEFAULT_LANG]->GetDict()[$identifier], $content);
-			} else {
+				$content = str_replace($identifier, $this->dictionaries[Translator::DEFAULT_LANG]->GetDict()[$identifier], $content); 
+			} else {	
 				$content = str_replace($identifier, "-!- traduction manquante(id=".$identifier.") -!-", $content);
 			}
 		}
