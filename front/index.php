@@ -1,3 +1,3 @@
 <?php
 
-header('Location:../index.php?page=home&lang=fr');
+header('Location:../page.php?page=home&lang=fr');
