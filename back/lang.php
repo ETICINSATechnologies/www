@@ -106,6 +106,15 @@ class StringIdentifier {
 	const LINK_TRUST ="{LINK_TRUST}"; // lien vers la pres. de nos partenaires
 	
 	const LINKS = array(
+		StringIdentifier::LINK_DEVIS,
+		StringIdentifier::LINK_HOME,
+		StringIdentifier::LINK_SKILLS,
+		StringIdentifier::LINK_STUDY,
+		StringIdentifier::LINK_EVENTS,
+		StringIdentifier::LINK_ENGAGEMENT,
+		StringIdentifier::LINK_PARTNERS,
+		StringIdentifier::LINK_TEAM,
+		StringIdentifier::LINK_TRUST,
 		);
 }
 

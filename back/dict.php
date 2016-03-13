@@ -154,7 +154,6 @@ $links_es->translate(StringIdentifier::LINK_STUDY, "page.php?page=study&lang=es"
 $links_es->translate(StringIdentifier::LINK_TEAM, "page.php?page=team&lang=es");
 $links_es->translate(StringIdentifier::LINK_TRUST, "page.php?page=trust&lang=es");
 
-$_LINKER = new Translator();
-$_LINKER->addDictionary($links_fr);
-$_LINKER->addDictionary($links_en);
-$_LINKER->addDictionary($links_es);
+$_TRANSLATOR->addLinks($links_fr);
+$_TRANSLATOR->addLinks($links_en);
+$_TRANSLATOR->addLinks($links_es);
