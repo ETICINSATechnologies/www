@@ -1,23 +1,57 @@
  <div class="ui main text container">
-    <form class="ui form" method="post" action="">
-	    <div class="three fields">
-		    <div class="field">
-		    	<label>First name</label>
-		    	<input placeholder="First Name" type="text">
+    <form class="ui small form" method="post" action="">
+	    <div class="two fields">
+		    <div class="field required">
+		    	<!--<label>{DEVIS_LASTNAME}</label>-->
+		    	<input placeholder="{DEVIS_LASTNAME}" type="text">
 		    </div>
-		    <div class="field">
-		    	<label>Middle name</label>
-		    	<input placeholder="Middle Name" type="text">
-		    </div>
-		    <div class="field">
-		    	<label>Last name</label>
-		    	<input placeholder="Last Name" type="text">
+		    <div class="field required">
+		    	<!--<label>{DEVIS_FIRSTNAME}</label>-->
+		    	<input placeholder="{DEVIS_FIRSTNAME}" type="text">
 		    </div>
 	  	</div>
-	    <div id="captcha_container">
+	  	<div class="three fields">
+		    <div class="field required">
+		    	<!--<label>{DEVIS_FIRM}</label>-->
+		    	<input placeholder="{DEVIS_FIRM}" type="text">
+		    </div>
+		    <div class="field required">
+		    	<!--<label>{DEVIS_MAIL}</label>-->
+		    	<input placeholder="{DEVIS_MAIL}" type="text">
+		    </div>
+		    <div class="field required">
+		    	<!--<label>{DEVIS_PHONE}</label>-->
+		    	<input placeholder="{DEVIS_PHONE}" type="text">
+		    </div>
+	  	</div>
+	  	<div class="field required">
+			<!--<label>{DEVIS_SUBJECT}</label>-->
+			<input placeholder="{DEVIS_SUBJECT}" type="text">
+		</div>
+		<div class="field required">
+    		<label>{DEVIS_MESSAGE}</label>
+    		<textarea style="height: 132px;"></textarea>
+  		</div>
+		<div class="two fields">
+		    <div class="field">
+		    	<!--<label>{DEVIS_PLANNED_BUDGET}</label>-->
+		    	<input placeholder="{DEVIS_PLANNED_BUDGET}" type="text">
+		    </div>
+		    <div class="field">
+		    	<!--<label>{DEVIS_PLANNED_DURATION}</label>-->
+		    	<input placeholder="{DEVIS_PLANNED_DURATION}" type="text">
+		    </div>
+	  	</div>
+	  	<div id="captcha_container">
 	        <!-- captcha will go here --> 
 	    </div>
+	  	<div class="ui buttons">
+			<button class="ui tiny button">{DEVIS_CANCEL}</button>
+			<div class="or" data-text="ou"></div>
+			<button class="ui positive tiny button">{DEVIS_SUBMIT}</button>
+		</div>
 	</form>
 </div>
+<script type="text/javascript" src="front/pages/scripts/devis.js"></script>
 
 
