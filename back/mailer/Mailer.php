@@ -20,11 +20,11 @@ class Mailer {
 
   public function __construct() {
     // On récupère les paramètres du fichier INI
-    $config = parse_ini_file();
+    $config = parse_ini_file("mailer.ini");
     // on récupère les paramètres de configuration en base de données.
-    $this->sender   = ""
-    $this->host     = ""
-    $this->password = ""
+    $this->sender   = $config["sender"];
+    $this->host     = $config["host"];
+    $this->password = $config["password"];
     #debug("[NFO] - SMTP config (sender='".$this->sender."',host='".$this->host."',pass='".$this->password."')");
     // on initialise le mailer
     $this->mailer = new PHPMailer;
