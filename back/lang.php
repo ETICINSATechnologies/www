@@ -99,6 +99,19 @@ class StringIdentifier {
 	const SID_CONFIANCE_QUOTE_2 = "{CONFIANCE_QUOTE_2}";
 	const SID_CONFIANCE_QUOTE_3 = "{CONFIANCE_QUOTE_3}";
 	
+	const SID_DEVIS_LASTNAME 			= "{DEVIS_LASTNAME}";
+	const SID_DEVIS_FIRSTNAME 			= "{DEVIS_FIRSTNAME}";
+	const SID_DEVIS_FIRM 				= "{DEVIS_FIRM}";
+	const SID_DEVIS_MAIL 				= "{DEVIS_MAIL}";
+	const SID_DEVIS_PHONE 				= "{DEVIS_PHONE}";
+	const SID_DEVIS_SUBJECT 			= "{DEVIS_SUBJECT}";
+	const SID_DEVIS_MESSAGE 			= "{DEVIS_MESSAGE}";
+	const SID_DEVIS_PLANNED_BUDGET 		= "{DEVIS_PLANNED_BUDGET}";
+	const SID_DEVIS_PLANNED_DURATION 	= "{DEVIS_PLANNED_DURATION}";
+	const SID_DEVIS_CAPTCHA_CODE 		= "{DEVIS_CAPTCHA_CODE}";
+	const SID_DEVIS_RESET 				= "{DEVIS_RESET}";
+	const SID_DEVIS_SUBMIT 				= "{DEVIS_SUBMIT}";
+
 	// tableau des identifiants
 	const SIDS = array(
 		StringIdentifier::SID_TITLE,
@@ -190,8 +203,18 @@ class StringIdentifier {
 		StringIdentifier::SID_CONFIANCE_QUOTE_2,
 		StringIdentifier::SID_CONFIANCE_QUOTE_3,
 
-
-
+		StringIdentifier::SID_DEVIS_LASTNAME 	,
+		StringIdentifier::SID_DEVIS_FIRSTNAME 	,
+		StringIdentifier::SID_DEVIS_FIRM 		,
+		StringIdentifier::SID_DEVIS_MAIL 		,
+		StringIdentifier::SID_DEVIS_PHONE 		,
+		StringIdentifier::SID_DEVIS_SUBJECT 	,
+		StringIdentifier::SID_DEVIS_MESSAGE 	,
+		StringIdentifier::SID_DEVIS_PLANNED_BUDGET ,
+		StringIdentifier::SID_DEVIS_PLANNED_DURATION,
+		StringIdentifier::SID_DEVIS_CAPTCHA_CODE ,
+		StringIdentifier::SID_DEVIS_RESET 		,
+		StringIdentifier::SID_DEVIS_SUBMIT
 
 		);
 

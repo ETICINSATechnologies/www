@@ -10,8 +10,7 @@ $(document).ready(function(){
 			if(obj.good) {
 				$('#captcha_container').html(obj.data);
 				$('#captcha_container label').remove();
-				$('#captcha_code').attr('placeholder', '{DEVIS_CAPTCHA_CODE}')
-				$('#captcha_code').attr('style', 'margin-top: 10px;')
+				$('#captcha_code').remove();
 			} else {
 				$('#captcha_container').html(
 					'<div class="ui negative message"> \
@@ -35,7 +34,7 @@ function reset() {
 	$("#in_message").val('');
 	$("#in_budget").val('');
 	$("#in_duration").val('');
-	$("#captcha_code").val('');
+	$("#in_captcha").val('');
 }
 
 function submit() {
@@ -52,7 +51,7 @@ function submit() {
 			in_message: 	$("#in_message").val(),
 			in_budget: 		$("#in_budget").val(),
 			in_duration: 	$("#in_duration").val(),
-			captcha_code: 	$("#captcha_code").val()
+			captcha_code: 	$("#in_captcha").val()
 		},
 		function(data, textString, jqXHR){
 			obj = JSON.parse(data);
