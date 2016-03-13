@@ -20,6 +20,9 @@ class StringIdentifier {
 	const SID_EQUIPE ="{EQUIPE}"; // lien vers la pres. de l'équipe
 	const SID_PARTENAIRES ="{PARTENAIRES}"; // lien vers la pres. de nos partenaires
 	const SID_EVENEMENTS ="{EVENEMENTS}"; // lien vers la pres. de nos évenements
+	const SID_CONFIANCE ="{CONFIANCE}"; // lien vers la page ils nous ont fait confiance
+	const SID_PLAQUETTE ="{PLAQUETTE}"; // lien vers la plaquette
+	const SID_DEVIS ="{DEVIS}"; // lien vers le formulaire
 	
 	// tableau des identifiants
 	const SIDS = array(
@@ -33,6 +36,9 @@ class StringIdentifier {
 		StringIdentifier::SID_EQUIPE,
 		StringIdentifier::SID_PARTENAIRES,
 		StringIdentifier::SID_EVENEMENTS,
+		StringIdentifier::SID_CONFIANCE,
+		StringIdentifier::SID_PLAQUETTE,
+		StringIdentifier::SID_DEVIS,
 		);
 }
 

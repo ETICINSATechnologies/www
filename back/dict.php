@@ -20,6 +20,9 @@ $dict_fr->translate(StringIdentifier::SID_NOUS, "Nous découvrir");
 $dict_fr->translate(StringIdentifier::SID_EQUIPE, "Notre équipe");
 $dict_fr->translate(StringIdentifier::SID_PARTENAIRES, "Nos partenaires");
 $dict_fr->translate(StringIdentifier::SID_EVENEMENTS, "Nos évènements");
+$dict_fr->translate(StringIdentifier::SID_CONFIANCE, "Ils nous font confiance");
+$dict_fr->translate(StringIdentifier::SID_PLAQUETTE, "Plaquette");
+$dict_fr->translate(StringIdentifier::SID_DEVIS, "Demander un devis");
 
 //
 // ------------------------------------ DICTIONNAIRE  ANGLAIS ------------------------------------
@@ -31,10 +34,14 @@ $dict_en->translate(StringIdentifier::SID_PRESTA, "Our services");
 $dict_en->translate(StringIdentifier::SID_ETUDE, "Study's on-going");
 $dict_en->translate(StringIdentifier::SID_COMPETENCES, "Our fields of proficiency");
 $dict_en->translate(StringIdentifier::SID_ENGAGEMENTS, "Our promises");
-$dict_en->translate(StringIdentifier::SID_NOUS, "Discover us");
+$dict_en->translate(StringIdentifier::SID_NOUS, "About us");
 $dict_en->translate(StringIdentifier::SID_EQUIPE, "Our team");
 $dict_en->translate(StringIdentifier::SID_PARTENAIRES, "Our partners");
 $dict_en->translate(StringIdentifier::SID_EVENEMENTS, "Our events");
+$dict_en->translate(StringIdentifier::SID_CONFIANCE, "We work with them");
+$dict_en->translate(StringIdentifier::SID_PLAQUETTE, "Brochure");
+$dict_en->translate(StringIdentifier::SID_DEVIS, "Request an estimate");
+//
 //
 // ------------------------------------ DICTIONNAIRE ESPAGNOL ------------------------------------
 //
