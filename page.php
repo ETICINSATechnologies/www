@@ -3,14 +3,14 @@
 require_once "back/dict.php"; //définition de $_TRANSLATOR dans ce fichier
 
 function notfound() {
-	echo file_get_contents("front/404.html");
+	echo file_get_contents("front/pages/404.html");
 }
 
 if(isset($_GET['page']) && isset($_GET['lang'])) {
 	// récupération de la page si elle existe
-	$page = "front/".$_GET['page'].".html";
-	$header = "front/header.html";
-	$footer = "front/footer.html";
+	$page = "front/pages/".$_GET['page'].".html";
+	$header = "front/static/header.html";
+	$footer = "front/static/footer.html";
 	if(file_exists($page)) {
 		// on récupère le contenu
 		$content = file_get_contents($header) . file_get_contents($page) . file_get_contents($footer);
