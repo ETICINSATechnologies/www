@@ -203,6 +203,10 @@ class StringIdentifier {
 		StringIdentifier::SID_COMPETENCES_P2_BS,
 		StringIdentifier::SID_COMPETENCES_P2_TR,
 
+		StringIdentifier::SID_CONFIANCE_1,
+		StringIdentifier::SID_CONFIANCE_2,
+		StringIdentifier::SID_CONFIANCE_3,
+		StringIdentifier::SID_CONFIANCE_4,
 		StringIdentifier::SID_CONFIANCE_QUOTE_1,
 		StringIdentifier::SID_CONFIANCE_QUOTE_2,
 		StringIdentifier::SID_CONFIANCE_QUOTE_3,
