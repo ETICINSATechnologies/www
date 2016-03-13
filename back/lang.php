@@ -67,7 +67,7 @@ class StringIdentifier {
 		StringIdentifier::SID_PLAQUETTE,
 		StringIdentifier::SID_DEVIS,
 		
-		StringIdentifier::SID_ETUDE_H2_1
+		StringIdentifier::SID_ETUDE_H2_1,
 		StringIdentifier::SID_ETUDE_H2_2,
 		StringIdentifier::SID_ETUDE_H2_3,
 		StringIdentifier::SID_ETUDE_H2_4,
@@ -76,7 +76,7 @@ class StringIdentifier {
 		StringIdentifier::SID_ETUDE_H2_7,
 		StringIdentifier::SID_ETUDE_H2_8,
 
-		StringIdentifier::SID_ETUDE_H3_1
+		StringIdentifier::SID_ETUDE_H3_1,
 		StringIdentifier::SID_ETUDE_H3_2,
 		StringIdentifier::SID_ETUDE_H3_3,
 		StringIdentifier::SID_ETUDE_H3_4,
@@ -85,7 +85,7 @@ class StringIdentifier {
 		StringIdentifier::SID_ETUDE_H3_7,
 		StringIdentifier::SID_ETUDE_H3_8,
 
-		StringIdentifier::SID_ETUDE_P_1
+		StringIdentifier::SID_ETUDE_P_1,
 		StringIdentifier::SID_ETUDE_P_2,
 		StringIdentifier::SID_ETUDE_P_3,
 		StringIdentifier::SID_ETUDE_P_4,
