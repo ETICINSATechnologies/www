@@ -23,6 +23,33 @@ class StringIdentifier {
 	const SID_CONFIANCE ="{CONFIANCE}"; // lien vers la page ils nous ont fait confiance
 	const SID_PLAQUETTE ="{PLAQUETTE}"; // lien vers la plaquette
 	const SID_DEVIS ="{DEVIS}"; // lien vers le formulaire
+
+	const SID_ETUDE_H2_1 = "{ETUDE_H2_1}"; // premier titre de niveau 2 de la page  déroulement d'une étude
+	const SID_ETUDE_H2_2 = "{ETUDE_H2_2}";
+	const SID_ETUDE_H2_3 = "{ETUDE_H2_3}";
+	const SID_ETUDE_H2_4 = "{ETUDE_H2_4}";
+	const SID_ETUDE_H2_5 = "{ETUDE_H2_5}";
+	const SID_ETUDE_H2_6 = "{ETUDE_H2_6}";
+	const SID_ETUDE_H2_7 = "{ETUDE_H2_7}";
+	const SID_ETUDE_H2_8 = "{ETUDE_H2_8}";
+
+	const SID_ETUDE_H3_1 = "{ETUDE_H3_1}"; // premier titre de niveau 3 de la page  déroulement d'une étude
+	const SID_ETUDE_H3_2 = "{ETUDE_H3_2}";
+	const SID_ETUDE_H3_3 = "{ETUDE_H3_3}";
+	const SID_ETUDE_H3_4 = "{ETUDE_H3_4}";
+	const SID_ETUDE_H3_5 = "{ETUDE_H3_5}";
+	const SID_ETUDE_H3_6 = "{ETUDE_H3_6}";
+	const SID_ETUDE_H3_7 = "{ETUDE_H3_7}";
+	const SID_ETUDE_H3_8 = "{ETUDE_H3_8}";
+
+	const SID_ETUDE_P_1 = "{ETUDE_P_1}"; // premier paragraphe de la page  déroulement d'une étude
+	const SID_ETUDE_P_2 = "{ETUDE_P_2}";
+	const SID_ETUDE_P_3 = "{ETUDE_P_3}";
+	const SID_ETUDE_P_4 = "{ETUDE_P_4}";
+	const SID_ETUDE_P_5 = "{ETUDE_P_5}";
+	const SID_ETUDE_P_6 = "{ETUDE_P_6}";
+	const SID_ETUDE_P_7 = "{ETUDE_P_7}";
+	const SID_ETUDE_P_8 = "{ETUDE_P_8}";
 	
 	// tableau des identifiants
 	const SIDS = array(
@@ -39,6 +66,33 @@ class StringIdentifier {
 		StringIdentifier::SID_CONFIANCE,
 		StringIdentifier::SID_PLAQUETTE,
 		StringIdentifier::SID_DEVIS,
+		
+		StringIdentifier::SID_ETUDE_H2_1
+		StringIdentifier::SID_ETUDE_H2_2,
+		StringIdentifier::SID_ETUDE_H2_3,
+		StringIdentifier::SID_ETUDE_H2_4,
+		StringIdentifier::SID_ETUDE_H2_5,
+		StringIdentifier::SID_ETUDE_H2_6,
+		StringIdentifier::SID_ETUDE_H2_7,
+		StringIdentifier::SID_ETUDE_H2_8,
+
+		StringIdentifier::SID_ETUDE_H3_1
+		StringIdentifier::SID_ETUDE_H3_2,
+		StringIdentifier::SID_ETUDE_H3_3,
+		StringIdentifier::SID_ETUDE_H3_4,
+		StringIdentifier::SID_ETUDE_H3_5,
+		StringIdentifier::SID_ETUDE_H3_6,
+		StringIdentifier::SID_ETUDE_H3_7,
+		StringIdentifier::SID_ETUDE_H3_8,
+
+		StringIdentifier::SID_ETUDE_P_1
+		StringIdentifier::SID_ETUDE_P_2,
+		StringIdentifier::SID_ETUDE_P_3,
+		StringIdentifier::SID_ETUDE_P_4,
+		StringIdentifier::SID_ETUDE_P_5,
+		StringIdentifier::SID_ETUDE_P_6,
+		StringIdentifier::SID_ETUDE_P_7,
+		StringIdentifier::SID_ETUDE_P_8,
 		);
 }
 
