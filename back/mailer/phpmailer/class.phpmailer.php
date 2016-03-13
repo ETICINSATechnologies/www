@@ -1,6 +1,6 @@
 <?php
 
-require_once "objects/mailer/phpmailer/class.smtp.php";
+require_once "mailer/phpmailer/class.smtp.php";
 
 /**
  * PHPMailer - PHP email creation and transport class.

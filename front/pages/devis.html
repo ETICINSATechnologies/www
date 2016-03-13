@@ -1,56 +1,58 @@
  <div class="ui main text container">
-    <form class="ui small form" method="post" action="">
+    <div class="ui small form">
 	    <div class="two fields">
 		    <div class="field required">
 		    	<!--<label>{DEVIS_LASTNAME}</label>-->
-		    	<input placeholder="{DEVIS_LASTNAME}" type="text">
+		    	<input id="in_lastname" placeholder="{DEVIS_LASTNAME}" type="text">
 		    </div>
 		    <div class="field required">
 		    	<!--<label>{DEVIS_FIRSTNAME}</label>-->
-		    	<input placeholder="{DEVIS_FIRSTNAME}" type="text">
+		    	<input id="in_firstname" placeholder="{DEVIS_FIRSTNAME}" type="text">
 		    </div>
 	  	</div>
 	  	<div class="three fields">
 		    <div class="field required">
 		    	<!--<label>{DEVIS_FIRM}</label>-->
-		    	<input placeholder="{DEVIS_FIRM}" type="text">
+		    	<input id="in_firm" placeholder="{DEVIS_FIRM}" type="text">
 		    </div>
 		    <div class="field required">
 		    	<!--<label>{DEVIS_MAIL}</label>-->
-		    	<input placeholder="{DEVIS_MAIL}" type="text">
+		    	<input id="in_mail" placeholder="{DEVIS_MAIL}" type="text">
 		    </div>
 		    <div class="field required">
 		    	<!--<label>{DEVIS_PHONE}</label>-->
-		    	<input placeholder="{DEVIS_PHONE}" type="text">
+		    	<input id="in_phone" placeholder="{DEVIS_PHONE}" type="text">
 		    </div>
 	  	</div>
 	  	<div class="field required">
 			<!--<label>{DEVIS_SUBJECT}</label>-->
-			<input placeholder="{DEVIS_SUBJECT}" type="text">
+			<input id="in_subject" placeholder="{DEVIS_SUBJECT}" type="text">
 		</div>
 		<div class="field required">
     		<label>{DEVIS_MESSAGE}</label>
-    		<textarea style="height: 132px;"></textarea>
+    		<textarea id="in_message" style="height: 132px;"></textarea>
   		</div>
 		<div class="two fields">
 		    <div class="field">
 		    	<!--<label>{DEVIS_PLANNED_BUDGET}</label>-->
-		    	<input placeholder="{DEVIS_PLANNED_BUDGET}" type="text">
+		    	<input id="in_budget" placeholder="{DEVIS_PLANNED_BUDGET}" type="text">
 		    </div>
 		    <div class="field">
 		    	<!--<label>{DEVIS_PLANNED_DURATION}</label>-->
-		    	<input placeholder="{DEVIS_PLANNED_DURATION}" type="text">
+		    	<input id="in_duration" placeholder="{DEVIS_PLANNED_DURATION}" type="text">
 		    </div>
 	  	</div>
-	  	<div id="captcha_container">
+	  	<div class="field" id="captcha_container">
 	        <!-- captcha will go here --> 
 	    </div>
-	  	<div class="ui buttons">
-			<button class="ui tiny button">{DEVIS_CANCEL}</button>
-			<div class="or" data-text="ou"></div>
-			<button class="ui positive tiny button">{DEVIS_SUBMIT}</button>
+	    <div class="field">
+		  	<div class="ui buttons">
+				<button class="ui tiny button" onClick="reset();">{DEVIS_RESET}</button>
+				<div class="or" data-text="ou"></div>
+				<button class="ui positive tiny button" onClick="submit();">{DEVIS_SUBMIT}</button>
+			</div>
 		</div>
-	</form>
+	</div>
 </div>
 <script type="text/javascript" src="front/pages/scripts/devis.js"></script>
 
