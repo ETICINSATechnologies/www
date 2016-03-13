@@ -46,6 +46,10 @@ class StringIdentifier {
 	const SID_ETUDE_STEP_2 = "{ETUDE_STEP_2}";
 	const SID_ETUDE_STEP_3 = "{ETUDE_STEP_3}";
 
+	const SID_ETUDE_BULLSHIT_1 = "{SID_ETUDE_BULLSHIT_1}";
+	const SID_ETUDE_BULLSHIT_2 = "{SID_ETUDE_BULLSHIT_2}";
+	const SID_ETUDE_BULLSHIT_3 = "{SID_ETUDE_BULLSHIT_3}";
+
 	const SID_ETUDE_P_1 = "{ETUDE_P_1}"; // premier paragraphe de la page  déroulement d'une étude
 	const SID_ETUDE_P_2 = "{ETUDE_P_2}";
 	const SID_ETUDE_P_3 = "{ETUDE_P_3}";
@@ -132,6 +136,10 @@ class StringIdentifier {
 		StringIdentifier::SID_ETUDE_STEP_1,
 		StringIdentifier::SID_ETUDE_STEP_2,
 		StringIdentifier::SID_ETUDE_STEP_3,
+
+		StringIdentifier::SID_ETUDE_BULLSHIT_1,
+		StringIdentifier::SID_ETUDE_BULLSHIT_2,
+		StringIdentifier::SID_ETUDE_BULLSHIT_3,
 
 		StringIdentifier::SID_ETUDE_P_1,
 		StringIdentifier::SID_ETUDE_P_2,
