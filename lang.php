@@ -50,6 +50,32 @@ class StringIdentifier {
 	const SID_ETUDE_P_6 = "{ETUDE_P_6}";
 	const SID_ETUDE_P_7 = "{ETUDE_P_7}";
 	const SID_ETUDE_P_8 = "{ETUDE_P_8}";
+
+	const SID_COMPETENCES_H2_IF = "{COMPETENCES_H2_IF}"; // titre pour la compétence informatique 
+	const SID_COMPETENCES_H2_GM = "{COMPETENCES_H2_GM}";
+	const SID_COMPETENCES_H2_GEN = "{COMPETENCES_H2_GEN}";
+	const SID_COMPETENCES_H2_TC = "{COMPETENCES_H2_TC}";
+	const SID_COMPETENCES_H2_GCU = "{COMPETENCES_H2_GCU}";
+	const SID_COMPETENCES_H2_SGM = "{COMPETENCES_H2_SGM}";
+	const SID_COMPETENCES_H2_GE = "{COMPETENCES_H2_GE}";
+	const SID_COMPETENCES_H2_GI = "{COMPETENCES_H2_GI}";
+	const SID_COMPETENCES_H2_BS = "{COMPETENCES_H2_BS}";
+	const SID_COMPETENCES_H2_TR = "{COMPETENCES_H2_TR}"; // titre pour la traduction
+	const SID_COMPETENCES_H2_SC = "{COMPETENCES_H2_SC}"; // titre pour les sciences de l'entreprise
+
+
+	const SID_COMPETENCES_P_IF = "{COMPETENCES_P_IF}"; // paragraphr pour la compétence informatique 
+	const SID_COMPETENCES_P_GM = "{COMPETENCES_P_GM}";
+	const SID_COMPETENCES_P_GEN = "{COMPETENCES_P_GEN}";
+	const SID_COMPETENCES_P_TC = "{COMPETENCES_P_TC}";
+	const SID_COMPETENCES_P_GCU = "{COMPETENCES_P_GCU}";
+	const SID_COMPETENCES_P_SGM = "{COMPETENCES_P_SGM}";
+	const SID_COMPETENCES_P_GE = "{COMPETENCES_P_GE}";
+	const SID_COMPETENCES_P_GI = "{COMPETENCES_P_GI}";
+	const SID_COMPETENCES_P_BS = "{COMPETENCES_P_BS}";
+	const SID_COMPETENCES_P_TR = "{COMPETENCES_P_TR}"; // paragraphe pour la traduction
+	const SID_COMPETENCES_P_SC = "{COMPETENCES_P_SC}"; // paragraphe pour les SCiences de l'entreprise
+	
 	
 	// tableau des identifiants
 	const SIDS = array(
@@ -93,6 +119,34 @@ class StringIdentifier {
 		StringIdentifier::SID_ETUDE_P_6,
 		StringIdentifier::SID_ETUDE_P_7,
 		StringIdentifier::SID_ETUDE_P_8,
+
+		StringIdentifier::SID_COMPETENCES_H2_IF,
+		StringIdentifier::SID_COMPETENCES_H2_GM,
+		StringIdentifier::SID_COMPETENCES_H2_GEN,
+		StringIdentifier::SID_COMPETENCES_H2_TC,
+		StringIdentifier::SID_COMPETENCES_H2_GCU,
+		StringIdentifier::SID_COMPETENCES_H2_SGM,
+		StringIdentifier::SID_COMPETENCES_H2_GE,
+		StringIdentifier::SID_COMPETENCES_H2_GI,
+		StringIdentifier::SID_COMPETENCES_H2_BS,
+		StringIdentifier::SID_COMPETENCES_H2_TR,
+		StringIdentifier::SID_COMPETENCES_H2_SC,
+
+
+		StringIdentifier::SID_COMPETENCES_P_IF,
+		StringIdentifier::SID_COMPETENCES_P_GM,
+		StringIdentifier::SID_COMPETENCES_P_GEN,
+		StringIdentifier::SID_COMPETENCES_P_TC,
+		StringIdentifier::SID_COMPETENCES_P_GCU,
+		StringIdentifier::SID_COMPETENCES_P_SGM,
+		StringIdentifier::SID_COMPETENCES_P_GE,
+		StringIdentifier::SID_COMPETENCES_P_GI,
+		StringIdentifier::SID_COMPETENCES_P_BS,
+		StringIdentifier::SID_COMPETENCES_P_TR,
+		StringIdentifier::SID_COMPETENCES_P_SC,
+
+
+
 		);
 
 	const LINK_DEVIS = "{LINK_DEVIS}"; // titre du site
