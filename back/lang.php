@@ -261,8 +261,8 @@ class Translator  {
 		$this->dictionaries[$dict->GetLang()] = $dict;
 	}
 
-	public function addLinks($link) {
-		$this->links[$link->GetLang()] = $link;
+	public function setLinks($links) {
+		$this->links = $links;
 	}
 	/**
 	 *	@brief
@@ -283,10 +283,8 @@ class Translator  {
 		}
 
 		foreach (StringIdentifier::LINKS as $identifier) {
-			if(array_key_exists($identifier, $this->links[$lang]->GetDict())) {
-				$content = str_replace($identifier, $this->links[$lang]->GetDict()[$identifier], $content);
-			} else if(array_key_exists($identifier, $this->links[Translator::DEFAULT_LANG]->GetDict())) {
-				$content = str_replace($identifier, $this->links[Translator::DEFAULT_LANG]->GetDict()[$identifier], $content); 
+			if(isset($this->links)) {
+				$content = str_replace($identifier, $this->links->GetDict()[$identifier]."&lang=".$lang, $content);
 			} else {	
 				$content = str_replace($identifier, "-!- traduction manquante(id=".$identifier.") -!-", $content);
 			}
