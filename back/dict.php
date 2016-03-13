@@ -46,6 +46,10 @@ $dict_fr->translate(StringIdentifier::SID_ETUDE_STEP_1, "Avant l'étude");
 $dict_fr->translate(StringIdentifier::SID_ETUDE_STEP_2, "Pendant l'étude");
 $dict_fr->translate(StringIdentifier::SID_ETUDE_STEP_3, "Après l'étude");
 
+$dict_fr->translate(StringIdentifier::SID_ETUDE_BULLSHIT_1, "Prise de contact afin d’analyser au mieux votre besoin et vous proposer la solution la plus adaptée.");
+$dict_fr->translate(StringIdentifier::SID_ETUDE_BULLSHIT_2, "L’ensemble de nos études fait l’objet d’un suivi régulier par le pôle qualité afin de s’assurer de la conformité et de la rigueur du travail effectué.");
+$dict_fr->translate(StringIdentifier::SID_ETUDE_BULLSHIT_3, "Le suivi post-réalisation de nos projets nous permet de nous assurer de la bonne prise en main des produits par nos clients.");
+
 $dict_fr->translate(StringIdentifier::SID_ETUDE_P_1, "Contactez-nous sur notre site en nous demandant un devis. Nous vous répondrons sous 24h.
 Une fois le premier contact effectué nous vous affectons un chargé d’affaire, membre de notre structure. Celui-ci joue le rôle d'interface entre vous, la Junior-entreprise et les intervenants qui réalisent votre projet. Ces intervenants sont recrutés par notre secteur RH parmi les étudiants de l’INSA Lyon. Nous nous engageons à choisir les étudiants les plus compétents afin de vous assurer un service irréprochable.");
 $dict_fr->translate(StringIdentifier::SID_ETUDE_P_2, "Tout d’abord, le chargé d’affaire se charge de vous fournir une première proposition constituée d’une méthodologie et d’un budget. Parce que nous tenons à réaliser des projets de la meilleure qualité possible, vous êtes invités à nous faire des retours sur cette proposition, pour qu’elle puisse correspondre parfaitement à votre besoin. Si vous êtes satisfaits, nous vous envoyons une Proposition Commerciale définitive, qui sera rattaché à la Convention Client. Ces deux derniers documents définissent les termes de la mission.");
