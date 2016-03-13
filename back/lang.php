@@ -34,6 +34,19 @@ class StringIdentifier {
 		StringIdentifier::SID_PARTENAIRES,
 		StringIdentifier::SID_EVENEMENTS,
 		);
+
+	const LINK_DEVIS = "{LINK_DEVIS}"; // titre du site
+	const LINK_HOME = "{LINK_HOME}"; // titre du site
+	const LINK_SKILLS ="{LINK_SKILLS}"; // titre du menu nos prestations
+	const LINK_STUDY ="{LINK_STUDY}"; // lien de pres. du déroulement d'une étude
+	const LINK_EVENTS ="{LINK_EVENTS}"; // lien vers la pres. de nos domaines de compétences
+	const LINK_ENGAGEMENT ="{LINK_ENGAGEMENT}"; // lien vers la pres. de nos engagemnets
+	const LINK_PARTNERS ="{LINK_PARTNERS}"; // titre du menu nous découvrir
+	const LINK_TEAM ="{LINK_TEAM}"; // lien vers la pres. de l'équipe
+	const LINK_TRUST ="{LINK_TRUST}"; // lien vers la pres. de nos partenaires
+	
+	const LINKS = array(
+		);
 }
 
 // ---------------------------------------------------------------------
@@ -86,12 +99,17 @@ class Translator  {
 	const DEFAULT_LANG = "fr";
 	// -- attributes 
 	private $dictionaries = null;
+	private $links = null;
 	// -- functions
 	public function __construct() {
 		// nothing to do here
 	}
 	public function addDictionary($dict) {
 		$this->dictionaries[$dict->GetLang()] = $dict;
+	}
+
+	public function addLinks($link) {
+		$this->links[$link->GetLang()] = $link;
 	}
 	/**
 	 *	@brief
@@ -106,6 +124,16 @@ class Translator  {
 				$content = str_replace($identifier, $this->dictionaries[$lang]->GetDict()[$identifier], $content);
 			} else if(array_key_exists($identifier, $this->dictionaries[Translator::DEFAULT_LANG]->GetDict())) {
 				$content = str_replace($identifier, $this->dictionaries[Translator::DEFAULT_LANG]->GetDict()[$identifier], $content); 
+			} else {	
+				$content = str_replace($identifier, "-!- traduction manquante(id=".$identifier.") -!-", $content);
+			}
+		}
+
+		foreach (StringIdentifier::LINKS as $identifier) {
+			if(array_key_exists($identifier, $this->links[$lang]->GetDict())) {
+				$content = str_replace($identifier, $this->links[$lang]->GetDict()[$identifier], $content);
+			} else if(array_key_exists($identifier, $this->links[Translator::DEFAULT_LANG]->GetDict())) {
+				$content = str_replace($identifier, $this->links[Translator::DEFAULT_LANG]->GetDict()[$identifier], $content); 
 			} else {	
 				$content = str_replace($identifier, "-!- traduction manquante(id=".$identifier.") -!-", $content);
 			}

@@ -47,3 +47,50 @@ $_TRANSLATOR = new Translator();
 $_TRANSLATOR->addDictionary($dict_fr);
 $_TRANSLATOR->addDictionary($dict_en);
 $_TRANSLATOR->addDictionary($dict_es);
+
+//
+// ------------------------------------ DICTIONNAIRE LIENS FRANÇAIS ------------------------------------
+//
+$links_fr = new Dictionary('fr');
+$links_fr->translate(StringIdentifier::LINK_HOME, "page.php?page=home&lang=fr");
+$links_fr->translate(StringIdentifier::LINK_DEVIS, "page.php?page=devis&lang=fr");
+$links_fr->translate(StringIdentifier::LINK_SKILLS, "page.php?page=skills&lang=fr");
+$links_fr->translate(StringIdentifier::LINK_ENGAGEMENT, "page.php?page=engagement&lang=fr");
+$links_fr->translate(StringIdentifier::LINK_EVENTS, "page.php?page=events&lang=fr");
+$links_fr->translate(StringIdentifier::LINK_PARTNERS, "page.php?page=partners&lang=fr");
+$links_fr->translate(StringIdentifier::LINK_STUDY, "page.php?page=study&lang=fr");
+$links_fr->translate(StringIdentifier::LINK_TEAM, "page.php?page=team&lang=fr");
+$links_fr->translate(StringIdentifier::LINK_TRUST, "page.php?page=trust&lang=fr");
+
+//
+// ------------------------------------ DICTIONNAIRE LIENS ANGLAIS ------------------------------------
+//
+$links_en = new Dictionary('en');
+$links_en->translate(StringIdentifier::LINK_HOME, "page.php?page=home&lang=en");
+$links_en->translate(StringIdentifier::LINK_DEVIS, "page.php?page=devis&lang=en");
+$links_en->translate(StringIdentifier::LINK_SKILLS, "page.php?page=skills&lang=en");
+$links_en->translate(StringIdentifier::LINK_ENGAGEMENT, "page.php?page=engagement&lang=en");
+$links_en->translate(StringIdentifier::LINK_EVENTS, "page.php?page=events&lang=en");
+$links_en->translate(StringIdentifier::LINK_PARTNERS, "page.php?page=partners&lang=en");
+$links_en->translate(StringIdentifier::LINK_STUDY, "page.php?page=study&lang=en");
+$links_en->translate(StringIdentifier::LINK_TEAM, "page.php?page=team&lang=en");
+$links_en->translate(StringIdentifier::LINK_TRUST, "page.php?page=trust&lang=en");
+
+//
+// ------------------------------------ DICTIONNAIRE LIENS ESPAGNOL ------------------------------------
+//
+$links_es = new Dictionary('es');
+$links_es->translate(StringIdentifier::LINK_HOME, "page.php?page=home&lang=es");
+$links_es->translate(StringIdentifier::LINK_DEVIS, "page.php?page=devis&lang=es");
+$links_es->translate(StringIdentifier::LINK_SKILLS, "page.php?page=skills&lang=es");
+$links_es->translate(StringIdentifier::LINK_ENGAGEMENT, "page.php?page=engagement&lang=es");
+$links_es->translate(StringIdentifier::LINK_EVENTS, "page.php?page=events&lang=es");
+$links_es->translate(StringIdentifier::LINK_PARTNERS, "page.php?page=partners&lang=es");
+$links_es->translate(StringIdentifier::LINK_STUDY, "page.php?page=study&lang=es");
+$links_es->translate(StringIdentifier::LINK_TEAM, "page.php?page=team&lang=es");
+$links_es->translate(StringIdentifier::LINK_TRUST, "page.php?page=trust&lang=es");
+
+$_LINKER = new Translator();
+$_LINKER->addDictionary($links_fr);
+$_LINKER->addDictionary($links_en);
+$_LINKER->addDictionary($links_es);
