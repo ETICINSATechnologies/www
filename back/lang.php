@@ -5,7 +5,7 @@
 // ---------------------------------------------------------------------
 /*
  *	Ajoutez dans cette classe tous les identifiants de chaines et à côté de chaque ce que la chaine représente
- *		- soit, une ligne const SID_XXXX = "xxxx"; // xxxx du site 
+ *		- soit, une ligne const SID_XXXX = "xxxx"; // xxxx du site
  *		- et une ligne StringIdentifier::SID_XXXX dans le tableau de la constante SIDS
  */
 class StringIdentifier {
@@ -59,7 +59,7 @@ class StringIdentifier {
 	const SID_ETUDE_P_7 = "{ETUDE_P_7}";
 	const SID_ETUDE_P_8 = "{ETUDE_P_8}";
 
-	const SID_COMPETENCES_H2_IF = "{COMPETENCES_H2_IF}"; // titre pour la compétence informatique 
+	const SID_COMPETENCES_H2_IF = "{COMPETENCES_H2_IF}"; // titre pour la compétence informatique
 	const SID_COMPETENCES_H2_GM = "{COMPETENCES_H2_GM}";
 	const SID_COMPETENCES_H2_GEN = "{COMPETENCES_H2_GEN}";
 	const SID_COMPETENCES_H2_TC = "{COMPETENCES_H2_TC}";
@@ -72,7 +72,7 @@ class StringIdentifier {
 	const SID_COMPETENCES_H2_SC = "{COMPETENCES_H2_SC}"; // titre pour les sciences de l'entreprise
 
 
-	const SID_COMPETENCES_P_IF = "{COMPETENCES_P_IF}"; // paragraphr pour la compétence informatique 
+	const SID_COMPETENCES_P_IF = "{COMPETENCES_P_IF}"; // paragraphr pour la compétence informatique
 	const SID_COMPETENCES_P_GM = "{COMPETENCES_P_GM}";
 	const SID_COMPETENCES_P_GEN = "{COMPETENCES_P_GEN}";
 	const SID_COMPETENCES_P_TC = "{COMPETENCES_P_TC}";
@@ -84,7 +84,7 @@ class StringIdentifier {
 	const SID_COMPETENCES_P_TR = "{COMPETENCES_P_TR}"; // paragraphe pour la traduction
 	const SID_COMPETENCES_P_SC = "{COMPETENCES_P_SC}"; // paragraphe pour les SCiences de l'entreprise
 
-	const SID_COMPETENCES_P2_IF = "{COMPETENCES_P2_IF}"; // paragraphre des pts positifs pour la compétence informatique 
+	const SID_COMPETENCES_P2_IF = "{COMPETENCES_P2_IF}"; // paragraphre des pts positifs pour la compétence informatique
 	const SID_COMPETENCES_P2_GM = "{COMPETENCES_P2_GM}";
 	const SID_COMPETENCES_P2_GEN = "{COMPETENCES_P2_GEN}";
 	const SID_COMPETENCES_P2_TC = "{COMPETENCES_P2_TC}";
@@ -94,11 +94,15 @@ class StringIdentifier {
 	const SID_COMPETENCES_P2_GI = "{COMPETENCES_P2_GI}";
 	const SID_COMPETENCES_P2_BS = "{COMPETENCES_P2_BS}";
 	const SID_COMPETENCES_P2_TR = "{COMPETENCES_P2_TR}"; // paragraphe des pts positifs pour la traduction
-	
-	const SID_CONFIANCE_QUOTE_1 = "{CONFIANCE_QUOTE_1}"; // paragraphe de la première ciatation dans la page confiance 
+
+	const SID_CONFIANCE_1 = "{CONFIANCE_1}"; // paragraphe de la première ciatation dans la page confiance
+	const SID_CONFIANCE_2 = "{CONFIANCE_2}";
+	const SID_CONFIANCE_3 = "{CONFIANCE_3}";
+	const SID_CONFIANCE_4 = "{CONFIANCE_4}";
+	const SID_CONFIANCE_QUOTE_1 = "{CONFIANCE_QUOTE_1}"; // paragraphe de la première ciatation dans la page confiance
 	const SID_CONFIANCE_QUOTE_2 = "{CONFIANCE_QUOTE_2}";
 	const SID_CONFIANCE_QUOTE_3 = "{CONFIANCE_QUOTE_3}";
-	
+
 	const SID_DEVIS_LASTNAME 			= "{DEVIS_LASTNAME}";
 	const SID_DEVIS_FIRSTNAME 			= "{DEVIS_FIRSTNAME}";
 	const SID_DEVIS_FIRM 				= "{DEVIS_FIRM}";
@@ -127,7 +131,7 @@ class StringIdentifier {
 		StringIdentifier::SID_CONFIANCE,
 		StringIdentifier::SID_PLAQUETTE,
 		StringIdentifier::SID_DEVIS,
-		
+
 		StringIdentifier::SID_ETUDE_H2_1,
 		StringIdentifier::SID_ETUDE_H2_2,
 		StringIdentifier::SID_ETUDE_H2_3,
@@ -227,7 +231,7 @@ class StringIdentifier {
 	const LINK_PARTNERS ="{LINK_PARTNERS}"; // titre du menu nous découvrir
 	const LINK_TEAM ="{LINK_TEAM}"; // lien vers la pres. de l'équipe
 	const LINK_TRUST ="{LINK_TRUST}"; // lien vers la pres. de nos partenaires
-	
+
 	const LINKS = array(
 		StringIdentifier::LINK_DEVIS,
 		StringIdentifier::LINK_HOME,
@@ -248,7 +252,7 @@ class StringIdentifier {
 class Dictionary implements \JsonSerializable {
 	// -- consts
 	// -- attributes
-	private $lang = null; 
+	private $lang = null;
 	private $dict = null;
 	// -- functions
 	public function __construct($lang) {
@@ -273,8 +277,8 @@ class Dictionary implements \JsonSerializable {
 	/**
 	 *	@brief
 	 */
-	public function GetLang() { 
-		return $this->lang; 
+	public function GetLang() {
+		return $this->lang;
 	}
 
 	public function GetDict() {
@@ -289,7 +293,7 @@ class Dictionary implements \JsonSerializable {
 class Translator  {
 	// -- consts
 	const DEFAULT_LANG = "fr";
-	// -- attributes 
+	// -- attributes
 	private $dictionaries = null;
 	private $links = null;
 	// -- functions
@@ -315,8 +319,8 @@ class Translator  {
 			if(array_key_exists($identifier, $this->dictionaries[$lang]->GetDict())) {
 				$content = str_replace($identifier, $this->dictionaries[$lang]->GetDict()[$identifier], $content);
 			} else if(array_key_exists($identifier, $this->dictionaries[Translator::DEFAULT_LANG]->GetDict())) {
-				$content = str_replace($identifier, $this->dictionaries[Translator::DEFAULT_LANG]->GetDict()[$identifier], $content); 
-			} else {	
+				$content = str_replace($identifier, $this->dictionaries[Translator::DEFAULT_LANG]->GetDict()[$identifier], $content);
+			} else {
 				$content = str_replace($identifier, "-!- traduction manquante(id=".$identifier.") -!-", $content);
 			}
 		}
@@ -324,7 +328,7 @@ class Translator  {
 		foreach (StringIdentifier::LINKS as $identifier) {
 			if(isset($this->links)) {
 				$content = str_replace($identifier, $this->links->GetDict()[$identifier]."&lang=".$lang, $content);
-			} else {	
+			} else {
 				$content = str_replace($identifier, "-!- traduction manquante(id=".$identifier.") -!-", $content);
 			}
 		}
@@ -332,4 +336,3 @@ class Translator  {
 		return $content;
 	}
 }
-
