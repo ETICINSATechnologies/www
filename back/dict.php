@@ -137,6 +137,18 @@ $dict_fr->translate(StringIdentifier::SID_CONFIANCE_QUOTE_1, "\« Notre travail 
 $dict_fr->translate(StringIdentifier::SID_CONFIANCE_QUOTE_2, "\« ETIC apporte une véritable valeur ajoutée au projet. Les équipes d’étudiants sont surprenantes de professionnalisme, de créativité et de rigueur. Nous avons avancé ensemble, dans un contexte complexe et des délais limités. Le courage et la solidarité ont été des valeurs communicatives et déterminantes pour la réussite de ce programme ambitieux. En effet, en plus des compétences techniques et de gestion de projet qui caractérisent l’INSA, ETIC dispose d’excellents commerciaux ! Depuis cette expérience, je les recommande régulièrement. \»");
 $dict_fr->translate(StringIdentifier::SID_CONFIANCE_QUOTE_3, "\« Non seulement porteur du progrès technique, l’ingénieur doit de plus en plus être créateur de valeur. Il doit pouvoir imaginer la société de demain. Pour accompagner cette évolution, il devient important de le sensibiliser très tôt à une culture d’innovation et un esprit d’entreprendre. ETIC INSA Technologies, la junior entreprise de l’INSA de Lyon, est une des vitrines de cette volonté. Nous sommes fiers de soutenir chaque année ces jeunes talents qui délivrent toutes leurs compétences aux professionnels qui parient sur l’innovation et le dynamisme. Depuis sa création en 1981, ETIC INSA Technologies ne cesse de se développer et de se distinguer. C’est aujourd’hui l’une des 4 meilleures Junior-Entreprises de France. Donner le goût et les outils pour entreprendre, telle est l’ambition de l’INSA de Lyon, qui accompagne ses élèves vers une nouvelle génération d’ingénieur, capable de construire notre société future. \»");
 
+$dict_fr->translate(StringIdentifier::SID_DEVIS_LASTNAME, "Nom");
+$dict_fr->translate(StringIdentifier::SID_DEVIS_FIRSTNAME, "Prénom");
+$dict_fr->translate(StringIdentifier::SID_DEVIS_FIRM, "Société");
+$dict_fr->translate(StringIdentifier::SID_DEVIS_MAIL, "Email");
+$dict_fr->translate(StringIdentifier::SID_DEVIS_PHONE, "Téléphone");
+$dict_fr->translate(StringIdentifier::SID_DEVIS_SUBJECT, "Sujet");
+$dict_fr->translate(StringIdentifier::SID_DEVIS_MESSAGE, "Message");
+$dict_fr->translate(StringIdentifier::SID_DEVIS_PLANNED_BUDGET, "Budget (à titre indicatif)");
+$dict_fr->translate(StringIdentifier::SID_DEVIS_PLANNED_DURATION, "Durée (à titre indicatif)");
+$dict_fr->translate(StringIdentifier::SID_DEVIS_CAPTCHA_CODE, "Saisir le texte de l'image ci-dessus");
+$dict_fr->translate(StringIdentifier::SID_DEVIS_RESET, "Réinitialiser");
+$dict_fr->translate(StringIdentifier::SID_DEVIS_SUBMIT, "Envoyer");
 
 //
 // ------------------------------------ DICTIONNAIRE  ANGLAIS ------------------------------------
@@ -221,6 +233,19 @@ $dict_en->translate(StringIdentifier::SID_COMPETENCES_P2_TR, "Nos domaines de co
 $dict_en->translate(StringIdentifier::SID_CONFIANCE_QUOTE_1, "ElcoBrandt");
 $dict_en->translate(StringIdentifier::SID_CONFIANCE_QUOTE_2, "BarbaraCoudene");
 $dict_en->translate(StringIdentifier::SID_CONFIANCE_QUOTE_3, "Momo");
+
+$dict_en->translate(StringIdentifier::SID_DEVIS_LASTNAME, "Lastname");
+$dict_en->translate(StringIdentifier::SID_DEVIS_FIRSTNAME, "Firstname");
+$dict_en->translate(StringIdentifier::SID_DEVIS_FIRM, "Entreprise");
+$dict_en->translate(StringIdentifier::SID_DEVIS_MAIL, "Email");
+$dict_en->translate(StringIdentifier::SID_DEVIS_PHONE, "Phone number (format 0000000000)");
+$dict_en->translate(StringIdentifier::SID_DEVIS_SUBJECT, "Subject");
+$dict_en->translate(StringIdentifier::SID_DEVIS_MESSAGE, "Message");
+$dict_en->translate(StringIdentifier::SID_DEVIS_PLANNED_BUDGET, "Budget (estimation)");
+$dict_en->translate(StringIdentifier::SID_DEVIS_PLANNED_DURATION, "Duration (estimation)");
+$dict_en->translate(StringIdentifier::SID_DEVIS_CAPTCHA_CODE, "Type captcha text here");
+$dict_en->translate(StringIdentifier::SID_DEVIS_RESET, "Reset");
+$dict_en->translate(StringIdentifier::SID_DEVIS_SUBMIT, "Submit");
 //
 //
 // ------------------------------------ DICTIONNAIRE ESPAGNOL ------------------------------------
