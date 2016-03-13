@@ -54,6 +54,46 @@ class StringIdentifier {
 	const SID_ETUDE_P_6 = "{ETUDE_P_6}";
 	const SID_ETUDE_P_7 = "{ETUDE_P_7}";
 	const SID_ETUDE_P_8 = "{ETUDE_P_8}";
+
+	const SID_COMPETENCES_H2_IF = "{COMPETENCES_H2_IF}"; // titre pour la compétence informatique 
+	const SID_COMPETENCES_H2_GM = "{COMPETENCES_H2_GM}";
+	const SID_COMPETENCES_H2_GEN = "{COMPETENCES_H2_GEN}";
+	const SID_COMPETENCES_H2_TC = "{COMPETENCES_H2_TC}";
+	const SID_COMPETENCES_H2_GCU = "{COMPETENCES_H2_GCU}";
+	const SID_COMPETENCES_H2_SGM = "{COMPETENCES_H2_SGM}";
+	const SID_COMPETENCES_H2_GE = "{COMPETENCES_H2_GE}";
+	const SID_COMPETENCES_H2_GI = "{COMPETENCES_H2_GI}";
+	const SID_COMPETENCES_H2_BS = "{COMPETENCES_H2_BS}";
+	const SID_COMPETENCES_H2_TR = "{COMPETENCES_H2_TR}"; // titre pour la traduction
+	const SID_COMPETENCES_H2_SC = "{COMPETENCES_H2_SC}"; // titre pour les sciences de l'entreprise
+
+
+	const SID_COMPETENCES_P_IF = "{COMPETENCES_P_IF}"; // paragraphr pour la compétence informatique 
+	const SID_COMPETENCES_P_GM = "{COMPETENCES_P_GM}";
+	const SID_COMPETENCES_P_GEN = "{COMPETENCES_P_GEN}";
+	const SID_COMPETENCES_P_TC = "{COMPETENCES_P_TC}";
+	const SID_COMPETENCES_P_GCU = "{COMPETENCES_P_GCU}";
+	const SID_COMPETENCES_P_SGM = "{COMPETENCES_P_SGM}";
+	const SID_COMPETENCES_P_GE = "{COMPETENCES_P_GE}";
+	const SID_COMPETENCES_P_GI = "{COMPETENCES_P_GI}";
+	const SID_COMPETENCES_P_BS = "{COMPETENCES_P_BS}";
+	const SID_COMPETENCES_P_TR = "{COMPETENCES_P_TR}"; // paragraphe pour la traduction
+	const SID_COMPETENCES_P_SC = "{COMPETENCES_P_SC}"; // paragraphe pour les SCiences de l'entreprise
+
+	const SID_COMPETENCES_P2_IF = "{COMPETENCES_P2_IF}"; // paragraphre des pts positifs pour la compétence informatique 
+	const SID_COMPETENCES_P2_GM = "{COMPETENCES_P2_GM}";
+	const SID_COMPETENCES_P2_GEN = "{COMPETENCES_P2_GEN}";
+	const SID_COMPETENCES_P2_TC = "{COMPETENCES_P2_TC}";
+	const SID_COMPETENCES_P2_GCU = "{COMPETENCES_P2_GCU}";
+	const SID_COMPETENCES_P2_SGM = "{COMPETENCES_P2_SGM}";
+	const SID_COMPETENCES_P2_GE = "{COMPETENCES_P2_GE}";
+	const SID_COMPETENCES_P2_GI = "{COMPETENCES_P2_GI}";
+	const SID_COMPETENCES_P2_BS = "{COMPETENCES_P2_BS}";
+	const SID_COMPETENCES_P2_TR = "{COMPETENCES_P2_TR}"; // paragraphe des pts positifs pour la traduction
+	
+	const SID_CONFIANCE_QUOTE_1 = "{CONFIANCE_QUOTE_1}"; // paragraphe de la première ciatation dans la page confiance 
+	const SID_CONFIANCE_QUOTE_2 = "{CONFIANCE_QUOTE_2}";
+	const SID_CONFIANCE_QUOTE_3 = "{CONFIANCE_QUOTE_3}";
 	
 	// tableau des identifiants
 	const SIDS = array(
@@ -101,6 +141,50 @@ class StringIdentifier {
 		StringIdentifier::SID_ETUDE_P_6,
 		StringIdentifier::SID_ETUDE_P_7,
 		StringIdentifier::SID_ETUDE_P_8,
+
+		StringIdentifier::SID_COMPETENCES_H2_IF,
+		StringIdentifier::SID_COMPETENCES_H2_GM,
+		StringIdentifier::SID_COMPETENCES_H2_GEN,
+		StringIdentifier::SID_COMPETENCES_H2_TC,
+		StringIdentifier::SID_COMPETENCES_H2_GCU,
+		StringIdentifier::SID_COMPETENCES_H2_SGM,
+		StringIdentifier::SID_COMPETENCES_H2_GE,
+		StringIdentifier::SID_COMPETENCES_H2_GI,
+		StringIdentifier::SID_COMPETENCES_H2_BS,
+		StringIdentifier::SID_COMPETENCES_H2_TR,
+		StringIdentifier::SID_COMPETENCES_H2_SC,
+
+
+		StringIdentifier::SID_COMPETENCES_P_IF,
+		StringIdentifier::SID_COMPETENCES_P_GM,
+		StringIdentifier::SID_COMPETENCES_P_GEN,
+		StringIdentifier::SID_COMPETENCES_P_TC,
+		StringIdentifier::SID_COMPETENCES_P_GCU,
+		StringIdentifier::SID_COMPETENCES_P_SGM,
+		StringIdentifier::SID_COMPETENCES_P_GE,
+		StringIdentifier::SID_COMPETENCES_P_GI,
+		StringIdentifier::SID_COMPETENCES_P_BS,
+		StringIdentifier::SID_COMPETENCES_P_TR,
+		StringIdentifier::SID_COMPETENCES_P_SC,
+
+		StringIdentifier::SID_COMPETENCES_P2_IF,
+		StringIdentifier::SID_COMPETENCES_P2_GM,
+		StringIdentifier::SID_COMPETENCES_P2_GEN,
+		StringIdentifier::SID_COMPETENCES_P2_TC,
+		StringIdentifier::SID_COMPETENCES_P2_GCU,
+		StringIdentifier::SID_COMPETENCES_P2_SGM,
+		StringIdentifier::SID_COMPETENCES_P2_GE,
+		StringIdentifier::SID_COMPETENCES_P2_GI,
+		StringIdentifier::SID_COMPETENCES_P2_BS,
+		StringIdentifier::SID_COMPETENCES_P2_TR,
+
+		StringIdentifier::SID_CONFIANCE_QUOTE_1,
+		StringIdentifier::SID_CONFIANCE_QUOTE_2,
+		StringIdentifier::SID_CONFIANCE_QUOTE_3,
+
+
+
+
 		);
 
 	const LINK_DEVIS = "{LINK_DEVIS}"; // titre du site
@@ -185,8 +269,8 @@ class Translator  {
 		$this->dictionaries[$dict->GetLang()] = $dict;
 	}
 
-	public function addLinks($link) {
-		$this->links[$link->GetLang()] = $link;
+	public function setLinks($links) {
+		$this->links = $links;
 	}
 	/**
 	 *	@brief
@@ -207,10 +291,8 @@ class Translator  {
 		}
 
 		foreach (StringIdentifier::LINKS as $identifier) {
-			if(array_key_exists($identifier, $this->links[$lang]->GetDict())) {
-				$content = str_replace($identifier, $this->links[$lang]->GetDict()[$identifier], $content);
-			} else if(array_key_exists($identifier, $this->links[Translator::DEFAULT_LANG]->GetDict())) {
-				$content = str_replace($identifier, $this->links[Translator::DEFAULT_LANG]->GetDict()[$identifier], $content); 
+			if(isset($this->links)) {
+				$content = str_replace($identifier, $this->links->GetDict()[$identifier]."&lang=".$lang, $content);
 			} else {	
 				$content = str_replace($identifier, "-!- traduction manquante(id=".$identifier.") -!-", $content);
 			}
