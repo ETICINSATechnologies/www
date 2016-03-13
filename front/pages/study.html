@@ -1,6 +1,32 @@
  <div class="ui vertical stripe segment">
     <div class="ui middle aligned stackable grid container">
-      <div class="row">
+      
+	<div class="row"  id="before">
+	  <div class="sixteen wide center aligned column">  
+	    <div class="ui sixteen wide steps">
+		  <a class="link step" href="#before">
+		    <i class="comments outline icon"></i>
+		    <div class="content">
+		      <div class="title">{ETUDE_STEP_1}</div>		  
+		    </div>
+		  </a>
+		  <a class="link step" href="#during">
+		  	<i class="tasks icon"></i>
+		    <div class="content">
+		      <div class="title">{ETUDE_STEP_2}</div>		 
+		    </div>
+		  </a>
+		  <a class="link step" href="#after">
+		  	<i class="checkmark icon"></i>
+		    <div class="content">
+		      <div class="title">{ETUDE_STEP_3}</div>		      
+		    </div>
+		  </a>
+		</div>
+	  </div>
+	</div>
+
+      <div class="row ">
         <div class="sixteen wide justified column">
           <h1 class="ui header">
   			<i class="comment outline icon"></i>
@@ -43,13 +69,13 @@
     			<div class="sub header">{ETUDE_H3_3}</div>    			
   			</div>
 		  </h1>
-		  <p>
+		  <p id="during">
 		  {ETUDE_P_3}
 		  </p>
         </div>
       </div>
 
-      <div class="ui section divider"></div>
+      <div class="ui section divider" ></div>
 
       <div class="row">
         <div class="sixteen wide justified column">
@@ -94,7 +120,7 @@
     			<div class="sub header">{ETUDE_H3_6}</div>    			
   			</div>
 		  </h1>
-		  <p>
+		  <p id="after">
 		  {ETUDE_P_6}
 		  </p>
         </div>
@@ -143,3 +169,4 @@
       </div>
     </div>
   </div>
+

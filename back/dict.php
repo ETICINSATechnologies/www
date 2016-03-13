@@ -42,6 +42,10 @@ $dict_fr->translate(StringIdentifier::SID_ETUDE_H3_6, "Phase de recette + 3 mois
 $dict_fr->translate(StringIdentifier::SID_ETUDE_H3_7, "3 mois de garantie");
 $dict_fr->translate(StringIdentifier::SID_ETUDE_H3_8, "Vos retours sont importants");
 
+$dict_fr->translate(StringIdentifier::SID_ETUDE_STEP_1, "Avant l'étude");
+$dict_fr->translate(StringIdentifier::SID_ETUDE_STEP_2, "Pendant l'étude");
+$dict_fr->translate(StringIdentifier::SID_ETUDE_STEP_3, "Après l'étude");
+
 $dict_fr->translate(StringIdentifier::SID_ETUDE_P_1, "Contactez-nous sur notre site en nous demandant un devis. Nous vous répondrons sous 24h.
 Une fois le premier contact effectué nous vous affectons un chargé d’affaire, membre de notre structure. Celui-ci joue le rôle d'interface entre vous, la Junior-entreprise et les intervenants qui réalisent votre projet. Ces intervenants sont recrutés par notre secteur RH parmi les étudiants de l’INSA Lyon. Nous nous engageons à choisir les étudiants les plus compétents afin de vous assurer un service irréprochable.");
 $dict_fr->translate(StringIdentifier::SID_ETUDE_P_2, "Tout d’abord, le chargé d’affaire se charge de vous fournir une première proposition constituée d’une méthodologie et d’un budget. Parce que nous tenons à réaliser des projets de la meilleure qualité possible, vous êtes invités à nous faire des retours sur cette proposition, pour qu’elle puisse correspondre parfaitement à votre besoin. Si vous êtes satisfaits, nous vous envoyons une Proposition Commerciale définitive, qui sera rattaché à la Convention Client. Ces deux derniers documents définissent les termes de la mission.");
