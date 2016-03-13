@@ -10,16 +10,16 @@
  */
 class StringIdentifier {
 	// identifiants
-	const SID_TITLE = "TITLE"; // titre du site
-	const SID_HOME = "HOME"; // titre du site
-	const SID_PRESTA ="PRESTA"; // titre du menu nos prestations
-	const SID_ETUDE ="ETUDE"; // lien de pres. du déroulement d'une étude
-	const SID_COMPETENCES ="COMPETENCES"; // lien vers la pres. de nos domaines de compétences
-	const SID_ENGAGEMENTS ="ENGAGEMENTS"; // lien vers la pres. de nos engagemnets
-	const SID_NOUS ="NOUS"; // titre du menu nous découvrir
-	const SID_EQUIPE ="EQUIPE"; // lien vers la pres. de l'équipe
-	const SID_PARTENAIRES ="PARTENAIRES"; // lien vers la pres. de nos partenaires
-	const SID_EVENEMENTS ="EVENEMENTS"; // lien vers la pres. de nos évenements
+	const SID_TITLE = "{TITLE}"; // titre du site
+	const SID_HOME = "{HOME}"; // titre du site
+	const SID_PRESTA ="{PRESTA}"; // titre du menu nos prestations
+	const SID_ETUDE ="{ETUDE}"; // lien de pres. du déroulement d'une étude
+	const SID_COMPETENCES ="{COMPETENCES}"; // lien vers la pres. de nos domaines de compétences
+	const SID_ENGAGEMENTS ="{ENGAGEMENTS}"; // lien vers la pres. de nos engagemnets
+	const SID_NOUS ="{NOUS}"; // titre du menu nous découvrir
+	const SID_EQUIPE ="{EQUIPE}"; // lien vers la pres. de l'équipe
+	const SID_PARTENAIRES ="{PARTENAIRES}"; // lien vers la pres. de nos partenaires
+	const SID_EVENEMENTS ="{EVENEMENTS}"; // lien vers la pres. de nos évenements
 	
 	// tableau des identifiants
 	const SIDS = array(
