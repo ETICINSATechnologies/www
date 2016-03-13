@@ -1,13 +1,17 @@
 $(document).ready(function(){
-		// retrieve captcha
-		$.post("back/captcha.php", 
+	// retrieve captcha
+	$.post(
+		"back/captcha.php", 
 		{
-			action:'make'
+			action: 	'make'
 		},
 		function(data, textString, jqXHR){
 			obj = JSON.parse(data);
 			if(obj.good) {
 				$('#captcha_container').html(obj.data);
+				$('#captcha_container label').remove();
+				$('#captcha_code').attr('placeholder', '{DEVIS_CAPTCHA_CODE}')
+				$('#captcha_code').attr('style', 'margin-top: 10px;')
 			} else {
 				$('#captcha_container').html(
 					'<div class="ui negative message"> \
@@ -17,5 +21,47 @@ $(document).ready(function(){
 					  <p>{DEVIS_ERROR_CAPTCHA_MESSAGE} \
 					</p></div>');
 			}
-		});
-	});
+		}
+	);
+});
+
+function reset() {
+	$("#in_lastname").val('');
+	$("#in_firstname").val('');
+	$("#in_firm").val('');
+	$("#in_mail").val('');
+	$("#in_phone").val('');
+	$("#in_subject").val('');
+	$("#in_message").val('');
+	$("#in_budget").val('');
+	$("#in_duration").val('');
+	$("#captcha_code").val('');
+}
+
+function submit() {
+	$.post(
+		"back/captcha.php", 
+		{
+			action: 		'check',
+			in_lastname: 	$("#in_lastname").val(),
+			in_firstname: 	$("#in_firstname").val(),
+			in_firm: 		$("#in_firm").val(),
+			in_mail: 		$("#in_mail").val(),
+			in_phone: 		$("#in_phone").val(),
+			in_subject: 	$("#in_subject").val(),
+			in_message: 	$("#in_message").val(),
+			in_budget: 		$("#in_budget").val(),
+			in_duration: 	$("#in_duration").val(),
+			captcha_code: 	$("#captcha_code").val()
+		},
+		function(data, textString, jqXHR){
+			obj = JSON.parse(data);
+			if(obj.good) {
+				alert(obj.data);
+			} else {
+				alert(obj.data);
+			}
+		}
+	);
+	reset();
+}

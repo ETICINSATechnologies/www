@@ -1,3 +1,3 @@
 <?php
 
-require_once "objects/mailer/mail_templates/WelcomeMail.php";
+require_once "mailer/mail_templates/NewRequestMail.php";

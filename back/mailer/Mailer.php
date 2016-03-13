@@ -1,7 +1,7 @@
 <?php
 
-require_once "objects/mailer/phpmailer/class.phpmailer.php";
-require_once "objects/mailer/mail_templates/Templates.php";
+require_once "mailer/phpmailer/class.phpmailer.php";
+require_once "mailer/mail_templates/Templates.php";
 
 #function debug($msg) {
 #  echo "[DEBUG]".$msg."\n";
@@ -43,7 +43,7 @@ class Mailer {
   public function SendMail($dest, $template, $params) {
     try {
       // on ajoute l'émetteur
-      $this->mailer->setFrom($this->sender, 'Doletic');
+      $this->mailer->setFrom($this->sender, 'Site web');
       // on ajoute les destinataires
       foreach ($dest as $to) {
         if(!$this->mailer->addAddress($to)) {
@@ -71,10 +71,9 @@ class Mailer {
         throw new RuntimeException('Mailer Error: ' . $this->mailer->ErrorInfo, 1);
       }
     } catch (RuntimeException $e) {
-      $this->kernel()->LogError(get_class(), $e->getMessage());
+      echo $e->getMessage();
       return false;
     }
-    $this->kernel()->LogInfo(get_class(), "Mail envoyé avec succès à ".join(',',$dest));
     return true;
   } // SendMail
 
