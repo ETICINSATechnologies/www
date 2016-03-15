@@ -1,3 +1,28 @@
 .icon {
 	color: green;
 }
+
+/*								*
+*			trust.html 			*
+*								*/
+
+.bg-header {
+	background-image : url('../assets/header.png');
+	color : white;
+	padding: 50px 0px 50px 0px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #238110;
+	text-align: center;
+}
+
+.title-header{
+	font-size: 4em;
+	line-height: 1em;
+}
+
+.text-green {
+	color : green;
+}

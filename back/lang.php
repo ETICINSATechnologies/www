@@ -119,6 +119,11 @@ class StringIdentifier {
 	const SID_DEVIS_CAPTCHA_CODE 		= "{DEVIS_CAPTCHA_CODE}";
 	const SID_DEVIS_RESET 				= "{DEVIS_RESET}";
 	const SID_DEVIS_SUBMIT 				= "{DEVIS_SUBMIT}";
+	const SID_DEVIS_HEADER 				= "{DEVIS_HEADER}";
+
+	const SID_FOOTER_DESCRIPTION        = "{FOOTER_DESCRIPTION}";
+	const SID_FOOTER_RESEAUX        	= "{FOOTER_RESEAUX}";
+	const SID_FOOTER_CONTACT        	= "{FOOTER_CONTACT}";
 
 	// tableau des identifiants
 	const SIDS = array(
@@ -226,11 +231,16 @@ class StringIdentifier {
 		StringIdentifier::SID_DEVIS_PHONE 		,
 		StringIdentifier::SID_DEVIS_SUBJECT 	,
 		StringIdentifier::SID_DEVIS_MESSAGE 	,
-		StringIdentifier::SID_DEVIS_PLANNED_BUDGET ,
+		StringIdentifier::SID_DEVIS_PLANNED_BUDGET,
 		StringIdentifier::SID_DEVIS_PLANNED_DURATION,
-		StringIdentifier::SID_DEVIS_CAPTCHA_CODE ,
-		StringIdentifier::SID_DEVIS_RESET 		,
-		StringIdentifier::SID_DEVIS_SUBMIT
+		StringIdentifier::SID_DEVIS_CAPTCHA_CODE,
+		StringIdentifier::SID_DEVIS_RESET,
+		StringIdentifier::SID_DEVIS_SUBMIT,
+		StringIdentifier::SID_DEVIS_HEADER,
+
+		StringIdentifier::SID_FOOTER_DESCRIPTION,
+		StringIdentifier::SID_FOOTER_RESEAUX,
+		StringIdentifier::SID_FOOTER_CONTACT
 
 		);
 
