@@ -103,6 +103,10 @@ class StringIdentifier {
 	const SID_CONFIANCE_QUOTE_2 = "{CONFIANCE_QUOTE_2}";
 	const SID_CONFIANCE_QUOTE_3 = "{CONFIANCE_QUOTE_3}";
 
+	const SID_ENGAGEMENT_H1 = "{ENGAGEMENT_H1}";
+	const SID_ENGAGEMENT_P_1 = "{ENGAGEMENT_P_1}";
+	const SID_ENGAGEMENT_P_2 = "{ENGAGEMENT_P_2}";
+
 	const SID_DEVIS_LASTNAME 			= "{DEVIS_LASTNAME}";
 	const SID_DEVIS_FIRSTNAME 			= "{DEVIS_FIRSTNAME}";
 	const SID_DEVIS_FIRM 				= "{DEVIS_FIRM}";
@@ -210,6 +214,10 @@ class StringIdentifier {
 		StringIdentifier::SID_CONFIANCE_QUOTE_1,
 		StringIdentifier::SID_CONFIANCE_QUOTE_2,
 		StringIdentifier::SID_CONFIANCE_QUOTE_3,
+
+		StringIdentifier::SID_ENGAGEMENT_H1,
+		StringIdentifier::SID_ENGAGEMENT_P_1,
+		StringIdentifier::SID_ENGAGEMENT_P_2,
 
 		StringIdentifier::SID_DEVIS_LASTNAME 	,
 		StringIdentifier::SID_DEVIS_FIRSTNAME 	,
