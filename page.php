@@ -1,6 +1,6 @@
 <?php
 
-require_once "back/dict.php"; //définition de $_TRANSLATOR dans ce fichier
+require_once "back/dicts.php"; //définition de $_TRANSLATOR dans ce fichier
 
 function notfound() {
 	echo file_get_contents("front/pages/404.html");
