@@ -13,62 +13,79 @@
   <script src="./front/jquery/jquery-2.2.0.min.js"></script>
   <script src="./front/swiper/swiper.min.js"></script>
   <script src="./front/semantic/semantic.min.js"></script>
+  
+  <!-- FISTE TON NAVIGATEUR
+  <script>
+  	$(document).ready(function(){
+  	var footerHeight = $("footer").height();
+  	var cpt = 0;
+  	if($(document).height()==$(window).height())
+  	{
+  		while($(document).height()==$(window).height())
+  		{
+  			$(".filler").remove();
+  			cpt = cpt + 1;
+  			$("footer").before('<div class = filler style="min-height:' + cpt + 'px;"></div>');
+  		}
+  		$(".filler").remove();
+  		cpt = cpt -1;
+  		$("footer").before('<div class = filler style="min-height:' + cpt + 'px;"></div>');
+  	}
+  	
+  });
+  </script> 
+  -->
+<!--non-fonctionnel (Semantic?)
+<script>
+  	$(document).ready(function(){
+  	var footerHeight = $(".footer").height();
+  	$(".page").attr("style", 'padding-bottom :'+ footerHeight + 'px;"');
+  	$(".footer").attr("style", '"clear: both; position: relative; z-index: 10; margin-top: -'+ footerHeight +'px;"');
+  });
+
+ </script> -->
+
 </head>
 
 
+<body style="display: flex;  min-height: 100vh;  flex-direction: column; padding-top:70px;"> 
+		<div class="ui top fixed menu stackable">
+	      <div class="ui fluid container">
+	        <a href="{LINK_HOME}" class="header item">
+	          <img class="logo" src="./front/assets/logo-etic1.png">
+	          &nbsp; {TITLE}
+	        </a>
+	        <a href="{LINK_HOME}" class="item">{HOME}</a>
+	        <div class="ui simple dropdown item">
+	          {PRESTA} <i class="green dropdown icon"></i>
+	          <div class="menu">
+	            <a class="item" href="{LINK_STUDY}">{ETUDE}</a>
+	            <a class="item" href="{LINK_SKILLS}">{COMPETENCES}</a>
+	            <a class="item" href="{LINK_ENGAGEMENT}">{ENGAGEMENTS}</a>
+	          </div>
+	        </div>
+	        <div class="ui simple dropdown item">
+	          {NOUS} <i class="green dropdown icon"></i>
+	          <div class="menu">
+	            <a class="item" href="{LINK_TEAM}">{EQUIPE}</a>
+	            <a class="item" href="{LINK_PARTNERS}">{PARTENAIRES}</a>
+	            <a class="item" href="{LINK_EVENTS}">{EVENEMENTS}</a>
+              <a class="item" href="{LINK_MOUVEMENT}">{MOUVEMENT}</a>
+	          </div>
+	        </div>  
 
-<body style="height: 100%; padding-top: 70px;">
-  <div class="ui top fixed menu stackable">
-      <div class="ui fluid container">
-        <a href="{LINK_HOME}" class="header item">
-          <img class="logo" src="./front/assets/logo-etic1.png">
-          &nbsp; {TITLE}
-        </a>
-        <a href="{LINK_HOME}" class="item">{HOME}</a>
-        <div class="ui simple dropdown item">
-          {PRESTA} <i class="green dropdown icon"></i>
-          <div class="menu">
-            <a class="item" href="{LINK_STUDY}">{ETUDE}</a>
-            <a class="item" href="{LINK_SKILLS}">{COMPETENCES}</a>
-            <a class="item" href="{LINK_ENGAGEMENT}">{ENGAGEMENTS}</a>
-            <!-- à titre d'exemple :              
-              
-              <div class="divider"></div>
-              <div class="header">Header Item</div>
-              <div class="item">
-                <i class="dropdown icon"></i>
-                Sub Menu
-                <div class="menu">
-                  <a class="item" href="#">Link Item</a>
-                  <a class="item" href="#">Link Item</a>
-                </div>
-              </div>
-              <a class="item" href="#">Link Item</a>           
-
-            -->
-          </div>
-        </div>
-        <div class="ui simple dropdown item">
-          {NOUS} <i class="green dropdown icon"></i>
-          <div class="menu">
-            <a class="item" href="{LINK_TEAM}">{EQUIPE}</a>
-            <a class="item" href="{LINK_PARTNERS}">{PARTENAIRES}</a>
-            <a class="item" href="{LINK_EVENTS}">{EVENEMENTS}</a>
-            <a class="item" href="{LINK_MOUVEMENT}">{MOUVEMENT}</a>
-          </div>
-        </div>  
-
-        <a href="{LINK_TRUST}" class="item">{CONFIANCE}</a>
-        <div class="ui simple dropdown floated right item">
-          {LANGUAGE} <i class="green dropdown icon"></i>
-          <div class="menu">
-            <a class="item" href="page.php?page=home&lang=fr"><i class="fr flag"></i> Français</a>
-            <a class="item" href="page.php?page=home&lang=en"><i class="gb flag"></i> English</a>
-            <a class="item" href="page.php?page=home&lang=es"><i class="es flag"></i> Espanol</a>
-            <a class="item" href="page.php?page=home&lang=de"><i class="de flag"></i> Deutsch</a>
-          </div>
-        </div>
-        <a href="http://fr.calameo.com/read/004424123fe486eb6f0b0" target="_blank" class="item">{PLAQUETTE}</a>
-        <a href="{LINK_DEVIS}" class="item">{DEVIS}</a>
-      </div>
-    </div>
+	        <a href="{LINK_TRUST}" class="item">{CONFIANCE}</a>
+	        <div class="ui simple dropdown floated right item">
+	          {LANGUAGE} <i class="green dropdown icon"></i>
+	          <div class="menu">
+	            <a class="item" href="page.php?page=home&lang=fr"><i class="fr flag"></i> Français</a>
+	            <a class="item" href="page.php?page=home&lang=en"><i class="gb flag"></i> English</a>
+	            <a class="item" href="page.php?page=home&lang=es"><i class="es flag"></i> Espanol</a>
+	            <a class="item" href="page.php?page=home&lang=de"><i class="de flag"></i> Deutsch</a>
+	          </div>
+	        </div>
+	        <a href="http://fr.calameo.com/read/004424123fe486eb6f0b0" target="_blank" class="item">{PLAQUETTE}</a>
+	        <a href="{LINK_DEVIS}" class="item">{DEVIS}</a>
+	      </div>
+	</div>
+	<div class="content" style="flex:1">
