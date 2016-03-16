@@ -107,6 +107,16 @@ class StringIdentifier {
 	const SID_ENGAGEMENT_P_1 = "{ENGAGEMENT_P_1}";
 	const SID_ENGAGEMENT_P_2 = "{ENGAGEMENT_P_2}";
 
+	const SID_ENGAGEMENT_H2_1 = "{ENGAGEMENT_H2_1}";
+	const SID_ENGAGEMENT_H2_2 = "{ENGAGEMENT_H2_2}";
+	const SID_ENGAGEMENT_P_3 = "{ENGAGEMENT_P_3}";
+	const SID_ENGAGEMENT_P_4 = "{ENGAGEMENT_P_4}";
+	const SID_ENGAGEMENT_P_5 = "{ENGAGEMENT_P_5}";
+	const SID_ENGAGEMENT_P_6 = "{ENGAGEMENT_P_6}";
+	const SID_ENGAGEMENT_P_7 = "{ENGAGEMENT_P_7}";
+	const SID_ENGAGEMENT_P_8 = "{ENGAGEMENT_P_8}";
+
+
 	const SID_DEVIS_LASTNAME 			= "{DEVIS_LASTNAME}";
 	const SID_DEVIS_FIRSTNAME 			= "{DEVIS_FIRSTNAME}";
 	const SID_DEVIS_FIRM 				= "{DEVIS_FIRM}";
@@ -223,6 +233,14 @@ class StringIdentifier {
 		StringIdentifier::SID_ENGAGEMENT_H1,
 		StringIdentifier::SID_ENGAGEMENT_P_1,
 		StringIdentifier::SID_ENGAGEMENT_P_2,
+		StringIdentifier::SID_ENGAGEMENT_H2_1,
+		StringIdentifier::SID_ENGAGEMENT_P_3,
+		StringIdentifier::SID_ENGAGEMENT_P_4,
+		StringIdentifier::SID_ENGAGEMENT_P_5,
+		StringIdentifier::SID_ENGAGEMENT_H2_2,
+		StringIdentifier::SID_ENGAGEMENT_P_6,
+		StringIdentifier::SID_ENGAGEMENT_P_7,
+		StringIdentifier::SID_ENGAGEMENT_P_8,
 
 		StringIdentifier::SID_DEVIS_LASTNAME 	,
 		StringIdentifier::SID_DEVIS_FIRSTNAME 	,
