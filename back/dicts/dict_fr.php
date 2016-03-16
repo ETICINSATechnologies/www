@@ -19,6 +19,7 @@ $DICT_FR->translate(StringIdentifier::SID_EVENEMENTS, "Nos évènements");
 $DICT_FR->translate(StringIdentifier::SID_CONFIANCE, "Références");
 $DICT_FR->translate(StringIdentifier::SID_PLAQUETTE, "Plaquette");
 $DICT_FR->translate(StringIdentifier::SID_DEVIS, "Demander un devis");
+$DICT_FR->translate(StringIdentifier::SID_MOUVEMENT, "Le mouvement junior entrepreuneur");
 
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_H2_1, "Votre demande");
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_H2_2, "Proposition commerciale");

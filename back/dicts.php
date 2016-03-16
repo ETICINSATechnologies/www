@@ -26,5 +26,7 @@ $links->translate(StringIdentifier::LINK_PARTNERS, "page.php?page=partners");
 $links->translate(StringIdentifier::LINK_STUDY, "page.php?page=study");
 $links->translate(StringIdentifier::LINK_TEAM, "page.php?page=team");
 $links->translate(StringIdentifier::LINK_TRUST, "page.php?page=trust");
+$links->translate(StringIdentifier::LINK_MOUVEMENT, "page.php?page=mouvement");
+
 
 $_TRANSLATOR->setLinks($links);
