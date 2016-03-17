@@ -16,7 +16,8 @@ $DICT_EN->translate(StringIdentifier::SID_NOUS, "About us");
 $DICT_EN->translate(StringIdentifier::SID_EQUIPE, "Our team");
 $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES, "Our partners");
 $DICT_EN->translate(StringIdentifier::SID_EVENEMENTS, "Our events");
-$DICT_EN->translate(StringIdentifier::SID_CONFIANCE, "We work with them");
+$DICT_EN->translate(StringIdentifier::SID_CONFIANCE, "References");
+$DICT_EN->translate(StringIdentifier::SID_LANG, "<i class=\"gb flag\"></i> English");
 $DICT_EN->translate(StringIdentifier::SID_PLAQUETTE, "Brochure");
 $DICT_EN->translate(StringIdentifier::SID_DEVIS, "Request an estimate");
 

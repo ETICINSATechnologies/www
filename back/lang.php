@@ -24,8 +24,8 @@ class StringIdentifier {
 	const SID_BLOG ="{BLOG}"; // lien vers la page ils nous ont fait confiance
 	const SID_PLAQUETTE ="{PLAQUETTE}"; // lien vers la plaquette
 	const SID_DEVIS ="{DEVIS}"; // lien vers le formulaire
-	const SID_NETWORK ="{NETWORK}"; // lien vers le formulaire
 	const SID_MOUVEMENT ="{MOUVEMENT}"; // lien vers la pres du mouvement
+	const SID_LANG = "{LANGUAGE}";
 
 	const SID_ETUDE_H2_1 = "{ETUDE_H2_1}"; // premier titre de niveau 2 de la page  déroulement d'une étude
 	const SID_ETUDE_H2_2 = "{ETUDE_H2_2}";
@@ -159,8 +159,8 @@ class StringIdentifier {
 		StringIdentifier::SID_BLOG,
 		StringIdentifier::SID_PLAQUETTE,
 		StringIdentifier::SID_DEVIS,
-		StringIdentifier::SID_NETWORK,
 		StringIdentifier::SID_MOUVEMENT,
+		StringIdentifier::SID_LANG,
 
 		StringIdentifier::SID_ETUDE_H2_1,
 		StringIdentifier::SID_ETUDE_H2_2,

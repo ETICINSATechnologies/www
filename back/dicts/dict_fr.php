@@ -20,7 +20,7 @@ $DICT_FR->translate(StringIdentifier::SID_CONFIANCE, "Références");
 $DICT_FR->translate(StringIdentifier::SID_BLOG, "Blog");
 $DICT_FR->translate(StringIdentifier::SID_PLAQUETTE, "Plaquette");
 $DICT_FR->translate(StringIdentifier::SID_DEVIS, "Demander un devis");
-$DICT_FR->translate(StringIdentifier::SID_NETWORK, "Notre réseau de Junior-Entreprises");
+$DICT_FR->translate(StringIdentifier::SID_LANG, "<i class=\"fr flag\"></i> Français");
 $DICT_FR->translate(StringIdentifier::SID_MOUVEMENT, "Découvrir le mouvement");
 
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_H2_1, "Votre demande");
