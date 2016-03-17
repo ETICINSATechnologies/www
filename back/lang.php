@@ -106,6 +106,11 @@ class StringIdentifier {
 	const SID_CONFIANCE_QUOTE_2 = "{CONFIANCE_QUOTE_2}";
 	const SID_CONFIANCE_QUOTE_3 = "{CONFIANCE_QUOTE_3}";
 
+	const SID_PARTENAIRES_1 = "{PARTENAIRES_1}"; // paragraphe de la première ciatation dans la page confiance
+	const SID_PARTENAIRES_2 = "{PARTENAIRES_2}";
+	const SID_PARTENAIRES_3 = "{PARTENAIRES_3}";
+	const SID_PARTENAIRES_4 = "{PARTENAIRES_4}";
+
 	const SID_ENGAGEMENT_H1 = "{ENGAGEMENT_H1}";
 	const SID_ENGAGEMENT_P_1 = "{ENGAGEMENT_P_1}";
 	const SID_ENGAGEMENT_P_2 = "{ENGAGEMENT_P_2}";
@@ -247,6 +252,11 @@ class StringIdentifier {
 		StringIdentifier::SID_ENGAGEMENT_P_6,
 		StringIdentifier::SID_ENGAGEMENT_P_7,
 		StringIdentifier::SID_ENGAGEMENT_P_8,
+
+		StringIdentifier::SID_PARTENAIRES_1,
+		StringIdentifier::SID_PARTENAIRES_2,
+		StringIdentifier::SID_PARTENAIRES_3,
+		StringIdentifier::SID_PARTENAIRES_4,
 
 		StringIdentifier::SID_DEVIS_LASTNAME 	,
 		StringIdentifier::SID_DEVIS_FIRSTNAME 	,
