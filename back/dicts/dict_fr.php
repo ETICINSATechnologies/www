@@ -23,6 +23,34 @@ $DICT_FR->translate(StringIdentifier::SID_DEVIS, "Demander un devis");
 $DICT_FR->translate(StringIdentifier::SID_LANG, "<i class=\"fr flag\"></i> Français");
 $DICT_FR->translate(StringIdentifier::SID_MOUVEMENT, "Découvrir le mouvement");
 
+/*FR_HOME*/
+$DICT_FR->translate(StringIdentifier::SID_HOME_STAT_EXPERIENCE, "Années d'expérience");
+$DICT_FR->translate(StringIdentifier::SID_HOME_STAT_TOP, "Des meilleures Junior Entreprises");
+$DICT_FR->translate(StringIdentifier::SID_HOME_STAT_DOMAINES, "Années d'expérience");
+$DICT_FR->translate(StringIdentifier::SID_HOME_STAT_SATISFACTION, "De satisfaction client");
+$DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_1, "Semi finaliste prix d’excellence 2014 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
+Lauréat du Challenge Junior Pérenne de 2013 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
+Lauréat du Challenge Junior Engagée de 2013	
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
+Lauréat du Label Entrepreneur en 2013 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
+Finaliste du Prix d’Excellence en 2012 et en 2013");
+$DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_2, "Finaliste du Label ingénieur en 2007<br>
+Semi Finaliste du prix d’excellence en 2007<br>
+Classement dans les 30 meilleures Junior Entreprises de France depuis 2001 (sur 162 Junior Entreprises)<br>
+Finaliste du Label Communication 2004");
+$DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_3, "Classement dans les 12 meilleures Junior Entreprises de France en 2004 (sur 120 Junior Entreprises)<br>
+Finaliste du Label Ingénieur en 2001 et 2003<br>
+Finaliste du Label Informatique en 1999<br>
+Lauréat du Label Technique 1998");
+
+
+
+
+
+
+
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_H2_1, "Votre demande");
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_H2_2, "Proposition commerciale");
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_H2_3, "Facture d'acompte");

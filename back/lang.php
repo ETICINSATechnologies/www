@@ -27,6 +27,17 @@ class StringIdentifier {
 	const SID_MOUVEMENT ="{MOUVEMENT}"; // lien vers la pres du mouvement
 	const SID_LANG = "{LANGUAGE}";
 
+	/*HOME*/
+	const SID_HOME_STAT_EXPERIENCE = "{HOME_STAT_EXPERIENCE}";
+	const SID_HOME_STAT_TOP = "{HOME_STAT_TOP}";
+	const SID_HOME_STAT_DOMAINES = "{HOME_STAT_DOMAINES}";
+	const SID_HOME_STAT_SATISFACTION = "{HOME_STAT_SATISFACTION}";
+	const SID_HOME_PALMARES_1 = "{HOME_PALMARES_1}";
+	const SID_HOME_PALMARES_2 = "{HOME_PALMARES_2}";
+	const SID_HOME_PALMARES_3 = "{HOME_PALMARES_3}";
+
+
+
 	const SID_ETUDE_H2_1 = "{ETUDE_H2_1}"; // premier titre de niveau 2 de la page  déroulement d'une étude
 	const SID_ETUDE_H2_2 = "{ETUDE_H2_2}";
 	const SID_ETUDE_H2_3 = "{ETUDE_H2_3}";
@@ -161,6 +172,16 @@ class StringIdentifier {
 		StringIdentifier::SID_DEVIS,
 		StringIdentifier::SID_MOUVEMENT,
 		StringIdentifier::SID_LANG,
+
+		/*HOME*/
+		StringIdentifier::SID_HOME_STAT_EXPERIENCE,
+		StringIdentifier::SID_HOME_STAT_TOP,
+		StringIdentifier::SID_HOME_STAT_DOMAINES,
+		StringIdentifier::SID_HOME_STAT_SATISFACTION,
+		StringIdentifier::SID_HOME_PALMARES_1,
+		StringIdentifier::SID_HOME_PALMARES_2,
+		StringIdentifier::SID_HOME_PALMARES_3,
+
 
 		StringIdentifier::SID_ETUDE_H2_1,
 		StringIdentifier::SID_ETUDE_H2_2,

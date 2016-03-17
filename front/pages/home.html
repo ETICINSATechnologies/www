@@ -1,6 +1,9 @@
 <!--completer le body-->
 <script src="./front/pages/scripts/home_fade_in.js"></script>
-<img class="ui fluid image" src="./front/assets/home/badass.jpg" style="margin-top:-15px;">		<!--IMAGE D'ACCEUIL (marge négative pour coller au header sur cette page uniquement)-->
+<script src="./front/pages/scripts/image_crop.js"></script>
+<div class="cropper">
+	<img id="splash" src="./front/assets/home/badass.jpg" style="margin-top:-15px;">		<!--IMAGE D'ACCEUIL (marge négative pour coller au header sur cette page uniquement)-->
+</div>
 <div class="ui container" style = "margin-bottom : 5px;">
 		<div class = "ui two statistics" style = "margin-top : 15px;" id="fade">
 			<div class = "ui huge statistic horizontal">
@@ -47,7 +50,7 @@
     <div class="label">
     </div>
   </div>
-  <p>{HOME_PALMARES_1}</p>
+  <p style="text-align: justify-all; font-size: 32;	">{HOME_PALMARES_1}</p>
    <div class="ui left floated statistic">
     <div class="value">
       <img src="./front/assets/home/trophy2.png" class="ui inline image">
