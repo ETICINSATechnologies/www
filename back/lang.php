@@ -21,8 +21,10 @@ class StringIdentifier {
 	const SID_PARTENAIRES ="{PARTENAIRES}"; // lien vers la pres. de nos partenaires
 	const SID_EVENEMENTS ="{EVENEMENTS}"; // lien vers la pres. de nos évenements
 	const SID_CONFIANCE ="{CONFIANCE}"; // lien vers la page ils nous ont fait confiance
+	const SID_BLOG ="{BLOG}"; // lien vers la page ils nous ont fait confiance
 	const SID_PLAQUETTE ="{PLAQUETTE}"; // lien vers la plaquette
 	const SID_DEVIS ="{DEVIS}"; // lien vers le formulaire
+	const SID_NETWORK ="{NETWORK}"; // lien vers le formulaire
 	const SID_MOUVEMENT ="{MOUVEMENT}"; // lien vers la pres du mouvement
 
 	const SID_ETUDE_H2_1 = "{ETUDE_H2_1}"; // premier titre de niveau 2 de la page  déroulement d'une étude
@@ -149,8 +151,10 @@ class StringIdentifier {
 		StringIdentifier::SID_PARTENAIRES,
 		StringIdentifier::SID_EVENEMENTS,
 		StringIdentifier::SID_CONFIANCE,
+		StringIdentifier::SID_BLOG,
 		StringIdentifier::SID_PLAQUETTE,
 		StringIdentifier::SID_DEVIS,
+		StringIdentifier::SID_NETWORK,
 		StringIdentifier::SID_MOUVEMENT,
 
 		StringIdentifier::SID_ETUDE_H2_1,
@@ -273,6 +277,8 @@ class StringIdentifier {
 	const LINK_PARTNERS ="{LINK_PARTNERS}"; // titre du menu nous découvrir
 	const LINK_TEAM ="{LINK_TEAM}"; // lien vers la pres. de l'équipe
 	const LINK_TRUST ="{LINK_TRUST}"; // lien vers la pres. de nos partenaires
+	const LINK_BLOG ="{LINK_BLOG}"; // lien vers la revue de press
+	const LINK_NETWORK = "{LINK_NETWORK}";
 	const LINK_MOUVEMENT ="{LINK_MOUVEMENT}"; // lien vers la pres. du mouvement
 
 	const LINKS = array(
@@ -285,6 +291,8 @@ class StringIdentifier {
 		StringIdentifier::LINK_PARTNERS,
 		StringIdentifier::LINK_TEAM,
 		StringIdentifier::LINK_TRUST,
+		StringIdentifier::LINK_BLOG,
+		StringIdentifier::LINK_NETWORK,
 		StringIdentifier::LINK_MOUVEMENT,
 		);
 }
