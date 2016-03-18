@@ -38,29 +38,109 @@ function reset() {
 }
 
 function submit() {
-	$.post(
-		"back/captcha.php", 
-		{
-			action: 		'check',
-			in_lastname: 	$("#in_lastname").val(),
-			in_firstname: 	$("#in_firstname").val(),
-			in_firm: 		$("#in_firm").val(),
-			in_mail: 		$("#in_mail").val(),
-			in_phone: 		$("#in_phone").val(),
-			in_subject: 	$("#in_subject").val(),
-			in_message: 	$("#in_message").val(),
-			in_budget: 		$("#in_budget").val(),
-			in_duration: 	$("#in_duration").val(),
-			captcha_code: 	$("#in_captcha").val()
-		},
-		function(data, textString, jqXHR){
-			obj = JSON.parse(data);
-			if(obj.good) {
-				alert(obj.data);
-			} else {
-				alert(obj.data);
+	$('.field.error').attr('class', 'field');
+	if(check_input()) {
+		$.post(
+			"back/captcha.php", 
+			{
+				action: 		'check',
+				in_lastname: 	$("#in_lastname").val(),
+				in_firstname: 	$("#in_firstname").val(),
+				in_firm: 		$("#in_firm").val(),
+				in_mail: 		$("#in_mail").val(),
+				in_phone: 		$("#in_phone").val(),
+				in_subject: 	$("#in_subject").val(),
+				in_message: 	$("#in_message").val(),
+				in_budget: 		$("#in_budget").val(),
+				in_duration: 	$("#in_duration").val(),
+				captcha_code: 	$("#in_captcha").val()
+			},
+			function(data, textString, jqXHR){
+				obj = JSON.parse(data);
+				if(obj.good) {
+					alert(obj.data);
+				} else {
+					alert(obj.data);
+				}
 			}
-		}
-	);
-	reset();
+		);
+		reset();
+	}
+}
+
+function check_input() {
+	// test des entrées requises
+	var in_lastname 	= $("#in_lastname").val();
+	if(!re_test("[A-Za-z\-\s]+", in_lastname, function(){
+		field_error("#field_lastname", "Le nom ne doit pas être vide");
+	})){ return false; }
+	var in_firstname 	= $("#in_firstname").val();
+	if(!re_test("[A-Za-z\-\s]+", in_firstname, function(){
+		field_error("#field_firstname", "Le prénom ne doit pas être vide");
+	})){ return false; }
+	var in_firm 		= $("#in_firm").val();
+	if(in_firm.length <= 0){
+		field_error("#field_firm", "La nom de la société ne doit pas être vide"); 
+		return false; 
+	}
+	var in_mail 		= $("#in_mail").val();
+	if(!re_test("[\w\-\.]+@[\w-]+\.\w+", in_mail, function(){
+		field_error("#field_mail", "Le mail entré est invalide");
+	})){ return false; }
+	var in_phone 		= $("#in_phone").val();
+	if(!re_test("\d{10}", in_phone, function(){
+		field_error("#field_phone", "Le numéro de téléphone entré ne correspond pas au format : 0000000000");
+	})){ return false; }
+	var in_subject 		= $("#in_subject").val();
+	if(!re_test("[\w\-\.]+", in_subject, function(){
+		field_error("#field_subject", "Le sujet ne doit pas être vide");
+	})){ return false; }
+	var in_message 		= $("#in_message").val();
+	if(in_message.length <= 0){ 
+		field_error("#field_message", "Le message ne doit pas être vide");
+		return false; 
+	}
+	var captcha_code 	= $("#in_captcha").val();
+	if(!re_test("\w+", captcha_code, function(){
+		field_error("#field_captcha", "Le code captcha ne doit pas être vide");
+	})){ return false; }
+	// test des entrées optionnelles
+	var in_budget 		= $("#in_budget").val();
+	if(!re_test("\d*", in_budget, function(){
+		field_error("#field_budget", "Le montant du budget doit être entré en chiffres seulement (pas de devise), ou rester vide");
+	})){ return false; }
+	var in_duration 	= $("#in_duration").val();
+	if(!re_test("\d*", in_duration, function(){
+		field_error("#field_duration", "La durée de mission estimée doit être entrée en chiffres seulement, ou rester vide");
+	})){ return false; }
+	// on retourne vrai si tout s'est bien passé
+	return true;
+}
+
+function re_test(pattern, string, fail) {
+	var ok = true;
+	var re = new RegExp(pattern);
+	if(!re.test(string)) {
+		fail();
+		ok = false;
+	}
+	return ok;
+}
+
+function field_error(fieldId, error) {
+	// on passe le field en erreur
+	$(fieldId).attr('class', 'field error');
+	// on ajoute un message d'erreur
+	$('#errors_container').append(
+	'<div class="ui negative message"> \
+  		<i class="close black icon"></i> \
+  		<div class="header"> \
+    		Erreur \
+  		</div> \
+  		<p>'+error+'</p> \
+  		</div>');
+	// enable message close action
+	$('.message .close').on('click', function(){
+    	$(this).closest('.message').transition('fade');
+  	});
 }
