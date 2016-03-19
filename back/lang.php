@@ -135,6 +135,45 @@ class StringIdentifier {
 	const SID_ENGAGEMENT_P_7 = "{ENGAGEMENT_P_7}";
 	const SID_ENGAGEMENT_P_8 = "{ENGAGEMENT_P_8}";
 
+	const SID_PRESIDENT_H1 = "{PRESIDENT_H1}";
+	const SID_PRESIDENT_P = "{PRESIDENT_P}";
+	const SID_PRESIDENT_SIGN = "{PRESIDENT_SIGN}";
+	const SID_BUREAU = "{BUREAU}";
+	const SID_CA = "{CA}";
+	const SID_EQUIPES = "{EQUIPES}";
+
+	const SID_DSI = "{DSI}";
+	const SID_QUALITE = "{QUALITE}";
+	const SID_UA = "{UA}";
+	const SID_GRC = "{GRC}";
+	const SID_COM = "{COM}";
+
+	const SID_DESC_DSI = "{DESC_DSI}";
+	const SID_DESC_QUALITE = "{DESC_QUALITE}";
+	const SID_DESC_UA = "{DESC_UA}";
+	const SID_DESC_GRC = "{DESC_GRC}";
+	const SID_DESC_COM = "{DESC_COM}";
+
+	const SID_CRP = "{CRP}";
+	const SID_CRA = "{CRA}";
+	const SID_CNE = "{CNE}";
+	const SID_CNH = "{CNH}";
+	const SID_JDP = "{JDP}";
+	const SID_TEDX = "{TEDX}";
+
+	const SID_CRP_SUB = "{CRP_SUB}";
+	const SID_CRA_SUB = "{CRA_SUB}";
+	const SID_CNE_SUB = "{CNE_SUB}";
+	const SID_CNH_SUB = "{CNH_SUB}";
+	const SID_JDP_SUB = "{JDP_SUB}";
+	const SID_TEDX_SUB = "{TEDX_SUB}";
+
+	const SID_CRP_P = "{CRP_P}";
+	const SID_CRA_P = "{CRA_P}";
+	const SID_CNE_P = "{CNE_P}";
+	const SID_CNH_P = "{CNH_P}";
+	const SID_JDP_P = "{JDP_P}";
+	const SID_TEDX_P = "{TEDX_P}";
 
 	const SID_DEVIS_LASTNAME 			= "{DEVIS_LASTNAME}";
 	const SID_DEVIS_FIRSTNAME 			= "{DEVIS_FIRSTNAME}";
@@ -278,6 +317,46 @@ class StringIdentifier {
 		StringIdentifier::SID_PARTENAIRES_2,
 		StringIdentifier::SID_PARTENAIRES_3,
 		StringIdentifier::SID_PARTENAIRES_4,
+
+		StringIdentifier::SID_PRESIDENT_H1,
+		StringIdentifier::SID_PRESIDENT_P,
+		StringIdentifier::SID_PRESIDENT_SIGN,
+		StringIdentifier::SID_BUREAU,
+		StringIdentifier::SID_CA,
+		StringIdentifier::SID_EQUIPES,
+
+		StringIdentifier::SID_DSI,
+		StringIdentifier::SID_QUALITE,
+		StringIdentifier::SID_UA,
+		StringIdentifier::SID_GRC,
+		StringIdentifier::SID_COM,
+
+		StringIdentifier::SID_DESC_DSI,
+		StringIdentifier::SID_DESC_QUALITE,
+		StringIdentifier::SID_DESC_UA,
+		StringIdentifier::SID_DESC_GRC,
+		StringIdentifier::SID_DESC_COM,
+
+		StringIdentifier::SID_CRP,
+		StringIdentifier::SID_CRA,
+		StringIdentifier::SID_CNH,
+		StringIdentifier::SID_CNE,
+		StringIdentifier::SID_JDP,
+		StringIdentifier::SID_TEDX,
+
+		StringIdentifier::SID_CRP_SUB,
+		StringIdentifier::SID_CRA_SUB,
+		StringIdentifier::SID_CNH_SUB,
+		StringIdentifier::SID_CNE_SUB,
+		StringIdentifier::SID_JDP_SUB,
+		StringIdentifier::SID_TEDX_SUB,
+
+		StringIdentifier::SID_CRP_P,
+		StringIdentifier::SID_CRA_P,
+		StringIdentifier::SID_CNH_P,
+		StringIdentifier::SID_CNE_P,
+		StringIdentifier::SID_JDP_P,
+		StringIdentifier::SID_TEDX_P,
 
 		StringIdentifier::SID_DEVIS_LASTNAME 	,
 		StringIdentifier::SID_DEVIS_FIRSTNAME 	,

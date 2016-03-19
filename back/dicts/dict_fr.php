@@ -192,6 +192,45 @@ $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_6,"Traitement de la solli
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_7,"Une phase d’analyse validée par le client");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_8,"Un binôme chargé d’affaire/correspondant qualité sur chaque étude");
 
+$DICT_FR->translate(StringIdentifier::SID_PRESIDENT_H1,"Le mot du président");
+$DICT_FR->translate(StringIdentifier::SID_PRESIDENT_P,"Fort de 35 ans d’expérience, nous accompagnons les entreprises dans leurs projets en proposant une vision jeune, dynamique et innovante. Toujours à la pointe des dernières technologies grâce à une formation technique de qualité à l’INSA de Lyon, nos intervenants apportent à vos projets une forte valeur ajoutée.");
+$DICT_FR->translate(StringIdentifier::SID_PRESIDENT_SIGN,"Martin Delbecque, président 2016-2017");
+$DICT_FR->translate(StringIdentifier::SID_BUREAU,"Le bureau");
+$DICT_FR->translate(StringIdentifier::SID_CA,"Le conseil d'administration");
+$DICT_FR->translate(StringIdentifier::SID_EQUIPES,"Nos équipes");
+
+$DICT_FR->translate(StringIdentifier::SID_DSI,"DSI");
+$DICT_FR->translate(StringIdentifier::SID_QUALITE,"Qualité");
+$DICT_FR->translate(StringIdentifier::SID_UA,"Unité d'Affaire");
+$DICT_FR->translate(StringIdentifier::SID_GRC,"Relation Client");
+$DICT_FR->translate(StringIdentifier::SID_COM,"Communication");
+
+$DICT_FR->translate(StringIdentifier::SID_DESC_DSI,"Système d'information");
+$DICT_FR->translate(StringIdentifier::SID_DESC_QUALITE,"Suivi et amélioration continus");
+$DICT_FR->translate(StringIdentifier::SID_DESC_UA,"Vente et réalisation de mission");
+$DICT_FR->translate(StringIdentifier::SID_DESC_GRC,"Prise de contact avec le client");
+$DICT_FR->translate(StringIdentifier::SID_DESC_COM,"Evénements et cohésion d'équipe");
+
+$DICT_FR->translate(StringIdentifier::SID_CRP,"Congrès Régional de Printemps");
+$DICT_FR->translate(StringIdentifier::SID_CRA,"Congrès Régional d'Automne");
+$DICT_FR->translate(StringIdentifier::SID_CNE,"Congrès National d'Été");
+$DICT_FR->translate(StringIdentifier::SID_CNH,"Congrès National d'Hiver");
+$DICT_FR->translate(StringIdentifier::SID_JDP,"Journée du Développement Personnel");
+$DICT_FR->translate(StringIdentifier::SID_TEDX,"TEDxINSA");
+
+$DICT_FR->translate(StringIdentifier::SID_CRP_SUB,"Organisé par la CNJE");
+$DICT_FR->translate(StringIdentifier::SID_CRA_SUB,"Organisé par la CNJE");
+$DICT_FR->translate(StringIdentifier::SID_CNE_SUB,"Organisé par la CNJE");
+$DICT_FR->translate(StringIdentifier::SID_CNH_SUB,"Organisé par la CNJE");
+$DICT_FR->translate(StringIdentifier::SID_JDP_SUB,"Organisé par Etic");
+$DICT_FR->translate(StringIdentifier::SID_TEDX_SUB,"Organisé par Etic");
+
+$DICT_FR->translate(StringIdentifier::SID_CRP_P,"Congrès Régional de Printemps");
+$DICT_FR->translate(StringIdentifier::SID_CRA_P,"Congrès Régional d'Automne");
+$DICT_FR->translate(StringIdentifier::SID_CNE_P,"Congrès National d'Été");
+$DICT_FR->translate(StringIdentifier::SID_CNH_P,"Congrès National d'Hiver");
+$DICT_FR->translate(StringIdentifier::SID_JDP_P,"Destinée aux étudiants de l'INSA de Lyon, la Journée du Développement Personnel leur permet d'assister à des formations réalisées par des intervenants invités pour l'occasion. Ces formations, complémentaires à celles de l'école, mettent l'accent sur la personnalité plutôt que sur les compétences techniques de l'ingénieur.");
+$DICT_FR->translate(StringIdentifier::SID_TEDX_P,"TEDxINSA");
 
 $DICT_FR->translate(StringIdentifier::SID_DEVIS_LASTNAME, "Nom");
 $DICT_FR->translate(StringIdentifier::SID_DEVIS_FIRSTNAME, "Prénom");
