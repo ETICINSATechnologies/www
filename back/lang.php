@@ -135,6 +135,8 @@ class StringIdentifier {
 	const SID_ENGAGEMENT_P_7 = "{ENGAGEMENT_P_7}";
 	const SID_ENGAGEMENT_P_8 = "{ENGAGEMENT_P_8}";
 
+	const SID_PRESIDENT_H1 = "{PRESIDENT_H1}";
+	const SID_PRESIDENT_P = "{PRESIDENT_P}";
 
 	const SID_DEVIS_LASTNAME 			= "{DEVIS_LASTNAME}";
 	const SID_DEVIS_FIRSTNAME 			= "{DEVIS_FIRSTNAME}";
@@ -278,6 +280,9 @@ class StringIdentifier {
 		StringIdentifier::SID_PARTENAIRES_2,
 		StringIdentifier::SID_PARTENAIRES_3,
 		StringIdentifier::SID_PARTENAIRES_4,
+
+		StringIdentifier::SID_PRESIDENT_H1,
+		StringIdentifier::SID_PRESIDENT_P,
 
 		StringIdentifier::SID_DEVIS_LASTNAME 	,
 		StringIdentifier::SID_DEVIS_FIRSTNAME 	,

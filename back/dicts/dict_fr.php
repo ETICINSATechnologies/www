@@ -192,6 +192,8 @@ $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_6,"Traitement de la solli
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_7,"Une phase d’analyse validée par le client");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_8,"Un binôme chargé d’affaire/correspondant qualité sur chaque étude");
 
+$DICT_FR->translate(StringIdentifier::SID_PRESIDENT_H1,"Le mot du président");
+$DICT_FR->translate(StringIdentifier::SID_PRESIDENT_P,"bullshit");
 
 $DICT_FR->translate(StringIdentifier::SID_DEVIS_LASTNAME, "Nom");
 $DICT_FR->translate(StringIdentifier::SID_DEVIS_FIRSTNAME, "Prénom");
