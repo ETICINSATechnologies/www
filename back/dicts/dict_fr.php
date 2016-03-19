@@ -205,11 +205,32 @@ $DICT_FR->translate(StringIdentifier::SID_UA,"Unité d'Affaire");
 $DICT_FR->translate(StringIdentifier::SID_GRC,"Relation Client");
 $DICT_FR->translate(StringIdentifier::SID_COM,"Communication");
 
-$DICT_FR->translate(StringIdentifier::SID_DESC_DSI,"système d'information");
+$DICT_FR->translate(StringIdentifier::SID_DESC_DSI,"Système d'information");
 $DICT_FR->translate(StringIdentifier::SID_DESC_QUALITE,"Suivi et amélioration continus");
 $DICT_FR->translate(StringIdentifier::SID_DESC_UA,"Vente et réalisation de mission");
-$DICT_FR->translate(StringIdentifier::SID_DESC_GRC,"Prise de contact avec vous");
+$DICT_FR->translate(StringIdentifier::SID_DESC_GRC,"Prise de contact avec le client");
 $DICT_FR->translate(StringIdentifier::SID_DESC_COM,"Evénements et cohésion d'équipe");
+
+$DICT_FR->translate(StringIdentifier::SID_CRP,"Congrès Régional de Printemps");
+$DICT_FR->translate(StringIdentifier::SID_CRA,"Congrès Régional d'Automne");
+$DICT_FR->translate(StringIdentifier::SID_CNE,"Congrès National d'Été");
+$DICT_FR->translate(StringIdentifier::SID_CNH,"Congrès National d'Hiver");
+$DICT_FR->translate(StringIdentifier::SID_JDP,"Journée du Développement Personnel");
+$DICT_FR->translate(StringIdentifier::SID_TEDX,"TEDxINSA");
+
+$DICT_FR->translate(StringIdentifier::SID_CRP_SUB,"Organisé par la CNJE");
+$DICT_FR->translate(StringIdentifier::SID_CRA_SUB,"Organisé par la CNJE");
+$DICT_FR->translate(StringIdentifier::SID_CNE_SUB,"Organisé par la CNJE");
+$DICT_FR->translate(StringIdentifier::SID_CNH_SUB,"Organisé par la CNJE");
+$DICT_FR->translate(StringIdentifier::SID_JDP_SUB,"Organisé par Etic");
+$DICT_FR->translate(StringIdentifier::SID_TEDX_SUB,"Organisé par Etic");
+
+$DICT_FR->translate(StringIdentifier::SID_CRP_P,"Congrès Régional de Printemps");
+$DICT_FR->translate(StringIdentifier::SID_CRA_P,"Congrès Régional d'Automne");
+$DICT_FR->translate(StringIdentifier::SID_CNE_P,"Congrès National d'Été");
+$DICT_FR->translate(StringIdentifier::SID_CNH_P,"Congrès National d'Hiver");
+$DICT_FR->translate(StringIdentifier::SID_JDP_P,"Destinée aux étudiants de l'INSA de Lyon, la Journée du Développement Personnel leur permet d'assister à des formations réalisées par des intervenants invités pour l'occasion. Ces formations, complémentaires à celles de l'école, mettent l'accent sur la personnalité plutôt que sur les compétences techniques de l'ingénieur.");
+$DICT_FR->translate(StringIdentifier::SID_TEDX_P,"TEDxINSA");
 
 $DICT_FR->translate(StringIdentifier::SID_DEVIS_LASTNAME, "Nom");
 $DICT_FR->translate(StringIdentifier::SID_DEVIS_FIRSTNAME, "Prénom");

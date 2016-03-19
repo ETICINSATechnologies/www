@@ -154,6 +154,27 @@ class StringIdentifier {
 	const SID_DESC_GRC = "{DESC_GRC}";
 	const SID_DESC_COM = "{DESC_COM}";
 
+	const SID_CRP = "{CRP}";
+	const SID_CRA = "{CRA}";
+	const SID_CNE = "{CNE}";
+	const SID_CNH = "{CNH}";
+	const SID_JDP = "{JDP}";
+	const SID_TEDX = "{TEDX}";
+
+	const SID_CRP_SUB = "{CRP_SUB}";
+	const SID_CRA_SUB = "{CRA_SUB}";
+	const SID_CNE_SUB = "{CNE_SUB}";
+	const SID_CNH_SUB = "{CNH_SUB}";
+	const SID_JDP_SUB = "{JDP_SUB}";
+	const SID_TEDX_SUB = "{TEDX_SUB}";
+
+	const SID_CRP_P = "{CRP_P}";
+	const SID_CRA_P = "{CRA_P}";
+	const SID_CNE_P = "{CNE_P}";
+	const SID_CNH_P = "{CNH_P}";
+	const SID_JDP_P = "{JDP_P}";
+	const SID_TEDX_P = "{TEDX_P}";
+
 	const SID_DEVIS_LASTNAME 			= "{DEVIS_LASTNAME}";
 	const SID_DEVIS_FIRSTNAME 			= "{DEVIS_FIRSTNAME}";
 	const SID_DEVIS_FIRM 				= "{DEVIS_FIRM}";
@@ -315,6 +336,27 @@ class StringIdentifier {
 		StringIdentifier::SID_DESC_UA,
 		StringIdentifier::SID_DESC_GRC,
 		StringIdentifier::SID_DESC_COM,
+
+		StringIdentifier::SID_CRP,
+		StringIdentifier::SID_CRA,
+		StringIdentifier::SID_CNH,
+		StringIdentifier::SID_CNE,
+		StringIdentifier::SID_JDP,
+		StringIdentifier::SID_TEDX,
+
+		StringIdentifier::SID_CRP_SUB,
+		StringIdentifier::SID_CRA_SUB,
+		StringIdentifier::SID_CNH_SUB,
+		StringIdentifier::SID_CNE_SUB,
+		StringIdentifier::SID_JDP_SUB,
+		StringIdentifier::SID_TEDX_SUB,
+
+		StringIdentifier::SID_CRP_P,
+		StringIdentifier::SID_CRA_P,
+		StringIdentifier::SID_CNH_P,
+		StringIdentifier::SID_CNE_P,
+		StringIdentifier::SID_JDP_P,
+		StringIdentifier::SID_TEDX_P,
 
 		StringIdentifier::SID_DEVIS_LASTNAME 	,
 		StringIdentifier::SID_DEVIS_FIRSTNAME 	,
