@@ -427,14 +427,14 @@ class Dictionary implements \JsonSerializable {
 	public function jsonSerialize() {
 		return [
 			"lang" => $this->lang,
-			"dict" => $this->dict,
+			"dict" => $this->mk_json_dict(),
 		];
 	}
 	/**
 	 *	@brief
 	 */
 	public function translate($stringId, $translation) {
-		$this->dict[$stringId] = $translation; // manquant ?
+		$this->dict[$stringId] = $translation; 
 	}
 	/**
 	 *	@brief
@@ -445,6 +445,14 @@ class Dictionary implements \JsonSerializable {
 
 	public function GetDict() {
 		return $this->dict;
+	}
+
+	private function mk_json_dict() {
+		$dict = array();
+		foreach ($this->dict as $identifier => $translation) {
+			array_push($dict, array($identifier, $translation));
+		}
+		return $dict; 
 	}
 }
 
@@ -469,6 +477,12 @@ class Translator  {
 	public function setLinks($links) {
 		$this->links = $links;
 	}
+	// public function dict($lang) {
+	// 	if(!array_key_exists($lang, $this->dictionaries)) {
+	// 		$lang = Translator::DEFAULT_LANG;
+	// 	}
+	// 	return $this->dictionaries[$lang];
+	// }
 	/**
 	 *	@brief
 	 */
