@@ -193,7 +193,23 @@ $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_7,"Une phase d’analyse 
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_8,"Un binôme chargé d’affaire/correspondant qualité sur chaque étude");
 
 $DICT_FR->translate(StringIdentifier::SID_PRESIDENT_H1,"Le mot du président");
-$DICT_FR->translate(StringIdentifier::SID_PRESIDENT_P,"bullshit");
+$DICT_FR->translate(StringIdentifier::SID_PRESIDENT_P,"Fort de 35 ans d’expérience, nous accompagnons les entreprises dans leurs projets en proposant une vision jeune, dynamique et innovante. Toujours à la pointe des dernières technologies grâce à une formation technique de qualité à l’INSA de Lyon, nos intervenants apportent à vos projets une forte valeur ajoutée.");
+$DICT_FR->translate(StringIdentifier::SID_PRESIDENT_SIGN,"Martin Delbecque, président 2016-2017");
+$DICT_FR->translate(StringIdentifier::SID_BUREAU,"Le bureau");
+$DICT_FR->translate(StringIdentifier::SID_CA,"Le conseil d'administration");
+$DICT_FR->translate(StringIdentifier::SID_EQUIPES,"Nos équipes");
+
+$DICT_FR->translate(StringIdentifier::SID_DSI,"DSI");
+$DICT_FR->translate(StringIdentifier::SID_QUALITE,"Qualité");
+$DICT_FR->translate(StringIdentifier::SID_UA,"Unité d'Affaire");
+$DICT_FR->translate(StringIdentifier::SID_GRC,"Relation Client");
+$DICT_FR->translate(StringIdentifier::SID_COM,"Communication");
+
+$DICT_FR->translate(StringIdentifier::SID_DESC_DSI,"système d'information");
+$DICT_FR->translate(StringIdentifier::SID_DESC_QUALITE,"Suivi et amélioration continus");
+$DICT_FR->translate(StringIdentifier::SID_DESC_UA,"Vente et réalisation de mission");
+$DICT_FR->translate(StringIdentifier::SID_DESC_GRC,"Prise de contact avec vous");
+$DICT_FR->translate(StringIdentifier::SID_DESC_COM,"Evénements et cohésion d'équipe");
 
 $DICT_FR->translate(StringIdentifier::SID_DEVIS_LASTNAME, "Nom");
 $DICT_FR->translate(StringIdentifier::SID_DEVIS_FIRSTNAME, "Prénom");

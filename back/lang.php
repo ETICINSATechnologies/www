@@ -137,6 +137,22 @@ class StringIdentifier {
 
 	const SID_PRESIDENT_H1 = "{PRESIDENT_H1}";
 	const SID_PRESIDENT_P = "{PRESIDENT_P}";
+	const SID_PRESIDENT_SIGN = "{PRESIDENT_SIGN}";
+	const SID_BUREAU = "{BUREAU}";
+	const SID_CA = "{CA}";
+	const SID_EQUIPES = "{EQUIPES}";
+
+	const SID_DSI = "{DSI}";
+	const SID_QUALITE = "{QUALITE}";
+	const SID_UA = "{UA}";
+	const SID_GRC = "{GRC}";
+	const SID_COM = "{COM}";
+
+	const SID_DESC_DSI = "{DESC_DSI}";
+	const SID_DESC_QUALITE = "{DESC_QUALITE}";
+	const SID_DESC_UA = "{DESC_UA}";
+	const SID_DESC_GRC = "{DESC_GRC}";
+	const SID_DESC_COM = "{DESC_COM}";
 
 	const SID_DEVIS_LASTNAME 			= "{DEVIS_LASTNAME}";
 	const SID_DEVIS_FIRSTNAME 			= "{DEVIS_FIRSTNAME}";
@@ -283,6 +299,22 @@ class StringIdentifier {
 
 		StringIdentifier::SID_PRESIDENT_H1,
 		StringIdentifier::SID_PRESIDENT_P,
+		StringIdentifier::SID_PRESIDENT_SIGN,
+		StringIdentifier::SID_BUREAU,
+		StringIdentifier::SID_CA,
+		StringIdentifier::SID_EQUIPES,
+
+		StringIdentifier::SID_DSI,
+		StringIdentifier::SID_QUALITE,
+		StringIdentifier::SID_UA,
+		StringIdentifier::SID_GRC,
+		StringIdentifier::SID_COM,
+
+		StringIdentifier::SID_DESC_DSI,
+		StringIdentifier::SID_DESC_QUALITE,
+		StringIdentifier::SID_DESC_UA,
+		StringIdentifier::SID_DESC_GRC,
+		StringIdentifier::SID_DESC_COM,
 
 		StringIdentifier::SID_DEVIS_LASTNAME 	,
 		StringIdentifier::SID_DEVIS_FIRSTNAME 	,

@@ -21,19 +21,31 @@
 <div class="ui vertical stripe segment">
   <div class="ui grid centered aligned container">
     <div class="row">
-        <h1 class="ui center aligned icon header">
-        <i class="circular check circle icon"></i>
-          {PRESIDENT_H1}
-      </h1>
+    <div class="six wide column">
+      <img class="ui top aligned medium circular image" src="front/assets/team/martin.jpg">
+      </div>
+      <div class="six wide column">
+        <div class="ui vertical stripe segment">
+            <h1 class="ui header">
+              {PRESIDENT_H1}
+            </h1>
+            <div class="ui divider"></div>
+            <p><i>
+            {PRESIDENT_P}
+            </i><br><br>
+            <strong>{PRESIDENT_SIGN}</strong>
+            </p>
+        </div>
+      </div>
+
     </div>
+
+
     <div class="row">
-      <div class="ui vertical segment">
-          <p>{PRESIDENT_P}</p>
-      </div>      
+            <div class="ui horizontal divider">
+                <h1 class="text-green">{BUREAU}</h1>
+            </div>
     </div>
-
-
-    <div class="ui divider"></div>
     <div class="row">
         <div class="ui six cards centered">
           <div class="green card">
@@ -82,6 +94,13 @@
             </div>
           </div>
         </div>
+    </div>
+    <div class="row">
+            <div class="ui horizontal divider">
+                <h1 class="text-green">{CA}</h1>
+            </div>
+    </div>
+    <div class="row">
         <div class ="ui six cards centered aligned">
           <div class="green card">
             <div class="image">       
@@ -165,6 +184,51 @@
           </div>
         </div>
       </div>
+      <div class="row">
+            <div class="ui horizontal divider">
+                <h1 class="text-green">{EQUIPES}</h1>
+            </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <h2 class="ui icon header">
+          <i class="database icon"></i>
+          <div class="content">
+            {DSI}
+            <div class="sub header">{DESC_DSI}</div>
+          </div>
+        </h2>
+        <h2 class="ui icon header">
+          <i class="checkmark icon"></i>
+          <div class="content">
+            {QUALITE}
+            <div class="sub header">{DESC_QUALITE}</div>
+          </div>
+        </h2>
+        <h2 class="ui icon header">
+          <i class="line chart icon"></i>
+          <div class="content">
+            {UA}
+            <div class="sub header">{DESC_UA}</div>
+          </div>
+        </h2>
+        <h2 class="ui icon header">
+          <i class="comments outline icon"></i>
+          <div class="content">
+            {GRC}
+            <div class="sub header">{DESC_GRC}</div>
+          </div>
+        </h2>
+        <h2 class="ui icon header">
+          <i class="announcement icon"></i>
+          <div class="content">
+            {COM}
+            <div class="sub header">{DESC_COM}</div>
+          </div>
+        </h2>
+      </div>
+    </div>
+
   </div>
 </div>
 	
