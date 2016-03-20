@@ -52,3 +52,8 @@
     -webkit-align-items: center;
     align-items: center;
 }
+
+.swiper-part {
+    padding-left: 50px;
+    padding-right: 50px;
+}
