@@ -1,18 +1,5 @@
-<body>
-<!--<style> body {
-	font-family: "Avenir","Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 20px;
-	font-weight: 300;
-	line-height: 1.42857;
-	color : #333;
-	text-align:center
-}
 
-
-</style>-->
-<!-- On redirige vers la page linkedin de la personne sur laquelle on clique -->
-<script type="text/javascript" src="front/pages/scripts/team.js"></script>
-
+<div id="translatable">
 <div class="ui center aligned bg-header">
     <h1 class="title-header">{EQUIPE}</h1>
 </div>
@@ -20,9 +7,10 @@
 
 <div class="ui vertical stripe segment">
   <div class="ui grid centered aligned container">
+    
     <div class="row">
-    <div class="six wide column">
-      <img class="ui top aligned medium circular image" src="front/assets/team/martin.jpg">
+      <div class="six wide column">
+        <img class="ui top aligned medium circular image" src="front/assets/team/martin.jpg">
       </div>
       <div class="six wide column">
         <div class="ui vertical stripe segment">
@@ -37,158 +25,39 @@
             </p>
         </div>
       </div>
-
     </div>
 
 
     <div class="row">
-            <div class="ui horizontal divider">
-                <h1 class="text-green">{BUREAU}</h1>
-            </div>
-    </div>
-    <div class="row">
-        <div class="ui six cards centered">
-          <div class="green card">
-            <div class="image">       
-              <img src="./front/assets/team/pres.jpeg" >
-            </div>
-            <div class="content">
-              <a class="header" onclick="Linkedin('president')">Martin Delbecque</a>
-              <div class="meta">
-                <span class="date">President</span>
-              </div>
-            </div>
-          </div>
-          
-          <div class="green card">
-            <div class="image">       
-              <img src="./front/assets/team/pres.jpeg">
-            </div>
-            <div class="content">
-              <a class="header" onclick="Linkedin('vice-president')">Adrien Lepic</a>
-              <div class="meta">
-                <span class="date">Vice-President</span>
-              </div>
-            </div>
-          </div>
-          <div class="green card">
-            <div class="image">       
-              <img src="./front/assets/team/pres.jpeg">
-            </div>
-            <div class="content">
-              <a class="header" onclick="Linkedin('secretaire-general')">Pauline Geslin</a>
-              <div class="meta">
-                <span class="date">Secrétaire Général</span>
-              </div>
-            </div>
-          </div>
-          <div class="green card">
-            <div class="image">
-              <img src="./front/assets/team/money.jpeg">
-            </div>
-            <div class="content">
-              <a class="header" onclick="Linkedin('tresorier')">Linda Benrighi</a>
-              <div class="meta">
-                <span class="date">Trésorière</span>
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-    <div class="row">
-            <div class="ui horizontal divider">
-                <h1 class="text-green">{CA}</h1>
-            </div>
-    </div>
-    <div class="row">
-        <div class ="ui six cards centered aligned">
-          <div class="green card">
-            <div class="image">       
-              <img src="./front/assets/team/pres.jpeg">
-            </div>
-            <div class="content">
-              <a class="header" onclick="Linkedin('ventes')">Antoine Lambert</a>
-              <div class="meta">
-                <span class="date">Responsable Ventes</span>
-              </div>
-            </div>
-          </div>
-          <div class="green card">
-            <div class="image">       
-              <img src="./front/assets/team/pres.jpeg">
-            </div>
-            <div class="content">
-              <a class="header" id="demo" onclick="Linkedin('qualite')">Kim Bertrand
-        		 </a>
-              <div class="meta">
-                <span class="date">Responsable Qualité</span>
-              </div>
-            </div>
-          </div>
-          <div class="green card">
-            <div class="image">       
-              <img src="./front/assets/team/pres.jpeg">
-            </div>
-            <div class="content">
-              <a class="header" onclick="Linkedin('dsi')">Nicolas Sorin</a>
-              <div class="meta">
-                <span class="date">Responsable DSI</span>
-              </div>
-            </div>
-          </div>
-         <div class="green card">
-            <div class="image">       
-              <img src="./front/assets/team/pres.jpeg">
-            </div>
-            <div class="content">
-              <a class="header" onclick="Linkedin('vice-tresorier')">Luc Cristol</a>
-              <div class="meta">
-                <span class="date">Vice Trésorier</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class ="ui six cards centered">
-          <div class="green card">
-            <div class="image">       
-              <img src="./front/assets/team/pres.jpeg">
-            </div>
-            <div class="content">
-              <a class="header"onclick="Linkedin('missions')">Eline Achard</a>
-              <div class="meta">
-                <span class="date">Responsable Unité d'Affaires Réalisation de missions</span>
-              </div>
-            </div>
-          </div>
-          <div class="green card">
-            <div class="image">       
-              <img src="./front/assets/team/pres.jpeg">
-            </div>
-            <div class="content">
-              <a class="header" onclick="Linkedin('grc')">Maxime Pinon</a>
-              <div class="meta">
-                <span class="date">Responsable Gestion Relation Clients</span>
-              </div>
-            </div>
-          </div>
-          <div class="green card">
-            <div class="image">       
-              <img src="./front/assets/team/pres.jpeg">
-            </div>
-            <div class="content">
-              <a class="header"onclick="Linkedin('com')">Noémie Bouillod</a>
-              <div class="meta">
-                <span class="date">Responsable Communication</span>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="ui horizontal divider">
+          <h1 class="text-green">{BUREAU}</h1>
       </div>
-      <div class="row">
-            <div class="ui horizontal divider">
-                <h1 class="text-green">{EQUIPES}</h1>
-            </div>
     </div>
+
+    <div class="row">
+      <div id="bureau_members" class="ui six cards centered">
+        <!-- les cartes des membres du bureau seront placées ici -->
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="ui horizontal divider">
+          <h1 class="text-green">{CA}</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div id="ca_members" class ="ui six cards centered aligned">
+        <!-- les cartes des membres du CA seront placées ici -->
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="ui horizontal divider">
+        <h1 class="text-green">{EQUIPES}</h1>
+      </div>
+    </div>
+
     <div class="row">
       <div class="column">
         <h2 class="ui icon header">
@@ -231,5 +100,82 @@
 
   </div>
 </div>
-	
-</body>
+</div>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    
+    // défintion des listes 
+    var bureau_mems = [
+      makeMember('Martin Delbecque','President','pres.jpg','https://www.google.fr/'),
+      makeMember('Adrien Lepic','Vice-President','vp.jpg','https://www.google.fr/'),
+      makeMember('Pauline Geslin','Secrétaire-Général','sg.jpg','https://www.google.fr/'),
+      makeMember('Linda Benrighi','Trésorière','treso.jpg','https://www.google.fr/')
+    ];
+    var ca_mems = [
+      makeMember('Antoine Lambert','Responsable Ventes','resp_ventes.jpg','https://www.google.fr/'),
+      makeMember('Kim Bertrand','Responsable Qualité','resp_qual.jpg','https://www.google.fr/'),
+      makeMember('Nicolas Sorin','Responsable DSI','resp_dsi.jpg','https://www.google.fr/'),
+      makeMember('Luc Cristol','Vice-Trésorier','vtreso.jpg','https://www.google.fr/'),
+      makeMember('Eline Achard','Responsable Unité d\'Affaires Réalisation de missions','resp_rm.jpg','https://www.google.fr/'),
+      makeMember('Maxime Pinon','Responsable Gestion Relation Clients','resp_grc.jpg','https://www.google.fr/'),
+      makeMember('Noémie Bouillod','Responsable Communication','resp_com.jpg','https://www.google.fr/'),
+    ];
+
+    // création des cartes
+    addBureauMembers(bureau_mems);
+    addCAMembers(ca_mems);
+
+    // traduction
+    translate(function(){
+
+    });
+
+  });
+
+  function makeMember(name, position, picture, linkedinUrl) {
+    return {
+      name: name,
+      position: position,
+      picture: picture,
+      linkedinUrl: linkedinUrl
+    }
+  }
+
+  function addBureauMembers(members) {
+    for (var i = 0; i < members.length; i++) {
+      var m = members[i];
+      addBureauMember(m.name,m.position,m.picture,m.linkedinUrl); 
+     } 
+  }
+
+  function addCAMembers(members) {
+    for (var i = 0; i < members.length; i++) {
+      var m = members[i];
+      addCAMember(m.name,m.position,m.picture,m.linkedinUrl); 
+     } 
+  }
+
+  function addBureauMember(name, position, picture, linkedinUrl) {
+    $('#bureau_members').append(createCard(name, position, picture, linkedinUrl));
+  }
+
+  function addCAMember(name, position, picture, linkedinUrl) {
+    $('#ca_members').append(createCard(name, position, picture, linkedinUrl));
+  }
+
+  function createCard(name, position, picture, linkedinUrl) {
+    return ' \
+      <div class="green card"> \
+        <div class="image"> \
+          <img src="./front/assets/team/'+picture+'" > \
+        </div> \
+        <div class="content"> \
+          <a class="header" href="'+linkedinUrl+'">'+name+'</a> \
+          <div class="meta"> \
+            <span class="date">'+position+'</span> \
+          </div> \
+        </div> \
+      </div>';
+  }
+</script>
