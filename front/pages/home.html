@@ -1,7 +1,6 @@
 <!--completer le body-->
 <script src="./front/pages/scripts/home_fade_in.js"></script>
 <script src="./front/pages/scripts/image_crop.js"></script>
-<script src="./front/pages/scripts/home_scroll.js"></script>
 <div class="cropper home-header">	
 		<div class="ui centered fluid image" style="width:50%; padding:6%;">
 			<img src="front/assets/home/LogoETIC2.png">
@@ -131,7 +130,7 @@
                   </div>
                   <div class="row">
                   	<div class="center aligned column">
-							<a class="ui green huge button" href="{LINK_TRUST}">ILS NOUS ONT FAIT CONFIANCE</a>
+							<a class="ui green huge button" href="{LINK_TRUST}">{HOME_TRUST}</a>
 					</div>
                   </div>                
               </div>
@@ -140,11 +139,14 @@
 <div class="ui center aligned vertical stripe segment">
 <br>
 		<h1 class="ui huge center aligned header">
-  			Palmarès
-  			<div class="sub header">Une longue lignée de Junior-Entrepreneurs</div>
+  			{HOME_PALMARES_H1}
+  			<div class="sub header">{HOME_PALMARES_SUB}</div>
 		</h1>
+<br>
+	<div class="ui middle aligned relaxed grid container">
+		
+	</div>
 </div>
-
 
 
 </br>
@@ -174,5 +176,4 @@
   <p>{HOME_PALMARES_3}</p>
 </div>
 <script type="text/javascript" src="front/pages/scripts/home_swiper.js"></script>
-
 

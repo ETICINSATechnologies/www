@@ -50,8 +50,9 @@ $DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_SUB, "De nombreux domaines
 $DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_P, "Grâce à une formation technique diversifiée et de qualité à l'INSA de Lyon, ETIC INSA Technologies est en mesure de vous offrir tout un panel de services. De l'informatique à la mécanique, en passant les télécommunications, l'électroniques, le génie civil et bien d'autres, découvrez nos 11 domaines de compétences.");
 $DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_DET, "PLUS DE DETAILS");
 
-
-
+$DICT_FR->translate(StringIdentifier::SID_HOME_TRUST, "ILS NOUS ONT FAIT CONFIANCE");
+$DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_H1, "Palmarès");
+$DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_SUB, "Une Junior-Entrepreprise performante sur la durée");
 
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_H2_1, "Votre demande");
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_H2_2, "Proposition commerciale");
