@@ -29,20 +29,23 @@ $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_TOP, "Des meilleures Junior 
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_DOMAINES, "Domaines de compétences");
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_SATISFACTION, "De satisfaction client");
 $DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_1, "Semi finaliste prix d’excellence 2014 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
-Lauréat du Challenge Junior Pérenne de 2013 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
-Lauréat du Challenge Junior Engagée de 2013	
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
-Lauréat du Label Entrepreneur en 2013 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
+Lauréat du Challenge Junior Pérenne de 2013 <br>
+Lauréat du Challenge Junior Engagée de 2013	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
+Lauréat du Label Entrepreneur en 2013 <br>
 Finaliste du Prix d’Excellence en 2012 et en 2013");
-$DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_2, "Finaliste du Label ingénieur en 2007<br>
-Semi Finaliste du prix d’excellence en 2007<br>
-Classement dans les 30 meilleures Junior Entreprises de France depuis 2001 (sur 162 Junior Entreprises)<br>
+$DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_2, "Finaliste du Label ingénieur en 2007
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
+Semi Finaliste du prix d’excellence en 2007
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
+Classement dans les 30 meilleures Junior Entreprises de France depuis 2001 (sur 162 Junior Entreprises)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
 Finaliste du Label Communication 2004");
-$DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_3, "Classement dans les 12 meilleures Junior Entreprises de France en 2004 (sur 120 Junior Entreprises)<br>
-Finaliste du Label Ingénieur en 2001 et 2003<br>
-Finaliste du Label Informatique en 1999<br>
+$DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_3, "Classement dans les 12 meilleures Junior Entreprises de France en 2004 (sur 120 Junior Entreprises)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
+Finaliste du Label Ingénieur en 2001 et 2003
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
+Finaliste du Label Informatique en 1999
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
 Lauréat du Label Technique 1998");
 
 $DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS, "Nos offres et services");
