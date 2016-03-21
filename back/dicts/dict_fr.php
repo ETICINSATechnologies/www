@@ -26,7 +26,7 @@ $DICT_FR->translate(StringIdentifier::SID_MOUVEMENT, "Découvrir le mouvement");
 /*FR_HOME*/
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_EXPERIENCE, "Années d'expérience");
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_TOP, "Des meilleures Junior Entreprises");
-$DICT_FR->translate(StringIdentifier::SID_HOME_STAT_DOMAINES, "Années d'expérience");
+$DICT_FR->translate(StringIdentifier::SID_HOME_STAT_DOMAINES, "Domaines de compétences");
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_SATISFACTION, "De satisfaction client");
 $DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_1, "Semi finaliste prix d’excellence 2014 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
 Lauréat du Challenge Junior Pérenne de 2013 
@@ -45,8 +45,10 @@ Finaliste du Label Ingénieur en 2001 et 2003<br>
 Finaliste du Label Informatique en 1999<br>
 Lauréat du Label Technique 1998");
 
-
-
+$DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS, "Nos offres et services");
+$DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_SUB, "De nombreux domaines d'ingénierie");
+$DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_P, "Grâce à une formation technique diversifiée et de qualité à l'INSA de Lyon, ETIC INSA Technologies est en mesure de vous offrir tout un panel de services. De l'informatique à la mécanique, en passant les télécommunications, l'électroniques, le génie civil et bien d'autres, découvrez nos 11 domaines de compétences.");
+$DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_DET, "PLUS DE DETAILS");
 
 
 

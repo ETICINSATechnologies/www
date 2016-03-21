@@ -4,43 +4,90 @@
 <div class="cropper">
 	<img id="splash" src="./front/assets/home/lyon2.jpg" style="margin-top:-15px; ">		<!--IMAGE D'ACCEUIL (marge négative pour coller au header sur cette page uniquement)-->
 </div>
-<div class="ui container" style = "margin-bottom : 5px;">
-		<div class = "ui two statistics" style = "margin-top : 15px;" id="fade">
-			<div class = "ui huge statistic horizontal">
-				  <div class="value">
-				    35+
-				  </div>
-				  <div class="label">
-				    {HOME_STAT_EXPERIENCE}
-				  </div>
-			  </div>
-			  <div class = "ui huge statistic horizontal">
-				  <div class="value">
-				    TOP30
-				  </div>
-				  <div class="label">
-				    {HOME_STAT_TOP}
-				  </div>
-				</div>
-		</div>
-		<div class = "ui two statistics" id="fade">
-			<div class="ui huge right floated statistic horizontal">
-			  <div class="value">
-			    11	
-			  </div>
-			  <div class="label">
-			    {HOME_STAT_DOMAINES}
-			  </div>
+
+<div class="ui center aligned vertical stripe segment">
+			<br>
+			<h1 class="ui huge center aligned header">
+  				{HOME_SKILLS}
+  				<div class="sub header">{HOME_SKILLS_SUB}</div>
+			</h1>
+			<br>
+			<div class="ui middle aligned relaxed grid container">
+			<p>{HOME_SKILLS_P}</p>
 			</div>
-			<div class = "ui huge right floated statistic horizontal">
-			  <div class="value">
-			    90%
-			  </div>
-			  <div class="label">
-			    {HOME_STAT_SATISFACTION}
-			  </div>
+			<br><br>
+			<div class="ui center aligned tiny images">
+				<img class="ui image" src="./front/assets/skills/GM.svg">					 
+				<img class="ui image" src="./front/assets/skills/IF.svg">					
+				<img class="ui image" src="./front/assets/skills/TC.svg">
+				<img class="ui image" src="./front/assets/skills/GEN.svg">
+				<img class="ui image" src="./front/assets/skills/GE.svg">
+				<img class="ui image" src="./front/assets/skills/GI.svg">
+				<img class="ui image" src="./front/assets/skills/GCU.svg">
+				<img class="ui image" src="./front/assets/skills/SGM.svg">
+				<img class="ui image" src="./front/assets/skills/BS.svg">
+				<img class="ui image" src="./front/assets/skills/TR.svg">
+				<img class="ui image" src="./front/assets/skills/SC.svg">
+			</div>	
+			<br>	
+			<div class="center aligned column">
+			          <a class="ui green huge button" href="{LINK_SKILLS}">{HOME_SKILLS_DET}</a>
 			</div>
+			<br>
+</div>
+<div class="ui vertical stripe segment">
+    <div class="ui middle aligned stackable grid container">
+		<div class="row">
+			<div class="ui divider"></div>
 		</div>
+		<div class="row" id="fade">
+	  		<!-- <div class = "ui center aligned four statistics" id="fade"> -->
+	  			<div class="four wide column">
+		  			<div class = "ui statistic">
+					  <div class="value">
+					    35
+					  </div>
+					  <div class="label">
+					    {HOME_STAT_EXPERIENCE}
+					  </div>
+				  	</div>
+			  	</div>
+			  	<div class="four wide column">
+		  			<div class = "ui statistic">
+					  <div class="value">
+					    TOP 30
+					  </div>
+					  <div class="label">
+					    {HOME_STAT_TOP}
+					  </div>
+				  	</div>
+			  	</div>
+			  	<div class="four wide column">
+		  			<div class = "ui statistic">
+					  <div class="value">
+					    11
+					  </div>
+					  <div class="label">
+					    {HOME_STAT_DOMAINES}
+					  </div>
+				  	</div>
+			  	</div>
+			  	<div class="four wide column">
+		  			<div class = "ui statistic">
+					  <div class="value">
+					    90%
+					  </div>
+					  <div class="label">
+					    {HOME_STAT_SATISFACTION}
+					  </div>
+				  	</div>
+			  	</div>	  		
+		</div>
+		<div class="row">
+			<div class="ui divider"></div>
+		</div>
+	</div>
+</div>
 
 </br>
   <div class="ui right floated statistic">

@@ -35,6 +35,10 @@ class StringIdentifier {
 	const SID_HOME_PALMARES_1 = "{HOME_PALMARES_1}";
 	const SID_HOME_PALMARES_2 = "{HOME_PALMARES_2}";
 	const SID_HOME_PALMARES_3 = "{HOME_PALMARES_3}";
+	const SID_HOME_SKILLS = "{HOME_SKILLS}";
+	const SID_HOME_SKILLS_SUB = "{HOME_SKILLS_SUB}";
+	const SID_HOME_SKILLS_P = "{HOME_SKILLS_P}";
+	const SID_HOME_SKILLS_DET = "{HOME_SKILLS_DET}";
 
 
 
@@ -220,6 +224,10 @@ class StringIdentifier {
 		StringIdentifier::SID_HOME_PALMARES_1,
 		StringIdentifier::SID_HOME_PALMARES_2,
 		StringIdentifier::SID_HOME_PALMARES_3,
+		StringIdentifier::SID_HOME_SKILLS,
+		StringIdentifier::SID_HOME_SKILLS_SUB,
+		StringIdentifier::SID_HOME_SKILLS_P,
+		StringIdentifier::SID_HOME_SKILLS_DET,
 
 
 		StringIdentifier::SID_ETUDE_H2_1,
