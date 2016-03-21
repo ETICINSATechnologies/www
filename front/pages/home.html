@@ -47,9 +47,9 @@
 		<div class="row">
 			<div class="ui divider"></div>
 		</div>
-		<div class="row" id="fade">
+		<div class="row" >
 	  		<!-- <div class = "ui center aligned four statistics" id="fade"> -->
-	  			<div class="four wide column">
+	  			<div class="center aligned four wide column" id="fade">
 		  			<div class = "ui statistic">
 					  <div class="value">
 					    35
@@ -59,7 +59,7 @@
 					  </div>
 				  	</div>
 			  	</div>
-			  	<div class="four wide column">
+			  	<div class="center aligned four wide column" id="fade">
 		  			<div class = "ui statistic">
 					  <div class="value">
 					    TOP 30
@@ -69,7 +69,7 @@
 					  </div>
 				  	</div>
 			  	</div>
-			  	<div class="four wide column">
+			  	<div class="center aligned four wide column" id="fade">
 		  			<div class = "ui statistic">
 					  <div class="value">
 					    11
@@ -79,7 +79,7 @@
 					  </div>
 				  	</div>
 			  	</div>
-			  	<div class="four wide column">
+			  	<div class="center aligned four wide column" id="fade">
 		  			<div class = "ui statistic">
 					  <div class="value">
 					    90%
@@ -150,30 +150,32 @@
 
 
 </br>
-  <div class="ui right floated statistic">
-    <div class="value">
-      <img src="./front/assets/home/trophy1.png" class="ui inline image">
-    </div>
-    <div class="label">
-    </div>
-  </div>
-  <p style="text-align: justify-all; font-size: 32;	">{HOME_PALMARES_1}</p>
-   <div class="ui left floated statistic">
-    <div class="value">
-      <img src="./front/assets/home/trophy2.png" class="ui inline image">
-    </div>
-    <div class="label">
-    </div>
-  </div>
-  <p>{HOME_PALMARES_2}</p>
-  <div class="ui right floated statistic">
-    <div class="value">
-      <img src="./front/assets/home/trophy3.png" class="ui inline image">
-    </div>
-    <div class="label">
-    </div>
-  </div>
-  <p>{HOME_PALMARES_3}</p>
-</div>
+  <div class="ui grid">
+  		<div class="two wide column">
+		    <img src="./front/assets/home/trophy1.png" class="ui image">
+		</div>
+		<div class="fourteen wide column" id="fade">
+			<p style="text-align: justify; font-size: 32;">{HOME_PALMARES_1}</p>
+		</div>
+			</div>
+
+  	<div class="ui grid">
+  		<div class="fourteen wide column" id="fade">
+			<p style="text-align: justify; font-size: 32;	">{HOME_PALMARES_2}</p>
+		</div>
+		<div class="two wide column" >
+		    <img src="./front/assets/home/trophy2.png" class="ui image">
+		</div>
+	</div>
+
+	<div class="ui grid" >
+  		<div class="two wide column">
+		    <img src="./front/assets/home/trophy3.png" class="ui image">
+		</div>
+		<div class="fourteen wide column" id="fade">
+			<p style="text-align: justify; font-size: 32;	">{HOME_PALMARES_3}</p>
+		</div>
+	</div>
+
 <script type="text/javascript" src="front/pages/scripts/home_swiper.js"></script>
 
