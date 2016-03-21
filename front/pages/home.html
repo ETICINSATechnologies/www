@@ -1,11 +1,19 @@
 <!--completer le body-->
 <script src="./front/pages/scripts/home_fade_in.js"></script>
 <script src="./front/pages/scripts/image_crop.js"></script>
-<div class="cropper">
-	<img id="splash" src="./front/assets/home/lyon2.jpg" style="margin-top:-15px; ">		<!--IMAGE D'ACCEUIL (marge négative pour coller au header sur cette page uniquement)-->
+<script src="./front/pages/scripts/home_scroll.js"></script>
+<div class="cropper home-header">	
+		<div class="ui centered fluid image" style="width:50%; padding:6%;">
+			<img src="front/assets/home/LogoETIC.png">
+			<div class="ui bottom attached label" style="background-color:transparent;">
+				<a class="circular icon button" href="#scrolldown">
+					<center><h1><i class="big arrow circle down icon" style="padding:60px;"></i></h1></center> <!--lourd-->
+				</a>
+			</div>
+		</div>	
 </div>
 
-<div class="ui center aligned vertical stripe segment">
+<div class="ui center aligned vertical stripe segment" id="scrolldown">
 			<br>
 			<h1 class="ui huge center aligned header">
   				{HOME_SKILLS}

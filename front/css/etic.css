@@ -6,6 +6,10 @@
 *			trust.html 			*
 *								*/
 
+.cropper.home-header {
+    background-image: url('../assets/home/lyon3.jpg');
+}
+
 .bg-header {
 	background-image : url('../assets/header.png');
 	color : white;
