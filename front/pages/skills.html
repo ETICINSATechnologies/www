@@ -33,7 +33,6 @@ $(document).ready(function(){
   // on appelle la methode de traduction
   translate(function(){
     // initialisation des cartes
-    $('.card').hide();
     $('.card').transition({
             animation : 'scale',
             duration : '800ms'
@@ -99,6 +98,6 @@ function addSkillColumn(skill) {
       </div> \
       {COMPETENCES_PLUS_'+skill+'}\
     </div>');
-
+    $('.card').hide();
 }
 </script>
