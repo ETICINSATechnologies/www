@@ -20,7 +20,7 @@ $DICT_EN->translate(StringIdentifier::SID_CONFIANCE, "References");
 $DICT_EN->translate(StringIdentifier::SID_BLOG, "Blog");
 $DICT_EN->translate(StringIdentifier::SID_PLAQUETTE, "Brochure");
 $DICT_EN->translate(StringIdentifier::SID_DEVIS, "Ask for an estimate");
-$DICT_EN->translate(StringIdentifier::SID_LANG, "<i class=\"en flag\"></i> English");
+$DICT_EN->translate(StringIdentifier::SID_LANG, "<i class=\"gb flag\"></i> English");
 $DICT_EN->translate(StringIdentifier::SID_MOUVEMENT, "About Junior-Entreprises");
 
 /*FR_HOME*/

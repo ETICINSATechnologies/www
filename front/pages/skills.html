@@ -1,7 +1,8 @@
-<div id="translatable">
-  <div class="ui center aligned bg-header">
+<div class="ui center aligned bg-header" id="fade">
       <h1 class="title-header" id="scale">{COMPETENCES}</h1>
   </div>
+
+<div id="translatable">
 
   <div class="ui hidden divider"></div>
 
@@ -14,7 +15,7 @@
     </div>
     <div class="row">
         <div class="sixteen wide center aligned column">
-          <a class="ui green huge button" href="{LINK_DEVIS}">{DEVIS}</a>
+          <a class="ui green huge button" href="{LINK_DEVIS}" id="pulse">{DEVIS}</a>
         </div>
     </div>
   </div>
@@ -59,13 +60,13 @@ function addSkillColumn(skill) {
   $('#skills_container').append(' \
     <div class="column center aligned"> \
       <p> \
-      <div class="ui special cards"> \
+      <div class="ui special cards" id="card_'+skill+'"> \
         <div class="card"> \
           <div class="blurring dimmable image" style="background-color:#FFFFFF;"> \
             <div class="ui dimmer"> \
               <div class="content"> \
                 <div class="center"> \
-                  <div class="ui inverted button" id="Button_'+skill+'">En savoir plus...</div> \
+                  <div class="ui inverted button" id="Button_'+skill+'">{COMPETENCES_MORE}</div> \
                 </div> \
               </div> \
             </div> \
@@ -93,5 +94,11 @@ function addSkillColumn(skill) {
       </div> \
       {COMPETENCES_PLUS_'+skill+'}\
     </div>');
+  $('#card_'+skill).hide();
+  $('#card_'+skill).transition({
+            animation : 'scale',
+            duration : '800ms'
+          });;
+
 }
 </script>

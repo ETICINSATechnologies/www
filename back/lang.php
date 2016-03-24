@@ -130,6 +130,8 @@ class StringIdentifier {
 	const SID_COMPETENCES_P2_BS = "{COMPETENCES_P2_BS}";
 	const SID_COMPETENCES_P2_TR = "{COMPETENCES_P2_TR}"; // paragraphe des pts positifs pour la traduction
 
+	const SID_COMPETENCES_MORE = "{COMPETENCES_MORE}";
+
 	const SID_MOUVEMENT_P = "{MOUVEMENT_P}"; //
 
 	const SID_CONFIANCE_1 = "{CONFIANCE_1}"; // paragraphe de la première ciatation dans la page confiance
@@ -337,6 +339,7 @@ class StringIdentifier {
 		StringIdentifier::SID_COMPETENCES_P2_GI,
 		StringIdentifier::SID_COMPETENCES_P2_BS,
 		StringIdentifier::SID_COMPETENCES_P2_TR,
+		StringIdentifier::SID_COMPETENCES_MORE,
 
 		StringIdentifier::SID_CONFIANCE_1,
 		StringIdentifier::SID_CONFIANCE_2,

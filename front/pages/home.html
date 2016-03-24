@@ -1,9 +1,8 @@
 <!--completer le body-->
-<script src="./front/pages/scripts/home_fade_in.js"></script>
 <script src="./front/pages/scripts/image_crop.js"></script>
 <script> $(document).ready(function(){$('.ui.embed').embed();}); </script>
 <div class="cropper home-header">
-		<div class="ui centered fluid image" style="width:50%; padding:6%;">
+		<div class="ui centered fluid image" style="width:50%; padding:6%;" id="fade>"
 			<img src="front/assets/home/LogoETIC2.png">
 			<div class="ui bottom attached label" style="background-color:transparent;">
 				<a class="circular icon button" href="#scrolldown">
@@ -15,7 +14,7 @@
 
 <div class="ui center aligned vertical stripe segment" id="scrolldown">
 			<br>
-			<h1 class="ui huge center aligned header">
+			<h1 class="ui huge center aligned header" id="fade">
   				{HOME_SKILLS}
   				<div class="sub header">{HOME_SKILLS_SUB}</div>
 			</h1>
@@ -24,7 +23,7 @@
 			<p>{HOME_SKILLS_P}</p>
 			</div>
 			<br><br>
-			<div class="ui center aligned tiny images">
+			<div class="ui center aligned tiny images" id="fade">
 				<img class="ui image" src="./front/assets/skills/GM.svg">
 				<img class="ui image" src="./front/assets/skills/IF.svg">
 				<img class="ui image" src="./front/assets/skills/TC.svg">
@@ -39,7 +38,7 @@
 			</div>
 			<br>
 			<div class="center aligned column">
-			          <a class="ui green huge button" href="{LINK_SKILLS}">{HOME_SKILLS_DET}</a>
+			          <a class="ui green huge button" href="{LINK_SKILLS}" id="fade">{HOME_SKILLS_DET}</a>
 			</div>
 			<br>
 </div>
@@ -98,12 +97,12 @@
 </div>
 <div class="ui center aligned vertical stripe segment">
 	<br>
-		<h1 class="ui huge center aligned header">
+		<h1 class="ui huge center aligned header" id="fade">
   			{HOME_TEMOIGNAGE}
   			<div class="sub header">{HOME_TEMOIGNAGE_SUB}</div>
 		</h1>
 	 <div class="ui middle aligned stackable grid container">
-                  <div class="row">
+                  <div class="row" id="fade">
                     <div class="swiper-container">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -142,7 +141,7 @@
 		<div class="row">
 			<div class="ui divider"></div>
 		</div>
-		<div class="row" >
+		<div class="row" id="fade" >
 			<div class="twelve wide column">
 				<div class="ui embed" data-source="vimeo" data-id="50134844"></div>
 			</div>
@@ -155,7 +154,7 @@
 
 <div class="ui center aligned vertical stripe segment">
 <br>
-		<h1 class="ui huge center aligned header">
+		<h1 class="ui huge center aligned header" id="fade">
   			{HOME_PALMARES_H1}
   			<div class="sub header">{HOME_PALMARES_SUB}</div>
 		</h1>

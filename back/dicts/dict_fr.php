@@ -393,6 +393,8 @@ $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P2_BS, "+ Des intervenants
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P2_TR, "+Une école ouverte sur l’international.</br>
 + Un panel de plus de 10 langues.");
 
+$DICT_FR->translate(StringIdentifier::SID_COMPETENCES_MORE, "En savoir plus...");
+
 
 $DICT_FR->translate(StringIdentifier::SID_MOUVEMENT_P, "Une Junior-Entreprise est une association loi 1901, gérée par des étudiants d’Ecole ou d’Université française.
 A vocation pédagogique, elle réalise des prestations de service dans ses domaines de compétences auprès de ses clients. Plus de 170 structures sont regroupées au sein de la Confédération Nationale des Juniors-Entreprises (CNJE).
