@@ -224,6 +224,13 @@ $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P2_BS, "+ Des intervenants
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P2_TR, "+Une école ouverte sur l’international.</br>
 + Un panel de plus de 10 langues.");
 
+
+$DICT_FR->translate(StringIdentifier::SID_MOUVEMENT_P, "Une Junior-Entreprise est une association loi 1901, gérée par des étudiants d’Ecole ou d’Université française.
+A vocation pédagogique, elle réalise des prestations de service dans ses domaines de compétences auprès de ses clients. Plus de 170 structures sont regroupées au sein de la Confédération Nationale des Juniors-Entreprises (CNJE).
+<br><br>
+ETIC INSA Technologies est la Junior-Entreprise de l’INSA Lyon.
+Créée en 1981, elle se positionne comme l’une des meilleures Junior-Entreprises de France. La mission d’ETIC INSA Technologies consiste à réaliser des études répondant aux attentes du client (caractéristiques techniques), délais, coûts à travers une méthodologie contrôlée et un dialogue continu avec le client. ");
+
 $DICT_FR->translate(StringIdentifier::SID_CONFIANCE_1, "Ils nous ont fait confiance");
 $DICT_FR->translate(StringIdentifier::SID_CONFIANCE_2, "Des institutions");
 $DICT_FR->translate(StringIdentifier::SID_CONFIANCE_3, "Des petites structures");
@@ -234,7 +241,8 @@ $DICT_FR->translate(StringIdentifier::SID_CONFIANCE_QUOTE_3, "« Non seulement p
 
 $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_1, "Nos partenaires premium");
 $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_2, "Les partenaires premium CNJE");
-$DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_3, "Nos partenariats Junior-Entreprises");
+$DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_3, "Nos partenariats Junior-Entreprises en France");
+$DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_4, "Nos partenariats Junior-Entreprises à l'étranger");
 
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H1, "Notre politique qualité");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_1, "ETIC INSA Technologies tient à fournir des services de qualité à ses clients afin de leur assurer la réalisation des missions confiées dans les délais impartis et le respect du cahier des charges. Et ce, en offrant à ses membres, élèves ingénieurs INSA, une structure performante qui leur permette d’apprendre et de se confronter aux réelles exigences du monde professionnel, le tout dans un climat de confiance mutuelle.");
