@@ -10,6 +10,11 @@
     <div id="skills_container" class ="six column row">
     <!-- Les cartes des competences seront générés ici -->
     </div>
+    <div class="row">
+        <div class="center aligned column">
+          <a class="ui green huge button" href="{LINK_DEVIS}">{DEVIS}</a>
+        </div>
+    </div>
   </div>
 </div>
 
@@ -71,20 +76,22 @@ function addSkillColumn(skill) {
       </div> \
       </p> \
     </div> \
-    <div id="modaldiv_'+skill+'" class="ui basic modal"> \
+    <div id="modaldiv_'+skill+'" class="ui modal"> \
       <i class="close icon"></i> \
       <div class="header"> \
         {COMPETENCES_H2_'+skill+'} \
       </div> \
       <div class="image content"> \
-        <div class="image"> \
-          <img class="ui mini left floated circular image" src="./front/assets/skills/'+skill+'.svg"> \
+        <div class="ui small image"> \
+          <img src="./front/assets/skills/'+skill+'.svg"> \
         </div> \
         <div class="description"> \
           <p>{COMPETENCES_P_'+skill+'}</p> \
         </div> \
       </div> \
+      {COMPETENCES_PLUS_'+skill+'}\
     </div>');
 }
 </script>
+
 

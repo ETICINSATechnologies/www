@@ -106,6 +106,174 @@ $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_H2_BS, "Biosciences");
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_H2_TR, "Traduction");
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_H2_SC, "Sciences de l'entreprise");
 
+
+$DICT_FR->translate(StringIdentifier::SID_COMPETENCES_PLUS_IF, "<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      Une des meilleures formations dans ce domaine
+    </div>
+  </div>
+</div>
+<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      Une très grande expérience dans la Junior : 40% de notre chiffre d'affaire
+    </div>
+  </div>
+</div><div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      Un département recouvrant une multitude de technologies informatiques
+    </div>
+  </div>
+</div>");
+
+$DICT_FR->translate(StringIdentifier::SID_COMPETENCES_PLUS_GM, "<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      Trois départements spécialisés en mécanique
+    </div>
+  </div>
+</div>
+<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      Des intervenants spécialisés dans les procédés de plasturgie
+    </div>
+  </div>
+</div>");
+
+$DICT_FR->translate(StringIdentifier::SID_COMPETENCES_PLUS_GEN, "<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      Accès aux laboratoires de l'INSA pour faire des expériences
+    </div>
+  </div>
+</div>
+<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      Grande expérience dans les tests d'émission
+    </div>
+  </div>
+</div>");
+
+$DICT_FR->translate(StringIdentifier::SID_COMPETENCES_PLUS_TC, "<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      Un département spécialisés dans les télécommunications
+    </div>
+  </div>
+</div>");
+
+$DICT_FR->translate(StringIdentifier::SID_COMPETENCES_PLUS_GCU, "<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      Un département spécialisé dans le Génie Civile et l'urbanisme
+    </div>
+  </div>
+</div>
+<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      Une des meilleures formations dans ce domaine
+    </div>
+  </div>
+</div>
+<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      Des intervenants suivant un double cursus Architecture en plus de la formation INSA
+    </div>
+  </div>
+</div>");
+
+$DICT_FR->translate(StringIdentifier::SID_COMPETENCES_PLUS_SGM, "<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      Un département spécialisé dans les matériaux
+    </div>
+  </div>
+</div>
+<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      Recherche très importante dans ce domaine à l'INSA Lyon
+    </div>
+  </div>
+</div>");
+
+$DICT_FR->translate(StringIdentifier::SID_COMPETENCES_PLUS_GE, "<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      Plus grosse étude réalisé en 2012
+    </div>
+  </div>
+</div>
+<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      Un département spécialisé dans ce domaine
+    </div>
+  </div>
+</div>");
+
+$DICT_FR->translate(StringIdentifier::SID_COMPETENCES_PLUS_GI, "<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      Des intervenants spécialisés dans le Lean Management
+    </div>
+  </div>
+</div>");
+
+$DICT_FR->translate(StringIdentifier::SID_COMPETENCES_PLUS_BS, "<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      Des intervenants spécialisés dans la modélisation des phénomènes biologiques
+    </div>
+  </div>
+</div>");
+
+$DICT_FR->translate(StringIdentifier::SID_COMPETENCES_PLUS_TR, "<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      Une école ouverte sur l'international
+    </div>
+  </div>
+</div>
+<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      Des intervenants de nationalités variées
+    </div>
+  </div>
+</div>");
+
+
+$DICT_FR->translate(StringIdentifier::SID_COMPETENCES_PLUS_SC, "");
+
+
+
+
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P_IF, "<i class=\"small checkmark icon\"></i>
 Réalisation de site de e-commerce, un forum ou des applications Android ou iOS (iPhone / iPad) .</br>
 <i class=\"small checkmark icon\"></i>
@@ -118,6 +286,7 @@ Aide pour une meilleure gestion de vos bases de données.</br>
 Mise en place d’un système de référencement sur votre site.</br>
 <i class=\"small checkmark icon\"></i>
 Réalisation d’audit de vos systèmes d’information.");
+
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P_GM, "<i class=\"small checkmark icon\"></i>
 Conception de nouveaux produits ou développement d’un nouveau moteur.</br>
 <i class=\"small checkmark icon\"></i>

@@ -107,6 +107,18 @@ class StringIdentifier {
 	const SID_COMPETENCES_P_TR = "{COMPETENCES_P_TR}"; // paragraphe pour la traduction
 	const SID_COMPETENCES_P_SC = "{COMPETENCES_P_SC}"; // paragraphe pour les SCiences de l'entreprise
 
+	const SID_COMPETENCES_PLUS_IF = "{COMPETENCES_PLUS_IF}"; // paragraphr pour la compétence informatique
+	const SID_COMPETENCES_PLUS_GM = "{COMPETENCES_PLUS_GM}";
+	const SID_COMPETENCES_PLUS_GEN = "{COMPETENCES_PLUS_GEN}";
+	const SID_COMPETENCES_PLUS_TC = "{COMPETENCES_PLUS_TC}";
+	const SID_COMPETENCES_PLUS_GCU = "{COMPETENCES_PLUS_GCU}";
+	const SID_COMPETENCES_PLUS_SGM = "{COMPETENCES_PLUS_SGM}";
+	const SID_COMPETENCES_PLUS_GE = "{COMPETENCES_PLUS_GE}";
+	const SID_COMPETENCES_PLUS_GI = "{COMPETENCES_PLUS_GI}";
+	const SID_COMPETENCES_PLUS_BS = "{COMPETENCES_PLUS_BS}";
+	const SID_COMPETENCES_PLUS_TR = "{COMPETENCES_PLUS_TR}"; // paragraphe pour la traduction
+	const SID_COMPETENCES_PLUS_SC = "{COMPETENCES_PLUS_SC}"; // paragraphe pour les SCiences de l'entreprise
+
 	const SID_COMPETENCES_P2_IF = "{COMPETENCES_P2_IF}"; // paragraphre des pts positifs pour la compétence informatique
 	const SID_COMPETENCES_P2_GM = "{COMPETENCES_P2_GM}";
 	const SID_COMPETENCES_P2_GEN = "{COMPETENCES_P2_GEN}";
@@ -288,6 +300,18 @@ class StringIdentifier {
 		StringIdentifier::SID_COMPETENCES_H2_BS,
 		StringIdentifier::SID_COMPETENCES_H2_TR,
 		StringIdentifier::SID_COMPETENCES_H2_SC,
+
+		StringIdentifier::SID_COMPETENCES_PLUS_IF,
+		StringIdentifier::SID_COMPETENCES_PLUS_GM,
+		StringIdentifier::SID_COMPETENCES_PLUS_GEN,
+		StringIdentifier::SID_COMPETENCES_PLUS_TC,
+		StringIdentifier::SID_COMPETENCES_PLUS_GCU,
+		StringIdentifier::SID_COMPETENCES_PLUS_SGM,
+		StringIdentifier::SID_COMPETENCES_PLUS_GE,
+		StringIdentifier::SID_COMPETENCES_PLUS_GI,
+		StringIdentifier::SID_COMPETENCES_PLUS_BS,
+		StringIdentifier::SID_COMPETENCES_PLUS_TR,
+		StringIdentifier::SID_COMPETENCES_PLUS_SC,
 
 		StringIdentifier::SID_MOUVEMENT_P,
 
