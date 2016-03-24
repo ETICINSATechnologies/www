@@ -205,27 +205,172 @@ Study of the quality of your delivered services.</br>
 <i class=\"small checkmark icon\"></i>
 Market study.");
 
-$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_IF, "+ L’INSA Lyon, one of the best education in this field.</br>
-+ A great experience inside our Junior : more than 40% of our turnover.</br>
-+ A department covering a large panel of computer technologies.");
-$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_GM, "+ The largest department of our univeristy.</br>
-+ Engineer students in the plasturgy field.");
-$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_GCU, "+ Civil engineering students also following an Architecture course obtaining a double degree.");
-$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_GEN, "+ Acces to INSA Lyon's labs.</br>
-+ Great experience in emission tests.");
-$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_GE, "+ A department specialised in electronics, electrotechnics, automatisation, industrial computer science and telecommunications.");
-$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_SGM, "+ A department specialised in materials field.</br>
-+ Acces to INSA Lyon labs.");
-$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_TC, "+ A department specialised in telecommunications.
-+ A state of the art department.");
-$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_GI, "+ Engineering students specialised in Lean Management.");
-$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_BS, "+ Engineering students specialised in biologicals phenomenon modelisation.</br>
-+ Acces to INSA Lyon labs.");
-$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_TR, "+ A school with an international opening.</br>
-+ A choice among more than 10 languages.");
+
+$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_PLUS_IF, "<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      One of the best trainings in this field
+    </div>
+  </div>
+</div>
+<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      A great experience inside our Junior : more than 40% of our turnover.
+    </div>
+  </div>
+</div><div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      A department covering a wide variety of computer technologies.
+    </div>
+  </div>
+</div>");
+
+$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_PLUS_GM, "<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      The largest department of our school
+    </div>
+  </div>
+</div>
+<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      Engineering students specialized in the plasturgy field
+    </div>
+  </div>
+</div>");
+
+$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_PLUS_GEN, "<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      Access to INSA Lyon's labs for experiments 
+    </div>
+  </div>
+</div>
+<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      Great experience in emission tests
+    </div>
+  </div>
+</div>");
+
+$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_PLUS_TC, "<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      A department specialized in this field
+    </div>
+  </div>
+</div>");
+
+$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_PLUS_GCU, "<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      A department specialized in this field
+    </div>
+  </div>
+</div>
+<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      One of the best trainings in this field
+    </div>
+  </div>
+</div>
+<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      Civil engineering students also following an Architecture course obtaining a double degree
+    </div>
+  </div>
+</div>");
+
+$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_PLUS_SGM, "<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      A department specialized in materials
+    </div>
+  </div>
+</div>
+<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      Important research in this field at INSA Lyon
+    </div>
+  </div>
+</div>");
+
+$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_PLUS_GE, "<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      Biggest study realized in 2012
+    </div>
+  </div>
+</div>
+<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      A department specialized in this field
+    </div>
+  </div>
+</div>");
+
+$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_PLUS_GI, "<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      Engineering students specialized in Lean Management
+    </div>
+  </div>
+</div>");
+
+$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_PLUS_BS, "<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      Engineering students specialized in biological phenomenons modelisation
+    </div>
+  </div>
+</div>");
+
+$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_PLUS_TR, "<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      A school open toward international interactions
+    </div>
+  </div>
+</div>
+<div class=\"ui visible green icon message\">
+  <i class=\"plus icon\"></i>
+  <div class=\"content\">
+    <div class=\"header\">
+      Engineering students from many different countries
+    </div>
+  </div>
+</div>");
 
 
-$DICT_EN->translate(StringIdentifier::SID_MOUVEMENT_P, "Une Junior-Entreprise est une association loi 1901, gérée par des étudiants d’Ecole ou d’Université française.
+$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_PLUS_SC, "");
+
+$DICT_EN->translate(StringIdentifier::SID_MOUVEMENT_P, "A Junior-Entreprise is an association related to the french law of 1901, managed by students from schools and universities.
 A vocation pédagogique, elle réalise des prestations de service dans ses domaines de compétences auprès de ses clients. Plus de 170 structures sont regroupées au sein de la Confédération Nationale des Juniors-Entreprises (CNJE).
 <br><br>
 ETIC INSA Technologies est la Junior-Entreprise de l’INSA Lyon.
