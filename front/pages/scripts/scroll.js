@@ -12,3 +12,14 @@ $(function() {
     }
   });
 });
+
+$(document).ready(function() {
+    $('h1[id^="scale"]').each( function(i){
+        $(this).hide();
+        $(this).transition({
+            animation  : 'scale',
+            duration   : '300ms'
+        });
+
+    });
+});
