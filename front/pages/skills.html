@@ -33,6 +33,11 @@ $(document).ready(function(){
   // on appelle la methode de traduction
   translate(function(){
     // initialisation des cartes
+    $('.card').hide();
+    $('.card').transition({
+            animation : 'scale',
+            duration : '800ms'
+          });;
     $('.special.cards .image').dimmer({on: 'hover'});
     initModals(skills);
   });
@@ -94,11 +99,6 @@ function addSkillColumn(skill) {
       </div> \
       {COMPETENCES_PLUS_'+skill+'}\
     </div>');
-  $('#card_'+skill).hide();
-  $('#card_'+skill).transition({
-            animation : 'scale',
-            duration : '800ms'
-          });;
 
 }
 </script>
