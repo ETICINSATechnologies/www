@@ -30,23 +30,23 @@ $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_DOMAINES, "Fields of profici
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_SATISFACTION, "Clients satisfied");
 $DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_1, "Semi-finalist Prix d'excellence 2014 <br>
 Winner of the Challenge Junior Pérenne in 2013 <br>
-Lauréat du Challenge Junior Engagée de 2013 <br>
-Lauréat du Label Entrepreneur en 2013 <br>
-Finaliste du Prix d’Excellence en 2012 et en 2013<br>
-Semi Finaliste du prix d’excellence en 2007 ");
-$DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_2, "Finaliste du Label ingénieur en 2007 <br> 
-Top 30 des JE de France depuis 2001 (sur 162) <br>
-Finaliste du Label Communication 2004<br>
-Top 12 des meilleures JE en 2004<br>
-Finaliste du Label Ingénieur en 2001 et 2003<br>
-Finaliste du Label Informatique en 1999");
-$DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_3, "Classement dans les 12 meilleures Junior Entreprises de France en 2004 (sur 120 Junior Entreprises)
+Laureate of the Challenge Junior Engagée in 2013 <br>
+Laureate of the Label Entrepreneur in 2013 <br>
+Finalist of the Prix d’Excellence in 2012 and 2013<br>
+Semi-finalist of the Prix d’Excellence in 2007 ");
+$DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_2, "Finalist of the Label ingénieur in 2007 <br> 
+Top 30 of the best JE from France since 2001 (out of 162) <br>
+Finalist of the Label Communication in 2004<br>
+Top 12 of the best JE in 2004<br>
+Finalist of the Label Ingénieur in 2001 and 2003<br>
+Finalist of the Label Informatique in 1999");
+$DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_3, "Ranked among the 12 best Junior Entreprises from France in 2004 (out of 120 Junior Entreprises)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
-Finaliste du Label Ingénieur en 2001 et 2003
+Finalist of the Label Ingénieur in 2001 and 2003
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
-Finaliste du Label Informatique en 1999
+Finalist of the Label Informatique in 1999
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
-Lauréat du Label Technique 1998");
+Laurate of the Label Technique 1998");
 
 $DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS, "Our offers and services");
 $DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS_SUB, "Many engineering fields");
@@ -70,7 +70,7 @@ $DICT_EN->translate(StringIdentifier::SID_ETUDE_H2_8, "Questionnaire de satisfac
 
 $DICT_EN->translate(StringIdentifier::SID_ETUDE_H3_1, "One project ⇆ One Chargé d'Affaire");
 $DICT_EN->translate(StringIdentifier::SID_ETUDE_H3_2, "Specifications, budget and timetable");
-$DICT_EN->translate(StringIdentifier::SID_ETUDE_H3_3, "60 % du prix de l'étude");
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_H3_3, "60 % of the price of the study");
 $DICT_EN->translate(StringIdentifier::SID_ETUDE_H3_4, "Continuous feedbacks");
 $DICT_EN->translate(StringIdentifier::SID_ETUDE_H3_5, "Adaptability");
 $DICT_EN->translate(StringIdentifier::SID_ETUDE_H3_6, "Recipe phase + 3 month guarantee");
@@ -119,11 +119,11 @@ Establishment of a referencement system on your website</br>
 <i class=\"small checkmark icon\"></i>
 Audit of your information system ");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P_GM, "<i class=\"small checkmark icon\"></i>
-Conception de nouveaux produits ou développement d’un nouveau moteur.</br>
+Design of a new product or developement of a new engine.</br>
 <i class=\"small checkmark icon\"></i>
-Modélisation de transmissions ou réalisation d’une modélisation CAO de votre produit.</br>
+Modelisation of transmissions or realisation of a CAD model for your product </br>
 <i class=\"small checkmark icon\"></i>
-Réalisation du dessin de votre piste d’essai.</br>
+Realisation du dessin de votre piste d’essai.</br>
 <i class=\"small checkmark icon\"></i>
 Etude des contraintes mécaniques de votre système.");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P_GCU, "<i class=\"small checkmark icon\"></i>
@@ -145,84 +145,84 @@ Estimation de votre émission de gaz à effets de serre.</br>
 <i class=\"small checkmark icon\"></i>
 Amélioration de l’efficacité énergétique de vos bâtiments.");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P_GE, "<i class=\"small checkmark icon\"></i>
-Réalisation d’un réseau intelligent.</br>
+Realisation of a smart network.</br>
 <i class=\"small checkmark icon\"></i>
-Réalisation de tests sur des composants électroniques.</br>
+Tests on electrical components.</br>
 <i class=\"small checkmark icon\"></i>
-Réalisation d’une simulation électronique ou multiphysique.</br>
+Electronical or multiphysical simulations.</br>
 <i class=\"small checkmark icon\"></i>
-Réalisation d’un poste de commande centralisé.</br>
+Realisation of a centralised control station.</br>
 <i class=\"small checkmark icon\"></i>
-Conception et programmation d’un système embarqué.</br>
+Conception and developement for embeded systems.</br>
 <i class=\"small checkmark icon\"></i>
-Test d’un composant électronique en environnement contraignant.");
+Tests on components in constrainig environments.");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P_SGM, "<i class=\"small checkmark icon\"></i>
-Test d’un matériau dans des conditions spécifiques.</br>
+Material tests in specific conditions.</br>
 <i class=\"small checkmark icon\"></i>
-Etude du recyclage de vos matériaux ou optimisation des matériaux que vous utilisez.</br>
+Study of the recyclability of your materials or optimisation of the materials you are using.</br>
 <i class=\"small checkmark icon\"></i>
-Aide pour le choix de votre nouvelle machine.");
+Help to choose a new machine.");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P_TC, "<i class=\"small checkmark icon\"></i>
-Besoin d’une expertise technique concernant les protocoles de communication.</br>
+Technical consulting for communication protocols.</br>
 <i class=\"small checkmark icon\"></i>
-Réalisation d’un audit de votre réseau informatique.</br>
+Consulting for your computer network.</br>
 <i class=\"small checkmark icon\"></i>
-Réalisation de traitement du signal ou de l’image.");
+Signal or image processing.");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P_GI, "<i class=\"small checkmark icon\"></i>
-Automatisation de votre production.</br>
+Production automatisation.</br>
 <i class=\"small checkmark icon\"></i>
-Création de nouveaux programmes sur vos machines.</br>
+Developement of new machines programms.</br>
 <i class=\"small checkmark icon\"></i>
-Optimisation de votre entreprise et notamment de parties peu performantes.</br>
+Optimisation and improvement of the less performing part of your business.</br>
 <i class=\"small checkmark icon\"></i>
-Etude pour comprendre la source de vos pertes ou pour améliorer la qualité de vos produits en examinant vos processus.</br>
+Lean management.</br>
 <i class=\"small checkmark icon\"></i>
-Mise en place d’un ERP (Enterprise Resource Planning) ou d’un MES (Manufacturing Execution System) dans votre entreprise.");
+Implementation of an ERP (Enterprise Resource Planning) or a MES (Manufacturing Execution System) for your business.");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P_BS, "<i class=\"small checkmark icon\"></i>
-Modélisation du développement d’une nouvelle bactérie.</br>
+Modelisation of the evolution of a new bacteria.</br>
 <i class=\"small checkmark icon\"></i>
-Réalisation de tests chimiques sur vos propres molécules.</br>
+Chemical tests on your molecules.</br>
 <i class=\"small checkmark icon\"></i>
-Etude de l’impact de vos produits dans un environnement particulier.</br>
+Study of the consequences of your products in a specific environment.</br>
 <i class=\"small checkmark icon\"></i>
-Réalisation d’une modélisation statistique du développement de cellules.</br>");
+Statistic modelisation of cells evolution.</br>");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P_TR, "<i class=\"small checkmark icon\"></i>
-Traduction de documents techniques.</br>
+Translation of a technical document.</br>
 <i class=\"small checkmark icon\"></i>
-Traduction d’un site web.</br>
+Website translations.</br>
 <i class=\"small checkmark icon\"></i>
-Traduction d’une application.");
+Translation of an application.");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P_SC, "<i class=\"small checkmark icon\"></i>
-Analyse financière de votre entreprise.</br>
+Financial analysis of your business.</br>
 <i class=\"small checkmark icon\"></i>
-Etude et amélioration de votre stratégie d’entreprise.</br>
+Study and improvements of your business strategy.</br>
 <i class=\"small checkmark icon\"></i>
-Aide à l’organisation de votre entreprise.</br>
+Help organising your business</br>
 <i class=\"small checkmark icon\"></i>
-Aide à la création ou à la reprise de votre entreprise.</br>
+Help creating or taking up a business .</br>
 <i class=\"small checkmark icon\"></i>
-Etude de la qualité de vos services/produits.</br>
+Study of the quality of your delivered services.</br>
 <i class=\"small checkmark icon\"></i>
-Etude de marché.");
+Market study.");
 
-$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_IF, "+ L’INSA Lyon, une des meilleures formations dans ce domaine.</br>
-+ Une très grande expérience au niveau de la Junior: plus de 40% de notre chiffre d’affaire.</br>
-+ Un département recouvrant une multitude de technologies informatiques.");
-$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_GM, "+ 2 départements spécialisés en mécanique.</br>
-+ Des intervenants spécialisés dans les procédés de plasturgie.");
-$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_GCU, "+ Intervenants suivant un cursus Architecture en parallèle du cursus Génie Civil et Urbanisme en vue d’obtenir un double diplôme.");
-$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_GEN, "+ Accès aux laboratoires de l’INSA Lyon.</br>
-+ Grande expérience dans les tests d’émission.");
-$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_GE, "+ Un département spécialisé dans l’électronique, l’électrotechnique, l’automatisation, l’informatique industrielle et les télécommunications.");
-$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_SGM, "+ Un département spécialisé dans le domaine des matériaux.</br>
-+ Accès aux laboratoires de l’INSA Lyon.");
-$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_TC, "+ Un département spécialisé en télécommunications.
-+ Un département à la pointe de la nouvelle technologie.");
-$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_GI, "+ Des intervenants spécialisés dans le Lean Management.");
-$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_BS, "+ Des intervenants spécialisés dans la modélisation des phénomènes biologiques.</br>
-+ Accès aux laboratoires de l’INSA Lyon.");
-$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_TR, "+Une école ouverte sur l’international.</br>
-+ Un panel de plus de 10 langues.");
+$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_IF, "+ L’INSA Lyon, one of the best education in this field.</br>
++ A great experience inside our Junior : more than 40% of our turnover.</br>
++ A department covering a large panel of computer technologies.");
+$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_GM, "+ The largest department of our univeristy.</br>
++ Engineer students in the plasturgy field.");
+$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_GCU, "+ Civil engineering students also following an Architecture course obtaining a double degree.");
+$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_GEN, "+ Acces to INSA Lyon's labs.</br>
++ Great experience in emission tests.");
+$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_GE, "+ A department specialised in electronics, electrotechnics, automatisation, industrial computer science and telecommunications.");
+$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_SGM, "+ A department specialised in materials field.</br>
++ Acces to INSA Lyon labs.");
+$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_TC, "+ A department specialised in telecommunications.
++ A state of the art department.");
+$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_GI, "+ Engineering students specialised in Lean Management.");
+$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_BS, "+ Engineering students specialised in biologicals phenomenon modelisation.</br>
++ Acces to INSA Lyon labs.");
+$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P2_TR, "+ A school with an international opening.</br>
++ A choice among more than 10 languages.");
 
 
 $DICT_EN->translate(StringIdentifier::SID_MOUVEMENT_P, "Une Junior-Entreprise est une association loi 1901, gérée par des étudiants d’Ecole ou d’Université française.
