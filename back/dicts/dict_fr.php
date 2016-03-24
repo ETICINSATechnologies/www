@@ -81,9 +81,9 @@ $DICT_FR->translate(StringIdentifier::SID_ETUDE_STEP_1, "Avant l'étude");
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_STEP_2, "Pendant l'étude");
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_STEP_3, "Après l'étude");
 
-$DICT_FR->translate(StringIdentifier::SID_ETUDE_BULLSHIT_1, "Prise de contact afin d’analyser au mieux votre besoin et vous proposer la solution la plus adaptée.");
+$DICT_FR->translate(StringIdentifier::SID_ETUDE_BULLSHIT_1, "Premier contact afin d’analyser au mieux votre besoin et vous proposer la solution la plus adaptée.");
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_BULLSHIT_2, "L’ensemble de nos études fait l’objet d’un suivi régulier par le pôle qualité afin de s’assurer de la conformité et de la rigueur du travail effectué.");
-$DICT_FR->translate(StringIdentifier::SID_ETUDE_BULLSHIT_3, "Le suivi post-réalisation de nos projets nous permet de nous assurer de la bonne prise en main des produits par nos clients.");
+$DICT_FR->translate(StringIdentifier::SID_ETUDE_BULLSHIT_3, "Le suivi de nos projets après leur réalisation nous permet de nous assurer de la satisfaction de nos clients.");
 
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_P_1, "Demandez nous un devis via notre site, nous vous répondrons sous 24h. Une fois le premier contact effectué nous vous affecterons un chargé d’affaires, membre d’ETIC qui sera votre interlocuteur privilégié. Celui-ci sera également chargé de sélectionner, parmi les étudiants de l’INSA Lyon,  les intervenants les plus compétents qui seront amenés à réaliser la partie technique de votre projet. ");
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_P_2, "Une fois les intervenants sélectionnés, une réunion sera organisée par le chargé d’affaires pour définir clairement votre besoin et vos spécifications. A la suite de cette réunion, le chargé d’affaire vous fera parvenir une proposition commerciale, document réunissant un cahier de charges détaillé, une méthodologie de réalisation, un budget approfondi ainsi qu’un échéancier. ");
@@ -465,7 +465,8 @@ $DICT_FR->translate(StringIdentifier::SID_CRA_P,"Chaque année, les Junior-Entre
 $DICT_FR->translate(StringIdentifier::SID_CNE_P,"Tous les étés, les Junior-Entrepreneurs de toute la France se retrouvent pour un évènement de grande envergure. Des intervenants prestigieux assurent des formations, et les labels récompensent les meilleures Junior-Entreprises de France dans plusieurs domaines.");
 $DICT_FR->translate(StringIdentifier::SID_CNH_P,"Tous les hivers, les Junior-Entrepreneurs de toute la France se retrouvent pour un évènement de grande envergure. Des intervenants prestigieux assurent des formations, et les challenges récompensent les meilleures Junior-Entreprises de France dans plusieurs domaines.");
 $DICT_FR->translate(StringIdentifier::SID_JDP_P,"Destinée aux étudiants de l'INSA de Lyon, la Journée du Développement Personnel leur permet d'assister à des formations réalisées par des intervenants invités pour l'occasion. Ces formations, complémentaires à celles de l'école, mettent l'accent sur la personnalité plutôt que sur les compétences techniques de l'ingénieur.");
-$DICT_FR->translate(StringIdentifier::SID_TEDX_P,"TEDxINSA");
+$DICT_FR->translate(StringIdentifier::SID_TEDX_P,'TED est une organisation à but non lucratif dédiée aux « Ideas Worth Spreading », des idées qui méritent d’être diffusées. Depuis 1984, cette conférence organisée autour des thèmes « Technology, Entertainment, Design » se développe pour soutenir les idées qui changent le monde. TEDx a été créé dans l’esprit de la mission de TED, pour permettre à des communautés, des organisations et des individus d\'organiser des événements TED locaux. Etic organise le TEDxINSA, qui se déroule chaque année à la rotonde de l\'INSA Lyon. Plus d\'informations sur
+<a href="http://www.tedxinsa.com/" target="_blank">le site de TEDxINSA.</a>');
 
 $DICT_FR->translate(StringIdentifier::SID_DEVIS_LASTNAME, "Nom");
 $DICT_FR->translate(StringIdentifier::SID_DEVIS_FIRSTNAME, "Prénom");
