@@ -332,7 +332,7 @@ Etude du recyclage de vos matériaux ou optimisation des matériaux que vous uti
 <i class=\"small checkmark icon\"></i>
 Aide pour le choix de votre nouvelle machine.");
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P_TC, "<i class=\"small checkmark icon\"></i>
-Besoin d’une expertise technique concernant les protocoles de communication.</br>
+Expertise technique concernant les protocoles de communication.</br>
 <i class=\"small checkmark icon\"></i>
 Réalisation d’un audit de votre réseau informatique.</br>
 <i class=\"small checkmark icon\"></i>
