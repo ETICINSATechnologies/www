@@ -128,6 +128,8 @@
 
     // traduction
     translate(function(){
+      $('.card').hide();
+      $('.card').transition('scale');
       $('.image').dimmer({on: 'hover'});
     });
 
@@ -188,7 +190,7 @@
                   <h1 class="huge header">'+name+'</h1> \
                   <h3>'+position+'</h3>\
                   <div class="ui divider"></div>\
-                  <a href="'+linkedinUrl+'" class="ui inverted icon button" id="Button_'+name+'"><i class="linkedin icon" style="color:white;"></i></a> \
+                  <a href="'+linkedinUrl+'" target="_blank" class="ui inverted icon button" id="Button_'+name+'"><i class="linkedin icon" style="color:white;"></i></a> \
                 </div> \
               </div> \
             </div> \

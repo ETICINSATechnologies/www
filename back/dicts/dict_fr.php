@@ -453,17 +453,17 @@ $DICT_FR->translate(StringIdentifier::SID_CNH,"Congrès National d'Hiver");
 $DICT_FR->translate(StringIdentifier::SID_JDP,"Journée du Développement Personnel");
 $DICT_FR->translate(StringIdentifier::SID_TEDX,"TEDxINSA");
 
-$DICT_FR->translate(StringIdentifier::SID_CRP_SUB,"Organisé par la CNJE");
-$DICT_FR->translate(StringIdentifier::SID_CRA_SUB,"Organisé par la CNJE");
+$DICT_FR->translate(StringIdentifier::SID_CRP_SUB,"Organisé par la région Centre-Est de la CNJE");
+$DICT_FR->translate(StringIdentifier::SID_CRA_SUB,"Organisé par la région Centre-Est de la CNJE");
 $DICT_FR->translate(StringIdentifier::SID_CNE_SUB,"Organisé par la CNJE");
 $DICT_FR->translate(StringIdentifier::SID_CNH_SUB,"Organisé par la CNJE");
-$DICT_FR->translate(StringIdentifier::SID_JDP_SUB,"Organisé par Etic");
-$DICT_FR->translate(StringIdentifier::SID_TEDX_SUB,"Organisé par Etic");
+$DICT_FR->translate(StringIdentifier::SID_JDP_SUB,"Organisé par Etic depuis 2011");
+$DICT_FR->translate(StringIdentifier::SID_TEDX_SUB,"Organisé par Etic depuis 2013");
 
-$DICT_FR->translate(StringIdentifier::SID_CRP_P,"Congrès Régional de Printemps");
-$DICT_FR->translate(StringIdentifier::SID_CRA_P,"Congrès Régional d'Automne");
-$DICT_FR->translate(StringIdentifier::SID_CNE_P,"Congrès National d'Été");
-$DICT_FR->translate(StringIdentifier::SID_CNH_P,"Congrès National d'Hiver");
+$DICT_FR->translate(StringIdentifier::SID_CRP_P,"Chaque année, les Junior-Entrepreneurs se réunissent au printemps pour assister à des formations, des conférences, et bien sûr faire des rencontres. Cet événement permet aux participants de se créer un réseau tout en assimilant de nouvelles connaissances et bonnes pratiques. Il est organisé par une Junior-Entreprises de la région. Etic a organisé le Congrès Régional de Printemps 2015 pour la région Centre-Est.");
+$DICT_FR->translate(StringIdentifier::SID_CRA_P,"Chaque année, les Junior-Entrepreneurs se réunissent en automne pour assister à des formations, des conférences, et bien sûr faire des rencontres. Cet événement permet aux participants de se créer un réseau tout en assimilant de nouvelles connaissances et bonnes pratiques. Il est organisé par une Junior-Entreprises de la région.");
+$DICT_FR->translate(StringIdentifier::SID_CNE_P,"Tous les étés, les Junior-Entrepreneurs de toute la France se retrouvent pour un évènement de grande envergure. Des intervenants prestigieux assurent des formations, et les labels récompensent les meilleures Junior-Entreprises de France dans plusieurs domaines.");
+$DICT_FR->translate(StringIdentifier::SID_CNH_P,"Tous les hivers, les Junior-Entrepreneurs de toute la France se retrouvent pour un évènement de grande envergure. Des intervenants prestigieux assurent des formations, et les challenges récompensent les meilleures Junior-Entreprises de France dans plusieurs domaines.");
 $DICT_FR->translate(StringIdentifier::SID_JDP_P,"Destinée aux étudiants de l'INSA de Lyon, la Journée du Développement Personnel leur permet d'assister à des formations réalisées par des intervenants invités pour l'occasion. Ces formations, complémentaires à celles de l'école, mettent l'accent sur la personnalité plutôt que sur les compétences techniques de l'ingénieur.");
 $DICT_FR->translate(StringIdentifier::SID_TEDX_P,"TEDxINSA");
 
