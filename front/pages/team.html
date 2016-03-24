@@ -117,7 +117,7 @@
       makeMember('Kim Bertrand','Responsable Qualité','resp_qual.jpg','https://www.google.fr/'),
       makeMember('Nicolas Sorin','Responsable DSI','resp_dsi.jpg','https://www.google.fr/'),
       makeMember('Luc Cristol','Vice-Trésorier','vtreso.jpg','https://www.google.fr/'),
-      makeMember('Eline Achard','Responsable Unité d\'Affaires Réalisation de missions','resp_rm.jpg','https://www.google.fr/'),
+      makeMember('Eline Achard','Responsable Réalisation de missions','resp_rm.jpg','https://www.google.fr/'),
       makeMember('Maxime Pinon','Responsable Gestion Relation Clients','resp_grc.jpg','https://www.google.fr/'),
       makeMember('Noémie Bouillod','Responsable Communication','resp_com.jpg','https://www.google.fr/'),
     ];
@@ -128,7 +128,7 @@
 
     // traduction
     translate(function(){
-
+      $('.image').dimmer({on: 'hover'});
     });
 
   });
@@ -164,7 +164,7 @@
     $('#ca_members').append(createCard(name, position, picture, linkedinUrl));
   }
 
-  function createCard(name, position, picture, linkedinUrl) {
+  /*function createCard(name, position, picture, linkedinUrl) {
     return ' \
       <div class="green card"> \
         <div class="image"> \
@@ -177,5 +177,23 @@
           </div> \
         </div> \
       </div>';
+  }*/
+
+  function createCard(name, position, picture, linkedinUrl) {
+    return '<div class="green card"> \
+          <div class="blurring dimmable image" style="background-color:#FFFFFF;"> \
+            <div class="ui dimmer"> \
+              <div class="content"> \
+                <div class="center aligned column"> \
+                  <h1 class="huge header">'+name+'</h1> \
+                  <h3>'+position+'</h3>\
+                  <div class="ui divider"></div>\
+                  <a href="'+linkedinUrl+'" class="ui inverted icon button" id="Button_'+name+'"><i class="linkedin icon" style="color:white;"></i></a> \
+                </div> \
+              </div> \
+            </div> \
+            <img src="./front/assets/team/'+picture+'" > \
+          </div> \
+    </div>';
   }
 </script>
