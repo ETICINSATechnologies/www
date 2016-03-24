@@ -1,14 +1,27 @@
+/*										*
+*			   Global    		*
+*											*/
+
 .icon {
 	color: green;
 }
 
-/*								*
-*			trust.html 			*
-*								*/
+@media only screen and (max-width: 1300px){
+   h1 { font-size: 2.5vw; }
+}
 
+/*										*
+*			home.html 			*
+*											*/
 .cropper.home-header {
     background-image: url('../assets/home/lyon2.jpg');
+		background-size: cover;
+		background-repeat: no-repeat;
 }
+
+/*										*
+*			trust.html 			*
+*											*/
 
 .bg-header {
 	background-image : url('../assets/header.png');

@@ -7,12 +7,12 @@
 
 <div class="ui vertical stripe segment">
   <div class="ui stackable grid centered aligned container">
-    
+
     <div class="row">
-      <div class="six wide column">
+      <div class="six wide column center aligned">
         <img class="ui top aligned medium circular image" src="front/assets/team/pres.jpg">
       </div>
-      <div class="six wide column">
+      <div class="six wide column center aligned">
         <div class="ui vertical stripe segment">
             <h1 class="ui header">
               {PRESIDENT_H1}
@@ -47,7 +47,7 @@
     </div>
 
     <div class="row">
-      <div id="ca_members" class ="ui six cards stackable centered aligned">
+      <div id="ca_members" class ="ui four cards stackable centered aligned">
         <!-- les cartes des membres du CA seront placées ici -->
       </div>
     </div>
@@ -59,7 +59,7 @@
     </div>
 
     <div class="row">
-      <div class="column">
+      <div class="column center aligned">
         <h2 class="ui icon header">
           <i class="database icon"></i>
           <div class="content">
@@ -104,8 +104,8 @@
 
 <script type="text/javascript">
   $(document).ready(function(){
-    
-    // défintion des listes 
+
+    // défintion des listes
     var bureau_mems = [
       makeMember('Martin Delbecque','President','pres.jpg','https://www.google.fr/'),
       makeMember('Adrien Lepic','Vice-President','vp.jpg','https://www.google.fr/'),
@@ -145,15 +145,15 @@
   function addBureauMembers(members) {
     for (var i = 0; i < members.length; i++) {
       var m = members[i];
-      addBureauMember(m.name,m.position,m.picture,m.linkedinUrl); 
-     } 
+      addBureauMember(m.name,m.position,m.picture,m.linkedinUrl);
+     }
   }
 
   function addCAMembers(members) {
     for (var i = 0; i < members.length; i++) {
       var m = members[i];
-      addCAMember(m.name,m.position,m.picture,m.linkedinUrl); 
-     } 
+      addCAMember(m.name,m.position,m.picture,m.linkedinUrl);
+     }
   }
 
   function addBureauMember(name, position, picture, linkedinUrl) {

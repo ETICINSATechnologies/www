@@ -49,13 +49,13 @@ function initModals(skills) {
 
 function initModal(skill) {
   $('#Button_'+skill).click(function(){
-        $('#modaldiv_'+skill).modal('show');    
+        $('#modaldiv_'+skill).modal('show');
   });
 }
 
 function addSkillColumn(skill) {
   $('#skills_container').append(' \
-    <div class="column"> \
+    <div class="column center aligned"> \
       <p> \
       <div class="ui special cards"> \
         <div class="card"> \
@@ -93,5 +93,3 @@ function addSkillColumn(skill) {
     </div>');
 }
 </script>
-
-
