@@ -179,6 +179,18 @@ class StringIdentifier {
 	const SID_DESC_GRC = "{DESC_GRC}";
 	const SID_DESC_COM = "{DESC_COM}";
 
+	const SID_PRES = "{PRES}";
+	const SID_VP = "{VP}";
+	const SID_SG = "{SG}";
+	const SID_TRESO = "{TRESO}";
+	const SID_VTRESO = "{VTRESO}";
+	const SID_RESP_DSI = "{RESP_DSI}";
+	const SID_RESP_QUALITE = "{RESP_QUALITE}";
+	const SID_RESP_UA_V = "{RESP_UA_V}";
+	const SID_RESP_UA_RM = "{RESP_UA_RM}";
+	const SID_RESP_GRC = "{RESP_GRC}";
+	const SID_RESP_COM = "{RESP_COM}";
+
 	const SID_CRP = "{CRP}";
 	const SID_CRA = "{CRA}";
 	const SID_CNE = "{CNE}";
@@ -384,6 +396,18 @@ class StringIdentifier {
 		StringIdentifier::SID_DESC_UA,
 		StringIdentifier::SID_DESC_GRC,
 		StringIdentifier::SID_DESC_COM,
+
+		StringIdentifier::SID_PRES,
+		StringIdentifier::SID_VP,
+		StringIdentifier::SID_SG,
+		StringIdentifier::SID_TRESO,
+		StringIdentifier::SID_VTRESO,
+		StringIdentifier::SID_RESP_DSI,
+		StringIdentifier::SID_RESP_QUALITE,
+		StringIdentifier::SID_RESP_UA_V,
+		StringIdentifier::SID_RESP_UA_RM,
+		StringIdentifier::SID_RESP_GRC,
+		StringIdentifier::SID_RESP_COM,
 
 		StringIdentifier::SID_CRP,
 		StringIdentifier::SID_CRA,

@@ -123,35 +123,35 @@ Design of a new product or developement of a new engine.</br>
 <i class=\"small checkmark icon\"></i>
 Modelisation of transmissions or realisation of a CAD model for your product </br>
 <i class=\"small checkmark icon\"></i>
-Realisation du dessin de votre piste d’essai.</br>
+Implementation of your test drawing</br>
 <i class=\"small checkmark icon\"></i>
-Etude des contraintes mécaniques de votre système.");
+Study of your system's mecanical constraints");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P_GCU, "<i class=\"small checkmark icon\"></i>
-Conseils et avis pour la rehausse d’un pont.</br>
+Advice and opinion for the raise of a bridge</br>
 <i class=\"small checkmark icon\"></i>
-Conception d’aménagements pour votre entreprise.</br>
+Conception of improvemens for your company</br>
 <i class=\"small checkmark icon\"></i>
-Examination de la faisabilité de votre future construction.</br>
+Study of your future building's feasability</br>
 <i class=\"small checkmark icon\"></i>
-Effectuation de test sur des matériaux de construction.</br>
+Testings on building materials</br>
 <i class=\"small checkmark icon\"></i>
-Aide pour remettre aux normes.");
+Help to follow standards");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P_GEN, "<i class=\"small checkmark icon\"></i>
-Réalisation d’appareils de mesures ou prototype de votre dernière invention.</br>
+Implementation of measuring devices or prototype for your last invention</br>
 <i class=\"small checkmark icon\"></i>
-Réalisation de bilan carbone.</br>
+Evaluation of your carbon footpring</br>
 <i class=\"small checkmark icon\"></i>
-Estimation de votre émission de gaz à effets de serre.</br>
+Estimating your greenhouse gas emission</br>
 <i class=\"small checkmark icon\"></i>
-Amélioration de l’efficacité énergétique de vos bâtiments.");
+Improvements for your building's energetic efficiency");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P_GE, "<i class=\"small checkmark icon\"></i>
-Realisation of a smart network.</br>
+Implementation of a smart network.</br>
 <i class=\"small checkmark icon\"></i>
 Tests on electrical components.</br>
 <i class=\"small checkmark icon\"></i>
 Electronical or multiphysical simulations.</br>
 <i class=\"small checkmark icon\"></i>
-Realisation of a centralised control station.</br>
+Implementation of a centralised control station.</br>
 <i class=\"small checkmark icon\"></i>
 Conception and developement for embeded systems.</br>
 <i class=\"small checkmark icon\"></i>
@@ -401,12 +401,12 @@ $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_6,"Solicitation treated i
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_7,"An analysis phase validated by the client");
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_8,"A pair : chargé d’affaire/quality correspondent for each study");
 
-$DICT_EN->translate(StringIdentifier::SID_PRESIDENT_H1,"Le mot du président");
-$DICT_EN->translate(StringIdentifier::SID_PRESIDENT_P,"Fort de 35 ans d’expérience, nous accompagnons les entreprises dans leurs projets en proposant une vision jeune, dynamique et innovante. Toujours à la pointe des dernières technologies grâce à une formation technique de qualité à l’INSA de Lyon, nos intervenants apportent à vos projets une forte valeur ajoutée.");
-$DICT_EN->translate(StringIdentifier::SID_PRESIDENT_SIGN,"Martin Delbecque, président 2016-2017");
-$DICT_EN->translate(StringIdentifier::SID_BUREAU,"Le bureau");
-$DICT_EN->translate(StringIdentifier::SID_CA,"Le conseil d'administration");
-$DICT_EN->translate(StringIdentifier::SID_EQUIPES,"Nos équipes");
+$DICT_EN->translate(StringIdentifier::SID_PRESIDENT_H1,"The president's words");
+$DICT_EN->translate(StringIdentifier::SID_PRESIDENT_P,"With 35 years of experience, we help companies in their projects by offering a young, dynamic and innovative vision. Always on the edge of the latest technologies thanks to a high-quality technical training at INSA Lyon, our contributors bring to your projects a strong added value");
+$DICT_EN->translate(StringIdentifier::SID_PRESIDENT_SIGN,"Martin Delbecque, president 2016-2017");
+$DICT_EN->translate(StringIdentifier::SID_BUREAU,"The chamber");
+$DICT_EN->translate(StringIdentifier::SID_CA,"The board of directors");
+$DICT_EN->translate(StringIdentifier::SID_EQUIPES,"Our teams");
 
 $DICT_EN->translate(StringIdentifier::SID_DSI,"IS");
 $DICT_EN->translate(StringIdentifier::SID_QUALITE,"Quality");
@@ -458,3 +458,15 @@ $DICT_EN->translate(StringIdentifier::SID_DEVIS_HEADER, "Ask for an estimate");
 $DICT_EN->translate(StringIdentifier::SID_FOOTER_DESCRIPTION, "Junior-Entreprise of INSA Lyon");
 $DICT_EN->translate(StringIdentifier::SID_FOOTER_RESEAUX, "Social networks");
 $DICT_EN->translate(StringIdentifier::SID_FOOTER_CONTACT, "Contact us");
+
+$DICT_EN->translate(StringIdentifier::SID_PRES, "President");
+$DICT_EN->translate(StringIdentifier::SID_VP,"Vice-President");
+$DICT_EN->translate(StringIdentifier::SID_SG,"General Secretary");
+$DICT_EN->translate(StringIdentifier::SID_TRESO,"Treasurer");
+$DICT_EN->translate(StringIdentifier::SID_VTRESO,"Vice-Treasurer");
+$DICT_EN->translate(StringIdentifier::SID_RESP_DSI,"IS Manager");
+$DICT_EN->translate(StringIdentifier::SID_RESP_QUALITE,"Quality Manager");
+$DICT_EN->translate(StringIdentifier::SID_RESP_UA_V, "Sales Manager");
+$DICT_EN->translate(StringIdentifier::SID_RESP_UA_RM, "Implementation Manager");
+$DICT_EN->translate(StringIdentifier::SID_RESP_GRC, "Clients Relationships Manager");
+$DICT_EN->translate(StringIdentifier::SID_RESP_COM,"Community Manager");

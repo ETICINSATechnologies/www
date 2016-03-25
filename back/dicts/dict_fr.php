@@ -50,7 +50,7 @@ Lauréat du Label Technique 1998");
 
 $DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS, "Nos offres et services");
 $DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_SUB, "De nombreux domaines d'ingénierie");
-$DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_P, "Grâce à une formation technique diversifiée et de qualité à l'INSA de Lyon, ETIC INSA Technologies est en mesure de vous offrir tout un panel de services. De l'informatique à la mécanique, en passant les télécommunications, l'électroniques, le génie civil et bien d'autres, découvrez nos 11 domaines de compétences.");
+$DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_P, "Grâce à une formation technique diversifiée et de qualité à l'INSA Lyon, ETIC INSA Technologies est en mesure de vous offrir tout un panel de services. De l'informatique à la mécanique, en passant les télécommunications, l'électroniques, le génie civil et bien d'autres, découvrez nos 11 domaines de compétences.");
 $DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_DET, "PLUS DE DETAILS");
 
 $DICT_FR->translate(StringIdentifier::SID_HOME_TRUST, "ILS NOUS ONT FAIT CONFIANCE");
@@ -408,7 +408,7 @@ $DICT_FR->translate(StringIdentifier::SID_CONFIANCE_3, "Des petites structures")
 $DICT_FR->translate(StringIdentifier::SID_CONFIANCE_4, "Témoignages");
 $DICT_FR->translate(StringIdentifier::SID_CONFIANCE_QUOTE_1, "« Notre travail avec ETIC INSA Technologies a été très fructueux. Les compétences techniques et humaines des intervenants nous ont permis d’avancer rapidement sur le projet électronique que nous leur avions soumis. J’ai particulièrement apprécié leur réactivité et leur motivation.Les résultats obtenus nous permettent d’affirmer que nous ferons de nouveau appel à ETIC INSA si le besoin apparaît sur un futur projet. » <b>Faustine Vanhulle – Innovation Group – ElcoBrandt</b>");
 $DICT_FR->translate(StringIdentifier::SID_CONFIANCE_QUOTE_2, "« ETIC apporte une véritable valeur ajoutée au projet. Les équipes d’étudiants sont surprenantes de professionnalisme, de créativité et de rigueur. Nous avons avancé ensemble, dans un contexte complexe et des délais limités. Le courage et la solidarité ont été des valeurs communicatives et déterminantes pour la réussite de ce programme ambitieux. En effet, en plus des compétences techniques et de gestion de projet qui caractérisent l’INSA, ETIC dispose d’excellents commerciaux ! Depuis cette expérience, je les recommande régulièrement. » <b>Barbara Coudène</b>");
-$DICT_FR->translate(StringIdentifier::SID_CONFIANCE_QUOTE_3, "« Non seulement porteur du progrès technique, l’ingénieur doit de plus en plus être créateur de valeur. Il doit pouvoir imaginer la société de demain. Pour accompagner cette évolution, il devient important de le sensibiliser très tôt à une culture d’innovation et un esprit d’entreprendre. ETIC INSA Technologies, la junior entreprise de l’INSA de Lyon, est une des vitrines de cette volonté. Nous sommes fiers de soutenir chaque année ces jeunes talents qui délivrent toutes leurs compétences aux professionnels qui parient sur l’innovation et le dynamisme. Depuis sa création en 1981, ETIC INSA Technologies ne cesse de se développer et de se distinguer. C’est aujourd’hui l’une des 4 meilleures Junior-Entreprises de France. Donner le goût et les outils pour entreprendre, telle est l’ambition de l’INSA de Lyon, qui accompagne ses élèves vers une nouvelle génération d’ingénieur, capable de construire notre société future. » <b>Eric Maurincomme, Directeur de l’INSA de Lyon</b>");
+$DICT_FR->translate(StringIdentifier::SID_CONFIANCE_QUOTE_3, "« Non seulement porteur du progrès technique, l’ingénieur doit de plus en plus être créateur de valeur. Il doit pouvoir imaginer la société de demain. Pour accompagner cette évolution, il devient important de le sensibiliser très tôt à une culture d’innovation et un esprit d’entreprendre. ETIC INSA Technologies, la junior entreprise de l’INSA Lyon, est une des vitrines de cette volonté. Nous sommes fiers de soutenir chaque année ces jeunes talents qui délivrent toutes leurs compétences aux professionnels qui parient sur l’innovation et le dynamisme. Depuis sa création en 1981, ETIC INSA Technologies ne cesse de se développer et de se distinguer. C’est aujourd’hui l’une des 4 meilleures Junior-Entreprises de France. Donner le goût et les outils pour entreprendre, telle est l’ambition de l’INSA Lyon, qui accompagne ses élèves vers une nouvelle génération d’ingénieur, capable de construire notre société future. » <b>Eric Maurincomme, Directeur de l’INSA Lyon</b>");
 
 $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_1, "Nos partenaires premium");
 $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_2, "Les partenaires premium CNJE");
@@ -428,7 +428,7 @@ $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_7,"Une phase d’analyse 
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_8,"Un binôme chargé d’affaire/correspondant qualité sur chaque étude");
 
 $DICT_FR->translate(StringIdentifier::SID_PRESIDENT_H1,"Le mot du président");
-$DICT_FR->translate(StringIdentifier::SID_PRESIDENT_P,"Fort de 35 ans d’expérience, nous accompagnons les entreprises dans leurs projets en proposant une vision jeune, dynamique et innovante. Toujours à la pointe des dernières technologies grâce à une formation technique de qualité à l’INSA de Lyon, nos intervenants apportent à vos projets une forte valeur ajoutée.");
+$DICT_FR->translate(StringIdentifier::SID_PRESIDENT_P,"Fort de 35 ans d’expérience, nous accompagnons les entreprises dans leurs projets en proposant une vision jeune, dynamique et innovante. Toujours à la pointe des dernières technologies grâce à une formation technique de qualité à l’INSA Lyon, nos intervenants apportent à vos projets une forte valeur ajoutée.");
 $DICT_FR->translate(StringIdentifier::SID_PRESIDENT_SIGN,"Martin Delbecque, président 2016-2017");
 $DICT_FR->translate(StringIdentifier::SID_BUREAU,"Le bureau");
 $DICT_FR->translate(StringIdentifier::SID_CA,"Le conseil d'administration");
@@ -464,7 +464,7 @@ $DICT_FR->translate(StringIdentifier::SID_CRP_P,"Chaque année, les Junior-Entre
 $DICT_FR->translate(StringIdentifier::SID_CRA_P,"Chaque année, les Junior-Entrepreneurs se réunissent en automne pour assister à des formations, des conférences, et bien sûr faire des rencontres. Cet événement permet aux participants de se créer un réseau tout en assimilant de nouvelles connaissances et bonnes pratiques. Il est organisé par une Junior-Entreprises de la région.");
 $DICT_FR->translate(StringIdentifier::SID_CNE_P,"Tous les étés, les Junior-Entrepreneurs de toute la France se retrouvent pour un évènement de grande envergure. Des intervenants prestigieux assurent des formations, et les labels récompensent les meilleures Junior-Entreprises de France dans plusieurs domaines.");
 $DICT_FR->translate(StringIdentifier::SID_CNH_P,"Tous les hivers, les Junior-Entrepreneurs de toute la France se retrouvent pour un évènement de grande envergure. Des intervenants prestigieux assurent des formations, et les challenges récompensent les meilleures Junior-Entreprises de France dans plusieurs domaines.");
-$DICT_FR->translate(StringIdentifier::SID_JDP_P,"Destinée aux étudiants de l'INSA de Lyon, la Journée du Développement Personnel leur permet d'assister à des formations réalisées par des intervenants invités pour l'occasion. Ces formations, complémentaires à celles de l'école, mettent l'accent sur la personnalité plutôt que sur les compétences techniques de l'ingénieur.");
+$DICT_FR->translate(StringIdentifier::SID_JDP_P,"Destinée aux étudiants de l'INSA Lyon, la Journée du Développement Personnel leur permet d'assister à des formations réalisées par des intervenants invités pour l'occasion. Ces formations, complémentaires à celles de l'école, mettent l'accent sur la personnalité plutôt que sur les compétences techniques de l'ingénieur.");
 $DICT_FR->translate(StringIdentifier::SID_TEDX_P,'TED est une organisation à but non lucratif dédiée aux « Ideas Worth Spreading », des idées qui méritent d’être diffusées. Depuis 1984, cette conférence organisée autour des thèmes « Technology, Entertainment, Design » se développe pour soutenir les idées qui changent le monde. TEDx a été créé dans l’esprit de la mission de TED, pour permettre à des communautés, des organisations et des individus d\'organiser des événements TED locaux. Etic organise le TEDxINSA, qui se déroule chaque année à la rotonde de l\'INSA Lyon. Plus d\'informations sur
 <a href="http://www.tedxinsa.com/" target="_blank">le site de TEDxINSA.</a>');
 
@@ -482,6 +482,19 @@ $DICT_FR->translate(StringIdentifier::SID_DEVIS_RESET, "Réinitialiser");
 $DICT_FR->translate(StringIdentifier::SID_DEVIS_SUBMIT, "Envoyer");
 $DICT_FR->translate(StringIdentifier::SID_DEVIS_HEADER, "Demande de devis");
 
-$DICT_FR->translate(StringIdentifier::SID_FOOTER_DESCRIPTION, "Junior-Entreprise de l'INSA de Lyon");
+$DICT_FR->translate(StringIdentifier::SID_FOOTER_DESCRIPTION, "Junior-Entreprise de l'INSA Lyon");
 $DICT_FR->translate(StringIdentifier::SID_FOOTER_RESEAUX, "Réseaux sociaux");
 $DICT_FR->translate(StringIdentifier::SID_FOOTER_CONTACT, "Nous contacter");
+
+
+$DICT_FR->translate(StringIdentifier::SID_PRES, "Président");
+$DICT_FR->translate(StringIdentifier::SID_VP,"Vice-Président");
+$DICT_FR->translate(StringIdentifier::SID_SG,"Secrétaire Générale");
+$DICT_FR->translate(StringIdentifier::SID_TRESO,"Trésorière");
+$DICT_FR->translate(StringIdentifier::SID_VTRESO,"Vice-Trésorier");
+$DICT_FR->translate(StringIdentifier::SID_RESP_DSI,"Responsable DSI");
+$DICT_FR->translate(StringIdentifier::SID_RESP_QUALITE,"Responsable Qualité");
+$DICT_FR->translate(StringIdentifier::SID_RESP_UA_V, "Responsable Ventes");
+$DICT_FR->translate(StringIdentifier::SID_RESP_UA_RM, "Responsable Réalisation");
+$DICT_FR->translate(StringIdentifier::SID_RESP_GRC, "Responsable Relations Clients");
+$DICT_FR->translate(StringIdentifier::SID_RESP_COM,"Responsable Communication");
