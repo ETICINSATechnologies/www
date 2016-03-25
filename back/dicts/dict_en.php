@@ -470,3 +470,5 @@ $DICT_EN->translate(StringIdentifier::SID_RESP_UA_V, "Sales Manager");
 $DICT_EN->translate(StringIdentifier::SID_RESP_UA_RM, "Implementation Manager");
 $DICT_EN->translate(StringIdentifier::SID_RESP_GRC, "Clients Relationships Manager");
 $DICT_EN->translate(StringIdentifier::SID_RESP_COM,"Community Manager");
+
+$DICT_EN->translate(StringIdentifier::SID_PROJECT_IDEA,"A project ? An idea ?");

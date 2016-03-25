@@ -498,3 +498,5 @@ $DICT_FR->translate(StringIdentifier::SID_RESP_UA_V, "Responsable Ventes");
 $DICT_FR->translate(StringIdentifier::SID_RESP_UA_RM, "Responsable Réalisation");
 $DICT_FR->translate(StringIdentifier::SID_RESP_GRC, "Responsable Relations Clients");
 $DICT_FR->translate(StringIdentifier::SID_RESP_COM,"Responsable Communication");
+
+$DICT_FR->translate(StringIdentifier::SID_PROJECT_IDEA,"Un projet ? Une idée ?");

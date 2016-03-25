@@ -230,6 +230,8 @@ class StringIdentifier {
 	const SID_FOOTER_RESEAUX        	= "{FOOTER_RESEAUX}";
 	const SID_FOOTER_CONTACT        	= "{FOOTER_CONTACT}";
 
+	const SID_PROJECT_IDEA        	= "{PROJECT_IDEA}";
+
 	// tableau des identifiants
 	const SIDS = array(
 		StringIdentifier::SID_TITLE,
@@ -446,7 +448,10 @@ class StringIdentifier {
 
 		StringIdentifier::SID_FOOTER_DESCRIPTION,
 		StringIdentifier::SID_FOOTER_RESEAUX,
-		StringIdentifier::SID_FOOTER_CONTACT
+		StringIdentifier::SID_FOOTER_CONTACT,
+
+		StringIdentifier::SID_PROJECT_IDEA
+
 
 		);
 
