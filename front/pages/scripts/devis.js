@@ -71,11 +71,11 @@ function submit() {
 function check_input() {
 	// test des entrées requises
 	var in_lastname 	= $("#in_lastname").val();
-	if(!re_test("[A-Za-z\-\s]+", in_lastname, function(){
+	if(!re_test("[A-Za-z\\-\\s]+", in_lastname, function(){
 		field_error("#field_lastname", "Le nom ne doit pas être vide");
 	})){ return false; }
 	var in_firstname 	= $("#in_firstname").val();
-	if(!re_test("[A-Za-z\-\s]+", in_firstname, function(){
+	if(!re_test("[A-Za-z\\-\\s]+", in_firstname, function(){
 		field_error("#field_firstname", "Le prénom ne doit pas être vide");
 	})){ return false; }
 	var in_firm 		= $("#in_firm").val();
@@ -84,15 +84,15 @@ function check_input() {
 		return false; 
 	}
 	var in_mail 		= $("#in_mail").val();
-	if(!re_test("[\w\-\.]+@[\w-]+\.\w+", in_mail, function(){
+	if(!re_test("[\\w\\-\\.]+@[\\w-]+\\.\\w+", in_mail, function(){
 		field_error("#field_mail", "Le mail entré est invalide");
 	})){ return false; }
 	var in_phone 		= $("#in_phone").val();
-	if(!re_test("\d{10}", in_phone, function(){
+	if(!re_test("\\d{10}", in_phone, function(){
 		field_error("#field_phone", "Le numéro de téléphone entré ne correspond pas au format : 0000000000");
 	})){ return false; }
 	var in_subject 		= $("#in_subject").val();
-	if(!re_test("[\w\-\.]+", in_subject, function(){
+	if(!re_test("[\\w\-\\.]+", in_subject, function(){
 		field_error("#field_subject", "Le sujet ne doit pas être vide");
 	})){ return false; }
 	var in_message 		= $("#in_message").val();
@@ -101,16 +101,16 @@ function check_input() {
 		return false; 
 	}
 	var captcha_code 	= $("#in_captcha").val();
-	if(!re_test("\w+", captcha_code, function(){
+	if(!re_test("\\w+", captcha_code, function(){
 		field_error("#field_captcha", "Le code captcha ne doit pas être vide");
 	})){ return false; }
 	// test des entrées optionnelles
 	var in_budget 		= $("#in_budget").val();
-	if(!re_test("\d*", in_budget, function(){
+	if(!re_test("\\d*", in_budget, function(){
 		field_error("#field_budget", "Le montant du budget doit être entré en chiffres seulement (pas de devise), ou rester vide");
 	})){ return false; }
 	var in_duration 	= $("#in_duration").val();
-	if(!re_test("\d*", in_duration, function(){
+	if(!re_test("\\d*", in_duration, function(){
 		field_error("#field_duration", "La durée de mission estimée doit être entrée en chiffres seulement, ou rester vide");
 	})){ return false; }
 	// on retourne vrai si tout s'est bien passé
@@ -119,7 +119,9 @@ function check_input() {
 
 function re_test(pattern, string, fail) {
 	var ok = true;
+	console.log(string + pattern);
 	var re = new RegExp(pattern);
+	console.log(string + re);
 	if(!re.test(string)) {
 		fail();
 		ok = false;
