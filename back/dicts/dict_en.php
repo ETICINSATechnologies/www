@@ -29,13 +29,13 @@ $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_TOP, "Best Junior-Entreprise
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_DOMAINES, "Fields of proficiency");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_SATISFACTION, "Clients satisfied");
 $DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_1, "Semi-finalist Prix d'excellence 2014 <br>
-Winner of the Challenge Junior Pérenne in 2013 <br>
+Laureate of the Challenge Junior Pérenne in 2013 <br>
 Laureate of the Challenge Junior Engagée in 2013 <br>
 Laureate of the Label Entrepreneur in 2013 <br>
 Finalist of the Prix d’Excellence in 2012 and 2013<br>
 Semi-finalist of the Prix d’Excellence in 2007 ");
 $DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_2, "Finalist of the Label ingénieur in 2007 <br> 
-Top 30 of the best JE from France since 2001 (out of 162) <br>
+Top 30 best JE in France since 2001 (out of 162) <br>
 Finalist of the Label Communication in 2004<br>
 Top 12 of the best JE in 2004<br>
 Finalist of the Label Ingénieur in 2001 and 2003<br>
@@ -57,7 +57,7 @@ $DICT_EN->translate(StringIdentifier::SID_HOME_TRUST, "THEY TRUSTED US");
 $DICT_EN->translate(StringIdentifier::SID_HOME_TEMOIGNAGE, "Feedbacks");
 $DICT_EN->translate(StringIdentifier::SID_HOME_TEMOIGNAGE_SUB, "We are interested in our clients and partners feedbacks");
 $DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_H1, "Prize list");
-$DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_SUB, "A Junior-Entrepreprise performante sur la durée");
+$DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_SUB, "A high-performing Junior-Entrepreprise over time");
 
 $DICT_EN->translate(StringIdentifier::SID_ETUDE_H2_1, "Your request");
 $DICT_EN->translate(StringIdentifier::SID_ETUDE_H2_2, "Commercial proposition");
