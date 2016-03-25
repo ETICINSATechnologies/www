@@ -51,7 +51,7 @@ if(isset($_POST['action'])) {
 			if(check_input()) {
 				$mailer = new Mailer();
 				$sent = $mailer->SendMail(
-					array("responsable-dsi@etic-insa.com"), 
+					array("responsable-dsi@etic-insa.com", "president@etic-insa.com", "responsable-unite-daffaire@etic-insa.com"), 
 					new NewRequestMail(),
 					array(
 						"LASTNAME" 	=> htmlentities($_POST['in_lastname']),

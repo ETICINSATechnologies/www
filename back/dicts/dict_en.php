@@ -371,15 +371,15 @@ $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_PLUS_TR, "<div class=\"ui 
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_PLUS_SC, "");
 
 $DICT_EN->translate(StringIdentifier::SID_MOUVEMENT_P, "A Junior-Entreprise is an association related to the french law of 1901, managed by students from schools and universities.
-A vocation pédagogique, elle réalise des prestations de service dans ses domaines de compétences auprès de ses clients. Plus de 170 structures sont regroupées au sein de la Confédération Nationale des Juniors-Entreprises (CNJE).
+With an educational purpose, they implement projects in their fields of proficiency for their clients. More than 170 structures have been created in France and contributes to the Confédration Nationale des Junior-Entreprises.
 <br><br>
-ETIC INSA Technologies est la Junior-Entreprise de l’INSA Lyon.
-Créée en 1981, elle se positionne comme l’une des meilleures Junior-Entreprises de France. La mission d’ETIC INSA Technologies consiste à réaliser des études répondant aux attentes du client (caractéristiques techniques), délais, coûts à travers une méthodologie contrôlée et un dialogue continu avec le client. ");
+ETIC INSA Technologies is the Junior-Entreprise at INSA Lyon.
+Created in 1981, we rank among the best Junior-Entreprises in France. ETIC INSA Technologies' mission is to implement studies to fulfill the needs and expectations of our clients, respecting the technical aspects, deadline, and cost through a controlled methodology and continuous interactions with the client.");
 
-$DICT_EN->translate(StringIdentifier::SID_CONFIANCE_1, "Ils nous ont fait confiance");
-$DICT_EN->translate(StringIdentifier::SID_CONFIANCE_2, "Des institutions");
-$DICT_EN->translate(StringIdentifier::SID_CONFIANCE_3, "Des petites structures");
-$DICT_EN->translate(StringIdentifier::SID_CONFIANCE_4, "Témoignages");
+$DICT_EN->translate(StringIdentifier::SID_CONFIANCE_1, "They trusted us");
+$DICT_EN->translate(StringIdentifier::SID_CONFIANCE_2, "Institutions");
+$DICT_EN->translate(StringIdentifier::SID_CONFIANCE_3, "Small structures");
+$DICT_EN->translate(StringIdentifier::SID_CONFIANCE_4, "Feedbacks");
 $DICT_EN->translate(StringIdentifier::SID_CONFIANCE_QUOTE_1, "« Notre travail avec ETIC INSA Technologies a été très fructueux. Les compétences techniques et humaines des intervenants nous ont permis d’avancer rapidement sur le projet électronique que nous leur avions soumis. J’ai particulièrement apprécié leur réactivité et leur motivation.Les résultats obtenus nous permettent d’affirmer que nous ferons de nouveau appel à ETIC INSA si le besoin apparaît sur un futur projet. » <b>Faustine Vanhulle – Innovation Group – ElcoBrandt</b>");
 $DICT_EN->translate(StringIdentifier::SID_CONFIANCE_QUOTE_2, "« ETIC apporte une véritable valeur ajoutée au projet. Les équipes d’étudiants sont surprenantes de professionnalisme, de créativité et de rigueur. Nous avons avancé ensemble, dans un contexte complexe et des délais limités. Le courage et la solidarité ont été des valeurs communicatives et déterminantes pour la réussite de ce programme ambitieux. En effet, en plus des compétences techniques et de gestion de projet qui caractérisent l’INSA, ETIC dispose d’excellents commerciaux ! Depuis cette expérience, je les recommande régulièrement. » <b>Barbara Coudène</b>");
 $DICT_EN->translate(StringIdentifier::SID_CONFIANCE_QUOTE_3, "« Non seulement porteur du progrès technique, l’ingénieur doit de plus en plus être créateur de valeur. Il doit pouvoir imaginer la société de demain. Pour accompagner cette évolution, il devient important de le sensibiliser très tôt à une culture d’innovation et un esprit d’entreprendre. ETIC INSA Technologies, la junior entreprise de l’INSA de Lyon, est une des vitrines de cette volonté. Nous sommes fiers de soutenir chaque année ces jeunes talents qui délivrent toutes leurs compétences aux professionnels qui parient sur l’innovation et le dynamisme. Depuis sa création en 1981, ETIC INSA Technologies ne cesse de se développer et de se distinguer. C’est aujourd’hui l’une des 4 meilleures Junior-Entreprises de France. Donner le goût et les outils pour entreprendre, telle est l’ambition de l’INSA de Lyon, qui accompagne ses élèves vers une nouvelle génération d’ingénieur, capable de construire notre société future. » <b>Eric Maurincomme, Directeur de l’INSA de Lyon</b>");
@@ -390,16 +390,16 @@ $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_3, "Our Junior-Entreprises
 $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_4, "Our Junior-Entreprises partnershups worldwide");
 
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H1, "Our quality method");
-$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_1, "ETIC INSA Technologies tient à fournir des services de qualité à ses clients afin de leur assurer la réalisation des missions confiées dans les délais impartis et le respect du cahier des charges. Et ce, en offrant à ses membres, élèves ingénieurs INSA, une structure performante qui leur permette d’apprendre et de se confronter aux réelles exigences du monde professionnel, le tout dans un climat de confiance mutuelle.");
-$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_2, "Pour cela, et depuis maintenant plus de 30 ans, ETIC INSA Technologies est soutenue et contrôlée par la CNJE (Confédération Nationale des Juniors Entreprises). Une fois par an, la Junior Entreprise est auditée sur ses processus, le suivi des études et la gestion de la trésorerie. La réussite de cet audit est la condition sine qua non au maintien de la marque Junior Entreprise. De plus, ETIC s’engage aujourd’hui dans une démarche de certification ISO 9001 : 2008 ce qui lui permet une accentuation de l’écoute client.");
-$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H2_1,"Cette démarche s'articule autour de trois grands axes :");
-$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H2_2,"Pour cela, elle s'appuie sur une organisation :");
-$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_3,"Ecoute continue et personnalisée du client");
-$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_4,"Garantie des compétences de nos intervenants");
-$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_5,"Maîtrise du livrable au coeur de nos préoccupations");
-$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_6,"Traitement de la sollicitation sous 24h");
-$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_7,"Une phase d’analyse validée par le client");
-$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_8,"Un binôme chargé d’affaire/correspondant qualité sur chaque étude");
+$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_1, "ETIC INSA Technologies wishes to provide high quality services to its clients in order to make sure of the good implementation of the project it is entrusted with, respecting determined deadlines and specifications. By doing so, it gives its members, engineering students, a high performing structure that allows them to learn and confront the real requirements of the professional world, while preserving a good mood for everyone.");
+$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_2, "With this purpose in mind, and for more than 35 years, ETIC INSA Technologies has been supported and controlled by the CNJE (National Confederation of Juniors Entreprises). Once a year, the Junior Entreprise is audited on its processus, its study monitoring and treasury management. The success of this audit is the sine qua non condition to maintain the Junior Entreprise brand. Even more, ETIC is now committed to the ISO 9001 certification standards (2008) to become even better at understanding its clients needs.");
+$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H2_1,"This process is focused on three main axis :");
+$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H2_2,"To do this, it relies on an organisation :");
+$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_3,"Continuous and personalized listening of the client");
+$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_4,"Guaranteed skills of our contributors");
+$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_5,"Mastery of the deliverable in the heart of our concerns");
+$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_6,"Solicitation treated in 24h");
+$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_7,"An analysis phase validated by the client");
+$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_8,"A pair : chargé d’affaire/quality correspondent for each study");
 
 $DICT_EN->translate(StringIdentifier::SID_PRESIDENT_H1,"Le mot du président");
 $DICT_EN->translate(StringIdentifier::SID_PRESIDENT_P,"Fort de 35 ans d’expérience, nous accompagnons les entreprises dans leurs projets en proposant une vision jeune, dynamique et innovante. Toujours à la pointe des dernières technologies grâce à une formation technique de qualité à l’INSA de Lyon, nos intervenants apportent à vos projets une forte valeur ajoutée.");
@@ -408,31 +408,31 @@ $DICT_EN->translate(StringIdentifier::SID_BUREAU,"Le bureau");
 $DICT_EN->translate(StringIdentifier::SID_CA,"Le conseil d'administration");
 $DICT_EN->translate(StringIdentifier::SID_EQUIPES,"Nos équipes");
 
-$DICT_EN->translate(StringIdentifier::SID_DSI,"DSI");
-$DICT_EN->translate(StringIdentifier::SID_QUALITE,"Qualité");
-$DICT_EN->translate(StringIdentifier::SID_UA,"Unité d'Affaire");
-$DICT_EN->translate(StringIdentifier::SID_GRC,"Relation Client");
+$DICT_EN->translate(StringIdentifier::SID_DSI,"IS");
+$DICT_EN->translate(StringIdentifier::SID_QUALITE,"Quality");
+$DICT_EN->translate(StringIdentifier::SID_UA,"Business Unit");
+$DICT_EN->translate(StringIdentifier::SID_GRC,"Client Relationships");
 $DICT_EN->translate(StringIdentifier::SID_COM,"Communication");
 
-$DICT_EN->translate(StringIdentifier::SID_DESC_DSI,"Système d'information");
-$DICT_EN->translate(StringIdentifier::SID_DESC_QUALITE,"Suivi et amélioration continus");
-$DICT_EN->translate(StringIdentifier::SID_DESC_UA,"Vente et réalisation de mission");
-$DICT_EN->translate(StringIdentifier::SID_DESC_GRC,"Prise de contact avec le client");
-$DICT_EN->translate(StringIdentifier::SID_DESC_COM,"Evénements et cohésion d'équipe");
+$DICT_EN->translate(StringIdentifier::SID_DESC_DSI,"Information System");
+$DICT_EN->translate(StringIdentifier::SID_DESC_QUALITE,"Continuous monitoring and improvement");
+$DICT_EN->translate(StringIdentifier::SID_DESC_UA,"Sales and mission implementation");
+$DICT_EN->translate(StringIdentifier::SID_DESC_GRC,"Making contact with clients");
+$DICT_EN->translate(StringIdentifier::SID_DESC_COM,"Events and team building");
 
-$DICT_EN->translate(StringIdentifier::SID_CRP,"Congrès Régional de Printemps");
-$DICT_EN->translate(StringIdentifier::SID_CRA,"Congrès Régional d'Automne");
-$DICT_EN->translate(StringIdentifier::SID_CNE,"Congrès National d'Été");
-$DICT_EN->translate(StringIdentifier::SID_CNH,"Congrès National d'Hiver");
-$DICT_EN->translate(StringIdentifier::SID_JDP,"Journée du Développement Personnel");
+$DICT_EN->translate(StringIdentifier::SID_CRP,"Congrès Régional de Printemps (Spring Regional Congress)");
+$DICT_EN->translate(StringIdentifier::SID_CRA,"Congrès Régional d'Automne (Autumn Regional Congress)");
+$DICT_EN->translate(StringIdentifier::SID_CNE,"Congrès National d'Été (Summer National Congress)");
+$DICT_EN->translate(StringIdentifier::SID_CNH,"Congrès National d'Hiver (Winter National Congress)");
+$DICT_EN->translate(StringIdentifier::SID_JDP,"Journée du Développement Personnel (Personal Development Day)");
 $DICT_EN->translate(StringIdentifier::SID_TEDX,"TEDxINSA");
 
-$DICT_EN->translate(StringIdentifier::SID_CRP_SUB,"Organisé par la CNJE");
-$DICT_EN->translate(StringIdentifier::SID_CRA_SUB,"Organisé par la CNJE");
-$DICT_EN->translate(StringIdentifier::SID_CNE_SUB,"Organisé par la CNJE");
-$DICT_EN->translate(StringIdentifier::SID_CNH_SUB,"Organisé par la CNJE");
-$DICT_EN->translate(StringIdentifier::SID_JDP_SUB,"Organisé par Etic");
-$DICT_EN->translate(StringIdentifier::SID_TEDX_SUB,"Organisé par Etic");
+$DICT_EN->translate(StringIdentifier::SID_CRP_SUB,"Organized by the Centre-Est region of the CNJE");
+$DICT_EN->translate(StringIdentifier::SID_CRA_SUB,"Organized by the Centre-Est region of the CNJE");
+$DICT_EN->translate(StringIdentifier::SID_CNE_SUB,"Organized by the CNJE");
+$DICT_EN->translate(StringIdentifier::SID_CNH_SUB,"Organized by the CNJE");
+$DICT_EN->translate(StringIdentifier::SID_JDP_SUB,"Organized by Etic");
+$DICT_EN->translate(StringIdentifier::SID_TEDX_SUB,"Organized by Etic");
 
 $DICT_EN->translate(StringIdentifier::SID_CRP_P,"Congrès Régional de Printemps");
 $DICT_EN->translate(StringIdentifier::SID_CRA_P,"Congrès Régional d'Automne");
@@ -448,13 +448,13 @@ $DICT_EN->translate(StringIdentifier::SID_DEVIS_MAIL, "Email");
 $DICT_EN->translate(StringIdentifier::SID_DEVIS_PHONE, "Telephone");
 $DICT_EN->translate(StringIdentifier::SID_DEVIS_SUBJECT, "Subject");
 $DICT_EN->translate(StringIdentifier::SID_DEVIS_MESSAGE, "Details");
-$DICT_EN->translate(StringIdentifier::SID_DEVIS_PLANNED_BUDGET, "Budget (à titre indicatif)");
-$DICT_EN->translate(StringIdentifier::SID_DEVIS_PLANNED_DURATION, "Durée (à titre indicatif)");
-$DICT_EN->translate(StringIdentifier::SID_DEVIS_CAPTCHA_CODE, "Saisir le texte de l'image ci-dessus");
-$DICT_EN->translate(StringIdentifier::SID_DEVIS_RESET, "Réinitialiser");
-$DICT_EN->translate(StringIdentifier::SID_DEVIS_SUBMIT, "Envoyer");
-$DICT_EN->translate(StringIdentifier::SID_DEVIS_HEADER, "Formulaire devis");
+$DICT_EN->translate(StringIdentifier::SID_DEVIS_PLANNED_BUDGET, "Budget (in euros, for information)");
+$DICT_EN->translate(StringIdentifier::SID_DEVIS_PLANNED_DURATION, "Durée (in months, for information)");
+$DICT_EN->translate(StringIdentifier::SID_DEVIS_CAPTCHA_CODE, "Type the text in the picture above");
+$DICT_EN->translate(StringIdentifier::SID_DEVIS_RESET, "Reset");
+$DICT_EN->translate(StringIdentifier::SID_DEVIS_SUBMIT, "Send");
+$DICT_EN->translate(StringIdentifier::SID_DEVIS_HEADER, "Ask for an estimate");
 
-$DICT_EN->translate(StringIdentifier::SID_FOOTER_DESCRIPTION, "Junior-Entreprise of l'INSA Lyon");
+$DICT_EN->translate(StringIdentifier::SID_FOOTER_DESCRIPTION, "Junior-Entreprise of INSA Lyon");
 $DICT_EN->translate(StringIdentifier::SID_FOOTER_RESEAUX, "Social networks");
 $DICT_EN->translate(StringIdentifier::SID_FOOTER_CONTACT, "Contact us");
