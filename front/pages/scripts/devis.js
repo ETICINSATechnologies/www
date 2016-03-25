@@ -119,9 +119,7 @@ function check_input() {
 
 function re_test(pattern, string, fail) {
 	var ok = true;
-	console.log(string + pattern);
 	var re = new RegExp(pattern);
-	console.log(string + re);
 	if(!re.test(string)) {
 		fail();
 		ok = false;
