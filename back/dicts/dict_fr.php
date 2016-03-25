@@ -477,7 +477,7 @@ $DICT_FR->translate(StringIdentifier::SID_DEVIS_SUBJECT, "Sujet");
 $DICT_FR->translate(StringIdentifier::SID_DEVIS_MESSAGE, "Message");
 $DICT_FR->translate(StringIdentifier::SID_DEVIS_PLANNED_BUDGET, "Budget (en euros, à titre indicatif)");
 $DICT_FR->translate(StringIdentifier::SID_DEVIS_PLANNED_DURATION, "Durée (en mois, à titre indicatif)");
-$DICT_FR->translate(StringIdentifier::SID_DEVIS_CAPTCHA_CODE, "Saisir le texte de l'image ci-dessus");
+$DICT_FR->translate(StringIdentifier::SID_DEVIS_CAPTCHA_CODE, "Saisir le texte de l'image ci-dessus (en minuscules)");
 $DICT_FR->translate(StringIdentifier::SID_DEVIS_RESET, "Réinitialiser");
 $DICT_FR->translate(StringIdentifier::SID_DEVIS_SUBMIT, "Envoyer");
 $DICT_FR->translate(StringIdentifier::SID_DEVIS_HEADER, "Demande de devis");
