@@ -502,3 +502,6 @@ $DICT_FR->translate(StringIdentifier::SID_RESP_GRC, "Responsable Relations Clien
 $DICT_FR->translate(StringIdentifier::SID_RESP_COM,"Responsable Communication");
 
 $DICT_FR->translate(StringIdentifier::SID_PROJECT_IDEA,"Un projet ? Une idée ?");
+
+$DICT_FR->translate(StringIdentifier::SID_TELECHARGER_PLAQUETTE,"Télécharger notre plaquette");
+$DICT_FR->translate(StringIdentifier::SID_TELECHARGER_PORTFOLIO,"Télécharger notre portfolio");

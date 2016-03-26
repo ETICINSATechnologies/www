@@ -474,3 +474,5 @@ $DICT_EN->translate(StringIdentifier::SID_RESP_GRC, "Clients Relationships Manag
 $DICT_EN->translate(StringIdentifier::SID_RESP_COM,"Community Manager");
 
 $DICT_EN->translate(StringIdentifier::SID_PROJECT_IDEA,"A project ? An idea ?");
+$DICT_EN->translate(StringIdentifier::SID_TELECHARGER_PLAQUETTE,"Download our brochure");
+$DICT_EN->translate(StringIdentifier::SID_TELECHARGER_PORTFOLIO,"Download our portfolio");

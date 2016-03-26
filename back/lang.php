@@ -232,6 +232,9 @@ class StringIdentifier {
 
 	const SID_PROJECT_IDEA        	= "{PROJECT_IDEA}";
 
+	const SID_TELECHARGER_PLAQUETTE        	= "{TELECHARGER_PLAQUETTE}";
+	const SID_TELECHARGER_PORTFOLIO        	= "{TELECHARGER_PORTFOLIO}";
+
 	// tableau des identifiants
 	const SIDS = array(
 		StringIdentifier::SID_TITLE,
@@ -450,7 +453,10 @@ class StringIdentifier {
 		StringIdentifier::SID_FOOTER_RESEAUX,
 		StringIdentifier::SID_FOOTER_CONTACT,
 
-		StringIdentifier::SID_PROJECT_IDEA
+		StringIdentifier::SID_PROJECT_IDEA,
+
+		StringIdentifier::SID_TELECHARGER_PLAQUETTE,
+		StringIdentifier::SID_TELECHARGER_PORTFOLIO
 
 
 		);
