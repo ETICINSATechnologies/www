@@ -56,6 +56,7 @@ function submit() {
 				captcha_code: 	$("#in_captcha").val()
 			},
 			function(data, textString, jqXHR){
+				alert(data);
 				obj = JSON.parse(data);
 				if(obj.good) {
 					alert(obj.data);

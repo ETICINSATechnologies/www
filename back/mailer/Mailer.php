@@ -25,6 +25,7 @@ class Mailer {
     $this->sender   = $config["sender"];
     $this->host     = $config["host"];
     $this->password = $config["password"];
+    #echo $this->sender . " " . $this->host;
     #debug("[NFO] - SMTP config (sender='".$this->sender."',host='".$this->host."',pass='".$this->password."')");
     // on initialise le mailer
     $this->mailer = new PHPMailer;
@@ -71,7 +72,7 @@ class Mailer {
         throw new RuntimeException('Mailer Error: ' . $this->mailer->ErrorInfo, 1);
       }
     } catch (RuntimeException $e) {
-      echo $e->getMessage();
+	 echo $e->getMessage();
       return false;
     }
     return true;
