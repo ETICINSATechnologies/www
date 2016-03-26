@@ -28,7 +28,8 @@ $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_EXPERIENCE, "Years of experi
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_TOP, "Best Junior-Entreprises");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_DOMAINES, "Fields of proficiency");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_SATISFACTION, "Clients satisfied");
-$DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_1, "Semi-finalist Prix d'excellence 2014 <br>
+$DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_1, "Semi-finalist Prix d'excellence 2016 <br>
+Semi-finalist Prix d'excellence 2014 <br>
 Laureate of the Challenge Junior Pérenne in 2013 <br>
 Laureate of the Challenge Junior Engagée in 2013 <br>
 Laureate of the Label Entrepreneur in 2013 <br>
@@ -39,7 +40,8 @@ Top 30 best JE in France since 2001 (out of 162) <br>
 Finalist of the Label Communication in 2004<br>
 Top 12 of the best JE in 2004<br>
 Finalist of the Label Ingénieur in 2001 and 2003<br>
-Finalist of the Label Informatique in 1999");
+Finalist of the Label Informatique in 1999<br>
+Laurate of the Label Technique 1998");
 $DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_3, "Ranked among the 12 best Junior Entreprises from France in 2004 (out of 120 Junior Entreprises)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
 Finalist of the Label Ingénieur in 2001 and 2003
