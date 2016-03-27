@@ -20,7 +20,7 @@ class Mailer {
 
   public function __construct() {
     // On récupère les paramètres du fichier INI
-    $config = parse_ini_file("mailer.ini");
+    $config = parse_ini_file("config/mailer.ini");
     // on récupère les paramètres de configuration en base de données.
     $this->sender   = $config["sender"];
     $this->host     = $config["host"];
