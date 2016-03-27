@@ -32,7 +32,7 @@ class NewRequestMail extends MailTemplate {
 			"\n".
 			"-{MESSAGE}-".
 			"\n".
-			"Champs optionnels : budget : -{BUDGET}- | durée : -{DURATION}-\n".
+			"Champs optionnels : budget : -{BUDGET}-€ | durée : -{DURATION}- semaines\n".
 			"----------------------------------------------------------------\n".
 			"\n",
 			//__________________________________________________________________________________________________________________________________________
@@ -52,7 +52,7 @@ class NewRequestMail extends MailTemplate {
 			"<br>\n".
 			"-{MESSAGE}-<br>".
 			"<br>\n".
-			"Champs optionnels : budget : <b>-{BUDGET}-</b> | durée : <b>-{DURATION}-</b><br>\n".
+			"Champs optionnels : budget : <b>-{BUDGET}-€</b> | durée : <b>-{DURATION}- semaines </b><br>\n".
 			"----------------------------------------------------------------<br>\n".
 			"\n",
 			//__________________________________________________________________________________________________________________________________________

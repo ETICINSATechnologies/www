@@ -451,7 +451,7 @@ $DICT_EN->translate(StringIdentifier::SID_DEVIS_PHONE, "Telephone");
 $DICT_EN->translate(StringIdentifier::SID_DEVIS_SUBJECT, "Subject");
 $DICT_EN->translate(StringIdentifier::SID_DEVIS_MESSAGE, "Details");
 $DICT_EN->translate(StringIdentifier::SID_DEVIS_PLANNED_BUDGET, "Budget (in euros, for information)");
-$DICT_EN->translate(StringIdentifier::SID_DEVIS_PLANNED_DURATION, "Durée (in months, for information)");
+$DICT_EN->translate(StringIdentifier::SID_DEVIS_PLANNED_DURATION, "Length (in weeks, for information)");
 $DICT_EN->translate(StringIdentifier::SID_DEVIS_CAPTCHA_CODE, "Type the text in the picture above (in lowercase)");
 $DICT_EN->translate(StringIdentifier::SID_DEVIS_RESET, "Reset");
 $DICT_EN->translate(StringIdentifier::SID_DEVIS_SUBMIT, "Send");
