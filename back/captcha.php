@@ -31,10 +31,10 @@ function check_input() {
 	if(!preg_match('/\w+/', $_POST['in_message'])) { // vérification du message
 		return false;
 	}
-	if(!preg_match('/\d+/', $_POST['in_budget'])) { // vérification du budget
+	if(!preg_match('/\d+/', $_POST['in_budget']) && $_POST['in_budget'] != "") { // vérification du budget
 		return false;
 	}	
-	if(!preg_match('/\w+/', $_POST['in_duration'])) { // vérification du durée
+	if(!preg_match('/\w+/', $_POST['in_duration']) && $_POST['in_duration'] != "") { // vérification du durée
 		return false;
 	}
 	return true;

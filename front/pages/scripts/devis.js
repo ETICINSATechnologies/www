@@ -51,17 +51,19 @@ function submit() {
 				in_phone: 		$("#in_phone").val(),
 				in_subject: 	$("#in_subject").val(),
 				in_message: 	$("#in_message").val(),
-				in_budget: 		$("#in_budget").val(),
-				in_duration: 	$("#in_duration").val(),
+				in_budget: 		$("#in_budget").val().trim(),
+				in_duration: 	$("#in_duration").val().trim(),
 				captcha_code: 	$("#in_captcha").val()
 			},
 			function(data, textString, jqXHR){
-				alert(data);
+				//alert(data);
 				obj = JSON.parse(data);
 				if(obj.good) {
-					alert(obj.data);
+					//alert(obj.data);
+					form_success();
 				} else {
-					alert(obj.data);
+					form_failure(obj.data);
+					//alert(obj.data);
 				}
 			}
 		);
@@ -139,6 +141,36 @@ function field_error(fieldId, error) {
     		Erreur \
   		</div> \
   		<p>'+error+'</p> \
+  		</div>');
+	// enable message close action
+	$('.message .close').on('click', function(){
+    	$(this).closest('.message').transition('fade');
+  	});
+}
+
+function form_success() {
+		// on ajoute un message d'erreur
+	$('#errors_container').append(
+	'<div class="ui success message"> \
+  		<i class="close black icon"></i> \
+  		<div class="header"> \
+    		Demande envoyée / Request sent \
+  		</div> \
+  		</div>');
+	// enable message close action
+	$('.message .close').on('click', function(){
+    	$(this).closest('.message').transition('fade');
+  	});
+}
+
+function form_failure(data) {
+		// on ajoute un message d'erreur
+	$('#errors_container').append(
+	'<div class="ui negative message"> \
+  		<i class="close black icon"></i> \
+  		<div class="header"> \
+    		An error occurred : ' + data +
+  		'</div> \
   		</div>');
 	// enable message close action
 	$('.message .close').on('click', function(){
