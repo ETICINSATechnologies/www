@@ -29,13 +29,15 @@ $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_TOP, "Best Junior-Entreprise
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_DOMAINES, "Fields of proficiency");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_SATISFACTION, "Clients satisfied");
 $DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_1, "Semi-finalist Prix d'excellence 2016 <br>
+Finalist of the Label Ingénieur in 2016<br>
 Semi-finalist Prix d'excellence 2014 <br>
+Finalist of the Label Ingénieur in 2014<br>
 Laureate of the Challenge Junior Pérenne in 2013 <br>
 Laureate of the Challenge Junior Engagée in 2013 <br>
 Laureate of the Label Entrepreneur in 2013 <br>
-Finalist of the Prix d’Excellence in 2012 and 2013<br>
-Semi-finalist of the Prix d’Excellence in 2007 ");
-$DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_2, "Finalist of the Label ingénieur in 2007 <br> 
+Finalist of the Prix d’Excellence in 2012 and 2013");
+$DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_2, "Finalist of the Label Ingénieur in 2016<br>
+Finalist of the Label ingénieur in 2007 <br> 
 Top 30 best JE in France since 2001 (out of 162) <br>
 Finalist of the Label Communication in 2004<br>
 Top 12 of the best JE in 2004<br>
