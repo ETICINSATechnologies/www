@@ -28,7 +28,7 @@ $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_EXPERIENCE, "Years of experi
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_TOP, "Best Junior-Entreprises");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_DOMAINES, "Fields of proficiency");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_SATISFACTION, "Clients satisfied");
-$DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_1, "Semi-finalist Prix d'excellence 2016 <br>
+$DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_1, "Finalist of the Prix d'excellence 2016 <br>
 Finalist of the Label Ingénieur in 2016<br>
 Semi-finalist Prix d'excellence 2014 <br>
 Finalist of the Label Ingénieur in 2014<br>

@@ -28,9 +28,9 @@ $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_EXPERIENCE, "Années d'expé
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_TOP, "Des meilleures Junior Entreprises");
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_DOMAINES, "Domaines de compétences");
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_SATISFACTION, "De satisfaction client");
-$DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_1, "Demi finaliste prix d'excellence 2016<br>
+$DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_1, "Finaliste du prix d'excellence 2016<br>
 Finaliste du Label Ingénieur 2016 <br>
-Demi finaliste de prix d’excellence 2014 <br>
+Demi finaliste du prix d’excellence 2014 <br>
 Finaliste du Label Ingénieur 2014 <br>
 Lauréat du Challenge Junior Pérenne de 2013 <br>
 Lauréat du Challenge Junior Engagée de 2013 <br>
