@@ -25,6 +25,7 @@ $DICT_EN->translate(StringIdentifier::SID_MOUVEMENT, "About Junior-Entreprises")
 
 /*FR_HOME*/
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_EXPERIENCE, "Years of experience");
+$DICT_EN->translate(StringIdentifier::SID_HOME_STAT_ENG, "Engineering J.E.");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_TOP, "Best Junior-Entreprises");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_DOMAINES, "Fields of proficiency");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_SATISFACTION, "Clients satisfied");

@@ -29,6 +29,7 @@ class StringIdentifier {
 
 	/*HOME*/
 	const SID_HOME_STAT_EXPERIENCE = "{HOME_STAT_EXPERIENCE}";
+	const SID_HOME_STAT_ENG = "{HOME_STAT_ENG}";
 	const SID_HOME_STAT_TOP = "{HOME_STAT_TOP}";
 	const SID_HOME_STAT_DOMAINES = "{HOME_STAT_DOMAINES}";
 	const SID_HOME_STAT_SATISFACTION = "{HOME_STAT_SATISFACTION}";
@@ -256,6 +257,7 @@ class StringIdentifier {
 
 		/*HOME*/
 		StringIdentifier::SID_HOME_STAT_EXPERIENCE,
+		StringIdentifier::SID_HOME_STAT_ENG,
 		StringIdentifier::SID_HOME_STAT_TOP,
 		StringIdentifier::SID_HOME_STAT_DOMAINES,
 		StringIdentifier::SID_HOME_STAT_SATISFACTION,
