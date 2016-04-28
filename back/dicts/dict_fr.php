@@ -183,7 +183,7 @@ $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_PLUS_GCU, "<div class=\"ui
   <i class=\"plus icon\"></i>
   <div class=\"content\">
     <div class=\"header\">
-      Un département spécialisé dans le Génie Civile et l'urbanisme
+      Un département spécialisé dans le Génie Civil et l'urbanisme
     </div>
   </div>
 </div>
@@ -307,7 +307,7 @@ Conception d’aménagements pour votre entreprise.</br>
 <i class=\"small checkmark icon\"></i>
 Examination de la faisabilité de votre future construction.</br>
 <i class=\"small checkmark icon\"></i>
-Effectuation de test sur des matériaux de construction.</br>
+Réalisation de tests sur des matériaux de construction.</br>
 <i class=\"small checkmark icon\"></i>
 Aide pour remettre aux normes.");
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P_GEN, "<i class=\"small checkmark icon\"></i>
