@@ -55,7 +55,7 @@ Lauréat du Label Technique 1998");
 
 $DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS, "Nos offres et services");
 $DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_SUB, "De nombreux domaines d'ingénierie");
-$DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_P, "Grâce à une formation technique diversifiée et de qualité à l'INSA Lyon, ETIC INSA Technologies est en mesure de vous offrir tout un panel de services. De l'informatique à la mécanique, en passant les télécommunications, l'électroniques, le génie civil et bien d'autres, découvrez nos 11 domaines de compétences.");
+$DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_P, "Grâce à une formation technique diversifiée et de qualité à l'INSA Lyon, ETIC INSA Technologies est en mesure de vous offrir tout un panel de services. De l'informatique à la mécanique, en passant par les télécommunications, l'électronique, le génie civil et bien d'autres, découvrez nos 11 domaines de compétences.");
 $DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_DET, "PLUS DE DETAILS");
 
 $DICT_FR->translate(StringIdentifier::SID_HOME_TRUST, "ILS NOUS ONT FAIT CONFIANCE");
