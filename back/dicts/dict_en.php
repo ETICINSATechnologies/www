@@ -25,12 +25,12 @@ $DICT_EN->translate(StringIdentifier::SID_MOUVEMENT, "About Junior-Entreprises")
 
 /*FR_HOME*/
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_EXPERIENCE, "Years of experience");
-$DICT_EN->translate(StringIdentifier::SID_HOME_STAT_ENG, "Engineering J.E.");
+$DICT_EN->translate(StringIdentifier::SID_HOME_STAT_ENG, "J.E. in France");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_TOP, "Best Junior-Entreprises");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_DOMAINES, "Fields of proficiency");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_SATISFACTION, "Clients satisfied");
-$DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_1, "Finalist of the Prix d'excellence 2016 <br>
-Finalist of the Label Ingénieur in 2016<br>
+$DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_1, "Laureate of the Prix d'excellence 2016 <br>
+Laureate of the Label Ingénieur in 2016<br>
 Semi-finalist Prix d'excellence 2014 <br>
 Finalist of the Label Ingénieur in 2014<br>
 Laureate of the Challenge Junior Pérenne in 2013 <br>
@@ -44,14 +44,14 @@ Finalist of the Label Communication in 2004<br>
 Top 12 of the best JE in 2004<br>
 Finalist of the Label Ingénieur in 2001 and 2003<br>
 Finalist of the Label Informatique in 1999<br>
-Laurate of the Label Technique 1998");
+Laureate of the Label Technique 1998");
 $DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_3, "Ranked among the 12 best Junior Entreprises from France in 2004 (out of 120 Junior Entreprises)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
 Finalist of the Label Ingénieur in 2001 and 2003
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
 Finalist of the Label Informatique in 1999
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
-Laurate of the Label Technique 1998");
+Laureate of the Label Technique 1998");
 
 $DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS, "Our offers and services");
 $DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS_SUB, "Many engineering fields");

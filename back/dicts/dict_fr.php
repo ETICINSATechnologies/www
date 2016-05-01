@@ -25,12 +25,12 @@ $DICT_FR->translate(StringIdentifier::SID_MOUVEMENT, "Découvrir le mouvement");
 
 /*FR_HOME*/
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_EXPERIENCE, "Années d'expérience");
-$DICT_FR->translate(StringIdentifier::SID_HOME_STAT_ENG, "J.E. Ingénieure");
+$DICT_FR->translate(StringIdentifier::SID_HOME_STAT_ENG, "des J.E. de France");
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_TOP, "Des meilleures Junior Entreprises");
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_DOMAINES, "Domaines de compétences");
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_SATISFACTION, "De satisfaction client");
-$DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_1, "Finaliste du prix d'excellence 2016<br>
-Finaliste du Label Ingénieur 2016 <br>
+$DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_1, "Lauréat du prix d'excellence 2016<br>
+Lauréat du Label Ingénieur 2016 <br>
 Demi finaliste du prix d’excellence 2014 <br>
 Finaliste du Label Ingénieur 2014 <br>
 Lauréat du Challenge Junior Pérenne de 2013 <br>
