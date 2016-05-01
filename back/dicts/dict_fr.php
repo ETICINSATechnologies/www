@@ -29,23 +29,23 @@ $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_ENG, "des J.E. de France");
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_TOP, "Des meilleures Junior Entreprises");
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_DOMAINES, "Domaines de compétences");
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_SATISFACTION, "De satisfaction client");
-$DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_1, "Lauréat du prix d'excellence 2016<br>
+$DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_1, "Lauréat du Prix d'Excellence 2016<br>
 Lauréat du Label Ingénieur 2016 <br>
-Demi finaliste du prix d’excellence 2014 <br>
+Demi finaliste du Prix d’Excellence 2014 <br>
 Finaliste du Label Ingénieur 2014 <br>
 Lauréat du Challenge Junior Pérenne de 2013 <br>
 Lauréat du Challenge Junior Engagée de 2013 <br>
 Lauréat du Label Entrepreneur en 2013 <br>
 Finaliste du Prix d’Excellence en 2012 et en 2013");
-$DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_2, "Demi Finaliste du prix d’excellence en 2007 <br>
-Finaliste du Label ingénieur en 2007 <br> 
-Top 30 des JE de France depuis 2001 (sur 162) <br>
+$DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_2, "Demi Finaliste du Prix d’Excellence en 2007 <br>
+Finaliste du Label Ingénieur en 2007 <br> 
+Top 30 des J.E. de France depuis 2001 (sur 162) <br>
 Finaliste du Label Communication 2004<br>
-Top 12 des meilleures JE en 2004<br>
+Top 12 des meilleures J.E. en 2004<br>
 Finaliste du Label Ingénieur en 2001 et 2003<br>
 Finaliste du Label Informatique en 1999<br>
 Lauréat du Label Technique 1998");
-$DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_3, "Classement dans les 12 meilleures Junior Entreprises de France en 2004 (sur 120 Junior Entreprises)
+$DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_3, "Classement dans les 12 meilleures Junior-Entreprises de France en 2004 (sur 120 Junior-Entreprises)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
 Finaliste du Label Ingénieur en 2001 et 2003
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
