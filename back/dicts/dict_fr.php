@@ -39,7 +39,7 @@ Lauréat du Label Entrepreneur en 2013 <br>
 Finaliste du Prix d’Excellence en 2012 et en 2013");
 $DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_2, "Demi Finaliste du Prix d’Excellence en 2007 <br>
 Finaliste du Label Ingénieur en 2007 <br> 
-Top 30 des J.E. de France depuis 2001 (sur 162) <br>
+Top 30 des J.E. de France depuis 2001 (sur 170) <br>
 Finaliste du Label Communication 2004<br>
 Top 12 des meilleures J.E. en 2004<br>
 Finaliste du Label Ingénieur en 2001 et 2003<br>
@@ -108,7 +108,7 @@ $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_H2_SGM, "Matériaux");
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_H2_TC, "Télécommunications");
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_H2_GI, "Production");
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_H2_BS, "Biosciences");
-$DICT_FR->translate(StringIdentifier::SID_COMPETENCES_H2_TR, "Traduction");
+$DICT_FR->translate(StringIdentifier::SID_COMPETENCES_H2_TR, "Traduction technique");
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_H2_SC, "Sciences de l'entreprise");
 
 
@@ -309,7 +309,7 @@ Examination de la faisabilité de votre future construction.</br>
 <i class=\"small checkmark icon\"></i>
 Réalisation de tests sur des matériaux de construction.</br>
 <i class=\"small checkmark icon\"></i>
-Aide pour remettre aux normes.");
+Aide pour remise aux normes.");
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P_GEN, "<i class=\"small checkmark icon\"></i>
 Réalisation d’appareils de mesures ou prototype de votre dernière invention.</br>
 <i class=\"small checkmark icon\"></i>

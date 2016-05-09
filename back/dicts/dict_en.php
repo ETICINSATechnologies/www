@@ -39,7 +39,7 @@ Laureate of the Label Entrepreneur in 2013 <br>
 Finalist of the Prix d’Excellence in 2012 and 2013");
 $DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_2, "Finalist of the Label Ingénieur in 2016<br>
 Finalist of the Label ingénieur in 2007 <br> 
-Top 30 best JE in France since 2001 (out of 162) <br>
+Top 30 best JE in France since 2001 (out of 170) <br>
 Finalist of the Label Communication in 2004<br>
 Top 12 of the best JE in 2004<br>
 Finalist of the Label Ingénieur in 2001 and 2003<br>
@@ -108,7 +108,7 @@ $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_H2_SGM, "Materials");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_H2_TC, "Telecommunications");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_H2_GI, "Production");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_H2_BS, "Biosciences");
-$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_H2_TR, "Traduction");
+$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_H2_TR, "Technical translation");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_H2_SC, "Business science");
 
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P_IF, "<i class=\"small checkmark icon\"></i>
