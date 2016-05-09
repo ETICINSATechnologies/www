@@ -74,7 +74,7 @@ $DICT_FR->translate(StringIdentifier::SID_ETUDE_H2_7, "Garantie");
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_H2_8, "Questionnaire de satisfaction");
 
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_H3_1, "Un Projet ⇆ Un chargé d’affaire");
-$DICT_FR->translate(StringIdentifier::SID_ETUDE_H3_2, "Cahier des Charges, budget et Échéancier");
+$DICT_FR->translate(StringIdentifier::SID_ETUDE_H3_2, "Cahier des charges, budget et échéancier");
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_H3_3, "60 % du prix de l'étude");
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_H3_4, "Des retours réguliers");
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_H3_5, "Adaptabilité");
@@ -91,12 +91,12 @@ $DICT_FR->translate(StringIdentifier::SID_ETUDE_BULLSHIT_2, "L’ensemble de nos
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_BULLSHIT_3, "Le suivi de nos projets après leur réalisation nous permet de nous assurer de la satisfaction de nos clients.");
 
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_P_1, "Demandez nous un devis via notre site, nous vous répondrons sous 24h. Une fois le premier contact effectué nous vous affecterons un chargé d’affaires, membre d’ETIC qui sera votre interlocuteur privilégié. Celui-ci sera également chargé de sélectionner, parmi les étudiants de l’INSA Lyon,  les intervenants les plus compétents qui seront amenés à réaliser la partie technique de votre projet. ");
-$DICT_FR->translate(StringIdentifier::SID_ETUDE_P_2, "Une fois les intervenants sélectionnés, une réunion sera organisée par le chargé d’affaires pour définir clairement votre besoin et vos spécifications. A la suite de cette réunion, le chargé d’affaire vous fera parvenir une proposition commerciale, document réunissant un cahier de charges détaillé, une méthodologie de réalisation, un budget approfondi ainsi qu’un échéancier. ");
+$DICT_FR->translate(StringIdentifier::SID_ETUDE_P_2, "Une fois les intervenants sélectionnés, une réunion sera organisée par le chargé d’affaires pour définir clairement votre besoin et vos spécifications. A la suite de cette réunion, le chargé d’affaire vous fera parvenir une proposition commerciale, document réunissant un cahier des charges détaillé, une méthodologie de réalisation, un budget approfondi ainsi qu’un échéancier. ");
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_P_3, "Avant de commencer à réaliser le projet que vous nous confiez, nous vous demanderons de nous faire parvenir un paiement, par virement bancaire ou par chèque. Ceci nous permet de nous assurer de votre sérieux et d'avancer certains frais liés à la réalisation du projet. Si pour une raison quelconque vous souhaitiez arrêter la réalisation de l'étude avant son terme, une partie du paiement reçu pourra vous être restitué si nous n'avons pas commencé une des phases qu'il permettait de financer.");
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_P_4, "Dès le commencement de l’étude jusqu’à son terme, le chargé d’affaire vous fera des comptes-rendus hebdomadaires sur l’avancée du projet. Il veillera également au bon déroulement de l’étude en assurant un contact permanent avec les intervenants. ");
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_P_5, "S'il est nécessaire de modifier les termes de la mission, que ce soit en terme de délais, tarification ou de prestation à réaliser, nous conviendrons ensemble des modifications à apporter à la proposition commerciale.");
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_P_6, "Dès le moment où l’étude est terminée, nous vous fournissons le livrable commandé ainsi que la documentation associée. Vous disposerez alors d’une période de tests du livrable. Si les tests ne s’avéraient pas concluant et que le livrable ne coïncidait pas parfaitement à vos attentes, ETIC s’engage à y apporter les corrections nécessaires afin que le livrable corresponde au mieux à vos attentes.");
-$DICT_FR->translate(StringIdentifier::SID_ETUDE_P_7, "Lorsque l’étude est terminée, nous vous assurons jusqu’à 3 mois de garantie pour chaque livrable. Cette durée vous permet de nous faire tous les retours que vous souhaitez, dans l'éventuel cas où celui-ci ne coïnciderait pas parfaitement avec le cahier de charges concordé.");
+$DICT_FR->translate(StringIdentifier::SID_ETUDE_P_7, "Lorsque l’étude est terminée, nous vous assurons jusqu’à 3 mois de garantie pour chaque livrable. Cette durée vous permet de nous faire tous les retours que vous souhaitez, dans l'éventuel cas où celui-ci ne coïnciderait pas parfaitement avec le cahier des charges concordé.");
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_P_8, "Une fois la mission réalisée, nous vous demandons de répondre à un Questionnaire de satisfaction. Celui-ci a pour but d'améliorer en permanence la qualité de nos services.");
 
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_H2_IF, "Informatique");
@@ -174,7 +174,7 @@ $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_PLUS_TC, "<div class=\"ui 
   <i class=\"plus icon\"></i>
   <div class=\"content\">
     <div class=\"header\">
-      Un département spécialisés dans les télécommunications
+      Un département spécialisé dans les télécommunications
     </div>
   </div>
 </div>");
@@ -225,7 +225,7 @@ $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_PLUS_GE, "<div class=\"ui 
   <i class=\"plus icon\"></i>
   <div class=\"content\">
     <div class=\"header\">
-      Plus grosse étude réalisé en 2012
+      Plus grosse étude réalisée en 2012
     </div>
   </div>
 </div>
@@ -411,7 +411,7 @@ $DICT_FR->translate(StringIdentifier::SID_CONFIANCE_1, "Ils nous ont fait confia
 $DICT_FR->translate(StringIdentifier::SID_CONFIANCE_2, "Des institutions");
 $DICT_FR->translate(StringIdentifier::SID_CONFIANCE_3, "Des petites structures");
 $DICT_FR->translate(StringIdentifier::SID_CONFIANCE_4, "Témoignages");
-$DICT_FR->translate(StringIdentifier::SID_CONFIANCE_QUOTE_1, "« Notre travail avec ETIC INSA Technologies a été très fructueux. Les compétences techniques et humaines des intervenants nous ont permis d’avancer rapidement sur le projet électronique que nous leur avions soumis. J’ai particulièrement apprécié leur réactivité et leur motivation.Les résultats obtenus nous permettent d’affirmer que nous ferons de nouveau appel à ETIC INSA si le besoin apparaît sur un futur projet. » <b>Faustine Vanhulle – Innovation Group – ElcoBrandt</b>");
+$DICT_FR->translate(StringIdentifier::SID_CONFIANCE_QUOTE_1, "« Notre travail avec ETIC INSA Technologies a été très fructueux. Les compétences techniques et humaines des intervenants nous ont permis d’avancer rapidement sur le projet électronique que nous leur avions soumis. J’ai particulièrement apprécié leur réactivité et leur motivation. Les résultats obtenus nous permettent d’affirmer que nous ferons de nouveau appel à ETIC INSA si le besoin apparaît sur un futur projet. » <b>Faustine Vanhulle – Innovation Group – ElcoBrandt</b>");
 $DICT_FR->translate(StringIdentifier::SID_CONFIANCE_QUOTE_2, "« ETIC apporte une véritable valeur ajoutée au projet. Les équipes d’étudiants sont surprenantes de professionnalisme, de créativité et de rigueur. Nous avons avancé ensemble, dans un contexte complexe et des délais limités. Le courage et la solidarité ont été des valeurs communicatives et déterminantes pour la réussite de ce programme ambitieux. En effet, en plus des compétences techniques et de gestion de projet qui caractérisent l’INSA, ETIC dispose d’excellents commerciaux ! Depuis cette expérience, je les recommande régulièrement. » <b>Barbara Coudène</b>");
 $DICT_FR->translate(StringIdentifier::SID_CONFIANCE_QUOTE_3, "« Non seulement porteur du progrès technique, l’ingénieur doit de plus en plus être créateur de valeur. Il doit pouvoir imaginer la société de demain. Pour accompagner cette évolution, il devient important de le sensibiliser très tôt à une culture d’innovation et un esprit d’entreprendre. ETIC INSA Technologies, la junior entreprise de l’INSA Lyon, est une des vitrines de cette volonté. Nous sommes fiers de soutenir chaque année ces jeunes talents qui délivrent toutes leurs compétences aux professionnels qui parient sur l’innovation et le dynamisme. Depuis sa création en 1981, ETIC INSA Technologies ne cesse de se développer et de se distinguer. C’est aujourd’hui l’une des 4 meilleures Junior-Entreprises de France. Donner le goût et les outils pour entreprendre, telle est l’ambition de l’INSA Lyon, qui accompagne ses élèves vers une nouvelle génération d’ingénieur, capable de construire notre société future. » <b>Eric Maurincomme, Directeur de l’INSA Lyon</b>");
 
@@ -421,7 +421,7 @@ $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_3, "Nos partenariats Junio
 $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_4, "Nos partenariats Junior-Entreprises à l'étranger");
 
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H1, "Notre politique qualité");
-$DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_1, "ETIC INSA Technologies tient à fournir des services de qualité à ses clients afin de leur assurer la réalisation des missions confiées dans les délais impartis et le respect du cahier des charges. Et ce, en offrant à ses membres, élèves ingénieurs INSA, une structure performante qui leur permette d’apprendre et de se confronter aux réelles exigences du monde professionnel, le tout dans un climat de confiance mutuelle.");
+$DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_1, "ETIC INSA Technologies tient à fournir des services de qualité à ses clients afin de leur assurer la réalisation des missions confiées dans les délais impartis et le respect du cahier des charges. Et ce, en offrant à ses membres, élèves ingénieurs INSA, une structure performante qui leur permet d’apprendre et de se confronter aux réelles exigences du monde professionnel, le tout dans un climat de confiance mutuelle.");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_2, "Pour cela, et depuis maintenant plus de 30 ans, ETIC INSA Technologies est soutenue et contrôlée par la CNJE (Confédération Nationale des Juniors Entreprises). Une fois par an, la Junior Entreprise est auditée sur ses processus, le suivi des études et la gestion de la trésorerie. La réussite de cet audit est la condition sine qua non au maintien de la marque Junior Entreprise. De plus, ETIC s’engage aujourd’hui dans une démarche de certification ISO 9001 : 2008 ce qui lui permet une accentuation de l’écoute client.");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H2_1,"Cette démarche s'articule autour de trois grands axes :");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H2_2,"Pour cela, elle s'appuie sur une organisation :");
@@ -444,12 +444,14 @@ $DICT_FR->translate(StringIdentifier::SID_QUALITE,"Qualité");
 $DICT_FR->translate(StringIdentifier::SID_UA,"Unité d'Affaire");
 $DICT_FR->translate(StringIdentifier::SID_GRC,"Relation Client");
 $DICT_FR->translate(StringIdentifier::SID_COM,"Communication");
+$DICT_FR->translate(StringIdentifier::SID_TRESOR,"Trésorerie");
 
 $DICT_FR->translate(StringIdentifier::SID_DESC_DSI,"Système d'information");
 $DICT_FR->translate(StringIdentifier::SID_DESC_QUALITE,"Suivi et amélioration continus");
 $DICT_FR->translate(StringIdentifier::SID_DESC_UA,"Vente et réalisation de mission");
 $DICT_FR->translate(StringIdentifier::SID_DESC_GRC,"Prise de contact avec le client");
 $DICT_FR->translate(StringIdentifier::SID_DESC_COM,"Evénements et cohésion d'équipe");
+$DICT_FR->translate(StringIdentifier::SID_DESC_TRESO,"Gestion des finances");
 
 $DICT_FR->translate(StringIdentifier::SID_CRP,"Congrès Régional de Printemps");
 $DICT_FR->translate(StringIdentifier::SID_CRA,"Congrès Régional d'Automne");

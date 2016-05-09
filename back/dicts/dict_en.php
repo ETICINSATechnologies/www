@@ -418,12 +418,14 @@ $DICT_EN->translate(StringIdentifier::SID_QUALITE,"Quality");
 $DICT_EN->translate(StringIdentifier::SID_UA,"Business Unit");
 $DICT_EN->translate(StringIdentifier::SID_GRC,"Client Relationships");
 $DICT_EN->translate(StringIdentifier::SID_COM,"Communication");
+$DICT_EN->translate(StringIdentifier::SID_TRESOR,"Treasury");
 
 $DICT_EN->translate(StringIdentifier::SID_DESC_DSI,"Information System");
 $DICT_EN->translate(StringIdentifier::SID_DESC_QUALITE,"Continuous monitoring and improvement");
 $DICT_EN->translate(StringIdentifier::SID_DESC_UA,"Sales and mission implementation");
 $DICT_EN->translate(StringIdentifier::SID_DESC_GRC,"Making contact with clients");
 $DICT_EN->translate(StringIdentifier::SID_DESC_COM,"Events and team building");
+$DICT_EN->translate(StringIdentifier::SID_DESC_TRESO,"Management of our finances");
 
 $DICT_EN->translate(StringIdentifier::SID_CRP,"Congrès Régional de Printemps (Spring Regional Congress)");
 $DICT_EN->translate(StringIdentifier::SID_CRA,"Congrès Régional d'Automne (Autumn Regional Congress)");

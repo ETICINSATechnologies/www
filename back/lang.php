@@ -173,12 +173,14 @@ class StringIdentifier {
 	const SID_UA = "{UA}";
 	const SID_GRC = "{GRC}";
 	const SID_COM = "{COM}";
+	const SID_TRESOR = "{TRESOR}";
 
 	const SID_DESC_DSI = "{DESC_DSI}";
 	const SID_DESC_QUALITE = "{DESC_QUALITE}";
 	const SID_DESC_UA = "{DESC_UA}";
 	const SID_DESC_GRC = "{DESC_GRC}";
 	const SID_DESC_COM = "{DESC_COM}";
+	const SID_DESC_TRESO = "{DESC_TRESO}";
 
 	const SID_PRES = "{PRES}";
 	const SID_VP = "{VP}";
@@ -397,12 +399,14 @@ class StringIdentifier {
 		StringIdentifier::SID_UA,
 		StringIdentifier::SID_GRC,
 		StringIdentifier::SID_COM,
+		StringIdentifier::SID_TRESOR,
 
 		StringIdentifier::SID_DESC_DSI,
 		StringIdentifier::SID_DESC_QUALITE,
 		StringIdentifier::SID_DESC_UA,
 		StringIdentifier::SID_DESC_GRC,
 		StringIdentifier::SID_DESC_COM,
+		StringIdentifier::SID_DESC_TRESO,
 
 		StringIdentifier::SID_PRES,
 		StringIdentifier::SID_VP,
