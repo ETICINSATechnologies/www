@@ -25,7 +25,7 @@ $DICT_FR->translate(StringIdentifier::SID_MOUVEMENT, "Découvrir le mouvement");
 
 /*FR_HOME*/
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_EXPERIENCE, "Années d'expérience");
-$DICT_FR->translate(StringIdentifier::SID_HOME_STAT_ENG, "des J.E. de France");
+$DICT_FR->translate(StringIdentifier::SID_HOME_STAT_ENG, "en France");
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_TOP, "Des meilleures Junior Entreprises");
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_DOMAINES, "Domaines de compétences");
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_SATISFACTION, "De satisfaction client");
@@ -405,7 +405,7 @@ $DICT_FR->translate(StringIdentifier::SID_MOUVEMENT_P, "Une Junior-Entreprise es
 A vocation pédagogique, elle réalise des prestations de service dans ses domaines de compétences auprès de ses clients. Plus de 170 structures sont regroupées au sein de la Confédération Nationale des Juniors-Entreprises (CNJE).
 <br><br>
 ETIC INSA Technologies est la Junior-Entreprise de l’INSA Lyon.
-Créée en 1981, elle se positionne comme l’une des meilleures Junior-Entreprises de France. La mission d’ETIC INSA Technologies consiste à réaliser des études répondant aux attentes du client (caractéristiques techniques), délais, coûts à travers une méthodologie contrôlée et un dialogue continu avec le client. ");
+Créée en 1981, elle se positionne comme la meilleure Junior-Entreprise de France. La mission d’ETIC INSA Technologies consiste à réaliser des études répondant aux attentes du client (caractéristiques techniques), délais, coûts à travers une méthodologie contrôlée et un dialogue continu avec le client. ");
 
 $DICT_FR->translate(StringIdentifier::SID_CONFIANCE_1, "Ils nous ont fait confiance");
 $DICT_FR->translate(StringIdentifier::SID_CONFIANCE_2, "Des institutions");
@@ -453,24 +453,24 @@ $DICT_FR->translate(StringIdentifier::SID_DESC_GRC,"Prise de contact avec le cli
 $DICT_FR->translate(StringIdentifier::SID_DESC_COM,"Evénements et cohésion d'équipe");
 $DICT_FR->translate(StringIdentifier::SID_DESC_TRESO,"Gestion des finances");
 
-$DICT_FR->translate(StringIdentifier::SID_CRP,"Congrès Régional de Printemps");
-$DICT_FR->translate(StringIdentifier::SID_CRA,"Congrès Régional d'Automne");
-$DICT_FR->translate(StringIdentifier::SID_CNE,"Congrès National d'Été");
-$DICT_FR->translate(StringIdentifier::SID_CNH,"Congrès National d'Hiver");
+$DICT_FR->translate(StringIdentifier::SID_CRP,"Congrès Régionaux");
+//$DICT_FR->translate(StringIdentifier::SID_CRA,"Congrès Régional d'Automne");
+$DICT_FR->translate(StringIdentifier::SID_CNE,"Congrès Nationaux");
+//$DICT_FR->translate(StringIdentifier::SID_CNH,"Congrès National d'Hiver");
 $DICT_FR->translate(StringIdentifier::SID_JDP,"Journée du Développement Personnel");
 $DICT_FR->translate(StringIdentifier::SID_TEDX,"TEDxINSA");
 
 $DICT_FR->translate(StringIdentifier::SID_CRP_SUB,"Organisé par la région Centre-Est de la CNJE");
-$DICT_FR->translate(StringIdentifier::SID_CRA_SUB,"Organisé par la région Centre-Est de la CNJE");
-$DICT_FR->translate(StringIdentifier::SID_CNE_SUB,"Organisé par la CNJE");
-$DICT_FR->translate(StringIdentifier::SID_CNH_SUB,"Organisé par la CNJE");
+//$DICT_FR->translate(StringIdentifier::SID_CRA_SUB,"Organisé par la région Centre-Est de la CNJE");
+$DICT_FR->translate(StringIdentifier::SID_CNE_SUB,"Organisés par la CNJE");
+//$DICT_FR->translate(StringIdentifier::SID_CNH_SUB,"Organisé par la CNJE");
 $DICT_FR->translate(StringIdentifier::SID_JDP_SUB,"Organisé par Etic depuis 2011");
 $DICT_FR->translate(StringIdentifier::SID_TEDX_SUB,"Organisé par Etic depuis 2013");
 
-$DICT_FR->translate(StringIdentifier::SID_CRP_P,"Chaque année, les Junior-Entrepreneurs se réunissent au printemps pour assister à des formations, des conférences, et bien sûr faire des rencontres. Cet événement permet aux participants de se créer un réseau tout en assimilant de nouvelles connaissances et bonnes pratiques. Il est organisé par une Junior-Entreprises de la région. Etic a organisé le Congrès Régional de Printemps 2015 pour la région Centre-Est.");
-$DICT_FR->translate(StringIdentifier::SID_CRA_P,"Chaque année, les Junior-Entrepreneurs se réunissent en automne pour assister à des formations, des conférences, et bien sûr faire des rencontres. Cet événement permet aux participants de se créer un réseau tout en assimilant de nouvelles connaissances et bonnes pratiques. Il est organisé par une Junior-Entreprises de la région.");
-$DICT_FR->translate(StringIdentifier::SID_CNE_P,"Tous les étés, les Junior-Entrepreneurs de toute la France se retrouvent pour un évènement de grande envergure. Des intervenants prestigieux assurent des formations, et les labels récompensent les meilleures Junior-Entreprises de France dans plusieurs domaines.");
-$DICT_FR->translate(StringIdentifier::SID_CNH_P,"Tous les hivers, les Junior-Entrepreneurs de toute la France se retrouvent pour un évènement de grande envergure. Des intervenants prestigieux assurent des formations, et les challenges récompensent les meilleures Junior-Entreprises de France dans plusieurs domaines.");
+$DICT_FR->translate(StringIdentifier::SID_CRP_P,"Deux fois par an, au printemps et en automne, les Junior-Entrepreneurs se réunissent pour assister à des formations, des conférences, et bien sûr faire des rencontres. Ces événements permettent aux participants de se créer un réseau tout en assimilant de nouvelles connaissances et bonnes pratiques. Ils sont organisé par une Junior-Entreprise de la région. Etic a organisé le Congrès Régional de Printemps 2015 pour la région Centre-Est.");
+//$DICT_FR->translate(StringIdentifier::SID_CRA_P,"Chaque année, les Junior-Entrepreneurs se réunissent en automne pour assister à des formations, des conférences, et bien sûr faire des rencontres. Cet événement permet aux participants de se créer un réseau tout en assimilant de nouvelles connaissances et bonnes pratiques. Il est organisé par une Junior-Entreprises de la région.");
+$DICT_FR->translate(StringIdentifier::SID_CNE_P,"Deux fois par an, en été et en hiver, les Junior-Entrepreneurs de toute la France se retrouvent pour un évènement de grande envergure. Des intervenants prestigieux assurent des formations, et les labels et challenges récompensent les meilleures Junior-Entreprises de France dans plusieurs domaines. En 2016, Etic a remporté le Prix d'Excellence, attribué à la meilleure Junior-Entreprise de France, et le Label Ingénieur, pour avoir réalisé le meilleur projet ingénieur.");
+//$DICT_FR->translate(StringIdentifier::SID_CNH_P,"Tous les hivers, les Junior-Entrepreneurs de toute la France se retrouvent pour un évènement de grande envergure. Des intervenants prestigieux assurent des formations, et les challenges récompensent les meilleures Junior-Entreprises de France dans plusieurs domaines.");
 $DICT_FR->translate(StringIdentifier::SID_JDP_P,"Destinée aux étudiants de l'INSA Lyon, la Journée du Développement Personnel leur permet d'assister à des formations réalisées par des intervenants invités pour l'occasion. Ces formations, complémentaires à celles de l'école, mettent l'accent sur la personnalité plutôt que sur les compétences techniques de l'ingénieur.");
 $DICT_FR->translate(StringIdentifier::SID_TEDX_P,'TED est une organisation à but non lucratif dédiée aux « Ideas Worth Spreading », des idées qui méritent d’être diffusées. Depuis 1984, cette conférence organisée autour des thèmes « Technology, Entertainment, Design » se développe pour soutenir les idées qui changent le monde. TEDx a été créé dans l’esprit de la mission de TED, pour permettre à des communautés, des organisations et des individus d\'organiser des événements TED locaux. Etic organise le TEDxINSA, qui se déroule chaque année à la rotonde de l\'INSA Lyon. Plus d\'informations sur
 <a href="http://www.tedxinsa.com/" target="_blank">le site de TEDxINSA.</a>');

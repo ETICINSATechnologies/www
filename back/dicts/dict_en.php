@@ -25,7 +25,7 @@ $DICT_EN->translate(StringIdentifier::SID_MOUVEMENT, "About Junior-Entreprises")
 
 /*FR_HOME*/
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_EXPERIENCE, "Years of experience");
-$DICT_EN->translate(StringIdentifier::SID_HOME_STAT_ENG, "J.E. in France");
+$DICT_EN->translate(StringIdentifier::SID_HOME_STAT_ENG, "in France");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_TOP, "Best Junior-Entreprises");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_DOMAINES, "Fields of proficiency");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_SATISFACTION, "Clients satisfied");
@@ -379,7 +379,7 @@ $DICT_EN->translate(StringIdentifier::SID_MOUVEMENT_P, "A Junior-Entreprise is a
 With an educational purpose, they implement projects in their fields of proficiency for their clients. More than 170 structures have been created in France and contributes to the Confédration Nationale des Junior-Entreprises.
 <br><br>
 ETIC INSA Technologies is the Junior-Entreprise at INSA Lyon.
-Created in 1981, we rank among the best Junior-Entreprises in France. ETIC INSA Technologies' mission is to implement studies to fulfill the needs and expectations of our clients, respecting the technical aspects, deadline, and cost through a controlled methodology and continuous interactions with the client.");
+Created in 1981, we are the best Junior-Entreprise in France. ETIC INSA Technologies' mission is to implement studies to fulfill the needs and expectations of our clients, respecting the technical aspects, deadline, and cost through a controlled methodology and continuous interactions with the client.");
 
 $DICT_EN->translate(StringIdentifier::SID_CONFIANCE_1, "They trusted us");
 $DICT_EN->translate(StringIdentifier::SID_CONFIANCE_2, "Institutions");
@@ -427,26 +427,27 @@ $DICT_EN->translate(StringIdentifier::SID_DESC_GRC,"Making contact with clients"
 $DICT_EN->translate(StringIdentifier::SID_DESC_COM,"Events and team building");
 $DICT_EN->translate(StringIdentifier::SID_DESC_TRESO,"Management of our finances");
 
-$DICT_EN->translate(StringIdentifier::SID_CRP,"Congrès Régional de Printemps (Spring Regional Congress)");
-$DICT_EN->translate(StringIdentifier::SID_CRA,"Congrès Régional d'Automne (Autumn Regional Congress)");
-$DICT_EN->translate(StringIdentifier::SID_CNE,"Congrès National d'Été (Summer National Congress)");
-$DICT_EN->translate(StringIdentifier::SID_CNH,"Congrès National d'Hiver (Winter National Congress)");
+$DICT_EN->translate(StringIdentifier::SID_CRP,"Congrès Régionaux(Regional Congress)");
+//$DICT_EN->translate(StringIdentifier::SID_CRA,"Congrès Régional d'Automne (Autumn Regional Congress)");
+$DICT_EN->translate(StringIdentifier::SID_CNE,"Congrès Nationaux(National Congress)");
+//$DICT_EN->translate(StringIdentifier::SID_CNH,"Congrès National d'Hiver (Winter National Congress)");
 $DICT_EN->translate(StringIdentifier::SID_JDP,"Journée du Développement Personnel (Personal Development Day)");
 $DICT_EN->translate(StringIdentifier::SID_TEDX,"TEDxINSA");
 
 $DICT_EN->translate(StringIdentifier::SID_CRP_SUB,"Organized by the Centre-Est region of the CNJE");
-$DICT_EN->translate(StringIdentifier::SID_CRA_SUB,"Organized by the Centre-Est region of the CNJE");
+//$DICT_EN->translate(StringIdentifier::SID_CRA_SUB,"Organized by the Centre-Est region of the CNJE");
 $DICT_EN->translate(StringIdentifier::SID_CNE_SUB,"Organized by the CNJE");
-$DICT_EN->translate(StringIdentifier::SID_CNH_SUB,"Organized by the CNJE");
+//$DICT_EN->translate(StringIdentifier::SID_CNH_SUB,"Organized by the CNJE");
 $DICT_EN->translate(StringIdentifier::SID_JDP_SUB,"Organized by Etic");
 $DICT_EN->translate(StringIdentifier::SID_TEDX_SUB,"Organized by Etic");
 
-$DICT_EN->translate(StringIdentifier::SID_CRP_P,"Congrès Régional de Printemps");
-$DICT_EN->translate(StringIdentifier::SID_CRA_P,"Congrès Régional d'Automne");
-$DICT_EN->translate(StringIdentifier::SID_CNE_P,"Congrès National d'Été");
-$DICT_EN->translate(StringIdentifier::SID_CNH_P,"Congrès National d'Hiver");
-$DICT_EN->translate(StringIdentifier::SID_JDP_P,"Destinée aux étudiants de l'INSA de Lyon, la Journée du Développement Personnel leur permet d'assister à des formations réalisées par des intervenants invités pour l'occasion. Ces formations, complémentaires à celles de l'école, mettent l'accent sur la personnalité plutôt que sur les compétences techniques de l'ingénieur.");
-$DICT_EN->translate(StringIdentifier::SID_TEDX_P,"TEDxINSA");
+$DICT_EN->translate(StringIdentifier::SID_CRP_P,"Twice a year, in spring and autumn, the Junior-Entrepreneurs gather to attend to trainings, conferences, and of course meet new people. These events allow the participants to create their network while learning knowledge and best practices. They are organized by a Junior-Entreprise in the region. Etic organized the Spring Regional Congress in 2015 for the Centre-Est region.");
+//$DICT_EN->translate(StringIdentifier::SID_CRA_P,"Congrès Régional d'Automne");
+$DICT_EN->translate(StringIdentifier::SID_CNE_P,"Twice a year, in summer and winter, the Junior-Entrepreneurs of all France gather for a large event. Prestigious speakers handle trainings, and the labels and challenges reward the best Junior-Entreprises in France in several fields. In 2016, Etic won the Prix d'Excellence, awarded to the best french Junior-Entreprise, and the Label Ingénieur, for having implemented the best engineering project.");
+//$DICT_EN->translate(StringIdentifier::SID_CNH_P,"Congrès National d'Hiver");
+$DICT_EN->translate(StringIdentifier::SID_JDP_P,"Directed toward students at INSA de Lyon, the Journée du Développement Personnel allow them to attend to trainings made by guest speakers. These trainings, complementary to those of the school, insist on personality more than technical engineering skills.");
+$DICT_EN->translate(StringIdentifier::SID_TEDX_P,"TED is a non-profit organization dedicated to « Ideas Worth Spreading ». Since 1984, this conference organized around topics such as « Technology, Entertainment, Design » develop to support the ideas that change the world. TEDx was created in the spirit of TED's mission, to allow communities, organizations and individuals to organize local TED events. Etic organizes the TEDxINSA, which takes place each year in the rotunda of INSA Lyon. More on
+<a href=\"http://www.tedxinsa.com/\" target=\"_blank\">TEDxINSA's website.</a>");
 
 $DICT_EN->translate(StringIdentifier::SID_DEVIS_LASTNAME, "Last name");
 $DICT_EN->translate(StringIdentifier::SID_DEVIS_FIRSTNAME, "First name");
