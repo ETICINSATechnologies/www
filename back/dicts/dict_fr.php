@@ -421,10 +421,10 @@ $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_3, "Nos partenariats Junio
 $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_4, "Nos partenariats Junior-Entreprises à l'étranger");
 
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H1, "Notre politique qualité");
-$DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_1, "ETIC INSA Technologies tient à fournir des services de qualité à ses clients afin de leur assurer la réalisation des missions confiées dans les délais impartis et le respect du cahier des charges. Et ce, en offrant à ses membres, élèves ingénieurs INSA, une structure performante qui leur permet d’apprendre et de se confronter aux réelles exigences du monde professionnel, le tout dans un climat de confiance mutuelle.");
-$DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_2, "Pour cela, et depuis maintenant plus de 30 ans, ETIC INSA Technologies est soutenue et contrôlée par la CNJE (Confédération Nationale des Juniors Entreprises). Une fois par an, la Junior Entreprise est auditée sur ses processus, le suivi des études et la gestion de la trésorerie. La réussite de cet audit est la condition sine qua non au maintien de la marque Junior Entreprise. De plus, ETIC s’engage aujourd’hui dans une démarche de certification ISO 9001 : 2008 ce qui lui permet une accentuation de l’écoute client.");
-$DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H2_1,"Cette démarche s'articule autour de trois grands axes :");
-$DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H2_2,"Pour cela, elle s'appuie sur une organisation :");
+$DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_1, "ETIC INSA Technologies tient à fournir des <strong>services de qualité</strong> à ses clients afin de leur assurer la réalisation des missions confiées dans les <strong>délais impartis</strong> et le <strong>respect du cahier des charges</strong>. Et ce, en offrant à ses membres, élèves ingénieurs INSA, une <strong>structure performante</strong> qui leur permet d’<strong>apprendre</strong> et de se confronter aux réelles exigences du monde professionnel, le tout dans un climat de <strong>confiance</strong> mutuelle.");
+$DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_2, "Pour cela, et depuis maintenant <strong>plus de 30 ans</strong>, ETIC INSA Technologies est <strong>soutenue</strong> et contrôlée par la CNJE (Confédération Nationale des Juniors Entreprises). Une fois par an, la Junior Entreprise est <strong>auditée sur ses processus</strong>, le suivi des études et la gestion de la trésorerie. La réussite de cet audit est la condition sine qua non au maintien de la marque Junior Entreprise. De plus, ETIC s’engage aujourd’hui dans une démarche de certification ISO 9001 : 2008 ce qui lui permet une accentuation de l’écoute client.");
+$DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H2_1,"Cette démarche s'articule autour de trois grands axes...");
+$DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H2_2,"...et s'appuie sur une organisation efficace");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_3,"Ecoute continue et personnalisée du client");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_4,"Garantie des compétences de nos intervenants");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_5,"Maîtrise du livrable au coeur de nos préoccupations");
@@ -433,7 +433,7 @@ $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_7,"Une phase d’analyse 
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_8,"Un binôme chargé d’affaire/correspondant qualité sur chaque étude");
 
 $DICT_FR->translate(StringIdentifier::SID_PRESIDENT_H1,"Le mot du président");
-$DICT_FR->translate(StringIdentifier::SID_PRESIDENT_P,"Fort de 35 ans d’expérience, nous accompagnons les entreprises dans leurs projets en proposant une vision jeune, dynamique et innovante. Toujours à la pointe des dernières technologies grâce à une formation technique de qualité à l’INSA Lyon, nos intervenants apportent à vos projets une forte valeur ajoutée.");
+$DICT_FR->translate(StringIdentifier::SID_PRESIDENT_P,"Forts de 35 ans d’expérience, nous accompagnons les entreprises dans leurs projets en proposant une vision jeune, dynamique et innovante. Toujours à la pointe des dernières technologies grâce à une formation technique de qualité à l’INSA Lyon, nos intervenants apportent à vos projets une forte valeur ajoutée.");
 $DICT_FR->translate(StringIdentifier::SID_PRESIDENT_SIGN,"Martin Delbecque, président 2016-2017");
 $DICT_FR->translate(StringIdentifier::SID_BUREAU,"Le bureau");
 $DICT_FR->translate(StringIdentifier::SID_CA,"Le conseil d'administration");
@@ -447,7 +447,7 @@ $DICT_FR->translate(StringIdentifier::SID_COM,"Communication");
 $DICT_FR->translate(StringIdentifier::SID_TRESOR,"Trésorerie");
 
 $DICT_FR->translate(StringIdentifier::SID_DESC_DSI,"Système d'information");
-$DICT_FR->translate(StringIdentifier::SID_DESC_QUALITE,"Suivi et amélioration continus");
+$DICT_FR->translate(StringIdentifier::SID_DESC_QUALITE,"Suivi et amélioration continue");
 $DICT_FR->translate(StringIdentifier::SID_DESC_UA,"Vente et réalisation de mission");
 $DICT_FR->translate(StringIdentifier::SID_DESC_GRC,"Prise de contact avec le client");
 $DICT_FR->translate(StringIdentifier::SID_DESC_COM,"Evénements et cohésion d'équipe");

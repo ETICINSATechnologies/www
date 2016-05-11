@@ -15,50 +15,18 @@
   <script type="text/javascript" src="front/semantic/semantic.min.js"></script>
   <script type="text/javascript" src="front/pages/scripts/responsive_padding.js"></script>
   <script type="text/javascript" src="front/pages/scripts/translate.js"></script>
-  
-  <!-- FISTE TON NAVIGATEUR
-  <script type="text/javascript">
-  	$(document).ready(function(){
-  	var footerHeight = $("footer").height();
-  	var cpt = 0;
-  	if($(document).height()==$(window).height())
-  	{
-  		while($(document).height()==$(window).height())
-  		{
-  			$(".filler").remove();
-  			cpt = cpt + 1;
-  			$("footer").before('<div class = filler style="min-height:' + cpt + 'px;"></div>');
-  		}
-  		$(".filler").remove();
-  		cpt = cpt -1;
-  		$("footer").before('<div class = filler style="min-height:' + cpt + 'px;"></div>');
-  	}
-  	
-  });
-  </script> 
-  -->
-<!--non-fonctionnel (Semantic?)
-<script type="text/javascript">
-  	$(document).ready(function(){
-  	var footerHeight = $(".footer").height();
-  	$(".page").attr("style", 'padding-bottom :'+ footerHeight + 'px;"');
-  	$(".footer").attr("style", '"clear: both; position: relative; z-index: 10; margin-top: -'+ footerHeight +'px;"');
-  });
-
- </script> -->
-
 </head>
 
 
 <body style="display: flex;  min-height: 100vh;  flex-direction: column; padding-top:70px;"> 
-		<div id="topmenu" class="ui top fixed menu stackable" style="background-color: white;">
+		<div id="topmenu" class="ui top fixed tabular menu stackable" style="background-color: white;">
 	      <div class="ui fluid container">
 	        <a href="{LINK_HOME}" class="header item">
 	          <img alt="img" class="logo" src="front/assets/logo-etic1.png">
 	          &nbsp; {TITLE}
 	        </a>
-	        <a href="{LINK_HOME}" class="item">{HOME}</a>
-	        <div class="ui simple dropdown item">
+	        <a id="link_home" href="{LINK_HOME}" class="item">{HOME}</a>
+	        <div class="ui simple dropdown item" id="link_presta">
 	          {PRESTA} <i class="green dropdown icon"></i>
 	          <div class="menu">
 	            <a class="item" href="{LINK_STUDY}">{ETUDE}</a>

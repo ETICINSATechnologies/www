@@ -10,6 +10,14 @@
    h1 { font-size: 2.5vw; }
 }
 
+/*                                      *
+*           header.html           *
+*                                           */
+
+.ui.tabular.menu .item:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
 /*										*
 *			home.html 			*
 *											*/
@@ -51,11 +59,11 @@
     margin-right: auto;
 }
 
-@media screen and (min-height: 600px) {
+/*@media screen and (min-height: 600px) {
     .swiper-container {
-        height: 50%;
+        height: 70%;
     }
-}
+}*/
 
 @media screen and (max-height: 300px) {
     .swiper-container {
