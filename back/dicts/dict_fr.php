@@ -420,9 +420,15 @@ $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_2, "Les partenaires premiu
 $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_3, "Nos partenariats Junior-Entreprises en France");
 $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_4, "Nos partenariats Junior-Entreprises à l'étranger");
 
+$DICT_FR->translate(StringIdentifier::SID_VALEURS_H1, "Nos valeurs");
+$DICT_FR->translate(StringIdentifier::SID_VALEURS_1, "Fiabilité");
+$DICT_FR->translate(StringIdentifier::SID_VALEURS_2, "Ouverture");
+$DICT_FR->translate(StringIdentifier::SID_VALEURS_3, "Engagement");
+$DICT_FR->translate(StringIdentifier::SID_VALEURS_4, "Audace");
+$DICT_FR->translate(StringIdentifier::SID_VALEURS_5, "Développement personnel");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H1, "Notre politique qualité");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_1, "ETIC INSA Technologies tient à fournir des <strong>services de qualité</strong> à ses clients afin de leur assurer la réalisation des missions confiées dans les <strong>délais impartis</strong> et le <strong>respect du cahier des charges</strong>. Et ce, en offrant à ses membres, élèves ingénieurs INSA, une <strong>structure performante</strong> qui leur permet d’<strong>apprendre</strong> et de se confronter aux réelles exigences du monde professionnel, le tout dans un climat de <strong>confiance</strong> mutuelle.");
-$DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_2, "Pour cela, et depuis maintenant <strong>plus de 30 ans</strong>, ETIC INSA Technologies est <strong>soutenue</strong> et contrôlée par la CNJE (Confédération Nationale des Juniors Entreprises). Une fois par an, la Junior Entreprise est <strong>auditée sur ses processus</strong>, le suivi des études et la gestion de la trésorerie. La réussite de cet audit est la condition sine qua non au maintien de la marque Junior Entreprise. De plus, ETIC s’engage aujourd’hui dans une démarche de certification ISO 9001 : 2008 ce qui lui permet une accentuation de l’écoute client.");
+$DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_2, "Pour cela, et depuis maintenant <strong>plus de 30 ans</strong>, ETIC INSA Technologies est <strong>soutenue</strong> et contrôlée par la CNJE (Confédération Nationale des Juniors Entreprises). Une fois par an, la Junior Entreprise est <strong>auditée sur ses processus</strong>, le suivi des études et la gestion de la trésorerie. La réussite de cet audit est la condition sine qua non au maintien de la marque Junior Entreprise. De plus, ETIC s’engage aujourd’hui dans une démarche de certification ISO 9001 : 2008, dans le but d'offrir la meilleure réponse aux exigences de nos clients.");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H2_1,"Cette démarche s'articule autour de trois grands axes...");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H2_2,"...et s'appuie sur une organisation efficace");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_3,"Ecoute continue et personnalisée du client");
@@ -430,7 +436,7 @@ $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_4,"Garantie des compéten
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_5,"Maîtrise du livrable au coeur de nos préoccupations");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_6,"Traitement de la sollicitation sous 24h");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_7,"Une phase d’analyse validée par le client");
-$DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_8,"Un binôme chargé d’affaire/correspondant qualité sur chaque étude");
+$DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_8,"Un binôme chargé d’affaires/correspondant qualité sur chaque étude");
 
 $DICT_FR->translate(StringIdentifier::SID_PRESIDENT_H1,"Le mot du président");
 $DICT_FR->translate(StringIdentifier::SID_PRESIDENT_P,"Forts de 35 ans d’expérience, nous accompagnons les entreprises dans leurs projets en proposant une vision jeune, dynamique et innovante. Toujours à la pointe des dernières technologies grâce à une formation technique de qualité à l’INSA Lyon, nos intervenants apportent à vos projets une forte valeur ajoutée.");
@@ -448,8 +454,8 @@ $DICT_FR->translate(StringIdentifier::SID_TRESOR,"Trésorerie");
 
 $DICT_FR->translate(StringIdentifier::SID_DESC_DSI,"Système d'information");
 $DICT_FR->translate(StringIdentifier::SID_DESC_QUALITE,"Suivi et amélioration continue");
-$DICT_FR->translate(StringIdentifier::SID_DESC_UA,"Vente et réalisation de mission");
-$DICT_FR->translate(StringIdentifier::SID_DESC_GRC,"Prise de contact avec le client");
+$DICT_FR->translate(StringIdentifier::SID_DESC_UA,"Vente et réalisation de missions");
+$DICT_FR->translate(StringIdentifier::SID_DESC_GRC,"Prise de contact et fidélisation");
 $DICT_FR->translate(StringIdentifier::SID_DESC_COM,"Evénements et cohésion d'équipe");
 $DICT_FR->translate(StringIdentifier::SID_DESC_TRESO,"Gestion des finances");
 

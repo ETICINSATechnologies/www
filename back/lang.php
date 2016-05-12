@@ -148,6 +148,12 @@ class StringIdentifier {
 	const SID_PARTENAIRES_3 = "{PARTENAIRES_3}";
 	const SID_PARTENAIRES_4 = "{PARTENAIRES_4}";
 
+	const SID_VALEURS_H1 = "{VALEURS_H1}";
+	const SID_VALEURS_1 = "{VALEURS_1}";
+	const SID_VALEURS_2 = "{VALEURS_2}";
+	const SID_VALEURS_3 = "{VALEURS_3}";
+	const SID_VALEURS_4 = "{VALEURS_4}";
+	const SID_VALEURS_5 = "{VALEURS_5}";
 	const SID_ENGAGEMENT_H1 = "{ENGAGEMENT_H1}";
 	const SID_ENGAGEMENT_P_1 = "{ENGAGEMENT_P_1}";
 	const SID_ENGAGEMENT_P_2 = "{ENGAGEMENT_P_2}";
@@ -370,6 +376,12 @@ class StringIdentifier {
 		StringIdentifier::SID_CONFIANCE_QUOTE_2,
 		StringIdentifier::SID_CONFIANCE_QUOTE_3,
 
+		StringIdentifier::SID_VALEURS_H1,
+		StringIdentifier::SID_VALEURS_1,
+		StringIdentifier::SID_VALEURS_2,
+		StringIdentifier::SID_VALEURS_3,
+		StringIdentifier::SID_VALEURS_4,
+		StringIdentifier::SID_VALEURS_5,
 		StringIdentifier::SID_ENGAGEMENT_H1,
 		StringIdentifier::SID_ENGAGEMENT_P_1,
 		StringIdentifier::SID_ENGAGEMENT_P_2,

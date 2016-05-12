@@ -91,9 +91,9 @@ $DICT_EN->translate(StringIdentifier::SID_ETUDE_BULLSHIT_2, "All our studies are
 $DICT_EN->translate(StringIdentifier::SID_ETUDE_BULLSHIT_3, "We follow our projects after their completion to make sure our clients are satisfied with our work.");
 
 $DICT_EN->translate(StringIdentifier::SID_ETUDE_P_1, "Ask us for an estimate on our website, we will answer in the next 24 hours. Once first contact has been made, we will affect a chargé d’affaires, a member of ETIC who will be your main interlocutor. He or she will select, among all the students at INSA Lyon, the most skilled contributors to implement the technical part of your project.");
-$DICT_EN->translate(StringIdentifier::SID_ETUDE_P_2, "Once the contributors have been selected, a reunion will be organized by the chargé d’affaires to define clearly your needs and specifications. Following this reunion, the chargé d’affaire will send you a commercial proposition, a documents including a detailed specification, a methodology of implementation, a more precise budget and a timetable. ");
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_P_2, "Once the contributors have been selected, a reunion will be organized by the chargé d’affaires to define clearly your needs and specifications. Following this reunion, the chargé d’affaires will send you a commercial proposition, a documents including a detailed specification, a methodology of implementation, a more precise budget and a timetable. ");
 $DICT_EN->translate(StringIdentifier::SID_ETUDE_P_3, "Before implementing your project, nous vous demanderons de nous faire parvenir un paiement, par virement bancaire ou par chèque. Ceci nous permet de nous assurer de votre sérieux et d'avancer certains frais liés à la réalisation du projet. Si pour une raison quelconque vous souhaitiez arrêter la réalisation de l'étude avant son terme, une partie du paiement reçu pourra vous être restitué si nous n'avons pas commencé une des phases qu'il permettait de financer.");
-$DICT_EN->translate(StringIdentifier::SID_ETUDE_P_4, "As soon as the study starts and until its end, the chargé d’affaire will send you weekly reports on the advancement of your project. He or she will also make sure the study is going well by being in contact with the contributors all the time.");
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_P_4, "As soon as the study starts and until its end, the chargé d’affaires will send you weekly reports on the advancement of your project. He or she will also make sure the study is going well by being in contact with the contributors all the time.");
 $DICT_EN->translate(StringIdentifier::SID_ETUDE_P_5, "If needed, it is possible to make changes to the mission's terms, concerning the deadline, pricing or implementation. We will find an agreement together to apply those changes in the commercial proposition.");
 $DICT_EN->translate(StringIdentifier::SID_ETUDE_P_6, "As soon as the study is complete, we will deliver the results you asked for and the associated documents. You will then have time to test the deliverable. If the tests are not satisfying enough and the deliverable is not what you expected, ETIC promises to make the necessary corrections in order to deliver the best possible results.");
 $DICT_EN->translate(StringIdentifier::SID_ETUDE_P_7, "When the study is over, you will have a 3 months guarantee for each deliverable. This period allows you to give us feedbacks if you have any issue with the results.");
@@ -394,9 +394,15 @@ $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_2, "CNJE's premium partner
 $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_3, "Our Junior-Entreprises partnerships in France");
 $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_4, "Our Junior-Entreprises partnershups worldwide");
 
+$DICT_EN->translate(StringIdentifier::SID_VALEURS_H1, "Our values");
+$DICT_EN->translate(StringIdentifier::SID_VALEURS_1, "Reliability");
+$DICT_EN->translate(StringIdentifier::SID_VALEURS_2, "Opening");
+$DICT_EN->translate(StringIdentifier::SID_VALEURS_3, "Commitment");
+$DICT_EN->translate(StringIdentifier::SID_VALEURS_4, "Boldness");
+$DICT_EN->translate(StringIdentifier::SID_VALEURS_5, "Personal Development");
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H1, "Our quality method");
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_1, "ETIC INSA Technologies wishes to provide high quality services to its clients in order to make sure of the good implementation of the project it is entrusted with, respecting determined deadlines and specifications. By doing so, it gives its members, engineering students, a high performing structure that allows them to learn and confront the real requirements of the professional world, while preserving a good mood for everyone.");
-$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_2, "With this purpose in mind, and for more than 35 years, ETIC INSA Technologies has been supported and controlled by the CNJE (National Confederation of Juniors Entreprises). Once a year, the Junior Entreprise is audited on its processus, its study monitoring and treasury management. The success of this audit is the sine qua non condition to maintain the Junior Entreprise brand. Even more, ETIC is now committed to the ISO 9001 certification standards (2008) to become even better at understanding its clients needs.");
+$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_2, "With this purpose in mind, and for more than 35 years, ETIC INSA Technologies has been supported and controlled by the CNJE (National Confederation of Juniors Entreprises). Once a year, the Junior Entreprise is audited on its processus, its study monitoring and treasury management. The success of this audit is the sine qua non condition to maintain the Junior Entreprise brand. Even more, ETIC is now committed to the ISO 9001 certification standards (2008) in order to offer the best answer to the demands of our clients.");
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H2_1,"This process is focused on three main axis :");
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H2_2,"To do this, it relies on an organisation :");
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_3,"Continuous and personalized listening of the client");
@@ -404,7 +410,7 @@ $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_4,"Guaranteed skills of o
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_5,"Mastery of the deliverable in the heart of our concerns");
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_6,"Solicitation treated in 24h");
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_7,"An analysis phase validated by the client");
-$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_8,"A pair : chargé d’affaire/quality correspondent for each study");
+$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_8,"A pair : chargé d’affaires/quality correspondent for each study");
 
 $DICT_EN->translate(StringIdentifier::SID_PRESIDENT_H1,"The president's words");
 $DICT_EN->translate(StringIdentifier::SID_PRESIDENT_P,"With 35 years of experience, we help companies in their projects by offering a young, dynamic and innovative vision. Always on the edge of the latest technologies thanks to a high-quality technical training at INSA Lyon, our contributors bring to your projects a strong added value");
@@ -423,7 +429,7 @@ $DICT_EN->translate(StringIdentifier::SID_TRESOR,"Treasury");
 $DICT_EN->translate(StringIdentifier::SID_DESC_DSI,"Information System");
 $DICT_EN->translate(StringIdentifier::SID_DESC_QUALITE,"Continuous monitoring and improvement");
 $DICT_EN->translate(StringIdentifier::SID_DESC_UA,"Sales and mission implementation");
-$DICT_EN->translate(StringIdentifier::SID_DESC_GRC,"Making contact with clients");
+$DICT_EN->translate(StringIdentifier::SID_DESC_GRC,"Making contact and loyalty");
 $DICT_EN->translate(StringIdentifier::SID_DESC_COM,"Events and team building");
 $DICT_EN->translate(StringIdentifier::SID_DESC_TRESO,"Management of our finances");
 
