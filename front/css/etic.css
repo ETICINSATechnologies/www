@@ -129,9 +129,9 @@
     align-items: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     .swiper-container {
-        height: 900px;
+        height: 500px;
     }
 }
 
@@ -141,11 +141,14 @@
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
     .swiper-container {
-        height: 500px;
+        height: 1000px;
     }
 }
+
+
+
 
 .swiper-part {
     padding-left: 50px;

@@ -32,6 +32,24 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
+    $('[id^="slow_scale"]').each( function(i){
+        $(this).transition({
+            animation  : 'scale',
+            duration   : '0'
+        });
+        $(this).visibility({
+            onBottomVisible: function(){
+                $(this).transition({
+                    animation : 'scale',
+                    duration : '2000ms'
+                });
+            }
+        });
+
+    });
+});
+
+$(document).ready(function() {
     $('[id^="fly"]').each( function(i){
 		$(this).transition({
 			animation  : 'fly left',
