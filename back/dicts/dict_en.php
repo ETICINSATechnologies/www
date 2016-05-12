@@ -105,7 +105,7 @@ $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_H2_GCU, "Civil engineering
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_H2_GEN, "Energy and environment");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_H2_GE, "Electrical engineering");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_H2_SGM, "Materials");
-$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_H2_TC, "Telecommunications");
+$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_H2_TC, "Telecom");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_H2_GI, "Production");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_H2_BS, "Biosciences");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_H2_TR, "Technical translation");

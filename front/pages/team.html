@@ -148,7 +148,11 @@
 
     // traduction
     translate(function(){
-      $('.card').hide();
+      //$('.card').hide();
+      $('.card').transition({
+          animation  : 'scale',
+          duration   : '0'
+      });
       $('.card').transition('scale');
       $('.image').dimmer({on: 'hover'});
     });
