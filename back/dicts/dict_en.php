@@ -413,7 +413,8 @@ $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_7,"An analysis phase vali
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_8,"A pair : chargé d’affaires/quality correspondent for each study");
 
 $DICT_EN->translate(StringIdentifier::SID_PRESIDENT_H1,"The president's words");
-$DICT_EN->translate(StringIdentifier::SID_PRESIDENT_P,"With 35 years of experience, we help companies in their projects by offering a young, dynamic and innovative vision. Always on the edge of the latest technologies thanks to a high-quality technical training at INSA Lyon, our contributors bring to your projects a strong added value");
+$DICT_EN->translate(StringIdentifier::SID_PRESIDENT_P,"With 11 fields of proficiency ranging from computer science to mechanics, including business science, ETIC INSA Technologies implements technical, industrial and commercial studies. <br>
+Created in 1981, and cumulating more than 35 years of experience, we are today laureates of the Prix d’Excellence, awarding the best Junior-Entreprise in France. The quality of our project management also earned us the Label Ingénieur, awarding the best technical study of the year, which makes us an interlocutor of choice to accompany you in your projects. Affiliated to INSA Lyon, we are proud to be able to put more than 50 active members and 3000 potential contributors at your disposal.");
 $DICT_EN->translate(StringIdentifier::SID_PRESIDENT_SIGN,"Martin Delbecque, president 2016-2017");
 $DICT_EN->translate(StringIdentifier::SID_BUREAU,"The chamber");
 $DICT_EN->translate(StringIdentifier::SID_CA,"The board of directors");

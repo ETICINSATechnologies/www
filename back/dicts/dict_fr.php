@@ -439,7 +439,7 @@ $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_7,"Une phase d’analyse 
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_8,"Un binôme chargé d’affaires/correspondant qualité sur chaque étude");
 
 $DICT_FR->translate(StringIdentifier::SID_PRESIDENT_H1,"Le mot du président");
-$DICT_FR->translate(StringIdentifier::SID_PRESIDENT_P,"Forts de 35 ans d’expérience, nous accompagnons les entreprises dans leurs projets en proposant une vision jeune, dynamique et innovante. Toujours à la pointe des dernières technologies grâce à une formation technique de qualité à l’INSA Lyon, nos intervenants apportent à vos projets une forte valeur ajoutée.");
+$DICT_FR->translate(StringIdentifier::SID_PRESIDENT_P,"Fort de 11 domaines de compétences allant de l’informatique à la mécanique en passant par les sciences de l’entreprise, ETIC INSA Technologies se positionne sur des études techniques, industrielles et commerciales. <br>Créée en 1981, et accumulant plus de 35 années d’expérience, nous sommes aujourd’hui lauréat du prix d’excellence, récompensant la meilleure Junior-Entreprise de France. Notre qualité de gestion de projet nous a également valu le Label Ingénieur, primant la meilleure étude technique de l’année, ce qui fait de nous un interlocuteur de choix pour vous accompagner dans vos projets. Affiliés à l’INSA Lyon nous sommes fiers de pouvoir mettre plus de 50 membres actifs ainsi que 3000 intervenants potentiels à votre disposition.");
 $DICT_FR->translate(StringIdentifier::SID_PRESIDENT_SIGN,"Martin Delbecque, président 2016-2017");
 $DICT_FR->translate(StringIdentifier::SID_BUREAU,"Le bureau");
 $DICT_FR->translate(StringIdentifier::SID_CA,"Le conseil d'administration");
