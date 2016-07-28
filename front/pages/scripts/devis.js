@@ -40,8 +40,9 @@ function reset() {
 function submit() {
 	$('.field.error').attr('class', 'field');
 	if(check_input()) {
-		$.post(
-			"back/captcha.php", 
+		$.post({
+			url : "back/captcha.php", 
+			data :
 			{
 				action: 		'check',
 				in_lastname: 	$("#in_lastname").val(),
@@ -55,18 +56,18 @@ function submit() {
 				in_duration: 	$("#in_duration").val().trim(),
 				captcha_code: 	$("#in_captcha").val()
 			},
-			function(data, textString, jqXHR){
-				//alert(data);
+			success : function(data, textString, jqXHR){
 				obj = JSON.parse(data);
 				if(obj.good) {
-					//alert(obj.data);
 					form_success();
 				} else {
 					form_failure(obj.data);
-					//alert(obj.data);
 				}
+			},
+			error : function() {
+				form_failure('Erreur interne du serveur / Internal server error');
 			}
-		);
+		});
 		reset();
 	}
 }
@@ -149,8 +150,9 @@ function field_error(fieldId, error) {
 }
 
 function form_success() {
-		// on ajoute un message d'erreur
-	$('#errors_container').append(
+	//alert('success');
+	// on ajoute un message d'erreur
+	$('#errors_container').html(
 	'<div class="ui success message"> \
   		<i class="close black icon"></i> \
   		<div class="header"> \
@@ -165,7 +167,7 @@ function form_success() {
 
 function form_failure(data) {
 		// on ajoute un message d'erreur
-	$('#errors_container').append(
+	$('#errors_container').html(
 	'<div class="ui negative message"> \
   		<i class="close black icon"></i> \
   		<div class="header"> \
