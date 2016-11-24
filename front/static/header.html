@@ -19,33 +19,44 @@
 
 
 <body style="display: flex;  min-height: 100vh;  flex-direction: column; padding-top:70px;"> 
-		<div id="topmenu" class="ui top fixed tabular menu stackable" style="background-color: white;">
-	      <div class="ui fluid container">
+		<div id="topmenu" class="ui top fixed tabular stackable menu" style="background-color: white;">
 	        <a href="{LINK_HOME}" class="header item">
 	          <img alt="img" class="logo" src="front/assets/logo-etic1.png">
 	          &nbsp; {TITLE}
 	        </a>
-	        <a id="link_home" href="{LINK_HOME}" class="item">{HOME}</a>
-	        <div class="ui simple dropdown item" id="link_presta">
-	          {PRESTA} <i class="green dropdown icon"></i>
-	          <div class="menu">
-	            <a class="item" href="{LINK_STUDY}">{ETUDE}</a>
-	            <a class="item" href="{LINK_SKILLS}">{COMPETENCES}</a>
-	            <a class="item" href="{LINK_ENGAGEMENT}">{ENGAGEMENTS}</a>
-	          </div>
-	        </div>
-	        <div class="ui simple dropdown item">
-	          {NOUS} <i class="green dropdown icon"></i>
-	          <div class="menu">
-	            <a class="item" href="{LINK_TEAM}">{EQUIPE}</a>
-	            <a class="item" href="{LINK_PARTNERS}">{PARTENAIRES}</a>
-	            <a class="item" href="{LINK_EVENTS}">{EVENEMENTS}</a>
-              <a class="item" href="{LINK_MOUVEMENT}">{MOUVEMENT}</a>
-	          </div>
-	        </div>  
+			<a class="browse item">
+				Menu
+				<i class="dropdown icon"></i>
+			</a>
+			<div class="ui very wide popup"  >
+				<div class="ui three column relaxed equal height divided grid">
+					<div class="column">
+						<a id="link_home" href="{LINK_HOME}" class="item"><h4 class="ui header">{HOME}</h4></a>
+						<a href="{LINK_TRUST}" class="item"><h4 class="ui header">{CONFIANCE}</h4></a>
+						<a href="{LINK_BLOG}" class="item"><h4 class="ui header">{BLOG}</h4></a>
+					</div>
+					<div class="column">
+						<h4 class="ui header">{PRESTA}</h4>
+						<div class="ui link list">
+	            			<a class="item" href="{LINK_STUDY}">{ETUDE}</a>
+	            			<a class="item" href="{LINK_SKILLS}">{COMPETENCES}</a>
+	            			<a class="item" href="{LINK_ENGAGEMENT}">{ENGAGEMENTS}</a>
+	          			</div>
+	        		</div>
+					<div class="column">
+						<h4 class="ui header">{NOUS}</h4>
+						<div class="ui link list">
+	            			<a class="item" href="{LINK_TEAM}">{EQUIPE}</a>
+	            			<a class="item" href="{LINK_PARTNERS}">{PARTENAIRES}</a>
+	            			<a class="item" href="{LINK_EVENTS}">{EVENEMENTS}</a>
+              				<a class="item" href="{LINK_MOUVEMENT}">{MOUVEMENT}</a>
+	          			</div>
+	        		</div>
+				</div>
+			</div>
 
-	        <a href="{LINK_TRUST}" class="item">{CONFIANCE}</a>
-          <a href="{LINK_BLOG}" class="item">{BLOG}</a>
+
+
 	        <div class="ui simple dropdown floated right item">
 	          {LANGUAGE} <i class="green dropdown icon"></i>
 	          <div class="menu">
@@ -58,6 +69,117 @@
 	        <a href="http://fr.calameo.com/read/004424123fe486eb6f0b0" target="_blank" class="item">{PLAQUETTE}</a>
 	        <a href="{LINK_DEVIS}" class="item">{DEVIS}</a>
 	      </div>
-	</div>
-	<div class="content" style="flex:1">
-  <script type="text/javascript" src="./front/pages/scripts/animations.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Code copié pour taille d'écran supérieure à 1200 px -->
+
+		<div id="topmenubig" class="ui top fixed tabular stackable menu" style="background-color: white; display : none;">
+			<div class="ui fluid container">
+				<a href="{LINK_HOME}" class="header item">
+					<img alt="img" class="logo" src="front/assets/logo-etic1.png">
+					{TITLE}
+				</a>
+				<a id="link_home1" href="{LINK_HOME}" class="item">{HOME}</a>
+				<div class="ui simple dropdown item" id="link_presta">
+					{PRESTA} <i class="green dropdown icon"></i>
+					<div class="menu">
+						<a class="item" href="{LINK_STUDY}">{ETUDE}</a>
+						<a class="item" href="{LINK_SKILLS}">{COMPETENCES}</a>
+						<a class="item" href="{LINK_ENGAGEMENT}">{ENGAGEMENTS}</a>
+					</div>
+				</div>
+				<div class="ui simple dropdown item">
+					{NOUS} <i class="green dropdown icon"></i>
+					<div class="menu">
+						<a class="item" href="{LINK_TEAM}">{EQUIPE}</a>
+						<a class="item" href="{LINK_PARTNERS}">{PARTENAIRES}</a>
+						<a class="item" href="{LINK_EVENTS}">{EVENEMENTS}</a>
+						<a class="item" href="{LINK_MOUVEMENT}">{MOUVEMENT}</a>
+					</div>
+				</div>
+
+				<a href="{LINK_TRUST}" class="item">{CONFIANCE}</a>
+				<a href="{LINK_BLOG}" class="item">{BLOG}</a>
+				<div class="ui simple dropdown floated right item">
+					{LANGUAGE} <i class="green dropdown icon"></i>
+					<div class="menu">
+						<a class="item" href="page.php?page=home&lang=fr"><i class="fr flag"></i> Français</a>
+						<a class="item" href="page.php?page=home&lang=en"><i class="gb flag"></i> English</a>
+						<!--<a class="item" href="page.php?page=home&lang=es"><i class="es flag"></i> Espanol</a>
+                        <a class="item" href="page.php?page=home&lang=de"><i class="de flag"></i> Deutsch</a>-->
+					</div>
+				</div>
+				<a href="http://fr.calameo.com/read/004424123fe486eb6f0b0" target="_blank" class="item">{PLAQUETTE}</a>
+				<a href="{LINK_DEVIS}" class="item">{DEVIS}</a>
+			</div>
+		</div>
+
+
+		<!-- Code copié pour taille d'écran inférieure à 1200 px -->
+
+        <div id="topmenusmall" class="ui top fixed tabular stackable menu" style="background-color: white; display : none;">
+            <a href="{LINK_HOME}" class="header item">
+                <img alt="img" class="logo" src="front/assets/logo-etic1.png">
+                &nbsp; {TITLE}
+            </a>
+            <a class="browse item">
+                Menu
+                <i class="dropdown icon"></i>
+            </a>
+            <div class="ui very wide popup"  >
+                <div class="ui three column relaxed equal height divided grid">
+                    <div class="column">
+                        <a id="link_home2" href="{LINK_HOME}" class="item"><h4 class="ui header">{HOME}</h4></a>
+                        <a href="{LINK_TRUST}" class="item"><h4 class="ui header">{CONFIANCE}</h4></a>
+                        <a href="{LINK_BLOG}" class="item"><h4 class="ui header">{BLOG}</h4></a>
+                    </div>
+                    <div class="column">
+                        <h4 class="ui header">{PRESTA}</h4>
+                        <div class="ui link list">
+                            <a class="item" href="{LINK_STUDY}">{ETUDE}</a>
+                            <a class="item" href="{LINK_SKILLS}">{COMPETENCES}</a>
+                            <a class="item" href="{LINK_ENGAGEMENT}">{ENGAGEMENTS}</a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <h4 class="ui header">{NOUS}</h4>
+                        <div class="ui link list">
+                            <a class="item" href="{LINK_TEAM}">{EQUIPE}</a>
+                            <a class="item" href="{LINK_PARTNERS}">{PARTENAIRES}</a>
+                            <a class="item" href="{LINK_EVENTS}">{EVENEMENTS}</a>
+                            <a class="item" href="{LINK_MOUVEMENT}">{MOUVEMENT}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="ui simple dropdown floated right item">
+                {LANGUAGE} <i class="green dropdown icon"></i>
+                <div class="menu">
+                    <a class="item" href="page.php?page=home&lang=fr"><i class="fr flag"></i> Français</a>
+                    <a class="item" href="page.php?page=home&lang=en"><i class="gb flag"></i> English</a>
+                    <!--<a class="item" href="page.php?page=home&lang=es"><i class="es flag"></i> Espanol</a>
+                    <a class="item" href="page.php?page=home&lang=de"><i class="de flag"></i> Deutsch</a>-->
+                </div>
+            </div>
+            <a href="http://fr.calameo.com/read/004424123fe486eb6f0b0" target="_blank" class="item">{PLAQUETTE}</a>
+            <a href="{LINK_DEVIS}" class="item">{DEVIS}</a>
+        </div>
+
+
+
+<div class="content" style="flex:1">
+<script type="text/javascript" src="./front/pages/scripts/animations.js"></script>
