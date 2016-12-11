@@ -14,12 +14,12 @@ $(function() {
 });
 
 $(document).ready(function() {
-    $('[id^="scale"]').each( function(i){
+    $('.scale').each( function(i){
         $(this).transition({
             animation  : 'scale',
             duration   : '0'
         });
-        $(this).visibility({
+            $(this).visibility({
             onBottomVisible: function(){
                 $(this).transition({
                     animation : 'scale',
@@ -27,17 +27,16 @@ $(document).ready(function() {
                 });
             }
         });
-
     });
 });
 
 $(document).ready(function() {
-    $('[id^="slow_scale"]').each( function(i){
+    $('.slow_scale').each( function(i){
         $(this).transition({
             animation  : 'scale',
             duration   : '0'
         });
-        $(this).visibility({
+            $(this).visibility({
             onBottomVisible: function(){
                 $(this).transition({
                     animation : 'scale',
@@ -50,13 +49,13 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-    $('[id^="fly"]').each( function(i){
+    $('.fly').each( function(i){
 		$(this).transition({
 			animation  : 'fly left',
 			duration   : '0'
 		});
 
-    	$(this).visibility({
+            $(this).visibility({
     		onBottomVisible: function(){
     			$(this).transition({
     				animation : 'fly left',
@@ -69,7 +68,7 @@ $(document).ready(function() {
    
 
 $(document).ready(function() {
-    $('[id^="pulse"]').each( function(i){
+    $('.pulse').each( function(i){
         $(this).transition({
             animation  : 'pulse',
             duration   : '0'
@@ -87,7 +86,7 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-    $('[id^="fade"]').each( function(i){
+    $('.fade').each( function(i){
         $(this).transition({
             animation  : 'fade',
             duration   : '0'
