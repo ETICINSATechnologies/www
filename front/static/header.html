@@ -1,3 +1,4 @@
+<!DOCTYPE HTML>
 <html>
 <head>
   <!-- Standard Meta -->
@@ -5,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <!-- Site Properties -->
-  <title>{TITLE}</title>
+  <title>ETIC INSA Technologies</title>
   <link rel="icon" href="front/assets/logo-etic1.png" sizes="32x32"/>
   <link rel="stylesheet" type="text/css" href="front/semantic/semantic.min.css">
   <link rel="stylesheet" type="text/css" href="front/swiper/swiper.min.css">
@@ -19,46 +20,35 @@
 
 
 <body style="display: flex;  min-height: 100vh;  flex-direction: column; padding-top:70px;"> 
-		<div id="topmenu" class="ui top fixed tabular stackable menu" style="background-color: white;">
-	        <a href="{LINK_HOME}" class="header item">
+		<div id="topmenu" class="ui top fixed tabular menu stackable" style="background-color: white;">
+	      <div class="ui fluid container">
+	        <a href="page.php?page=home&lang=fr" class="header item">
 	          <img alt="img" class="logo" src="front/assets/logo-etic1.png">
-	          &nbsp; {TITLE}
+	          &nbsp; ETIC INSA Technologies
 	        </a>
-			<a class="browse item">
-				Menu
-				<i class="dropdown icon"></i>
-			</a>
-			<div class="ui very wide popup"  >
-				<div class="ui three column relaxed equal height divided grid">
-					<div class="column">
-						<a id="link_home" href="{LINK_HOME}" class="item"><h4 class="ui header">{HOME}</h4></a>
-						<a href="{LINK_TRUST}" class="item"><h4 class="ui header">{CONFIANCE}</h4></a>
-						<a href="{LINK_BLOG}" class="item"><h4 class="ui header">{BLOG}</h4></a>
-					</div>
-					<div class="column">
-						<h4 class="ui header">{PRESTA}</h4>
-						<div class="ui link list">
-	            			<a class="item" href="{LINK_STUDY}">{ETUDE}</a>
-	            			<a class="item" href="{LINK_SKILLS}">{COMPETENCES}</a>
-	            			<a class="item" href="{LINK_ENGAGEMENT}">{ENGAGEMENTS}</a>
-	          			</div>
-	        		</div>
-					<div class="column">
-						<h4 class="ui header">{NOUS}</h4>
-						<div class="ui link list">
-	            			<a class="item" href="{LINK_TEAM}">{EQUIPE}</a>
-	            			<a class="item" href="{LINK_PARTNERS}">{PARTENAIRES}</a>
-	            			<a class="item" href="{LINK_EVENTS}">{EVENEMENTS}</a>
-              				<a class="item" href="{LINK_MOUVEMENT}">{MOUVEMENT}</a>
-	          			</div>
-	        		</div>
-				</div>
-			</div>
+	        <a id="link_home" href="page.php?page=home&lang=fr" class="item">Accueil</a>
+	        <div class="ui simple dropdown item" id="link_presta">
+	          Nos prestations <i class="green dropdown icon"></i>
+	          <div class="menu">
+	            <a class="item" href="page.php?page=study&lang=fr">Déroulement d'une étude</a>
+	            <a class="item" href="page.php?page=skills&lang=fr">Nos domaines de compétences</a>
+	            <a class="item" href="page.php?page=engagement&lang=fr">Nos engagements</a>
+	          </div>
+	        </div>
+	        <div class="ui simple dropdown item">
+	          Nous découvrir <i class="green dropdown icon"></i>
+	          <div class="menu">
+	            <a class="item" href="page.php?page=team&lang=fr">Notre équipe</a>
+	            <a class="item" href="page.php?page=partners&lang=fr">Nos partenaires</a>
+	            <a class="item" href="page.php?page=events&lang=fr">Nos évènements</a>
+              <a class="item" href="page.php?page=mouvement&lang=fr">Découvrir le mouvement</a>
+	          </div>
+	        </div>  
 
-
-
+	        <a href="page.php?page=trust&lang=fr" class="item">Références</a>
+          <a href="page.php?page=blog&lang=fr" class="item">Blog</a>
 	        <div class="ui simple dropdown floated right item">
-	          {LANGUAGE} <i class="green dropdown icon"></i>
+	          <i class="fr flag"></i> Français <i class="green dropdown icon"></i>
 	          <div class="menu">
 	            <a class="item" href="page.php?page=home&lang=fr"><i class="fr flag"></i> Français</a>
 	            <a class="item" href="page.php?page=home&lang=en"><i class="gb flag"></i> English</a>
@@ -66,21 +56,10 @@
 	            <a class="item" href="page.php?page=home&lang=de"><i class="de flag"></i> Deutsch</a>-->
 	          </div>
 	        </div>
-	        <a href="http://fr.calameo.com/read/004424123fe486eb6f0b0" target="_blank" class="item">{PLAQUETTE}</a>
-	        <a href="{LINK_DEVIS}" class="item">{DEVIS}</a>
+	        <a href="http://fr.calameo.com/read/004424123fe486eb6f0b0" target="_blank" class="item">Plaquette</a>
+	        <a href="page.php?page=devis&lang=fr" class="item">Demander un devis</a>
 	      </div>
-
-
-
-
-
-
-
-
-
-
-
-
+	</div>
 
 <!-- Code copié pour taille d'écran supérieure à 1200 px -->
 

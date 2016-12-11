@@ -33786,7 +33786,7 @@ html.ios body {
   animation-name: flyInDown;
 }
 
-.transition[class*="fly left"].in {
+.transition[class*="fly_left"].in {
   -webkit-animation-name: flyInLeft;
   animation-name: flyInLeft;
 }
@@ -33813,7 +33813,7 @@ html.ios body {
   animation-name: flyOutDown;
 }
 
-.transition[class*="fly left"].out {
+.transition[class*="fly_left"].out {
   -webkit-animation-name: flyOutLeft;
   animation-name: flyOutLeft;
 }
