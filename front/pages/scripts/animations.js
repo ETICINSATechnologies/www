@@ -14,7 +14,7 @@ $(function() {
 });
 
 $(document).ready(function() {
-    $('[id^="scale"]').each( function(i){
+    $('[class^='.scale']').each( function(i){
         $(this).transition({
             animation  : 'scale',
             duration   : '0'
@@ -32,7 +32,7 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-    $('[id^="slow_scale"]').each( function(i){
+    $('[class^='.slow_scale']').each( function(i){
         $(this).transition({
             animation  : 'scale',
             duration   : '0'
@@ -50,7 +50,7 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-    $('[id^="fly"]').each( function(i){
+    $('[class^='.fly']').each( function(i){
 		$(this).transition({
 			animation  : 'fly left',
 			duration   : '0'
@@ -69,7 +69,7 @@ $(document).ready(function() {
    
 
 $(document).ready(function() {
-    $('[id^="pulse"]').each( function(i){
+    $('[class^='.pulse']').each( function(i){
         $(this).transition({
             animation  : 'pulse',
             duration   : '0'
@@ -87,7 +87,7 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-    $('[id^="fade"]').each( function(i){
+    $('[class^='.fade']').each( function(i){
         $(this).transition({
             animation  : 'fade',
             duration   : '0'
