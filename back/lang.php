@@ -11,6 +11,7 @@
 class StringIdentifier {
 	// identifiants
 	const SID_TITLE = "{TITLE}"; // titre du site
+    const SID_TITLE_MENU ="{TITLE_MENU}"; // titre du menu
 	const SID_HOME = "{HOME}"; // titre du site
 	const SID_PRESTA ="{PRESTA}"; // titre du menu nos prestations
 	const SID_ETUDE ="{ETUDE}"; // lien de pres. du déroulement d'une étude
@@ -26,6 +27,7 @@ class StringIdentifier {
 	const SID_DEVIS ="{DEVIS}"; // lien vers le formulaire
 	const SID_MOUVEMENT ="{MOUVEMENT}"; // lien vers la pres du mouvement
 	const SID_LANG = "{LANGUAGE}";
+    const SID_PLAN = "{PLAN}";
 
 	/*HOME*/
 	const SID_HOME_STAT_EXPERIENCE = "{HOME_STAT_EXPERIENCE}";
@@ -247,6 +249,7 @@ class StringIdentifier {
 	// tableau des identifiants
 	const SIDS = array(
 		StringIdentifier::SID_TITLE,
+        StringIdentifier::SID_TITLE_MENU,
 		StringIdentifier::SID_HOME,
 		StringIdentifier::SID_PRESTA,
 		StringIdentifier::SID_ETUDE,
@@ -262,6 +265,7 @@ class StringIdentifier {
 		StringIdentifier::SID_DEVIS,
 		StringIdentifier::SID_MOUVEMENT,
 		StringIdentifier::SID_LANG,
+        StringIdentifier::SID_PLAN,
 
 		/*HOME*/
 		StringIdentifier::SID_HOME_STAT_EXPERIENCE,
@@ -491,6 +495,7 @@ class StringIdentifier {
 	const LINK_BLOG ="{LINK_BLOG}"; // lien vers la revue de press
 	const LINK_NETWORK = "{LINK_NETWORK}";
 	const LINK_MOUVEMENT ="{LINK_MOUVEMENT}"; // lien vers la pres. du mouvement
+    const LINK_PLAN = "{LINK_PLAN}";
 
 	const LINKS = array(
 		StringIdentifier::LINK_DEVIS,
@@ -505,6 +510,7 @@ class StringIdentifier {
 		StringIdentifier::LINK_BLOG,
 		StringIdentifier::LINK_NETWORK,
 		StringIdentifier::LINK_MOUVEMENT,
+        StringIdentifier::LINK_PLAN,
 		);
 }
 

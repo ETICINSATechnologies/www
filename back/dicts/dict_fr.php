@@ -6,7 +6,8 @@ require_once "back/lang.php";
 // ------------------------------------ DICTIONNAIRE FRANCAIS ------------------------------------
 //
 $DICT_FR = new Dictionary('fr');
-$DICT_FR->translate(StringIdentifier::SID_TITLE, "ETIC INSA Technologies");
+$DICT_FR->translate(StringIdentifier::SID_TITLE, "Junior entreprise ETIC INSA Technologies");
+$DICT_FR->translate(StringIdentifier::SID_TITLE_MENU, "ETIC INSA Technologies");
 $DICT_FR->translate(StringIdentifier::SID_HOME, "Accueil");
 $DICT_FR->translate(StringIdentifier::SID_PRESTA, "Nos prestations");
 $DICT_FR->translate(StringIdentifier::SID_ETUDE, "Déroulement d'une étude");
@@ -22,6 +23,7 @@ $DICT_FR->translate(StringIdentifier::SID_PLAQUETTE, "Plaquette");
 $DICT_FR->translate(StringIdentifier::SID_DEVIS, "Demander un devis");
 $DICT_FR->translate(StringIdentifier::SID_LANG, "<i class=\"fr flag\"></i> Français");
 $DICT_FR->translate(StringIdentifier::SID_MOUVEMENT, "Découvrir le mouvement");
+$DICT_FR->translate(StringIdentifier::SID_PLAN, "Plan du site");
 
 /*FR_HOME*/
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_EXPERIENCE, "Années d'expérience");
