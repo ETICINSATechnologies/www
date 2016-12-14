@@ -6,7 +6,7 @@ require_once "back/lang.php";
 // ------------------------------------ DICTIONNAIRE FRANCAIS ------------------------------------
 //
 $DICT_FR = new Dictionary('fr');
-$DICT_FR->translate(StringIdentifier::SID_TITLE, "Junior-Entreprise ETIC INSA Technologies");
+$DICT_FR->translate(StringIdentifier::SID_TITLE, "Junior entreprise ETIC INSA Technologies");
 $DICT_FR->translate(StringIdentifier::SID_TITLE_MENU, "ETIC INSA Technologies");
 $DICT_FR->translate(StringIdentifier::SID_HOME, "Accueil");
 $DICT_FR->translate(StringIdentifier::SID_PRESTA, "Nos prestations");
