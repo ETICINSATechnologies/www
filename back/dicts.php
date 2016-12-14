@@ -29,6 +29,7 @@ $links->translate(StringIdentifier::LINK_TRUST, "page.php?page=trust");
 $links->translate(StringIdentifier::LINK_BLOG, "page.php?page=blog");
 $links->translate(StringIdentifier::LINK_NETWORK, "page.php?page=network");
 $links->translate(StringIdentifier::LINK_MOUVEMENT, "page.php?page=mouvement");
+$links->translate(StringIdentifier::LINK_PLAN, "page.php?page=plan");
 
 
 $_TRANSLATOR->setLinks($links);
