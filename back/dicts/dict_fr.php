@@ -6,7 +6,7 @@ require_once "back/lang.php";
 // ------------------------------------ DICTIONNAIRE FRANCAIS ------------------------------------
 //
 $DICT_FR = new Dictionary('fr');
-$DICT_FR->translate(StringIdentifier::SID_TITLE, "Junior entreprise ETIC INSA Technologies");
+$DICT_FR->translate(StringIdentifier::SID_TITLE, "Junior-Entreprise ETIC INSA Technologies");
 $DICT_FR->translate(StringIdentifier::SID_TITLE_MENU, "ETIC INSA Technologies");
 $DICT_FR->translate(StringIdentifier::SID_HOME, "Accueil");
 $DICT_FR->translate(StringIdentifier::SID_PRESTA, "Nos prestations");
@@ -28,7 +28,7 @@ $DICT_FR->translate(StringIdentifier::SID_PLAN, "Plan du site");
 /*FR_HOME*/
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_EXPERIENCE, "Années d'expérience");
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_ENG, "en France");
-$DICT_FR->translate(StringIdentifier::SID_HOME_STAT_TOP, "Des meilleures Junior Entreprises");
+$DICT_FR->translate(StringIdentifier::SID_HOME_STAT_TOP, "Des meilleures Junior-Entreprises");
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_DOMAINES, "Domaines de compétences");
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_SATISFACTION, "De satisfaction client");
 $DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_1, "Lauréat du Prix d'Excellence 2016<br>
@@ -415,7 +415,7 @@ $DICT_FR->translate(StringIdentifier::SID_CONFIANCE_3, "Des petites structures")
 $DICT_FR->translate(StringIdentifier::SID_CONFIANCE_4, "Témoignages");
 $DICT_FR->translate(StringIdentifier::SID_CONFIANCE_QUOTE_1, "« Notre travail avec ETIC INSA Technologies a été très fructueux. Les compétences techniques et humaines des intervenants nous ont permis d’avancer rapidement sur le projet électronique que nous leur avions soumis. J’ai particulièrement apprécié leur réactivité et leur motivation. Les résultats obtenus nous permettent d’affirmer que nous ferons de nouveau appel à ETIC INSA si le besoin apparaît sur un futur projet. » <b>Faustine Vanhulle – Innovation Group – ElcoBrandt</b>");
 $DICT_FR->translate(StringIdentifier::SID_CONFIANCE_QUOTE_2, "« ETIC apporte une véritable valeur ajoutée au projet. Les équipes d’étudiants sont surprenantes de professionnalisme, de créativité et de rigueur. Nous avons avancé ensemble, dans un contexte complexe et des délais limités. Le courage et la solidarité ont été des valeurs communicatives et déterminantes pour la réussite de ce programme ambitieux. En effet, en plus des compétences techniques et de gestion de projet qui caractérisent l’INSA, ETIC dispose d’excellents commerciaux ! Depuis cette expérience, je les recommande régulièrement. » <b>Barbara Coudène</b>");
-$DICT_FR->translate(StringIdentifier::SID_CONFIANCE_QUOTE_3, "« Non seulement porteur du progrès technique, l’ingénieur doit de plus en plus être créateur de valeur. Il doit pouvoir imaginer la société de demain. Pour accompagner cette évolution, il devient important de le sensibiliser très tôt à une culture d’innovation et un esprit d’entreprendre. ETIC INSA Technologies, la junior entreprise de l’INSA Lyon, est une des vitrines de cette volonté. Nous sommes fiers de soutenir chaque année ces jeunes talents qui délivrent toutes leurs compétences aux professionnels qui parient sur l’innovation et le dynamisme. Depuis sa création en 1981, ETIC INSA Technologies ne cesse de se développer et de se distinguer. C’est aujourd’hui l’une des 4 meilleures Junior-Entreprises de France. Donner le goût et les outils pour entreprendre, telle est l’ambition de l’INSA Lyon, qui accompagne ses élèves vers une nouvelle génération d’ingénieur, capable de construire notre société future. » <b>Eric Maurincomme, Directeur de l’INSA Lyon</b>");
+$DICT_FR->translate(StringIdentifier::SID_CONFIANCE_QUOTE_3, "« Non seulement porteur du progrès technique, l’ingénieur doit de plus en plus être créateur de valeur. Il doit pouvoir imaginer la société de demain. Pour accompagner cette évolution, il devient important de le sensibiliser très tôt à une culture d’innovation et un esprit d’entreprendre. ETIC INSA Technologies, la Junior-Entreprise de l’INSA Lyon, est une des vitrines de cette volonté. Nous sommes fiers de soutenir chaque année ces jeunes talents qui délivrent toutes leurs compétences aux professionnels qui parient sur l’innovation et le dynamisme. Depuis sa création en 1981, ETIC INSA Technologies ne cesse de se développer et de se distinguer. C’est aujourd’hui l’une des 4 meilleures Junior-Entreprises de France. Donner le goût et les outils pour entreprendre, telle est l’ambition de l’INSA Lyon, qui accompagne ses élèves vers une nouvelle génération d’ingénieur, capable de construire notre société future. » <b>Eric Maurincomme, Directeur de l’INSA Lyon</b>");
 
 $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_1, "Nos partenaires premium");
 $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_2, "Les partenaires premium CNJE");
@@ -430,7 +430,7 @@ $DICT_FR->translate(StringIdentifier::SID_VALEURS_4, "Audace");
 $DICT_FR->translate(StringIdentifier::SID_VALEURS_5, "Développement personnel");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H1, "Notre politique qualité");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_1, "ETIC INSA Technologies tient à fournir des <strong>services de qualité</strong> à ses clients afin de leur assurer la réalisation des missions confiées dans les <strong>délais impartis</strong> et le <strong>respect du cahier des charges</strong>. Et ce, en offrant à ses membres, élèves ingénieurs INSA, une <strong>structure performante</strong> qui leur permet d’<strong>apprendre</strong> et de se confronter aux réelles exigences du monde professionnel, le tout dans un climat de <strong>confiance</strong> mutuelle.");
-$DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_2, "Pour cela, et depuis maintenant <strong>plus de 30 ans</strong>, ETIC INSA Technologies est <strong>soutenue</strong> et contrôlée par la CNJE (Confédération Nationale des Juniors Entreprises). Une fois par an, la Junior Entreprise est <strong>auditée sur ses processus</strong>, le suivi des études et la gestion de la trésorerie. La réussite de cet audit est la condition sine qua non au maintien de la marque Junior Entreprise. De plus, ETIC s’engage aujourd’hui dans une démarche de certification ISO 9001 : 2008, dans le but d'offrir la meilleure réponse aux exigences de nos clients.");
+$DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_2, "Pour cela, et depuis maintenant <strong>plus de 30 ans</strong>, ETIC INSA Technologies est <strong>soutenue</strong> et contrôlée par la CNJE (Confédération Nationale des Juniors Entreprises). Une fois par an, la Junior-Entreprise est <strong>auditée sur ses processus</strong>, le suivi des études et la gestion de la trésorerie. La réussite de cet audit est la condition sine qua non au maintien de la marque Junior-Entreprise. De plus, ETIC s’engage aujourd’hui dans une démarche de certification ISO 9001 : 2008, dans le but d'offrir la meilleure réponse aux exigences de nos clients.");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H2_1,"Cette démarche s'articule autour de trois grands axes...");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H2_2,"...et s'appuie sur une organisation efficace");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_3,"Ecoute continue et personnalisée du client");
@@ -448,7 +448,7 @@ $DICT_FR->translate(StringIdentifier::SID_CA,"Le conseil d'administration");
 $DICT_FR->translate(StringIdentifier::SID_EQUIPES,"Nos équipes");
 
 $DICT_FR->translate(StringIdentifier::SID_DSI,"DSI");
-$DICT_FR->translate(StringIdentifier::SID_QUALITE,"Qualité");
+$DICT_FR->translate(StringIdentifier::SID_QUALITE,"Performance");
 $DICT_FR->translate(StringIdentifier::SID_UA,"Unité d'Affaire");
 $DICT_FR->translate(StringIdentifier::SID_GRC,"Relation Client");
 $DICT_FR->translate(StringIdentifier::SID_COM,"Communication");
@@ -508,7 +508,7 @@ $DICT_FR->translate(StringIdentifier::SID_SG,"Secrétaire Générale");
 $DICT_FR->translate(StringIdentifier::SID_TRESO,"Trésorière");
 $DICT_FR->translate(StringIdentifier::SID_VTRESO,"Vice-Trésorier");
 $DICT_FR->translate(StringIdentifier::SID_RESP_DSI,"Responsable DSI");
-$DICT_FR->translate(StringIdentifier::SID_RESP_QUALITE,"Responsable Qualité");
+$DICT_FR->translate(StringIdentifier::SID_RESP_QUALITE,"Responsable Performance");
 $DICT_FR->translate(StringIdentifier::SID_RESP_UA_V, "Responsable Ventes");
 $DICT_FR->translate(StringIdentifier::SID_RESP_UA_RM, "Responsable Réalisation");
 $DICT_FR->translate(StringIdentifier::SID_RESP_GRC, "Responsable Relations Clients");

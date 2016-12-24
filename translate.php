@@ -5,7 +5,7 @@ require_once "back/dicts.php";
 // service
 
 if(isset($_POST['action'])) {
-	if(!strcmp($_POST['action'], 'translate')) {
+    if(!strcmp($_POST['action'], 'translate')) {
 		if(isset($_POST['lang']) && isset($_POST['content'])) {
 			$data = $_TRANSLATOR->translate($_POST['lang'], $_POST['content']);
 			die(json_encode(array('error' => false, 'data' => $data)));
