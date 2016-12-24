@@ -109,6 +109,7 @@
 	color : green;
 }
 
+
 .swiper-slide {
     text-align: center;
     font-size: 18px;
@@ -146,9 +147,9 @@
         height: 1000px;
     }
 }
-
-
-
+.list{
+    line-height: 2em;
+}
 
 .swiper-part {
     padding-left: 50px;
