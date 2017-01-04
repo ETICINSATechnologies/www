@@ -109,7 +109,10 @@
 	color : green;
 }
 
+<<<<<<< aab2b464f521b0e53187457c9367b3729cd365ca
 
+=======
+>>>>>>> fin des modif
 .swiper-slide {
     text-align: center;
     font-size: 18px;
@@ -147,9 +150,15 @@
         height: 1000px;
     }
 }
+<<<<<<< aab2b464f521b0e53187457c9367b3729cd365ca
 .list{
     line-height: 2em;
 }
+=======
+
+
+
+>>>>>>> fin des modif
 
 .swiper-part {
     padding-left: 50px;
