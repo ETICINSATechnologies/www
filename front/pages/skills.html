@@ -1,102 +1,388 @@
 <div class="ui center aligned bg-header    fade">
-      <h1 class="title-header" id="scale">{COMPETENCES}</h1>
-  </div>
+    <h1 class="title-header" id="scale">{COMPETENCES}</h1>
+</div>
 
 <div id="translatable">
 
-  <div class="ui hidden divider"></div>
+    <div class="ui hidden divider"></div>
 
-  <div class="ui five column center aligned stackable grid container">
-    <div id="skills_container" class ="six column row">
-    <!-- Les cartes des competences seront générés ici -->
-    </div>
-    <div class="row">
-      <div class="ui divider"></div>
-    </div>
-    <div class="row">
-        <div class="sixteen wide center aligned column">
-          <a class="ui green huge button" href="{LINK_DEVIS}" id="pulse">{DEVIS}</a>
+    <div class="ui five column center aligned stackable grid container">
+        <div class="row">
+            <div class="sixteen wide column center aligned">
+                <div class="ui stackable sixteen wide column six cards centered">
+                    <!-- IF -->
+                    <div class="card scale" style="height:165px;">
+                        <div class="blurring dimmable image" style="background-color:#FFFFFF;">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui inverted button" id="Button_IF">{COMPETENCES_MORE}</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img alt="img" src="./front/assets/skills/IF.svg">
+                        </div>
+                        <div class="content">
+                            <a class="ui white inverted center aligned header">{COMPETENCES_H2_IF}</a>
+                        </div>
+                    </div>
+                    <div id="modaldiv_IF" class="ui modal">
+                        <div class="header">
+                            {COMPETENCES_H2_IF}
+                        </div>
+                        <div class="image content">
+                            <div class="ui small image">
+                                <img alt="img" src="./front/assets/skills/IF.svg">
+                            </div>
+                            <div class="description">
+                                <p>{COMPETENCES_P_IF}</p>
+                            </div>
+                        </div>
+                        {COMPETENCES_PLUS_IF}
+                    </div>
+                    <!-- TC -->
+                    <div class="card scale" style="height:165px;">
+                        <div class="blurring dimmable image" style="background-color:#FFFFFF;">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui inverted button" id="Button_TC">{COMPETENCES_MORE}</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img alt="img" src="./front/assets/skills/TC.svg">
+                        </div>
+                        <div class="content">
+                            <a class="ui white inverted center aligned header">{COMPETENCES_H2_TC}</a>
+                        </div>
+                    </div>
+                    <div id="modaldiv_TC" class="ui modal">
+                        <div class="header">
+                            {COMPETENCES_H2_TC}
+                        </div>
+                        <div class="image content">
+                            <div class="ui small image">
+                                <img alt="img" src="./front/assets/skills/TC.svg">
+                            </div>
+                            <div class="description">
+                                <p>{COMPETENCES_P_TC}</p>
+                            </div>
+                        </div>
+                        {COMPETENCES_PLUS_TC}
+                    </div>
+                    <!-- GM -->
+                    <div class="card scale" style="height:165px;">
+                        <div class="blurring dimmable image" style="background-color:#FFFFFF;">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui inverted button" id="Button_GM">{COMPETENCES_MORE}</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img alt="img" src="./front/assets/skills/GM.svg">
+                        </div>
+                        <div class="content">
+                            <a class="ui white inverted center aligned header">{COMPETENCES_H2_GM}</a>
+                        </div>
+                    </div>
+                    <div id="modaldiv_GM" class="ui modal">
+                        <div class="header">
+                            {COMPETENCES_H2_GM}
+                        </div>
+                        <div class="image content">
+                            <div class="ui small image">
+                                <img alt="img" src="./front/assets/skills/GM.svg">
+                            </div>
+                            <div class="description">
+                                <p>{COMPETENCES_P_GM}</p>
+                            </div>
+                        </div>
+                        {COMPETENCES_PLUS_GM}
+                    </div>
+                    <!-- GI -->
+                    <div class="card scale" style="height:165px;">
+                        <div class="blurring dimmable image" style="background-color:#FFFFFF;">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui inverted button" id="Button_GI">{COMPETENCES_MORE}</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img alt="img" src="./front/assets/skills/GI.svg">
+                        </div>
+                        <div class="content">
+                            <a class="ui white inverted center aligned header">{COMPETENCES_H2_GI}</a>
+                        </div>
+                    </div>
+                    <div id="modaldiv_GI" class="ui modal">
+                        <div class="header">
+                            {COMPETENCES_H2_GI}
+                        </div>
+                        <div class="image content">
+                            <div class="ui small image">
+                                <img alt="img" src="./front/assets/skills/GI.svg">
+                            </div>
+                            <div class="description">
+                                <p>{COMPETENCES_P_GI}</p>
+                            </div>
+                        </div>
+                        {COMPETENCES_PLUS_GI}
+                    </div>
+                    <!-- GE -->
+                    <div class="card scale" style="height:165px;">
+                        <div class="blurring dimmable image" style="background-color:#FFFFFF;">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui inverted button" id="Button_GE">{COMPETENCES_MORE}</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img alt="img" src="./front/assets/skills/GE.svg">
+                        </div>
+                        <div class="content">
+                            <a class="ui white inverted center aligned header">{COMPETENCES_H2_GE}</a>
+                        </div>
+                    </div>
+                    <div id="modaldiv_GE" class="ui modal">
+                        <div class="header">
+                            {COMPETENCES_H2_GE}
+                        </div>
+                        <div class="image content">
+                            <div class="ui small image">
+                                <img alt="img" src="./front/assets/skills/GE.svg">
+                            </div>
+                            <div class="description">
+                                <p>{COMPETENCES_P_GE}</p>
+                            </div>
+                        </div>
+                        {COMPETENCES_PLUS_GE}
+                    </div>
+                    <!-- GEN -->
+                    <div class="card scale" style="height:165px;">
+                        <div class="blurring dimmable image" style="background-color:#FFFFFF;">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui inverted button" id="Button_GEN">{COMPETENCES_MORE}</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img alt="img" src="./front/assets/skills/GEN.svg">
+                        </div>
+                        <div class="content">
+                            <a class="ui white inverted center aligned header">{COMPETENCES_H2_GEN}</a>
+                        </div>
+                    </div>
+                    <div id="modaldiv_GEN" class="ui modal">
+                        <div class="header">
+                            {COMPETENCES_H2_GEN}
+                        </div>
+                        <div class="image content">
+                            <div class="ui small image">
+                                <img alt="img" src="./front/assets/skills/GEN.svg">
+                            </div>
+                            <div class="description">
+                                <p>{COMPETENCES_P_GEN}</p>
+                            </div>
+                        </div>
+                        {COMPETENCES_PLUS_GEN}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row"></div>
+        <div class="row"></div>
+        <div class="row">
+            <div class="sixteen wide center aligned column">
+                <div class="ui stackable six cards centered">
+                    <!-- GCU -->
+                    <div class="card scale" style="height:165px;">
+                        <div class="blurring dimmable image" style="background-color:#FFFFFF;">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui inverted button" id="Button_GCU">{COMPETENCES_MORE}</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img alt="img" src="./front/assets/skills/GCU.svg">
+                        </div>
+                        <div class="content">
+                            <a class="ui white inverted center aligned header">{COMPETENCES_H2_GCU}</a>
+                        </div>
+                    </div>
+                    <div id="modaldiv_GCU" class="ui modal">
+                        <div class="header">
+                            {COMPETENCES_H2_GCU}
+                        </div>
+                        <div class="image content">
+                            <div class="ui small image">
+                                <img alt="img" src="./front/assets/skills/GCU.svg">
+                            </div>
+                            <div class="description">
+                                <p>{COMPETENCES_P_GCU}</p>
+                            </div>
+                        </div>
+                        {COMPETENCES_PLUS_GCU}
+                    </div>
+                    <!-- SGM -->
+                    <div class="card scale" style="height:165px;">
+                        <div class="blurring dimmable image" style="background-color:#FFFFFF;">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui inverted button" id="Button_SGM">{COMPETENCES_MORE}</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img alt="img" src="./front/assets/skills/SGM.svg">
+                        </div>
+                        <div class="content">
+                            <a class="ui white inverted center aligned header">{COMPETENCES_H2_SGM}</a>
+                        </div>
+                    </div>
+                    <div id="modaldiv_SGM" class="ui modal">
+                        <div class="header">
+                            {COMPETENCES_H2_SGM}
+                        </div>
+                        <div class="image content">
+                            <div class="ui small image">
+                                <img alt="img" src="./front/assets/skills/SGM.svg">
+                            </div>
+                            <div class="description">
+                                <p>{COMPETENCES_P_SGM}</p>
+                            </div>
+                        </div>
+                        {COMPETENCES_PLUS_SGM}
+                    </div>
+                    <!-- TR -->
+                    <div class="card scale" style="height:165px;">
+                        <div class="blurring dimmable image" style="background-color:#FFFFFF;">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui inverted button" id="Button_TR">{COMPETENCES_MORE}</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img alt="img" src="./front/assets/skills/TR.svg">
+                        </div>
+                        <div class="content">
+                            <a class="ui white inverted center aligned header">{COMPETENCES_H2_TR}</a>
+                        </div>
+                    </div>
+                    <div id="modaldiv_TR" class="ui modal">
+                        <div class="header">
+                            {COMPETENCES_H2_TR}
+                        </div>
+                        <div class="image content">
+                            <div class="ui small image">
+                                <img alt="img" src="./front/assets/skills/TR.svg">
+                            </div>
+                            <div class="description">
+                                <p>{COMPETENCES_P_TR}</p>
+                            </div>
+                        </div>
+                        {COMPETENCES_PLUS_TR}
+                    </div>
+                    <!-- SC -->
+                    <div class="card scale" style="height:165px;">
+                        <div class="blurring dimmable image" style="background-color:#FFFFFF;">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui inverted button" id="Button_SC">{COMPETENCES_MORE}</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img alt="img" src="./front/assets/skills/SC.svg">
+                        </div>
+                        <div class="content">
+                            <a class="ui white inverted center aligned header">{COMPETENCES_H2_SC}</a>
+                        </div>
+                    </div>
+                    <div id="modaldiv_SC" class="ui modal">
+                        <div class="header">
+                            {COMPETENCES_H2_SC}
+                        </div>
+                        <div class="image content">
+                            <div class="ui small image">
+                                <img alt="img" src="./front/assets/skills/SC.svg">
+                            </div>
+                            <div class="description">
+                                <p>{COMPETENCES_P_SC}</p>
+                            </div>
+                        </div>
+                        {COMPETENCES_PLUS_SC}
+                    </div>
+                    <!-- BS -->
+                    <div class="card scale" style="height:165px;">
+                        <div class="blurring dimmable image" style="background-color:#FFFFFF;">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <div class="ui inverted button" id="Button_BS">{COMPETENCES_MORE}</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img alt="img" src="./front/assets/skills/BS.svg">
+                        </div>
+                        <div class="content">
+                            <a class="ui white inverted center aligned header">{COMPETENCES_H2_BS}</a>
+                        </div>
+                    </div>
+                    <div id="modaldiv_BS" class="ui modal">
+                        <div class="header">
+                            {COMPETENCES_H2_BS}
+                        </div>
+                        <div class="image content">
+                            <div class="ui small image">
+                                <img alt="img" src="./front/assets/skills/BS.svg">
+                            </div>
+                            <div class="description">
+                                <p>{COMPETENCES_P_BS}</p>
+                            </div>
+                        </div>
+                        {COMPETENCES_PLUS_BS}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="ui divider"></div>
+        </div>
+        <div class="row">
+            <div class="sixteen wide center aligned column">
+                <a class="ui green huge button" href="{LINK_DEVIS}" id="pulse">{DEVIS}</a>
+            </div>
         </div>
     </div>
-  </div>
 </div>
 
 <script type="text/javascript">
-$(document).ready(function(){
-  // liste des compétences
-  var skills = ['GM','IF','GEN','GCU','GI','TC','SGM','GE','TR','SC','BS'];
-  skills = skills.reverse();
+    $(document).ready(function () {
+        $('.card .image').dimmer({on: 'hover'});
+        initModal('IF');
+        initModal('GE');
+        initModal('TC');
+        initModal('GM');
+        initModal('GCU');
+        initModal('SGM');
+        initModal('TR');
+        initModal('SC');
+        initModal('BS');
+        initModal('GE');
+        initModal('GEN');
+        initModal('GI');
+    });
 
-  // initialisation des cartes de compétence
-  addSkillColumns(skills);
 
-  // on appelle la methode de traduction
-  translate(function(){
-    // initialisation des cartes
-    $('.card').transition({
-            animation : 'scale',
-            duration : '800ms'
-          });;
-    $('.special.cards .image').dimmer({on: 'hover'});
-    initModals(skills);
-  });
-});
-
-function addSkillColumns(skills) {
-  for (var i = skills.length - 1; i >= 0; i--) {
-    addSkillColumn(skills[i]);
-  }
-}
-
-function initModals(skills) {
-  for (var i = skills.length - 1; i >= 0; i--) {
-    initModal(skills[i]);
-  }
-}
-
-function initModal(skill) {
-  $('#Button_'+skill).click(function(){
-        $('#modaldiv_'+skill).modal('show');
-  });
-}
-
-function addSkillColumn(skill) {
-  $('#skills_container').append(' \
-    <div class="column center aligned"> \
-      <p> \
-      <div class="ui special cards" id="card_'+skill+'"> \
-        <div class="card" height:165px;> \
-          <div class="blurring dimmable image" style="background-color:#FFFFFF;"> \
-            <div class="ui dimmer"> \
-              <div class="content"> \
-                <div class="center"> \
-                  <div class="ui inverted button" id="Button_'+skill+'">{COMPETENCES_MORE}</div> \
-                </div> \
-              </div> \
-            </div> \
-            <img alt="img" src="./front/assets/skills/'+skill+'.svg"> \
-          </div> \
-          <div class="content"> \
-            <a class="ui white inverted center aligned header">{COMPETENCES_H2_'+skill+'}</a> \
-          </div> \
-        </div> \
-      </div> \
-      </p> \
-    </div> \
-    <div id="modaldiv_'+skill+'" class="ui modal"> \
-      <div class="header"> \
-        {COMPETENCES_H2_'+skill+'} \
-      </div> \
-      <div class="image content"> \
-        <div class="ui small image"> \
-          <img alt="img" src="./front/assets/skills/'+skill+'.svg"> \
-        </div> \
-        <div class="description"> \
-          <p>{COMPETENCES_P_'+skill+'}</p> \
-        </div> \
-      </div> \
-      {COMPETENCES_PLUS_'+skill+'}\
-    </div>');
-    $('.card').hide();
-}
+    function initModal(skill) {
+        $('#Button_' + skill).click(function () {
+            $('#modaldiv_' + skill).modal('show');
+        });
+    }
 </script>

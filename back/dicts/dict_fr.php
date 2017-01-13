@@ -6,6 +6,9 @@ require_once "back/lang.php";
 // ------------------------------------ DICTIONNAIRE FRANCAIS ------------------------------------
 //
 $DICT_FR = new Dictionary('fr');
+
+$DICT_FR->translate(StringIdentifier::SID_LANGUAGE, "fr");
+
 $DICT_FR->translate(StringIdentifier::SID_TITLE, "Junior-Entreprise ETIC INSA Technologies");
 $DICT_FR->translate(StringIdentifier::SID_TITLE_MENU, "ETIC INSA Technologies");
 $DICT_FR->translate(StringIdentifier::SID_HOME, "Accueil");
@@ -282,122 +285,122 @@ $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_PLUS_SC, "");
 
 
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P_IF, "<i class=\"small checkmark icon\"></i>
-Réalisation de site de e-commerce, un forum ou des applications Android ou iOS (iPhone / iPad) .</br>
+Réalisation de site de e-commerce, un forum ou des applications Android ou iOS (iPhone / iPad) .<br/>
 <i class=\"small checkmark icon\"></i>
-Création de logiciels et obtention de macros.</br>
+Création de logiciels et obtention de macros.<br/>
 <i class=\"small checkmark icon\"></i>
-Uniformisation de documents informatiques.</br>
+Uniformisation de documents informatiques.<br/>
 <i class=\"small checkmark icon\"></i>
-Aide pour une meilleure gestion de vos bases de données.</br>
+Aide pour une meilleure gestion de vos bases de données.<br/>
 <i class=\"small checkmark icon\"></i>
-Mise en place d’un système de référencement sur votre site.</br>
+Mise en place d’un système de référencement sur votre site.<br/>
 <i class=\"small checkmark icon\"></i>
 Réalisation d’audit de vos systèmes d’information.");
 
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P_GM, "<i class=\"small checkmark icon\"></i>
-Conception de nouveaux produits ou développement d’un nouveau moteur.</br>
+Conception de nouveaux produits ou développement d’un nouveau moteur.<br/>
 <i class=\"small checkmark icon\"></i>
-Modélisation de transmissions ou réalisation d’une modélisation CAO de votre produit.</br>
+Modélisation de transmissions ou réalisation d’une modélisation CAO de votre produit.<br/>
 <i class=\"small checkmark icon\"></i>
-Réalisation du dessin de votre piste d’essai.</br>
+Réalisation du dessin de votre piste d’essai.<br/>
 <i class=\"small checkmark icon\"></i>
 Etude des contraintes mécaniques de votre système.");
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P_GCU, "<i class=\"small checkmark icon\"></i>
-Conseils et avis pour la rehausse d’un pont.</br>
+Conseils et avis pour la rehausse d’un pont.<br/>
 <i class=\"small checkmark icon\"></i>
-Conception d’aménagements pour votre entreprise.</br>
+Conception d’aménagements pour votre entreprise.<br/>
 <i class=\"small checkmark icon\"></i>
-Examination de la faisabilité de votre future construction.</br>
+Examination de la faisabilité de votre future construction.<br/>
 <i class=\"small checkmark icon\"></i>
-Réalisation de tests sur des matériaux de construction.</br>
+Réalisation de tests sur des matériaux de construction.<br/>
 <i class=\"small checkmark icon\"></i>
 Aide pour remise aux normes.");
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P_GEN, "<i class=\"small checkmark icon\"></i>
-Réalisation d’appareils de mesures ou prototype de votre dernière invention.</br>
+Réalisation d’appareils de mesures ou prototype de votre dernière invention.<br/>
 <i class=\"small checkmark icon\"></i>
-Réalisation de bilan carbone.</br>
+Réalisation de bilan carbone.<br/>
 <i class=\"small checkmark icon\"></i>
-Estimation de votre émission de gaz à effets de serre.</br>
+Estimation de votre émission de gaz à effets de serre.<br/>
 <i class=\"small checkmark icon\"></i>
 Amélioration de l’efficacité énergétique de vos bâtiments.");
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P_GE, "<i class=\"small checkmark icon\"></i>
-Réalisation d’un réseau intelligent.</br>
+Réalisation d’un réseau intelligent.<br/>
 <i class=\"small checkmark icon\"></i>
-Réalisation de tests sur des composants électroniques.</br>
+Réalisation de tests sur des composants électroniques.<br/>
 <i class=\"small checkmark icon\"></i>
-Réalisation d’une simulation électronique ou multiphysique.</br>
+Réalisation d’une simulation électronique ou multiphysique.<br/>
 <i class=\"small checkmark icon\"></i>
-Réalisation d’un poste de commande centralisé.</br>
+Réalisation d’un poste de commande centralisé.<br/>
 <i class=\"small checkmark icon\"></i>
-Conception et programmation d’un système embarqué.</br>
+Conception et programmation d’un système embarqué.<br/>
 <i class=\"small checkmark icon\"></i>
 Test d’un composant électronique en environnement contraignant.");
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P_SGM, "<i class=\"small checkmark icon\"></i>
-Test d’un matériau dans des conditions spécifiques.</br>
+Test d’un matériau dans des conditions spécifiques.<br/>
 <i class=\"small checkmark icon\"></i>
-Etude du recyclage de vos matériaux ou optimisation des matériaux que vous utilisez.</br>
+Etude du recyclage de vos matériaux ou optimisation des matériaux que vous utilisez.<br/>
 <i class=\"small checkmark icon\"></i>
 Aide pour le choix de votre nouvelle machine.");
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P_TC, "<i class=\"small checkmark icon\"></i>
-Expertise technique concernant les protocoles de communication.</br>
+Expertise technique concernant les protocoles de communication.<br/>
 <i class=\"small checkmark icon\"></i>
-Réalisation d’un audit de votre réseau informatique.</br>
+Réalisation d’un audit de votre réseau informatique.<br/>
 <i class=\"small checkmark icon\"></i>
 Réalisation de traitement du signal ou de l’image.");
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P_GI, "<i class=\"small checkmark icon\"></i>
-Automatisation de votre production.</br>
+Automatisation de votre production.<br/>
 <i class=\"small checkmark icon\"></i>
-Création de nouveaux programmes sur vos machines.</br>
+Création de nouveaux programmes sur vos machines.<br/>
 <i class=\"small checkmark icon\"></i>
-Optimisation de votre entreprise et notamment de parties peu performantes.</br>
+Optimisation de votre entreprise et notamment de parties peu performantes.<br/>
 <i class=\"small checkmark icon\"></i>
-Etude pour comprendre la source de vos pertes ou pour améliorer la qualité de vos produits en examinant vos processus.</br>
+Etude pour comprendre la source de vos pertes ou pour améliorer la qualité de vos produits en examinant vos processus.<br/>
 <i class=\"small checkmark icon\"></i>
 Mise en place d’un ERP (Enterprise Resource Planning) ou d’un MES (Manufacturing Execution System) dans votre entreprise.");
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P_BS, "<i class=\"small checkmark icon\"></i>
-Modélisation du développement d’une nouvelle bactérie.</br>
+Modélisation du développement d’une nouvelle bactérie.<br/>
 <i class=\"small checkmark icon\"></i>
-Réalisation de tests chimiques sur vos propres molécules.</br>
+Réalisation de tests chimiques sur vos propres molécules.<br/>
 <i class=\"small checkmark icon\"></i>
-Etude de l’impact de vos produits dans un environnement particulier.</br>
+Etude de l’impact de vos produits dans un environnement particulier.<br/>
 <i class=\"small checkmark icon\"></i>
-Réalisation d’une modélisation statistique du développement de cellules.</br>");
+Réalisation d’une modélisation statistique du développement de cellules.<br/>");
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P_TR, "<i class=\"small checkmark icon\"></i>
-Traduction de documents techniques.</br>
+Traduction de documents techniques.<br/>
 <i class=\"small checkmark icon\"></i>
-Traduction d’un site web.</br>
+Traduction d’un site web.<br/>
 <i class=\"small checkmark icon\"></i>
 Traduction d’une application.");
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P_SC, "<i class=\"small checkmark icon\"></i>
-Analyse financière de votre entreprise.</br>
+Analyse financière de votre entreprise.<br/>
 <i class=\"small checkmark icon\"></i>
-Etude et amélioration de votre stratégie d’entreprise.</br>
+Etude et amélioration de votre stratégie d’entreprise.<br/>
 <i class=\"small checkmark icon\"></i>
-Aide à l’organisation de votre entreprise.</br>
+Aide à l’organisation de votre entreprise.<br/>
 <i class=\"small checkmark icon\"></i>
-Aide à la création ou à la reprise de votre entreprise.</br>
+Aide à la création ou à la reprise de votre entreprise.<br/>
 <i class=\"small checkmark icon\"></i>
-Etude de la qualité de vos services/produits.</br>
+Etude de la qualité de vos services/produits.<br/>
 <i class=\"small checkmark icon\"></i>
 Etude de marché.");
 
-$DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P2_IF, "+ L’INSA Lyon, une des meilleures formations dans ce domaine.</br>
-+ Une très grande expérience au niveau de la Junior: plus de 40% de notre chiffre d’affaire.</br>
+$DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P2_IF, "+ L’INSA Lyon, une des meilleures formations dans ce domaine.<br/>
++ Une très grande expérience au niveau de la Junior: plus de 40% de notre chiffre d’affaire.<br/>
 + Un département recouvrant une multitude de technologies informatiques.");
-$DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P2_GM, "+ 2 départements spécialisés en mécanique.</br>
+$DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P2_GM, "+ 2 départements spécialisés en mécanique.<br/>
 + Des intervenants spécialisés dans les procédés de plasturgie.");
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P2_GCU, "+ Intervenants suivant un cursus Architecture en parallèle du cursus Génie Civil et Urbanisme en vue d’obtenir un double diplôme.");
-$DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P2_GEN, "+ Accès aux laboratoires de l’INSA Lyon.</br>
+$DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P2_GEN, "+ Accès aux laboratoires de l’INSA Lyon.<br/>
 + Grande expérience dans les tests d’émission.");
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P2_GE, "+ Un département spécialisé dans l’électronique, l’électrotechnique, l’automatisation, l’informatique industrielle et les télécommunications.");
-$DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P2_SGM, "+ Un département spécialisé dans le domaine des matériaux.</br>
+$DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P2_SGM, "+ Un département spécialisé dans le domaine des matériaux.<br/>
 + Accès aux laboratoires de l’INSA Lyon.");
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P2_TC, "+ Un département spécialisé en télécommunications.
 + Un département à la pointe de la nouvelle technologie.");
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P2_GI, "+ Des intervenants spécialisés dans le Lean Management.");
-$DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P2_BS, "+ Des intervenants spécialisés dans la modélisation des phénomènes biologiques.</br>
+$DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P2_BS, "+ Des intervenants spécialisés dans la modélisation des phénomènes biologiques.<br/>
 + Accès aux laboratoires de l’INSA Lyon.");
-$DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P2_TR, "+Une école ouverte sur l’international.</br>
+$DICT_FR->translate(StringIdentifier::SID_COMPETENCES_P2_TR, "+Une école ouverte sur l’international.<br/>
 + Un panel de plus de 10 langues.");
 
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_MORE, "En savoir plus...");

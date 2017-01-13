@@ -12,7 +12,7 @@ function translate(after) {
 		function(data, textString, jqXHR){
 			obj = JSON.parse(data);
 			if(obj.error) {
-				//alert("Asynchronous translation error ! Details : " + obj.data);
+				alert("Asynchronous translation error ! Details : " + obj.data);
 			} else {
 				$('#translatable').html(obj.data);
 			}

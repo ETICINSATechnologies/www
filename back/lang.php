@@ -9,6 +9,9 @@
  *		- et une ligne StringIdentifier::SID_XXXX dans le tableau de la constante SIDS
  */
 class StringIdentifier {
+
+    const SID_LANGUAGE = "{LANG}";
+
 	// identifiants
 	const SID_TITLE = "{TITLE}"; // titre du site
     const SID_TITLE_MENU ="{TITLE_MENU}"; // titre du menu
@@ -248,6 +251,8 @@ class StringIdentifier {
 
 	// tableau des identifiants
 	const SIDS = array(
+	    StringIdentifier::SID_LANGUAGE,
+
 		StringIdentifier::SID_TITLE,
         StringIdentifier::SID_TITLE_MENU,
 		StringIdentifier::SID_HOME,

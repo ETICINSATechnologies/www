@@ -6,7 +6,10 @@ require_once "back/lang.php";
 // ------------------------------------ DICTIONNAIRE FRANCAIS ------------------------------------
 //
 $DICT_EN = new Dictionary('en');
-$DICT_EN->translate(StringIdentifier::SID_TITLE, "Junior enterprise ETIC INSA Technologies");
+
+$DICT_EN->translate(StringIdentifier::SID_LANGUAGE, "en");
+
+$DICT_EN->translate(StringIdentifier::SID_TITLE, "Junior-Entreprise ETIC INSA Technologies");
 $DICT_EN->translate(StringIdentifier::SID_TITLE_MENU, "ETIC INSA Technologies");
 $DICT_EN->translate(StringIdentifier::SID_HOME, "Home");
 $DICT_EN->translate(StringIdentifier::SID_PRESTA, "Our services");
@@ -114,101 +117,101 @@ $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_H2_TR, "Technical translat
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_H2_SC, "Business science");
 
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P_IF, "<i class=\"small checkmark icon\"></i>
-Implementation of a commercial website, a forum or Android/iOS applications</br>
+Implementation of a commercial website, a forum or Android/iOS applications<br/>
 <i class=\"small checkmark icon\"></i>
-Software creation and macros implementation.</br>
+Software creation and macros implementation.<br/>
 <i class=\"small checkmark icon\"></i>
-Uniformisation of your documents</br>
+Uniformisation of your documents<br/>
 <i class=\"small checkmark icon\"></i>
-Assistance in database management.</br>
+Assistance in database management.<br/>
 <i class=\"small checkmark icon\"></i>
-Establishment of a referencement system on your website</br>
+Establishment of a referencement system on your website<br/>
 <i class=\"small checkmark icon\"></i>
 Audit of your information system ");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P_GM, "<i class=\"small checkmark icon\"></i>
-Design of a new product or developement of a new engine.</br>
+Design of a new product or developement of a new engine.<br/>
 <i class=\"small checkmark icon\"></i>
-Modelisation of transmissions or realisation of a CAD model for your product </br>
+Modelisation of transmissions or realisation of a CAD model for your product <br/>
 <i class=\"small checkmark icon\"></i>
-Implementation of your test drawing</br>
+Implementation of your test drawing<br/>
 <i class=\"small checkmark icon\"></i>
 Study of your system's mecanical constraints");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P_GCU, "<i class=\"small checkmark icon\"></i>
-Advice and opinion for the raise of a bridge</br>
+Advice and opinion for the raise of a bridge<br/>
 <i class=\"small checkmark icon\"></i>
-Conception of improvemens for your company</br>
+Conception of improvemens for your company<br/>
 <i class=\"small checkmark icon\"></i>
-Study of your future building's feasability</br>
+Study of your future building's feasability<br/>
 <i class=\"small checkmark icon\"></i>
-Testings on building materials</br>
+Testings on building materials<br/>
 <i class=\"small checkmark icon\"></i>
 Help to follow standards");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P_GEN, "<i class=\"small checkmark icon\"></i>
-Implementation of measuring devices or prototype for your last invention</br>
+Implementation of measuring devices or prototype for your last invention<br/>
 <i class=\"small checkmark icon\"></i>
-Evaluation of your carbon footpring</br>
+Evaluation of your carbon footpring<br/>
 <i class=\"small checkmark icon\"></i>
-Estimating your greenhouse gas emission</br>
+Estimating your greenhouse gas emission<br/>
 <i class=\"small checkmark icon\"></i>
 Improvements for your building's energetic efficiency");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P_GE, "<i class=\"small checkmark icon\"></i>
-Implementation of a smart network.</br>
+Implementation of a smart network.<br/>
 <i class=\"small checkmark icon\"></i>
-Tests on electrical components.</br>
+Tests on electrical components.<br/>
 <i class=\"small checkmark icon\"></i>
-Electronical or multiphysical simulations.</br>
+Electronical or multiphysical simulations.<br/>
 <i class=\"small checkmark icon\"></i>
-Implementation of a centralised control station.</br>
+Implementation of a centralised control station.<br/>
 <i class=\"small checkmark icon\"></i>
-Conception and developement for embeded systems.</br>
+Conception and developement for embeded systems.<br/>
 <i class=\"small checkmark icon\"></i>
 Tests on components in constrainig environments.");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P_SGM, "<i class=\"small checkmark icon\"></i>
-Material tests in specific conditions.</br>
+Material tests in specific conditions.<br/>
 <i class=\"small checkmark icon\"></i>
-Study of the recyclability of your materials or optimisation of the materials you are using.</br>
+Study of the recyclability of your materials or optimisation of the materials you are using.<br/>
 <i class=\"small checkmark icon\"></i>
 Help to choose a new machine.");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P_TC, "<i class=\"small checkmark icon\"></i>
-Technical consulting for communication protocols.</br>
+Technical consulting for communication protocols.<br/>
 <i class=\"small checkmark icon\"></i>
-Consulting for your computer network.</br>
+Consulting for your computer network.<br/>
 <i class=\"small checkmark icon\"></i>
 Signal or image processing.");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P_GI, "<i class=\"small checkmark icon\"></i>
-Production automatisation.</br>
+Production automatisation.<br/>
 <i class=\"small checkmark icon\"></i>
-Developement of new machines programms.</br>
+Developement of new machines programms.<br/>
 <i class=\"small checkmark icon\"></i>
-Optimisation and improvement of the less performing part of your business.</br>
+Optimisation and improvement of the less performing part of your business.<br/>
 <i class=\"small checkmark icon\"></i>
-Lean management.</br>
+Lean management.<br/>
 <i class=\"small checkmark icon\"></i>
 Implementation of an ERP (Enterprise Resource Planning) or a MES (Manufacturing Execution System) for your business.");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P_BS, "<i class=\"small checkmark icon\"></i>
-Modelisation of the evolution of a new bacteria.</br>
+Modelisation of the evolution of a new bacteria.<br/>
 <i class=\"small checkmark icon\"></i>
-Chemical tests on your molecules.</br>
+Chemical tests on your molecules.<br/>
 <i class=\"small checkmark icon\"></i>
-Study of the consequences of your products in a specific environment.</br>
+Study of the consequences of your products in a specific environment.<br/>
 <i class=\"small checkmark icon\"></i>
-Statistic modelisation of cells evolution.</br>");
+Statistic modelisation of cells evolution.<br/>");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P_TR, "<i class=\"small checkmark icon\"></i>
-Translation of a technical document.</br>
+Translation of a technical document.<br/>
 <i class=\"small checkmark icon\"></i>
-Website translations.</br>
+Website translations.<br/>
 <i class=\"small checkmark icon\"></i>
 Translation of an application.");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_P_SC, "<i class=\"small checkmark icon\"></i>
-Financial analysis of your business.</br>
+Financial analysis of your business.<br/>
 <i class=\"small checkmark icon\"></i>
-Study and improvements of your business strategy.</br>
+Study and improvements of your business strategy.<br/>
 <i class=\"small checkmark icon\"></i>
-Help organising your business</br>
+Help organising your business<br/>
 <i class=\"small checkmark icon\"></i>
-Help creating or taking up a business .</br>
+Help creating or taking up a business .<br/>
 <i class=\"small checkmark icon\"></i>
-Study of the quality of your delivered services.</br>
+Study of the quality of your delivered services.<br/>
 <i class=\"small checkmark icon\"></i>
 Market study.");
 
@@ -376,6 +379,8 @@ $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_PLUS_TR, "<div class=\"ui 
 
 
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_PLUS_SC, "");
+
+$DICT_EN->translate(StringIdentifier::SID_COMPETENCES_MORE, "Learn more...");
 
 $DICT_EN->translate(StringIdentifier::SID_MOUVEMENT_P, "A Junior-Entreprise is an association related to the french law of 1901, managed by students from schools and universities.
 With an educational purpose, they implement projects in their fields of proficiency for their clients. More than 170 structures have been created in France and contributes to the Confédration Nationale des Junior-Entreprises.
