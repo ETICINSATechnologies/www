@@ -19,7 +19,7 @@ $(document).ready(function() {
             animation  : 'scale',
             duration   : '0'
         });
-        $(this).visibility({
+            $(this).visibility({
             onBottomVisible: function(){
                 $(this).transition({
                     animation : 'scale',
@@ -27,7 +27,6 @@ $(document).ready(function() {
                 });
             }
         });
-
     });
 });
 
@@ -37,7 +36,7 @@ $(document).ready(function() {
             animation  : 'scale',
             duration   : '0'
         });
-        $(this).visibility({
+            $(this).visibility({
             onBottomVisible: function(){
                 $(this).transition({
                     animation : 'scale',
@@ -56,7 +55,7 @@ $(document).ready(function() {
 			duration   : '0'
 		});
 
-    	$(this).visibility({
+            $(this).visibility({
     		onBottomVisible: function(){
     			$(this).transition({
     				animation : 'fly left',
