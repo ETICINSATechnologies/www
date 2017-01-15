@@ -1,5 +1,5 @@
 $(window).resize(function() {
-	var windowHeight = $(window).height() - $(".ui.top.fixed.menu.stackable").height();
+	var windowHeight = $(window).height() - $(".ui.top.fixed.tabular.menu").height();
 	var windowWidth = $(window).width();
 	var ratioWindow = windowWidth/windowHeight;
 	var imgHeight = $("#splash").height();
@@ -17,7 +17,7 @@ $(window).resize(function() {
 });
 
 $(document).ready(function() {
-	var windowHeight = $(window).height() - $(".ui.top.fixed.menu.stackable").height();
+	var windowHeight = $(window).height() - $(".ui.top.fixed.tabular.menu").height();
 	var windowWidth = $(window).width();
 	var ratioWindow = windowWidth/windowHeight;
 	var imgHeight = $("#splash").height();
