@@ -18,10 +18,6 @@
   <script type="text/javascript" src="front/pages/scripts/translate.js"></script>
 </head>
 
-<!-- Afficher tout le menu comme avant quand l'écran est en grand et switcher vers le menu popup quand une partie du menu n'est plus visible ~1200px
-Soit switch du html, soit switch des divs (à préférer)
-fonction JS, essayer de trouver celle utilisée pour l'image et s'en inspirer  (fichier image_crop.js) -->
-
 
 <body style="display: flex;  min-height: 100vh;  flex-direction: column; padding-top:70px;">
 
@@ -77,29 +73,29 @@ fonction JS, essayer de trouver celle utilisée pour l'image et s'en inspirer  (
 
         <div class="ui inline vertical sidebar top menu">
             <a class="item" id="link_menu"><i class="content icon"></i>Menu</a>
-            <a id="link_home3" href="page.php?page=home&amp;lang=fr" class="item">Accueil</a>
+            <a id="link_home3" href="page.php?page=home&amp;lang=fr" class="item">{HOME}</a>
             <div class="ui simple dropdown floated right item" id="link_presta">
-                Nos prestations <i class="green dropdown icon"></i>
+                {PRESTA} <i class="green dropdown icon"></i>
                 <div class="menu">
-                    <a class="item" href="page.php?page=study&amp;lang=fr">Déroulement d'une étude</a>
-                    <a class="item" href="page.php?page=skills&amp;lang=fr">Nos domaines de compétences</a>
-                    <a class="item" href="page.php?page=engagement&amp;lang=fr">Nos engagements</a>
+                    <a class="item" href="page.php?page=study&amp;lang=fr">{ETUDE}</a>
+                    <a class="item" href="page.php?page=skills&amp;lang=fr">{COMPETENCES}</a>
+                    <a class="item" href="page.php?page=engagement&amp;lang=fr">{ENGAGEMENTS}</a>
                 </div>
             </div>
             <div class="ui simple dropdown floated right item">
-                Nous découvrir <i class="green dropdown icon"></i>
+                {NOUS} <i class="green dropdown icon"></i>
                 <div class="menu">
-                    <a class="item" href="page.php?page=team&amp;lang=fr">Notre équipe</a>
-                    <a class="item" href="page.php?page=partners&amp;lang=fr">Nos partenaires</a>
-                    <a class="item" href="page.php?page=events&amp;lang=fr">Nos évènements</a>
-                    <a class="item" href="page.php?page=mouvement&amp;lang=fr">Découvrir le mouvement</a>
+                    <a class="item" href="page.php?page=team&amp;lang=fr">{EQUIPE}</a>
+                    <a class="item" href="page.php?page=partners&amp;lang=fr">{PARTENAIRES}</a>
+                    <a class="item" href="page.php?page=events&amp;lang=fr">{EVENEMENTS}</a>
+                    <a class="item" href="page.php?page=mouvement&amp;lang=fr">{MOUVEMENT}</a>
                 </div>
             </div>
 
-            <a href="page.php?page=trust&amp;lang=fr" class="item">Références</a>
-            <a href="page.php?page=blog&amp;lang=fr" class="item">Blog</a>
+            <a href="page.php?page=trust&amp;lang=fr" class="item">{CONFIANCE}</a>
+            <a href="page.php?page=blog&amp;lang=fr" class="item">{BLOG}</a>
             <div class="ui simple dropdown floated right item">
-                <i class="fr flag"></i> Français <i class="green dropdown icon"></i>
+                {LANGUAGE} <i class="green dropdown icon"></i>
                 <div class="menu">
                     <a class="item" href="page.php?page=home&amp;lang=fr"><i class="fr flag"></i> Français</a>
                     <a class="item" href="page.php?page=home&amp;lang=en"><i class="gb flag"></i> English</a>
@@ -107,8 +103,8 @@ fonction JS, essayer de trouver celle utilisée pour l'image et s'en inspirer  (
                     <a class="item" href="page.php?page=home&lang=de"><i class="de flag"></i> Deutsch</a>-->
                 </div>
             </div>
-            <a href="http://fr.calameo.com/read/004424123fe486eb6f0b0" target="_blank" class="item">Plaquette</a>
-            <a href="page.php?page=devis&amp;lang=fr" class="item" style="color: green; font-weight: bold;">Demander un devis</a>
+            <a href="http://fr.calameo.com/read/004424123fe486eb6f0b0" target="_blank" class="item">{PLAQUETTE}</a>
+            <a href="page.php?page=devis&amp;lang=fr" class="item" style="color: green; font-weight: bold;">{DEVIS}</a>
         </div>
 
 
@@ -122,7 +118,7 @@ fonction JS, essayer de trouver celle utilisée pour l'image et s'en inspirer  (
 			<div class="ui fluid container">
 				<a href="{LINK_HOME}" class="header item">
 					<img alt="img" class="logo" src="front/assets/logo-etic1.png">
-					{TITLE}
+					{TITLE_MENU}
 				</a>
 				<a id="link_home1" href="{LINK_HOME}" class="item">{HOME}</a>
 				<div class="ui simple dropdown item" id="link_presta">
@@ -160,80 +156,15 @@ fonction JS, essayer de trouver celle utilisée pour l'image et s'en inspirer  (
 		</div>
 
 
-        <div id="topmenusmall" class="ui top fixed tabular menu" style="background-color: white; display : none;">
-            <a href="{LINK_HOME}" class="header item">
-                <img alt="img" class="logo" src="front/assets/logo-etic1.png">
-                &nbsp; {TITLE}
-            </a>
-            <a class="browse item">
-                <i class="content icon"></i>
-                <i class="dropdown icon"></i>
-            </a>
-            <div class="ui very wide popup"  >
-                <div class="ui three column relaxed equal height divided grid">
-                    <div class="column">
-                        <a id="link_home2" href="{LINK_HOME}" class="item"><h4 class="ui header">{HOME}</h4></a>
-                        <a href="{LINK_TRUST}" class="item"><h4 class="ui header">{CONFIANCE}</h4></a>
-                        <a href="{LINK_BLOG}" class="item"><h4 class="ui header">{BLOG}</h4></a>
-                    </div>
-                    <a href="http://fr.calameo.com/read/004424123fe486eb6f0b0" target="_blank" class="item">{PLAQUETTE}</a>
-                    <a href="{LINK_DEVIS}" class="item">{DEVIS}</a>
-                </div>
-            </div>
-            
-            <!-- Code copié pour taille d'écran supérieure à 1200 px -->
-            
-            <div id="topmenubig" class="ui top fixed tabular stackable menu" style="background-color: white; display : none;">
-                <div class="ui fluid container">
-                    <a href="{LINK_HOME}" class="header item">
-                        <img alt="img" class="logo" src="front/assets/logo-etic1.png">
-                            &nbsp; {TITLE}
-                            </a>
-                    <a href="{LINK_HOME}" class="item">{HOME}</a>
-                    <div class="ui simple dropdown item">
-                        {PRESTA} <i class="green dropdown icon"></i>
-                        <div class="menu">
-                            <a class="item" href="{LINK_STUDY}">{ETUDE}</a>
-                            <a class="item" href="{LINK_SKILLS}">{COMPETENCES}</a>
-                            <a class="item" href="{LINK_ENGAGEMENT}">{ENGAGEMENTS}</a>
-                        </div>
-                    </div>
-                    <div class="ui simple dropdown item">
-                        {NOUS} <i class="green dropdown icon"></i>
-                        <div class="menu">
-                            <a class="item" href="{LINK_TEAM}">{EQUIPE}</a>
-                            <a class="item" href="{LINK_PARTNERS}">{PARTENAIRES}</a>
-                            <a class="item" href="{LINK_EVENTS}">{EVENEMENTS}</a>
-                            <a class="item" href="{LINK_MOUVEMENT}">{MOUVEMENT}</a>
-                        </div>
-                    </div>
-                    
-                    <a href="{LINK_TRUST}" class="item">{CONFIANCE}</a>
-                    <a href="{LINK_BLOG}" class="item">{BLOG}</a>
-                    <div class="ui simple dropdown floated right item">
-                        {LANGUAGE} <i class="green dropdown icon"></i>
-                        <div class="menu">
-                            <a class="item" href="page.php?page=home&lang=fr"><i class="fr flag"></i> Français</a>
-                            <a class="item" href="page.php?page=home&lang=en"><i class="gb flag"></i> English</a>
-                            <!--<a class="item" href="page.php?page=home&lang=es"><i class="es flag"></i> Espanol</a>
-                             <a class="item" href="page.php?page=home&lang=de"><i class="de flag"></i> Deutsch</a>-->
-                        </div>
-                    </div>
-                    <a href="http://fr.calameo.com/read/004424123fe486eb6f0b0" target="_blank" class="item">{PLAQUETTE}</a>
-                    <a href="{LINK_DEVIS}" class="item">{DEVIS}</a>
-                </div>
-            </div>
-            
-            
-            <!-- Code copié pour taille d'écran inférieure à 1200 px -->
-            
-            <div id="topmenusmall" class="ui top fixed tabular stackable menu" style="background-color: white; display : none;">
+
+
+            <div id="topmenusmall" class="ui top fixed tabular menu" style="background-color: white; display : none;">
                 <a href="{LINK_HOME}" class="header item">
                     <img alt="img" class="logo" src="front/assets/logo-etic1.png">
-                        &nbsp; {TITLE}
-                        </a>
+                    &nbsp; {TITLE_MENU}
+                </a>
                 <a class="browse item">
-                    Menu
+                    <i class="content icon"></i>
                     <i class="dropdown icon"></i>
                 </a>
                 <div class="ui very wide popup"  >
@@ -262,22 +193,21 @@ fonction JS, essayer de trouver celle utilisée pour l'image et s'en inspirer  (
                         </div>
                     </div>
                 </div>
-                
-                
-                
+
+
+
                 <div class="ui simple dropdown floated right item">
                     {LANGUAGE} <i class="green dropdown icon"></i>
                     <div class="menu">
                         <a class="item" href="page.php?page=home&lang=fr"><i class="fr flag"></i> Français</a>
                         <a class="item" href="page.php?page=home&lang=en"><i class="gb flag"></i> English</a>
                         <!--<a class="item" href="page.php?page=home&lang=es"><i class="es flag"></i> Espanol</a>
-                         <a class="item" href="page.php?page=home&lang=de"><i class="de flag"></i> Deutsch</a>-->
+                        <a class="item" href="page.php?page=home&lang=de"><i class="de flag"></i> Deutsch</a>-->
                     </div>
                 </div>
-
-            <a href="http://fr.calameo.com/read/004424123fe486eb6f0b0" target="_blank" class="item">{PLAQUETTE}</a>
-            <a href="{LINK_DEVIS}" class="item" style="color: green; font-weight: bold;">{DEVIS}</a>
-        </div>
+                <a href="http://fr.calameo.com/read/004424123fe486eb6f0b0" target="_blank" class="item">{PLAQUETTE}</a>
+                <a href="{LINK_DEVIS}" class="item" style="color: green; font-weight: bold;">{DEVIS}</a>
+            </div>
 
 
 
