@@ -7,11 +7,11 @@ $(window).resize(function() {
 	var ratioImg = imgWidth/imgHeight;
 
 	if(ratioImg>ratioWindow){	//image trop large
-		$(".cropper").attr("style", 'height:' + windowHeight +'px; width:auto; display:block; margin-left:-100%; margin-right:-100%; margin-top:-15px;');
+		$(".cropper").attr("style", 'height:' + windowHeight +'px; width:auto; display:block; margin-left:-100%; margin-right:-100%; ');
 		$("#splash").attr("style", "height:" + windowHeight +"px; display:block; margin-left:auto; margin-right:auto;");
 	}
 	else{	//image trop haute
-		$(".cropper").attr("style", 'height:'+ windowHeight+ 'px; width:100%; overflow:hidden; margin-top:-15px;');
+		$(".cropper").attr("style", 'height:'+ windowHeight+ 'px; width:100%; overflow:hidden; ');
 		$("#splash").attr("style", "width:100%;");
 	}
 });
@@ -25,11 +25,11 @@ $(document).ready(function() {
 	var ratioImg = imgWidth/imgHeight;
 
 	if(ratioImg>ratioWindow){	//image trop large
-		$(".cropper").attr("style", 'height:' + windowHeight +'px; width:auto; display:block; margin-left:-100%; margin-right:-100%; margin-top:-15px;');
+		$(".cropper").attr("style", 'height:' + windowHeight +'px; width:auto; display:block; margin-left:-100%; margin-right:-100%; ');
 		$("#splash").attr("style", "height:" + windowHeight +"px; display:block; margin-left:auto; margin-right:auto;");
 	}
 	else{	//image trop haute
-		$(".cropper").attr("style", 'height:'+ windowHeight+ 'px; width:100%; overflow:hidden; margin-top:-15px;');
+		$(".cropper").attr("style", 'height:'+ windowHeight+ 'px; width:100%; overflow:hidden;');
 		$("#splash").attr("style", "width:100%;");
 	}
 });

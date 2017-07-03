@@ -30,7 +30,7 @@ $DICT_FR->translate(StringIdentifier::SID_PLAN, "Plan du site");
 
 /*FR_HOME*/
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_EXPERIENCE, "Années d'expérience");
-$DICT_FR->translate(StringIdentifier::SID_HOME_STAT_ENG, "en France");
+$DICT_FR->translate(StringIdentifier::SID_HOME_STAT_ENG, "en France en 2016");
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_TOP, "Des meilleures Junior-Entreprises");
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_DOMAINES, "Domaines de compétences");
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_SATISFACTION, "De satisfaction client");
@@ -60,7 +60,7 @@ Lauréat du Label Technique 1998");
 
 $DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS, "Nos offres et services");
 $DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_SUB, "De nombreux domaines d'ingénierie");
-$DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_P, "Grâce à une formation technique diversifiée et de qualité à l'INSA Lyon, ETIC INSA Technologies est en mesure de vous offrir tout un panel de services. De l'informatique à la mécanique, en passant par les télécommunications, l'électronique, le génie civil et bien d'autres, découvrez nos 11 domaines de compétences.");
+$DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_P, "Grâce à une formation technique diversifiée et de qualité à l'INSA Lyon, ETIC INSA Technologies est en mesure de vous offrir tout un panel de services. De l'informatique à la mécanique, en passant par les télécommunications, l'électronique, le génie civil et bien d'autres, découvrez tous nos domaines de compétences répartis en 3 grandes catégories.");
 $DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_DET, "PLUS DE DETAILS");
 
 $DICT_FR->translate(StringIdentifier::SID_HOME_TRUST, "ILS NOUS ONT FAIT CONFIANCE");
@@ -115,6 +115,8 @@ $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_H2_GI, "Production");
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_H2_BS, "Biosciences");
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_H2_TR, "Traduction technique");
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_H2_SC, "Sciences de l'entreprise");
+
+
 
 
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_PLUS_IF, "<div class=\"ui visible green icon message\">
@@ -522,3 +524,333 @@ $DICT_FR->translate(StringIdentifier::SID_PROJECT_IDEA,"Un projet ? Une idée ?"
 
 $DICT_FR->translate(StringIdentifier::SID_TELECHARGER_PLAQUETTE,"Télécharger notre plaquette");
 $DICT_FR->translate(StringIdentifier::SID_TELECHARGER_PORTFOLIO,"Télécharger notre portfolio");
+
+$DICT_FR->translate(StringIdentifier::SID_TRANSFORMATION_NUMERIQUE, "Transformation numérique");
+$DICT_FR->translate(StringIdentifier::SID_SCIENCES_ENTREPRISE, "Sciences de l'entreprise");
+$DICT_FR->translate(StringIdentifier::SID_INGENIERIE, "Ingénierie");
+
+$DICT_FR->translate(StringIdentifier::SID_REA_WEB, "Réalisation d'applications web");
+$DICT_FR->translate(StringIdentifier::SID_REA_MOBILE, "Réalisation d’applications mobiles (Android/iOS/crossplateform)");
+$DICT_FR->translate(StringIdentifier::SID_CREA_LOGICIEL, "Création/Mise à jour de logiciels");
+$DICT_FR->translate(StringIdentifier::SID_DOC_INFORMATIQUE, "Uniformisation de documents informatiques");
+$DICT_FR->translate(StringIdentifier::SID_CREA_BASES, "Création et aide à la gestion de bases de données");
+$DICT_FR->translate(StringIdentifier::SID_REF_WEB, "Référencement de votre site web");
+$DICT_FR->translate(StringIdentifier::SID_AUDIT_SI, "Réalisation d’audit de votre Système d’Information");
+$DICT_FR->translate(StringIdentifier::SID_SECU_INFO, "Sécurité informatique");
+
+$DICT_FR->translate(StringIdentifier::SID_ETUDE_MARCHE, "Etude de marché");
+$DICT_FR->translate(StringIdentifier::SID_ETUDE_SATISFACTION, "Etude de satisfaction");
+$DICT_FR->translate(StringIdentifier::SID_ANALYSE_CONCU, "Analyse concurrentielle");
+$DICT_FR->translate(StringIdentifier::SID_TRAD, "Traduction");
+$DICT_FR->translate(StringIdentifier::SID_STRATEGIE_DIGI, "Stratégie de digitalisation");
+$DICT_FR->translate(StringIdentifier::SID_ETUDE_FAISABILITE, "Etude de faisabilité ");
+
+$DICT_FR->translate(StringIdentifier::SID_MECANIQUE, "Mécanique");
+$DICT_FR->translate(StringIdentifier::SID_CONSTRUCTION, "Construction et urbanisme");
+$DICT_FR->translate(StringIdentifier::SID_SCIENCE_MATERIAUX, "Science des matériaux");
+$DICT_FR->translate(StringIdentifier::SID_ENVIRONNEMENT, "Environnement");
+$DICT_FR->translate(StringIdentifier::SID_ENERGIE, "Energie");
+$DICT_FR->translate(StringIdentifier::SID_ELECTRIQUE, "Génie électrique");
+
+
+$DICT_FR->translate(StringIdentifier::SID_DESC_TITLE, "Description");
+$DICT_FR->translate(StringIdentifier::SID_WHY_TITLE, "Pourquoi nous choisir ?");
+$DICT_FR->translate(StringIdentifier::SID_EXEMPLE_TITLE, "EXEMPLES D'ETUDES");
+$DICT_FR->translate(StringIdentifier::SID_OTHER_TITLE, "AUTRES PRESTATIONS POUVANT VOUS INTERESSER");
+
+
+
+$DICT_FR->translate(StringIdentifier::SID_REA_WEB_DESC, "Les applications web sont un incontournable de la digitalisation. Leur adaptabilité et leur ergonomie en font un outil de choix pour dynamiser et améliorer votre activité comme votre visibilité");
+$DICT_FR->translate(StringIdentifier::SID_REA_MOBILE_DESC, "Les applications mobiles ont transformé notre manière de faire du business. Que ce soit pour faciliter les opérations du quotidien en interne, développer un nouveau secteur au sein de votre entreprise, faire de la publicité ou vendre un nouveau service à vos clients, ces nouveaux indispensables du quotidien sur smartphones ou tablettes sont un excellent moyen d’y parvenir ! ");
+$DICT_FR->translate(StringIdentifier::SID_CREA_LOGICIEL_DESC, "Les besoins de chaque entreprise est différent, et vous ne parvenez pas à trouver le logiciel qui répond à toutes vos exigences sur le marché. Aucun problème, nous le développerons spécifiquement pour vous ! De même pour un logiciel qui n’est plus au maximum de ses performances, il est important pour votre activité de toujours bénéficier des outils les plus performants, et nous pouvons vous les fournir. ");
+$DICT_FR->translate(StringIdentifier::SID_DOC_INFORMATIQUE_DESC, "Avoir une documentation claire et complète est la base d’une utilisation optimisée de votre matériel informatique. C’est aussi le premier pas pour la formation de nouveaux utilisateurs, et également la maintenance.");
+$DICT_FR->translate(StringIdentifier::SID_CREA_BASES_DESC, "Le management de vos bases de données est indispensable. Nous pouvons en créer une adaptée à vos besoins et usages, mais aussi entretenir celles que vous utilisez déjà.");
+$DICT_FR->translate(StringIdentifier::SID_REF_WEB_DESC, "Le référencement permet de donner une meilleure visibilité à votre site web lorsque vos clients le chercheront sur un navigateur web.");
+$DICT_FR->translate(StringIdentifier::SID_AUDIT_SI_DESC, "L'audit de votre Système d'Information a pour objectif d'identifier et d'évaluer les risques divers associés à vos activités informatiques.");
+$DICT_FR->translate(StringIdentifier::SID_SECU_INFO_DESC, "Partenaires avec Insecurity, association reconnue de sécurité informatique de l’INSA Lyon, nous vous proposons un panel d’études liées à la sécurité informatique allant de l’audit de code, au pentest en passant par le développement de code sécurisé.");
+
+$DICT_FR->translate(StringIdentifier::SID_ETUDE_MARCHE_DESC, "L’étude de marché vous permettra de déterminer si votre projet vaut le coup d’être lancé.
+Il s’agit pour cela de rechercher les potentiels clients et leurs tendances de consommation. Nous vous proposons une méthodologie en trois étapes : étude du marché, analyse de l’environnement de votre activité et identification de vos concurrents potentiels. Ces étapes sont clés pour le développement de votre produit. L’étude de marché permet également de recueillir des informations sur le positionnement à adopter sur ce marché. ");
+$DICT_FR->translate(StringIdentifier::SID_ETUDE_SATISFACTION_DESC, "Cette étude permet de mesurer la satisfaction de vos clients et de déterminer les origines de leur (in)satisfaction. Nous analysons les besoins de vos clients et vous aidons dans la redéfinition de votre offre afin de l’adapter aux attentes du marché.");
+$DICT_FR->translate(StringIdentifier::SID_ANALYSE_CONCU_DESC, "Elle vous permet de connaître l’image de votre marque ou produit par rapport aux concurrents dans l’esprit du consommateur cible. 
+Veille des best-practices des entreprises concurrentes. Nous vous proposons un regard neuf et dans l’air du temps.");
+$DICT_FR->translate(StringIdentifier::SID_TRAD_DESC, "Avec plus de 8 langues enseignées à l’INSA Lyon, nous vous proposons de traduire vos présentations de produit, argumentaires commerciaux et autres outils marketing. Nos élèves, étrangers ou français maîtrisant parfaitement ces langues vous proposent des traductions en anglais, chinois, allemand, espagnol, italien, japonais, portugais, ou arabe.");
+$DICT_FR->translate(StringIdentifier::SID_STRATEGIE_DIGI_DESC, "?");
+$DICT_FR->translate(StringIdentifier::SID_ETUDE_FAISABILITE_DESC, "Cette étude vous permet de mesurer la faisabilité et la viabilité de vos projets sur un plan technique. Nous vous proposons de la compléter par une étude commerciale et économique faite par nos partenaires de l’EM Lyon Junior Conseil");
+
+$DICT_FR->translate(StringIdentifier::SID_MECANIQUE_DESC, "Nous vous accompagnons dans vos projets innovants. De la R&D à la conception, nos 325 étudiants en génie mécanique sauront vous conseiller dans vos projets et vous apporter les connaissances techniques dont vous avez besoin.
+Ils sont également formés à la mécatronique, à l’automatique et aux procédés de fabrication, ce qui vous permettra de réaliser des projets spécifiques ou transversaux.");
+$DICT_FR->translate(StringIdentifier::SID_CONSTRUCTION_DESC, "L’INSA de Lyon propose une formation complète et de qualité aux futurs ingénieurs en Génie Civile et Urbanisme, nous offrant ainsi la possibilité de vous accompagner dans tous vos projets. Les différentes options, que ce soit dans les domaines de l’urbanisme (diagnostic urbain, gestion des réseaux urbains, sociologie urbaine), de la construction (structure des bâtiments, procédés généraux de construction, renforcement des sols), de la physique du bâtiment (thermique du bâtiment, acoustique, parasismique) et de la géotechnique (géologie, mécanisme des sols, simulation d’ouvrages), permettent aux étudiants de disposer d’un large panel de compétences.");
+$DICT_FR->translate(StringIdentifier::SID_SCIENCE_MATERIAUX_DESC, "Les consultants d’ETIC sont toujours à même des dernières technologies et techniques. Ils sont particulièrement performants dans le domaine des semi-conducteurs mais aussi des polymères et des matériaux inorganiques. Ils peuvent vous aider dans le choix des matériaux de votre projet et aussi dans l’élaboration des matériaux choisis. Nos consultants connaissent également des logiciels tels qu’ANSYS ce qui leur est très utile pour le choix de matériaux. Ils maitrisent aussi les micro-technologies et réalisent par exemple des biocapteurs ou des cellules photovoltaïques. Un autre grand axe de leurs compétences est celui des contrôles. ETIC peut réaliser des contrôles non destructifs pour un panel très large de matériaux en mesurant par exemple l’endommagement d’un matériau par émission acoustique. Les consultants ETIC peuvent aussi réaliser des expertises sur des pièces déjà corrodées. ");
+$DICT_FR->translate(StringIdentifier::SID_ENVIRONNEMENT_DESC, "La préservation de l’environnement est aujourd’hui une préoccupation majeure. C’est pourquoi nous vous proposons de vous accompagner dans vos projets environnementaux.
+De la gestion des déchets au traitement de l’eau, de l’air et des fumées, en passant par les énergies renouvelables, ETIC saura vous accompagnez en proposant des techniques et des procédés propres.");
+$DICT_FR->translate(StringIdentifier::SID_ENERGIE_DESC, "Le domaine de l’énergie est aujourd’hui un enjeu majeur à prendre en compte dans vos projets. De la production d’énergie à sa gestion, en passant par l’optimisation, ETIC saura vous accompagnez dans vos projets. Cela passe par l’étude des transferts de chaleur dans un bâtiment, l’étude des énergies renouvelables, l’étude des machines thermiques et frigorifiques ou par la régulation des procédés pour améliorer la gestion");
+$DICT_FR->translate(StringIdentifier::SID_ELECTRIQUE_DESC, "L’électricité est présente partout dans notre société et est l’élément central des projets innovants.  Nous vous accompagnons dans vos projets nécessitant des systèmes électriques. Nous pouvons intervenir dans vos projets de conversion d’énergie, de systèmes embarqués, de télécommunications, d’automatisme industriel, de traitement du signal et des images, des véhicules électriques, ou encore sur les réseaux de distribution de l'énergie.");
+
+$DICT_FR->translate(StringIdentifier::SID_REA_WEB_WHY, "Avec plus de 600 étudiants en Informatique et Télécommunication, 35 ans d’expérience, et plus de 40% de notre chiffre d’affaires réalisé dans ce domaine de compétences, ETIC assure qualité et excellence dans l’ensemble de nos prestations web.");
+$DICT_FR->translate(StringIdentifier::SID_REA_MOBILE_WHY, "Forts de nos 600 étudiants en Informatique et Télécommunications ainsi que de notre grande expérience en réalisation d’applications mobiles, acquise via nos nombreux projets développés sur tous types de plateformes mobiles, nous nous engageons à vous délivrer des prestations de qualité.");
+$DICT_FR->translate(StringIdentifier::SID_CREA_LOGICIEL_WHY, "Grâce à son large panel de compétences informatiques, ETIC saura s’adapter à vos besoins afin d’assurer une prestation d’excellence. Nous disposons d’un panel de plus de 600 étudiants en Informatique et Télécommunications formés à haut niveau et capable de répondre précisément à vos besoins. ");
+$DICT_FR->translate(StringIdentifier::SID_DOC_INFORMATIQUE_WHY, "Avec une formation d’ingénieur méthodique et rigoureuse, les quelques 600 étudiants en Informatique et Télécommunications, maîtrisant les divers langages de programmation, pourront vous aider à rédiger et structurer de manière claire et efficace vos documents informatiques.");
+$DICT_FR->translate(StringIdentifier::SID_CREA_BASES_WHY, "Nous disposons d’un panel de plus de 600 étudiants en Informatique et Télécommunications maîtrisant parfaitement sur la création et la gestion de bases de données. ETIC saura vous fournir des services fiables, sécurisés, et adaptés à vos besoins.");
+$DICT_FR->translate(StringIdentifier::SID_REF_WEB_WHY, "Grâce à son partenariat avec Google via la mention Google Adwords, ETIC dispose d’une connaissance approfondie et reconnue sur le référencement de site web.");
+$DICT_FR->translate(StringIdentifier::SID_AUDIT_SI_WHY, "Grâce à ses domaines de compétence variés, ETIC saura allier ses compétences en audit et en informatique pour vous proposer un audit de vos SI dans l’optique de développer les performances de votre entreprise.");
+$DICT_FR->translate(StringIdentifier::SID_SECU_INFO_WHY, "Notre partenariat avec Insecurity, association reconnue de sécurité informatique de l’INSA Lyon.");
+
+$DICT_FR->translate(StringIdentifier::SID_ETUDE_MARCHE_WHY, "Nos connaissances techniques sur de nombreuses problématiques apportent une compréhension plus profonde des différents marchés et de leur évolution. ");
+$DICT_FR->translate(StringIdentifier::SID_ETUDE_SATISFACTION_WHY, "- Adapter votre démarche marketing et de communication en fonction des attentes de vos clients.
+- Le suivi de la satisfaction de vos clients est un élément stratégique pour garantir la croissance de votre entreprise. 
+");
+$DICT_FR->translate(StringIdentifier::SID_ANALYSE_CONCU_WHY, "Nous apportons un éclairage ingénieur  sur nos données récoltées afin de compléter notre analyse");
+$DICT_FR->translate(StringIdentifier::SID_TRAD_WHY, "Nos élèves étudiants  d’échange qui viennent de tous les pays d’Europe mais aussi d’Amérique du Sud et d’Asie.");
+$DICT_FR->translate(StringIdentifier::SID_STRATEGIE_DIGI_WHY, "?");
+$DICT_FR->translate(StringIdentifier::SID_ETUDE_FAISABILITE_WHY, "Notre haute formation d’ingénieurs nationalement reconnue
+Notre partenariat avec EM Lyon Junior-Conseil qui nous permet une étude complète de vos produits.");
+
+$DICT_FR->translate(StringIdentifier::SID_MECANIQUE_WHY, "L’INSA Lyon dispose de la plus grande formation d’ingénieurs en Génie Mécanique d’Europe, offrant ainsi une grande opportunité technique à vos projets. 
+Plus de 325 étudiants sont diplômés chaque année et prêts à mettre leur savoir-faire et leurs idées au service des entreprises. Huit laboratoires impliqués nous permettent d’être à la pointe des dernières technologies et d’innover sans cesse. Nous disposons également de deux campus dont un situé à Oyonnax au plus proche des entreprises de plasturgie pour conjuguer innovation et application concrète en entreprise.");
+$DICT_FR->translate(StringIdentifier::SID_CONSTRUCTION_WHY, "Les étudiants sont formés à l’utilisation du logiciel AutoCad et les doubles diplômes proposés dans cette filière (architecture…) vous offre l’opportunité de réaliser avec nous des projets transverses et techniques.");
+$DICT_FR->translate(StringIdentifier::SID_SCIENCE_MATERIAUX_WHY,"Nos consultants sont particulièrement bien formés et ETIC peut s’appuyer sur les laboratoires de l’INSA : Laboratoire Matériaux : Sciences et ingénierie (MATEIS), Ingénierie des matériaux polymères (IMP), Institut des nanotechnologies de Lyon (INL). ");
+$DICT_FR->translate(StringIdentifier::SID_ENVIRONNEMENT_WHY, "L’INSA Lyon, c’est 360 étudiants au département Génie Energie et Environnement prêt à vous aider dans vos projets. Ils pourront de plus s’appuyer sur 5 laboratoires spécialisés présents sur le campus de la Doua");
+$DICT_FR->translate(StringIdentifier::SID_ENERGIE_WHY, "Avec ces départements Génie Electrique et Génie Energie et Environnement, l’INSA Lyon a à sa disposition plus de 750 étudiants spécialisé dans le domaine de l’énergie. Ajouté à cela, 6 laboratoires spécialisés offre un cadre idéal pour assurer un suivi d’étude pertinent. ");
+$DICT_FR->translate(StringIdentifier::SID_ELECTRIQUE_WHY, "Disposant de 450 étudiants spécialisés en Génie électrique travaillant aussi bien sur les technologies classiques que innovantes, ETIC INSA Technologies sera répondre à vos projets techniques mais également vous conseiller et vous accompagner. La pluridisciplinarité de haute qualité enseignée combinée aux 22 laboratoires présents à l’INSA Lyon permettent à ETIC INSA Technologies de répondre à vos projets complexes.");
+
+$DICT_FR->translate(StringIdentifier::SID_REA_WEB_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Réalisation de sites de e-commerce</div>                        
+                        <div class=\"description\">Intuitifs et attractifs, ces sites sont des outils permettant de faire de la vente en ligne, un excellent moyen de toucher une clientèle plus large.</div>
+                        </br>
+                        <div class=\"description\"><i>Nous avons été sollicités pour des sites d’e-commerce dans des secteurs très diversifiés comme la vente de vin, de luminaires, de parfums, et de matériel agricole. </i></div>
+
+                    </div>
+                </div>
+                <div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Réalisation de sites vitrine</div>
+                        <div class=\"description\">Simples et efficace, il s’agit d’un excellent moyen  pour votre entreprise ou votre startup de gagner rapidement  en visibilité.</div>
+                        </br>
+                        <div class=\"description\"><i>Voici par exemple le lien d’un site que nous avons développé en interne pour un congrès que nous avons organisé dans la région lyonnaise : <a href =\"http://cra2016.etic-insa.com/\">cra2016.etic-insa.com</a> </i></div>
+                    </div>
+                </div>
+                <div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Réalisation de plateformes de gestion  </div>
+                        <div class=\"description\">Solution adaptée pour suivre au plus près vos activités,  votre budget, et l’avancement de vos objectifs.</div>
+                        </br>
+                        <div class=\"description\"><i>Nous avons notamment réalisé un logiciel de suivi en temps réel des KPI d’un des processus métier d’un grand compte de l’industrie. </i></div>
+                    </div>
+                </div>
+                <div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Réalisation de plateformes de collaboration/forum</div>
+                        <div class=\"description\">Que ce soit un outil de travail pour votre entreprise ou pour toute une communauté, c’est la solution de partage et de diffusion d’informations. </div>
+                       </br>
+                        <div class=\"description\"><i>Voici un site s’apparentant à une plateforme d’échange sur des appels d’offres, où sont aussi relayés des articles de presse, les commentaires des utilisateurs ainsi que leurs tweets: 
+                            <a href =\"https://www.leschantiersdelentreprenalisme.fr/\">leschantiersdelentreprenalisme.fr</a>
+                        </i></div>
+                    </div>
+                </div>");
+$DICT_FR->translate(StringIdentifier::SID_REA_MOBILE_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Applications mobiles natives (Android, iOS (Apple))</div>
+                        <div class=\"description\">Les applications mobiles sont très diversifiées. Aussi bien pour étendre les fonctionnalités marchandes ou publicitaires, partager l’information ou créer une nouvelle forme de business, tout est possible, quel que soit l’appareil que vous utilisez !</div>
+                        </br>
+                        <div class=\"description\"><i>Nous avons réalisé une application sur tablette Android, capable de flasher des QR-codes internes à l’entreprise et d’afficher du contenu : documents textes, photos, vidéos en fonction des besoins de l’utilisateur. </i></div>
+
+                    </div>
+                </div>
+                <div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Applications mobile cross-plateforme (tout support)</div>
+                        </br>
+                        <div class=\"description\"><i>Nous avons réalisé une application de tracking via un système GPS et de scoring, avec intégration de challenges pour des praticiens de VTT et BMX.  </i></div>
+                    </div>
+                </div>
+               
+                ");
+$DICT_FR->translate(StringIdentifier::SID_CREA_LOGICIEL_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Softwares</div>
+                        <div class=\"description\">Des logiciels pour répondre à un besoin précis, adapté aux utilisateurs et au matériel disponible. Tout type de langage est utilisable. </div>
+                        </br>
+                        <div class=\"description\"><i>Nous avons notamment repris et implémenté un Serious Game, à destination d’élèves qui permet l’apprentissage pédagogique et intuitif de méthodes de résolution de problèmes en entreprise.  </i></div>
+
+                    </div>
+                </div>
+                ");
+$DICT_FR->translate(StringIdentifier::SID_DOC_INFORMATIQUE_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Documentation utilisateur et concepteur standardisées et uniformisées de votre parc informatique.</div>
+                        </br>
+                        <div class=\"description\"><i>Nous avons réalisé la compilation d’un programme complexe et rédaction d’une documentation pour la compréhension de son architecture et sa modification. Il est important de souligner que toutes nos réalisations informatiques sont documentées, c’est un domaine que nous maîtrisons tout particulièrement </i></div>
+
+                    </div>
+                </div>");
+$DICT_FR->translate(StringIdentifier::SID_CREA_BASES_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Base de données sur mesure pour votre activité.</div>
+                        </br>
+                        <div class=\"description\"><i>Nous avons réalisé une base de données pour un organisme médical, pouvant stocker les informations de plus de 1000 patients, modifiable et modulable pour de futurs extensions ou mises à jour du système.</i></div>
+                    </div>
+                </div>");
+$DICT_FR->translate(StringIdentifier::SID_REF_WEB_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Une analyse approfondie de l’état et de l’architecture de votre site web, et la mise en place des actions pour augmenter son référencement (refonte, mise à jour, référencement Adwords, etc…)</div>
+                        </br>
+                        <div class=\"description\"><i>Nous avons par exemple été contactés pour refondre et améliorer le référencement d’un site de recrutement par candidature spontanée, ou encore pour la mise en place d’une politique de référencement pour un site de vente de softwares</i></div>
+                    </div>
+                </div>");
+$DICT_FR->translate(StringIdentifier::SID_AUDIT_SI_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Rapport sur l’état de votre système et nos conseils en stratégie digitale pour augmenter sa performance</div>
+                        </br>
+                        <div class=\"description\">Un système d’information performant est une garantie de qualité pour vos activités. Nous pouvons l’évaluer dans sa globalité en prenant en compte l’ensemble de vos besoins, et vous conseiller pour qu’il y réponde au mieux.</div>
+                    </div>
+                </div>");
+$DICT_FR->translate(StringIdentifier::SID_SECU_INFO_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Audits de code</div>
+                        </br>
+                        <div class=\"description\">Même avec des outils déjà en place, il n’est jamais trop tard pour en vérifier la sécurité. Grâce à un audit de code, nous serons en mesure de vous faire un bilan complet de la sécurité de vos outils informatiques. </div>
+
+                    </div>
+                </div>
+                <div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Tests d’intrusions (pentest)</div>
+                        </br>
+                        <div class=\"description\">Vous souhaitez tester la sécurité de vos outils ? Nous sommes en mesure de faire des tests d’intrusion maîtrisés pour éprouver l’efficacité de vos protections. </div>
+                    </div>
+                </div>
+                <div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Développement de code sécurisé</div>
+                        </br>
+                        <div class=\"description\">Si vos outils ne sont pas encore en place, faîte le choix de les installer dans un environnement complètement sécurisé que nous pouvons vous fournir.  </div>
+                    </div>
+                </div>");
+
+$DICT_FR->translate(StringIdentifier::SID_ETUDE_MARCHE_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Schneider electric </div>
+                        </br>
+                        <div class=\"description\">Le client cherche à savoir comment fonctionne les autres entreprises concernant le développement et le suivi de son application mobile sur les objets connectés. </div>
+                    </div>
+                </div>");
+$DICT_FR->translate(StringIdentifier::SID_ETUDE_SATISFACTION_EXEMPLE, "NEEDED");
+$DICT_FR->translate(StringIdentifier::SID_ANALYSE_CONCU_EXEMPLE, "NEEDED");
+$DICT_FR->translate(StringIdentifier::SID_TRAD_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Traduction de sites </div>
+                        </br>
+                        <div class=\"description\">Nous avons entièrement traduit un site de l’anglais vers l’allemand pour une multinationale possédant plus de 45 laboratoires répartis dans 20 pays du globe.   </div>
+                    </div>
+                </div>");
+$DICT_FR->translate(StringIdentifier::SID_STRATEGIE_DIGI_EXEMPLE, "?");
+$DICT_FR->translate(StringIdentifier::SID_ETUDE_FAISABILITE_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"description\">Nous avons étudié la faisabilité de l’évolution vers des processus de préfabrication de systèmes thermiques et électriques. Cette préfabrication permettrait de produire des sous-systèmes en usines et de faciliter la mise en œuvre sur les chantiers</div>
+                    </div>
+                </div>
+");
+
+$DICT_FR->translate(StringIdentifier::SID_MECANIQUE_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Modélisation thermique d'une boite de vitesse Eickhoff pour une éolienne</div>
+                        </br>
+                        <div class=\"description\">Analyse, conception du modèle numérique, implémentation des données</div>
+                        
+                    </div>
+                </div>
+                <div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Conception d’un porte-parapluie</div>
+                        </br>
+                        <div class=\"description\">Le client souhaitait développer une idée de porte-parapluie à destination des hôtels et des restaurants de luxe. Ce porte-parapluie devait pouvoir sécher les 10 parapluies qu’il contenait et posséder un bac récupérateur d’eau. Nous avons donc sélectionné x étudiants spécialisés en mécanique pour réaliser la conception en CAO puis le prototype réel de l’objet.</div>
+                    </div>
+                </div>
+                ");
+
+$DICT_FR->translate(StringIdentifier::SID_CONSTRUCTION_EXEMPLE, "NEEDED");
+
+$DICT_FR->translate(StringIdentifier::SID_SCIENCE_MATERIAUX_EXEMPLE,"<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Recherche de composant thermoliant </div>
+                        </br>
+                        <div class=\"description\">ETIC a réalisé une étude dont le but est de trouver des composés thermoliants aux caractéristiques très précises. Les résultats de l’étude ont permis à notre client de continuer son projet avec des matériaux adaptés à son besoin.</div>
+                       
+                    </div>
+                </div>
+                <div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Test orienté feu d'un panneau</div>
+                        </br>
+                        <div class=\"description\">Les consultants ETIC ont également réalisé des tests sur les caractéristiques ignifuges d’un panneau. ETIC peut réaliser des tests en prenant compte des exigences des différentes régions du monde et contrôle toujours en fonction du trio matériau/matériel/réaction.</div>    
+                    </div>
+                </div>
+               ");
+$DICT_FR->translate(StringIdentifier::SID_ENVIRONNEMENT_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Amélioration d’une unité de traitement de déchets chimiques</div>                      
+                        <div class=\"description\">Nous avons travaillé sur le prototype d’une unité de traitement des déchets chimiques liquides ayant un débit de 100 kg/heure. Le fluide traité était composé essentiellement d’eau (80% à 90%). Ce prototype est utilisé aujourd’hui pour réaliser des démonstrations aux clients potentiels</div>
+                        </br>
+                        <div class=\"description\"><i>ETIC devait faire face à une problématique de dissipation de chaleur et de pression. Nous devions trouver des solutions pour valoriser et/ou dissiper l’énergie produite par le procédé d’oxydation hydrothermal des déchets.</i></div>
+                    </div>
+                </div>
+                <div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Estimation des gaz à effet de serre</div>
+                        <div class=\"description\">La mairie de Saint-Priest s’engage dans une démarche de développement durable depuis 2009 et sa signature de l’agenda 21. </div>
+                        </br>
+                        <div class=\"description\"><i>ETIC a donc été mandaté afin de consolider le volet « énergie » du plan d’action de la ville. Nous avons réalisé une estimation des émissions carbone de la municipalité de Saint Priest, qui lui permettra de déterminer quels sont les bâtiments ou activités à améliorer pour rejeter moins de CO2 dans l’atmosphère, et de savoir quelle est l’ampleur de ses émissions.</i></div>
+                    </div>
+                </div>
+                ");
+$DICT_FR->translate(StringIdentifier::SID_ENERGIE_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Diagnostic énergétique du réseau de Tramway de Lyon </div>
+                        </br>
+                        <div class=\"description\">Nous avons réalisé un diagnostic du réseau de Tramway de Lyon afin de proposer des améliorations techniques cohérentes. Ce projet de taille importante a été l'occasion pour ETIC INSA Technologies, et des élèves du département énergétique de l’INSA, de travailler en collaboration avec un grand groupe de l’énergie pour mener un bien un projet urbain novateur, au cœur des préoccupations actuelles.</div>
+                    </div>
+                </div>
+                <div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Modèle thermodynamique paramétrable</div>
+                        <div class=\"description\">Le but de cette étude était de créer un modèle thermodynamique paramétrable en fonction de diverses caractéristiques (géométrie, température, hygrométrie, émission et consommation de gaz, etc.) pour un stockage d'insectes. Nous avons créé un outil qui se devait fiable afin d’assurer un modèle extrêmement réaliste. </div>
+                        </br>
+                        <div class=\"description\"><i>En parallèle de ce modèle théorique, un dimensionnement des équipements de climatisation, de ventilation et de régulation de l’ambiance pour le stockage pourra être demandé</i></div>                        
+                    </div>             
+                </div>");
+$DICT_FR->translate(StringIdentifier::SID_ELECTRIQUE_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Logiciel Web de bornes de rechargement pour véhicules électrique </div>
+                        </br>
+                        <div class=\"description\">Nous avons réalisé une étude pluridisciplinaire alliant électricité et informatique.L’étude faite pour un grand groupe consistait tout d’abord à l’étude prospective sur l’implémentationdes bornes de recharge pour véhicules électriques puis à concevoir un outil automatisant l’impact électriquedu raccordement des bornes ainsi que l’estimation du nombrede borne par commune. Le logiciel permettait de fournir sur une carte, les emplacements stratégiques des bornes par rapport au réseau électrique. </div>
+                    </div>
+                </div>
+                ");

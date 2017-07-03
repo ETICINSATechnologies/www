@@ -30,7 +30,7 @@ $DICT_EN->translate(StringIdentifier::SID_PLAN,"Site map");
 
 /*FR_HOME*/
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_EXPERIENCE, "Years of experience");
-$DICT_EN->translate(StringIdentifier::SID_HOME_STAT_ENG, "in France");
+$DICT_EN->translate(StringIdentifier::SID_HOME_STAT_ENG, "in France in 2016");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_TOP, "Best Junior-Entreprises");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_DOMAINES, "Fields of proficiency");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_SATISFACTION, "Clients satisfied");
@@ -60,7 +60,7 @@ Laureate of the Label Technique 1998");
 
 $DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS, "Our offers and services");
 $DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS_SUB, "Many engineering fields");
-$DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS_P, "Thanks to a high quality training at INSA Lyon, ETIC INSA Technologies has the means to provide you with a wide variety of services. Computer science, mechanics, telecommunications, electronics, civil engineering and many others, discover our 11 fields of proficiency.");
+$DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS_P, "Thanks to a high quality training at INSA Lyon, ETIC INSA Technologies has the means to provide you with a wide variety of services. Computer science, mechanics, telecommunications, electronics, civil engineering and many others, discover our fields of proficiency split into 3 categories.");
 $DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS_DET, "MORE DETAILS");
 
 $DICT_EN->translate(StringIdentifier::SID_HOME_TRUST, "THEY TRUSTED US");
