@@ -445,9 +445,9 @@ $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_6,"Traitement de la solli
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_7,"Une phase d’analyse validée par le client");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_8,"Un binôme chargé d’affaires/correspondant qualité sur chaque étude");
 
-$DICT_FR->translate(StringIdentifier::SID_PRESIDENT_H1,"Le mot du président");
+$DICT_FR->translate(StringIdentifier::SID_PRESIDENT_H1,"Le mot de la présidente");
 $DICT_FR->translate(StringIdentifier::SID_PRESIDENT_P,"Fort de 11 domaines de compétences allant de l’informatique à la mécanique en passant par les sciences de l’entreprise, ETIC INSA Technologies se positionne sur des études techniques, industrielles et commerciales. <br>Créée en 1981, et accumulant plus de 35 années d’expérience, nous sommes aujourd’hui lauréats du Prix d’Excellence, récompensant la meilleure Junior-Entreprise de France. Notre qualité de gestion de projet nous a également valu le Label Ingénieur, primant la meilleure étude technique de l’année, ce qui fait de nous un interlocuteur de choix pour vous accompagner dans vos projets. Affiliés à l’INSA Lyon nous sommes fiers de pouvoir mettre plus de 50 membres actifs ainsi que 3000 intervenants potentiels à votre disposition.");
-$DICT_FR->translate(StringIdentifier::SID_PRESIDENT_SIGN,"Martin Delbecque, président 2016-2017");
+$DICT_FR->translate(StringIdentifier::SID_PRESIDENT_SIGN,"Eline Achard, présidente 2017-2018");
 $DICT_FR->translate(StringIdentifier::SID_BUREAU,"Le bureau");
 $DICT_FR->translate(StringIdentifier::SID_CA,"Le conseil d'administration");
 $DICT_FR->translate(StringIdentifier::SID_EQUIPES,"Nos équipes");
@@ -507,7 +507,7 @@ $DICT_FR->translate(StringIdentifier::SID_FOOTER_RESEAUX, "Réseaux sociaux");
 $DICT_FR->translate(StringIdentifier::SID_FOOTER_CONTACT, "Nous contacter");
 
 
-$DICT_FR->translate(StringIdentifier::SID_PRES, "Président");
+$DICT_FR->translate(StringIdentifier::SID_PRES, "Présidente");
 $DICT_FR->translate(StringIdentifier::SID_VP,"Vice-Président");
 $DICT_FR->translate(StringIdentifier::SID_SG,"Secrétaire Générale");
 $DICT_FR->translate(StringIdentifier::SID_TRESO,"Trésorière");
@@ -518,6 +518,7 @@ $DICT_FR->translate(StringIdentifier::SID_RESP_UA_V, "Responsable Ventes");
 $DICT_FR->translate(StringIdentifier::SID_RESP_UA_RM, "Responsable Réalisation");
 $DICT_FR->translate(StringIdentifier::SID_RESP_GRC, "Responsable Relations Clients");
 $DICT_FR->translate(StringIdentifier::SID_RESP_COM,"Responsable Communication");
+$DICT_FR->translate(StringIdentifier::SID_RESP_DC,"Responsable Développement Commercial");
 
 $DICT_FR->translate(StringIdentifier::SID_PROJECT_IDEA,"Un projet ? Une idée ?");
 

@@ -204,6 +204,7 @@ class StringIdentifier {
 	const SID_RESP_UA_RM = "{RESP_UA_RM}";
 	const SID_RESP_GRC = "{RESP_GRC}";
 	const SID_RESP_COM = "{RESP_COM}";
+    const SID_RESP_DC = "{RESP_DC}";
 
 	const SID_CRP = "{CRP}";
 	const SID_CRA = "{CRA}";
@@ -538,6 +539,7 @@ class StringIdentifier {
 		StringIdentifier::SID_PRES,
 		StringIdentifier::SID_VP,
 		StringIdentifier::SID_SG,
+        StringIdentifier::SID_RESP_DC,
 		StringIdentifier::SID_TRESO,
 		StringIdentifier::SID_VTRESO,
 		StringIdentifier::SID_RESP_DSI,
