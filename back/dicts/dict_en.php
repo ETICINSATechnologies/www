@@ -22,11 +22,14 @@ $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES, "Our partners");
 $DICT_EN->translate(StringIdentifier::SID_EVENEMENTS, "Our events");
 $DICT_EN->translate(StringIdentifier::SID_CONFIANCE, "References");
 $DICT_EN->translate(StringIdentifier::SID_BLOG, "Blog");
+$DICT_EN->translate(StringIdentifier::SID_MARKETING, "Marketing");
+$DICT_EN->translate(StringIdentifier::SID_MARKETING_P1, "Nous nous attachons comprendre le contexte dans lequel votre entreprise fonctionne, sa cible, ses objectifs afin de produire une communication en adéquation avec les buts de votre entreprise. ");
 $DICT_EN->translate(StringIdentifier::SID_PLAQUETTE, "Brochure");
 $DICT_EN->translate(StringIdentifier::SID_DEVIS, "Ask for an estimate");
 $DICT_EN->translate(StringIdentifier::SID_LANG, "<i class=\"gb flag\"></i> English");
 $DICT_EN->translate(StringIdentifier::SID_MOUVEMENT, "About Junior-Entreprises");
 $DICT_EN->translate(StringIdentifier::SID_PLAN,"Site map");
+
 
 /*FR_HOME*/
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_EXPERIENCE, "Years of experience");

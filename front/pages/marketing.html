@@ -1,0 +1,142 @@
+<div class="ui center aligned bg-header    fade">
+   <h1 class="title-header" id="scale">{MARKETING}</h1>
+</div>
+
+<div id="translatable">
+    <div class="ui center aligned vertical segment transition visible" style="display: block ! important;">
+        <p class="ui middle aligned relaxed grid container">{MARKETING_P1}</p>
+    </div>
+
+    <div class="ui hidden divider"></div>
+
+    <div class="ui sixteen wide column center aligned grid container">
+        <div class="row">
+            <div class="sixteen wide column center aligned">
+                <div class="ui stackable sixteen wide column three cards centered">
+                    <!--Etude de satisfaction-->
+                    <div class="card scale">
+                        <div class="blurring dimmable image" style="background-color:#FFFFFF;">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <a class="item" href="{LINK_ETUDE_SATISFACTION}" target="_blank">
+                                    <div class="center">
+                                        <div class="ui fluid inverted button" id="Button_TC">{MARKETING_SATISFACTION_TEXT}</div>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <img alt="img" src="./front/assets/img/EtudeSatisfaction.jpg">
+                        </div>
+                        <div class="content">
+                            <a class="ui white inverted center aligned header" href="{LINK_ETUDE_SATISFACTION}" target="_blank">{MARKETING_SATISFACTION}</a>
+                        </div>
+                    </div>
+                    <!-- Analyse concurrentielle -->
+                    <div class="card scale">
+                        <div class="blurring dimmable image" style="background-color:#FFFFFF;">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <a class="item" href="{LINK_ANALYSE_CONCU}" target="_blank">
+                                    <div class="center">
+                                        <div class="ui fluid inverted button" id="Button_GM">{MARKETING_CONCURRENCE_TEXT}</div>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <img alt="img" src="./front/assets/img/Analyseconcu1.jpg">
+                        </div>
+                        <div class="content">
+                            <a class="ui white inverted center aligned header" href="{LINK_ANALYSE_CONCU}" target="_blank">{MARKETING_CONCURRENCE}</a>
+                        </div>
+                    </div>
+                    <!-- Traduction -->
+                    <div class="card scale">
+                        <div class="blurring dimmable image" style="background-color:#FFFFFF;">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <a class="item" href="{LINK_TRAD}" target="_blank">
+                                    <div class="center">
+                                        <div class="ui fluid inverted button" id="Button_GI">{MARKETING_TRADUCTION_TEXT}</div>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <img alt="img" src="./front/assets/img/Trad1.jpg">
+                        </div>
+                        <div class="content">
+                            <a class="ui white inverted center aligned header" href="{LINK_TRAD}" target="_blank">{MARKETING_TRADUCTION}</a>
+                        </div>
+                    </div>
+                    <!-- Stratégie de digitalisation -->
+                    <div class="card scale">
+                        <div class="blurring dimmable image" style="background-color:#FFFFFF;">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <a class="item" href="{LINK_REA_MOBILE}" target="_blank">
+                                    <div class="center">
+                                        <div class="ui fluid inverted button" id="Button_GE">{MARKETING_STRATEGIE_TEXT}</div>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <img alt="img" src="./front/assets/img/stratdigi.jpg">
+                        </div>
+                        <div class="content">
+                            <a class="ui white inverted center aligned header" href="{LINK_REA_MOBILE}" target="_blank">{MARKETING_STRATEGIE}</a>
+                        </div>
+                    </div>
+                    <!-- Audit interne -->
+                    <div class="card scale">
+                        <div class="blurring dimmable image" style="background-color:#FFFFFF;">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <a class="item" href="{LINK_AUDIT_SI}" target="_blank">
+                                    <div class="center">
+                                        <div class="ui fluid inverted button" id="Button_GEN">{MARKETING_FAISABILITE_TEXT}</div>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <img alt="img" src="./front/assets/img/etudefaisabilite.jpg">
+                        </div>
+                        <div class="content">
+                            <a class="ui white inverted center aligned header" href="{LINK_AUDIT_SI}" target="_blank">{MARKETING_FAISABILITE}</a>
+                        </div>
+                    </div>
+                    <!-- Etude de marché -->
+                    <div class="card scale">
+                        <div class="blurring dimmable image" style="background-color:#FFFFFF;">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <a class="item" href="{LINK_ETUDE_MARCHE}" target="_blank">
+                                    <div class="center">
+                                        <div class="ui fluid inverted button" id="Button_SC">{MARKETING_MARCHE_TEXT}</div>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <img alt="img" src="./front/assets/img/Etudemarche1.jpg">
+                        </div>
+                        <div class="content">
+                            <a class="ui white inverted center aligned header" href="{LINK_ETUDE_MARCHE}" target="_blank">{MARKETING_MARCHE}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ui divider"></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.card .image').dimmer({on: 'hover'});
+    });
+
+
+    function initModal(skill) {
+        $('#Button_' + skill).click(function () {
+            $('#modaldiv_' + skill).modal('show');
+        });
+    }
+</script>
