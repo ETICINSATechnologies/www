@@ -30,6 +30,9 @@ $links->translate(StringIdentifier::LINK_BLOG, "page.php?page=blog");
 $links->translate(StringIdentifier::LINK_NETWORK, "page.php?page=network");
 $links->translate(StringIdentifier::LINK_MOUVEMENT, "page.php?page=mouvement");
 $links->translate(StringIdentifier::LINK_PLAN, "page.php?page=plan");
+$links->translate(StringIdentifier::LINK_INGENIERIE, "page.php?page=engineering");
+$links->translate(StringIdentifier::LINK_NUMERIQUE, "page.php?page=digital");
+$links->translate(StringIdentifier::LINK_ENTREPRISE, "page.php?page=marketing");
 
 
 $_TRANSLATOR->setLinks($links);
