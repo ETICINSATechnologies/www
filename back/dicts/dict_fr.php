@@ -151,7 +151,7 @@ $DICT_FR->translate(StringIdentifier::SID_DIGITAL_BASEDEDONNEE, "Bases de donné
 $DICT_FR->translate(StringIdentifier::SID_DIGITAL_BASEDEDONNE_TEXT, "Création et aide à la gestion de bases de données");
 $DICT_FR->translate(StringIdentifier::SID_DIGITAL_REFERENCEMENT, "Référencement");
 $DICT_FR->translate(StringIdentifier::SID_DIGITAL_REFERENCEMENT_TEXT, "Amélioration et aide au référencement de votre site web");
-$DICT_FR->translate(StringIdentifier::SID_DIGITAL_SECURITE, "Sécurtié informatique");
+$DICT_FR->translate(StringIdentifier::SID_DIGITAL_SECURITE, "Sécurité informatique");
 $DICT_FR->translate(StringIdentifier::SID_DIGITAL_SECURITE_TEXT, "Partenaires avec Insecurity, association reconnue de sécurité informatique de l’INSA Lyon, nous vous proposons un panel d’études liées à la sécurité informatique allant de l’audit de code, au pentest en passant par le développement de code sécurisé.");
 
 
@@ -587,9 +587,7 @@ $DICT_FR->translate(StringIdentifier::SID_PROJECT_IDEA,"Un projet ? Une idée ?"
 $DICT_FR->translate(StringIdentifier::SID_TELECHARGER_PLAQUETTE,"Télécharger notre plaquette");
 $DICT_FR->translate(StringIdentifier::SID_TELECHARGER_PORTFOLIO,"Télécharger notre portfolio");
 
-$DICT_FR->translate(StringIdentifier::SID_TRANSFORMATION_NUMERIQUE, "Transformation numérique");
-$DICT_FR->translate(StringIdentifier::SID_SCIENCES_ENTREPRISE, "Sciences de l'entreprise");
-$DICT_FR->translate(StringIdentifier::SID_INGENIERIE, "Ingénierie");
+
 
 $DICT_FR->translate(StringIdentifier::SID_REA_WEB, "Réalisation d'applications web");
 $DICT_FR->translate(StringIdentifier::SID_REA_MOBILE, "Réalisation d’applications mobiles (Android/iOS/crossplateform)");
