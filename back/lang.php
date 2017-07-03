@@ -249,6 +249,112 @@ class StringIdentifier {
 	const SID_TELECHARGER_PLAQUETTE        	= "{TELECHARGER_PLAQUETTE}";
 	const SID_TELECHARGER_PORTFOLIO        	= "{TELECHARGER_PORTFOLIO}";
 
+    const SID_TRANSFORMATION_NUMERIQUE        	= "{TRANSFORMATION_NUMERIQUE}";
+    const SID_SCIENCES_ENTREPRISE        	= "{SCIENCES_ENTREPRISE}";
+    const SID_INGENIERIE        	= "{INGENIERIE}";
+
+    const SID_REA_WEB = "{REA_WEB}";
+    const SID_REA_MOBILE = "{REA_MOBILE}";
+    const SID_CREA_LOGICIEL = "{CREA_LOGICIEL}";
+    const SID_DOC_INFORMATIQUE = "{DOC_INFORMATIQUE}";
+    const SID_CREA_BASES = "{CREA_BASES}";
+    const SID_REF_WEB = "{REF_WEB}";
+    const SID_AUDIT_SI = "{AUDIT_SI}";
+    const SID_SECU_INFO = "{SECU_INFO}";
+
+    const SID_ETUDE_MARCHE = "{ETUDE_MARCHE}";
+    const SID_ETUDE_SATISFACTION = "{ETUDE_SATISFACTION}";
+    const SID_ANALYSE_CONCU = "{ANALYSE_CONCU}";
+    const SID_TRAD = "{TRAD}";
+    const SID_STRATEGIE_DIGI = "{STRATEGIE_DIGI}";
+    const SID_ETUDE_FAISABILITE = "{ETUDE_FAISABILITE}";
+
+    const SID_MECANIQUE = "{MECANIQUE}";
+    const SID_CONSTRUCTION = "{CONSTRUCTION}";
+    const SID_SCIENCE_MATERIAUX = "{SCIENCE_MATERIAUX}";
+    const SID_ENVIRONNEMENT = "{ENVIRONNEMENT}";
+    const SID_ENERGIE = "{ENERGIE}";
+    const SID_ELECTRIQUE = "{ELECTRIQUE}";
+
+
+    const SID_DESC_TITLE = "{DESC_TITLE}";
+    const SID_WHY_TITLE = "{WHY_TITLE}";
+    const SID_EXEMPLE_TITLE = "{EXEMPLE_TITLE}";
+    const SID_OTHER_TITLE = "{OTHER_TITLE}";
+
+
+    const SID_REA_WEB_DESC = "{REA_WEB_DESC}";
+    const SID_REA_MOBILE_DESC = "{REA_MOBILE_DESC}";
+    const SID_CREA_LOGICIEL_DESC = "{CREA_LOGICIEL_DESC}";
+    const SID_DOC_INFORMATIQUE_DESC = "{DOC_INFORMATIQUE_DESC}";
+    const SID_CREA_BASES_DESC = "{CREA_BASES_DESC}";
+    const SID_REF_WEB_DESC = "{REF_WEB_DESC}";
+    const SID_AUDIT_SI_DESC = "{AUDIT_SI_DESC}";
+    const SID_SECU_INFO_DESC = "{SECU_INFO_DESC}";
+
+    const SID_ETUDE_MARCHE_DESC = "{ETUDE_MARCHE_DESC}";
+    const SID_ETUDE_SATISFACTION_DESC = "{ETUDE_SATISFACTION_DESC}";
+    const SID_ANALYSE_CONCU_DESC = "{ANALYSE_CONCU_DESC}";
+    const SID_TRAD_DESC = "{TRAD_DESC}";
+    const SID_STRATEGIE_DIGI_DESC = "{STRATEGIE_DIGI_DESC}";
+    const SID_ETUDE_FAISABILITE_DESC = "{ETUDE_FAISABILITE_DESC}";
+
+    const SID_MECANIQUE_DESC = "{MECANIQUE_DESC}";
+    const SID_CONSTRUCTION_DESC = "{CONSTRUCTION_DESC}";
+    const SID_SCIENCE_MATERIAUX_DESC = "{SCIENCE_MATERIAUX_DESC}";
+    const SID_ENVIRONNEMENT_DESC = "{ENVIRONNEMENT_DESC}";
+    const SID_ENERGIE_DESC = "{ENERGIE_DESC}";
+    const SID_ELECTRIQUE_DESC = "{ELECTRIQUE_DESC}";
+
+
+    const SID_REA_WEB_WHY = "{REA_WEB_WHY}";
+    const SID_REA_MOBILE_WHY = "{REA_MOBILE_WHY}";
+    const SID_CREA_LOGICIEL_WHY = "{CREA_LOGICIEL_WHY}";
+    const SID_DOC_INFORMATIQUE_WHY = "{DOC_INFORMATIQUE_WHY}";
+    const SID_CREA_BASES_WHY = "{CREA_BASES_WHY}";
+    const SID_REF_WEB_WHY = "{REF_WEB_WHY}";
+    const SID_AUDIT_SI_WHY = "{AUDIT_SI_WHY}";
+    const SID_SECU_INFO_WHY = "{SECU_INFO_WHY}";
+
+    const SID_ETUDE_MARCHE_WHY = "{ETUDE_MARCHE_WHY}";
+    const SID_ETUDE_SATISFACTION_WHY = "{ETUDE_SATISFACTION_WHY}";
+    const SID_ANALYSE_CONCU_WHY = "{ANALYSE_CONCU_WHY}";
+    const SID_TRAD_WHY = "{TRAD_WHY}";
+    const SID_STRATEGIE_DIGI_WHY = "{STRATEGIE_DIGI_WHY}";
+    const SID_ETUDE_FAISABILITE_WHY = "{ETUDE_FAISABILITE_WHY}";
+
+    const SID_MECANIQUE_WHY = "{MECANIQUE_WHY}";
+    const SID_CONSTRUCTION_WHY = "{CONSTRUCTION_WHY}";
+    const SID_SCIENCE_MATERIAUX_WHY = "{SCIENCE_MATERIAUX_WHY}";
+    const SID_ENVIRONNEMENT_WHY = "{ENVIRONNEMENT_WHY}";
+    const SID_ENERGIE_WHY = "{ENERGIE_WHY}";
+    const SID_ELECTRIQUE_WHY = "{ELECTRIQUE_WHY}";
+
+
+
+    const SID_REA_WEB_EXEMPLE = "{REA_WEB_EXEMPLE}";
+    const SID_REA_MOBILE_EXEMPLE = "{REA_MOBILE_EXEMPLE}";
+    const SID_CREA_LOGICIEL_EXEMPLE = "{CREA_LOGICIEL_EXEMPLE}";
+    const SID_DOC_INFORMATIQUE_EXEMPLE = "{DOC_INFORMATIQUE_EXEMPLE}";
+    const SID_CREA_BASES_EXEMPLE = "{CREA_BASES_EXEMPLE}";
+    const SID_REF_WEB_EXEMPLE = "{REF_WEB_EXEMPLE}";
+    const SID_AUDIT_SI_EXEMPLE = "{AUDIT_SI_EXEMPLE}";
+    const SID_SECU_INFO_EXEMPLE = "{SECU_INFO_EXEMPLE}";
+
+    const SID_ETUDE_MARCHE_EXEMPLE = "{ETUDE_MARCHE_EXEMPLE}";
+    const SID_ETUDE_SATISFACTION_EXEMPLE = "{ETUDE_SATISFACTION_EXEMPLE}";
+    const SID_ANALYSE_CONCU_EXEMPLE = "{ANALYSE_CONCU_EXEMPLE}";
+    const SID_TRAD_EXEMPLE = "{TRAD_EXEMPLE}";
+    const SID_STRATEGIE_DIGI_EXEMPLE = "{STRATEGIE_DIGI_EXEMPLE}";
+    const SID_ETUDE_FAISABILITE_EXEMPLE = "{ETUDE_FAISABILITE_EXEMPLE}";
+
+    const SID_MECANIQUE_EXEMPLE = "{MECANIQUE_EXEMPLE}";
+    const SID_CONSTRUCTION_EXEMPLE = "{CONSTRUCTION_EXEMPLE}";
+    const SID_SCIENCE_MATERIAUX_EXEMPLE = "{SCIENCE_MATERIAUX_EXEMPLE}";
+    const SID_ENVIRONNEMENT_EXEMPLE = "{ENVIRONNEMENT_EXEMPLE}";
+    const SID_ENERGIE_EXEMPLE = "{ENERGIE_EXEMPLE}";
+    const SID_ELECTRIQUE_EXEMPLE = "{ELECTRIQUE_EXEMPLE}";
+
 	// tableau des identifiants
 	const SIDS = array(
 	    StringIdentifier::SID_LANGUAGE,
@@ -483,8 +589,110 @@ class StringIdentifier {
 		StringIdentifier::SID_PROJECT_IDEA,
 
 		StringIdentifier::SID_TELECHARGER_PLAQUETTE,
-		StringIdentifier::SID_TELECHARGER_PORTFOLIO
+		StringIdentifier::SID_TELECHARGER_PORTFOLIO,
 
+
+        StringIdentifier::SID_TRANSFORMATION_NUMERIQUE,
+        StringIdentifier::SID_SCIENCES_ENTREPRISE,
+        StringIdentifier::SID_INGENIERIE,
+
+        StringIdentifier::SID_REA_WEB,
+        StringIdentifier::SID_REA_MOBILE,
+        StringIdentifier::SID_CREA_LOGICIEL,
+        StringIdentifier::SID_DOC_INFORMATIQUE,
+        StringIdentifier::SID_CREA_BASES,
+        StringIdentifier::SID_REF_WEB,
+        StringIdentifier::SID_AUDIT_SI,
+        StringIdentifier::SID_SECU_INFO,
+
+        StringIdentifier::SID_ETUDE_MARCHE,
+        StringIdentifier::SID_ETUDE_SATISFACTION,
+        StringIdentifier::SID_ANALYSE_CONCU,
+        StringIdentifier::SID_TRAD,
+        StringIdentifier::SID_STRATEGIE_DIGI,
+        StringIdentifier::SID_ETUDE_FAISABILITE,
+
+        StringIdentifier::SID_MECANIQUE,
+        StringIdentifier::SID_CONSTRUCTION,
+        StringIdentifier::SID_SCIENCE_MATERIAUX,
+        StringIdentifier::SID_ENVIRONNEMENT,
+        StringIdentifier::SID_ENERGIE,
+        StringIdentifier::SID_ELECTRIQUE,
+
+
+        StringIdentifier::SID_DESC_TITLE,
+        StringIdentifier::SID_WHY_TITLE,
+        StringIdentifier::SID_EXEMPLE_TITLE,
+        StringIdentifier::SID_OTHER_TITLE,
+
+        StringIdentifier::SID_REA_WEB_DESC,
+        StringIdentifier::SID_REA_MOBILE_DESC,
+        StringIdentifier::SID_CREA_LOGICIEL_DESC,
+        StringIdentifier::SID_DOC_INFORMATIQUE_DESC,
+        StringIdentifier::SID_CREA_BASES_DESC,
+        StringIdentifier::SID_REF_WEB_DESC,
+        StringIdentifier::SID_AUDIT_SI_DESC,
+        StringIdentifier::SID_SECU_INFO_DESC,
+
+        StringIdentifier::SID_ETUDE_MARCHE_DESC,
+        StringIdentifier::SID_ETUDE_SATISFACTION_DESC,
+        StringIdentifier::SID_ANALYSE_CONCU_DESC,
+        StringIdentifier::SID_TRAD_DESC,
+        StringIdentifier::SID_STRATEGIE_DIGI_DESC,
+        StringIdentifier::SID_ETUDE_FAISABILITE_DESC,
+
+        StringIdentifier::SID_MECANIQUE_DESC,
+        StringIdentifier::SID_CONSTRUCTION_DESC,
+        StringIdentifier::SID_SCIENCE_MATERIAUX_DESC,
+        StringIdentifier::SID_ENVIRONNEMENT_DESC,
+        StringIdentifier::SID_ENERGIE_DESC,
+        StringIdentifier::SID_ELECTRIQUE_DESC,
+
+        StringIdentifier::SID_REA_WEB_WHY,
+        StringIdentifier::SID_REA_MOBILE_WHY,
+        StringIdentifier::SID_CREA_LOGICIEL_WHY,
+        StringIdentifier::SID_DOC_INFORMATIQUE_WHY,
+        StringIdentifier::SID_CREA_BASES_WHY,
+        StringIdentifier::SID_REF_WEB_WHY,
+        StringIdentifier::SID_AUDIT_SI_WHY,
+        StringIdentifier::SID_SECU_INFO_WHY,
+
+        StringIdentifier::SID_ETUDE_MARCHE_WHY,
+        StringIdentifier::SID_ETUDE_SATISFACTION_WHY,
+        StringIdentifier::SID_ANALYSE_CONCU_WHY,
+        StringIdentifier::SID_TRAD_WHY,
+        StringIdentifier::SID_STRATEGIE_DIGI_WHY,
+        StringIdentifier::SID_ETUDE_FAISABILITE_WHY,
+
+        StringIdentifier::SID_MECANIQUE_WHY,
+        StringIdentifier::SID_CONSTRUCTION_WHY,
+        StringIdentifier::SID_SCIENCE_MATERIAUX_WHY,
+        StringIdentifier::SID_ENVIRONNEMENT_WHY,
+        StringIdentifier::SID_ENERGIE_WHY,
+        StringIdentifier::SID_ELECTRIQUE_WHY,
+
+        StringIdentifier::SID_REA_WEB_EXEMPLE,
+        StringIdentifier::SID_REA_MOBILE_EXEMPLE,
+        StringIdentifier::SID_CREA_LOGICIEL_EXEMPLE,
+        StringIdentifier::SID_DOC_INFORMATIQUE_EXEMPLE,
+        StringIdentifier::SID_CREA_BASES_EXEMPLE,
+        StringIdentifier::SID_REF_WEB_EXEMPLE,
+        StringIdentifier::SID_AUDIT_SI_EXEMPLE,
+        StringIdentifier::SID_SECU_INFO_EXEMPLE,
+
+        StringIdentifier::SID_ETUDE_MARCHE_EXEMPLE,
+        StringIdentifier::SID_ETUDE_SATISFACTION_EXEMPLE,
+        StringIdentifier::SID_ANALYSE_CONCU_EXEMPLE,
+        StringIdentifier::SID_TRAD_EXEMPLE,
+        StringIdentifier::SID_STRATEGIE_DIGI_EXEMPLE,
+        StringIdentifier::SID_ETUDE_FAISABILITE_EXEMPLE,
+
+        StringIdentifier::SID_MECANIQUE_EXEMPLE,
+        StringIdentifier::SID_CONSTRUCTION_EXEMPLE,
+        StringIdentifier::SID_SCIENCE_MATERIAUX_EXEMPLE,
+        StringIdentifier::SID_ENVIRONNEMENT_EXEMPLE,
+        StringIdentifier::SID_ENERGIE_EXEMPLE,
+        StringIdentifier::SID_ELECTRIQUE_EXEMPLE
 
 		);
 
@@ -501,6 +709,28 @@ class StringIdentifier {
 	const LINK_NETWORK = "{LINK_NETWORK}";
 	const LINK_MOUVEMENT ="{LINK_MOUVEMENT}"; // lien vers la pres. du mouvement
     const LINK_PLAN = "{LINK_PLAN}";
+    const LINK_REA_WEB = "{LINK_REA_WEB}";
+    const LINK_REA_MOBILE = "{LINK_REA_MOBILE}";
+    const LINK_CREA_LOGICIEL = "{LINK_CREA_LOGICIEL}";
+    const LINK_DOC_INFORMATIQUE = "{LINK_DOC_INFORMATIQUE}";
+    const LINK_CREA_BASES = "{LINK_CREA_BASES}";
+    const LINK_REF_WEB = "{LINK_REF_WEB}";
+    const LINK_AUDIT_SI = "{LINK_AUDIT_SI}";
+    const LINK_SECU_INFO = "{LINK_SECU_INFO}";
+
+    const LINK_ETUDE_MARCHE = "{LINK_ETUDE_MARCHE}";
+    const LINK_ETUDE_SATISFACTION = "{LINK_ETUDE_SATISFACTION}";
+    const LINK_ANALYSE_CONCU = "{LINK_ANALYSE_CONCU}";
+    const LINK_TRAD = "{LINK_TRAD}";
+    const LINK_STRATEGIE_DIGI = "{LINK_STRATEGIE_DIGI}";
+    const LINK_ETUDE_FAISABILITE = "{LINK_ETUDE_FAISABILITE}";
+
+    const LINK_MECANIQUE = "{LINK_MECANIQUE}";
+    const LINK_CONSTRUCTION = "{LINK_CONSTRUCTION}";
+    const LINK_SCIENCE_MATERIAUX = "{LINK_SCIENCE_MATERIAUX}";
+    const LINK_ENVIRONNEMENT = "{LINK_ENVIRONNEMENT}";
+    const LINK_ENERGIE = "{LINK_ENERGIE}";
+    const LINK_ELECTRIQUE = "{LINK_ELECTRIQUE}";
 
 	const LINKS = array(
 		StringIdentifier::LINK_DEVIS,
@@ -516,6 +746,29 @@ class StringIdentifier {
 		StringIdentifier::LINK_NETWORK,
 		StringIdentifier::LINK_MOUVEMENT,
         StringIdentifier::LINK_PLAN,
+
+        StringIdentifier::LINK_REA_WEB,
+        StringIdentifier::LINK_REA_MOBILE,
+        StringIdentifier::LINK_CREA_LOGICIEL,
+        StringIdentifier::LINK_DOC_INFORMATIQUE,
+        StringIdentifier::LINK_CREA_BASES,
+        StringIdentifier::LINK_REF_WEB,
+        StringIdentifier::LINK_AUDIT_SI,
+        StringIdentifier::LINK_SECU_INFO,
+
+        StringIdentifier::LINK_ETUDE_MARCHE,
+        StringIdentifier::LINK_ETUDE_SATISFACTION,
+        StringIdentifier::LINK_ANALYSE_CONCU,
+        StringIdentifier::LINK_TRAD,
+        StringIdentifier::LINK_STRATEGIE_DIGI,
+        StringIdentifier::LINK_ETUDE_FAISABILITE,
+
+        StringIdentifier::LINK_MECANIQUE,
+        StringIdentifier::LINK_CONSTRUCTION,
+        StringIdentifier::LINK_SCIENCE_MATERIAUX,
+        StringIdentifier::LINK_ENVIRONNEMENT,
+        StringIdentifier::LINK_ENERGIE,
+        StringIdentifier::LINK_ELECTRIQUE
 		);
 }
 

@@ -11,6 +11,22 @@
   background-color: #009900;
 }
 
+.ui.blue.buttons .button,
+.ui.blue.button {
+    background-color: #3c5876;
+}
+
+.ui.text-blue
+{
+    color: #3c5876;
+}
+
+.ui.text-green
+{
+    color: #009900;
+
+}
+
 @media only screen and (max-width: 1300px){
    h1 { font-size: 2.5vw; }
 }
@@ -78,7 +94,7 @@
 *			home.html 			*
 *											*/
 .cropper.home-header {
-    background-image: url('../assets/home/lyon.jpg');
+    background-image: url('../assets/home/photo.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
     background-attachment: fixed;
@@ -89,20 +105,23 @@
 *											*/
 
 .bg-header {
-	background-image : url('../assets/header.png');
+	background-image : url('../assets/header.jpg');
+
 	color : white;
-	padding: 50px 0px 50px 0px;
+	padding: 25px 0px 15px 0px;
 	margin-top: 0px;
-	margin-bottom: 10px;
+	margin-bottom: 50px;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-color: #238110;
+	background-color: #828282 ;
 	text-align: center;
+    border-top: solid 1px #eaeaea;
+    border-bottom: solid 1px #eaeaea;
 }
 
 .title-header{
-	font-size: 4em;
-	line-height: 1em;
+	font-size: 2em;
+	line-height: 2em;
 }
 
 .text-green {
@@ -155,3 +174,21 @@
     padding-left: 50px;
     padding-right: 50px;
 }
+
+
+
+.ui.breadcrumb {
+    padding: 10px 10px 0px 10px;
+    float : right;
+    color : whitesmoke;
+
+}
+
+.ui.breadcrumb a, .ui.breadcrumb i{
+    color : lightgray;
+}
+.ui.breadcrumb a:hover{
+    color :lightgray;
+    font-weight: 900;
+}
+
