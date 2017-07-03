@@ -33,7 +33,7 @@ $DICT_EN->translate(StringIdentifier::SID_PLAN,"Site map");
 
 /*FR_HOME*/
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_EXPERIENCE, "Years of experience");
-$DICT_EN->translate(StringIdentifier::SID_HOME_STAT_ENG, "in France");
+$DICT_EN->translate(StringIdentifier::SID_HOME_STAT_ENG, "in France in 2016");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_TOP, "Best Junior-Entreprises");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_DOMAINES, "Fields of proficiency");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_SATISFACTION, "Clients satisfied");
@@ -63,7 +63,7 @@ Laureate of the Label Technique 1998");
 
 $DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS, "Our offers and services");
 $DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS_SUB, "Many engineering fields");
-$DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS_P, "Thanks to a high quality training at INSA Lyon, ETIC INSA Technologies has the means to provide you with a wide variety of services. Computer science, mechanics, telecommunications, electronics, civil engineering and many others, discover our 11 fields of proficiency.");
+$DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS_P, "Thanks to a high quality training at INSA Lyon, ETIC INSA Technologies has the means to provide you with a wide variety of services. Computer science, mechanics, telecommunications, electronics, civil engineering and many others, discover our fields of proficiency split into 3 categories.");
 $DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS_DET, "MORE DETAILS");
 
 $DICT_EN->translate(StringIdentifier::SID_HOME_TRUST, "THEY TRUSTED US");
@@ -425,7 +425,7 @@ $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_8,"A pair : chargé d’a
 $DICT_EN->translate(StringIdentifier::SID_PRESIDENT_H1,"The president's words");
 $DICT_EN->translate(StringIdentifier::SID_PRESIDENT_P,"With 11 fields of proficiency ranging from computer science to mechanics, including business science, ETIC INSA Technologies implements technical, industrial and commercial studies. <br>
 Created in 1981, and cumulating more than 35 years of experience, we are today laureates of the Prix d’Excellence, awarding the best Junior-Entreprise in France. The quality of our project management also earned us the Label Ingénieur, awarding the best technical project of the year, which makes us an interlocutor of choice to accompany you in your projects. Affiliated to INSA Lyon, we are proud to be able to put more than 50 active members and 3000 potential contributors at your disposal.");
-$DICT_EN->translate(StringIdentifier::SID_PRESIDENT_SIGN,"Martin Delbecque, president 2016-2017");
+$DICT_EN->translate(StringIdentifier::SID_PRESIDENT_SIGN,"Eline Achard, president 2017-2018");
 $DICT_EN->translate(StringIdentifier::SID_BUREAU,"The chamber");
 $DICT_EN->translate(StringIdentifier::SID_CA,"The board of directors");
 $DICT_EN->translate(StringIdentifier::SID_EQUIPES,"Our teams");
@@ -495,6 +495,9 @@ $DICT_EN->translate(StringIdentifier::SID_RESP_UA_V, "Sales Manager");
 $DICT_EN->translate(StringIdentifier::SID_RESP_UA_RM, "Implementation Manager");
 $DICT_EN->translate(StringIdentifier::SID_RESP_GRC, "Clients Relationships Manager");
 $DICT_EN->translate(StringIdentifier::SID_RESP_COM,"Community Manager");
+$DICT_EN->translate(StringIdentifier::SID_RESP_DC,"Commercial Manager");
+
+
 
 $DICT_EN->translate(StringIdentifier::SID_PROJECT_IDEA,"A project ? An idea ?");
 $DICT_EN->translate(StringIdentifier::SID_TELECHARGER_PLAQUETTE,"Download our brochure");
