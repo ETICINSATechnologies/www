@@ -94,7 +94,7 @@
 *			home.html 			*
 *											*/
 .cropper.home-header {
-    background-image: url('../assets/home/photo.jpg');
+    background-image: url('../assets/home/lyon.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
     background-attachment: fixed;
