@@ -1,3 +1,3 @@
-$('.card.scale.study .image').dimmer({
+$('.card.study .image').dimmer({
     on: 'hover'
 });
