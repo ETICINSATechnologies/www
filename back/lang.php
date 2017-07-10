@@ -438,6 +438,7 @@ class StringIdentifier {
         StringIdentifier::SID_PLAN,
         StringIdentifier::SID_NUMERIQUE,
         StringIdentifier::SID_ENTREPRISE,
+        StringIdentifier::SID_INGENIERIE,
 
 
         StringIdentifier::SID_MARKETING,
