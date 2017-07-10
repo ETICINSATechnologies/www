@@ -151,6 +151,8 @@ $DICT_FR->translate(StringIdentifier::SID_DIGITAL_BASEDEDONNEE, "Bases de donné
 $DICT_FR->translate(StringIdentifier::SID_DIGITAL_BASEDEDONNE_TEXT, "Création et aide à la gestion de bases de données");
 $DICT_FR->translate(StringIdentifier::SID_DIGITAL_REFERENCEMENT, "Référencement");
 $DICT_FR->translate(StringIdentifier::SID_DIGITAL_REFERENCEMENT_TEXT, "Amélioration et aide au référencement de votre site web");
+$DICT_FR->translate(StringIdentifier::SID_DIGITAL_AUDIT_SI, "Audit de Système d'information");
+$DICT_FR->translate(StringIdentifier::SID_DIGITAL_AUDIT_SI_TEXT, "Un système d’information performant est une garantie de qualité pour vos activités. Nous pouvons l’évaluer dans sa globalité en prenant en compte l’ensemble de vos besoins, et vous conseiller pour qu’il y réponde au mieux.");
 $DICT_FR->translate(StringIdentifier::SID_DIGITAL_SECURITE, "Sécurtié informatique");
 $DICT_FR->translate(StringIdentifier::SID_DIGITAL_SECURITE_TEXT, "Partenaires avec Insecurity, association reconnue de sécurité informatique de l’INSA Lyon, nous vous proposons un panel d’études liées à la sécurité informatique allant de l’audit de code, au pentest en passant par le développement de code sécurisé.");
 

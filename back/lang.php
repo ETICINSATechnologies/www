@@ -65,6 +65,8 @@ class StringIdentifier {
     const SID_DIGITAL_BASEDEDONNE_TEXT = "{DIGITAL_BASEDEDONNE_TEXT}";
     const SID_DIGITAL_REFERENCEMENT = "{DIGITAL_REFERENCEMENT}";
     const SID_DIGITAL_REFERENCEMENT_TEXT = "{DIGITAL_REFERENCEMENT_TEXT}";
+    const SID_DIGITAL_AUDIT_SI = "{DIGITAL_AUDIT_SI}";
+    const SID_DIGITAL_AUDIT_SI_TEXT = "{DIGITAL_AUDIT_SI_TEXT}";
     const SID_DIGITAL_SECURITE = "{DIGITAL_SECURITE}";
     const SID_DIGITAL_SECURITE_TEXT = "{DIGITAL_SECURITE_TEXT}";
 
@@ -85,30 +87,6 @@ class StringIdentifier {
     const SID_ENGINEERING_GE_TEXT = "{ENGINEERING_GE_TEXT}";
 
 
-
-
-    const SID_ENGINEERING_TITLE_7 = "{ENGINEERING_TITLE_7}";
-    const SID_ENGINEERING_TEXT_7 = "{ENGINEERING_TEXT_7}";
-    const SID_ENGINEERING_TITLE_8 = "{ENGINEERING_TITLE_8}";
-    const SID_ENGINEERING_TEXT_8 = "{ENGINEERING_TEXT_8}";
-    const SID_ENGINEERING_TITLE_9 = "{ENGINEERING_TITLE_9}";
-    const SID_ENGINEERING_TEXT_9 = "{ENGINEERING_TEXT_9}";
-    const SID_ENGINEERING_TITLE_10 = "{ENGINEERING_TITLE_10}";
-    const SID_ENGINEERING_TEXT_10 = "{ENGINEERING_TEXT_10}";
-    const SID_ENGINEERING_TITLE_11 = "{ENGINEERING_TITLE_11}";
-    const SID_ENGINEERING_TEXT_11 = "{ENGINEERING_TEXT_11}";
-    const SID_ENGINEERING_TITLE_12 = "{ENGINEERING_TITLE_12}";
-    const SID_ENGINEERING_TEXT_12 = "{ENGINEERING_TEXT_12}";
-    const SID_ENGINEERING_TITLE_13 = "{ENGINEERING_TITLE_13}";
-    const SID_ENGINEERING_TEXT_13 = "{ENGINEERING_TEXT_13}";
-    const SID_ENGINEERING_TITLE_14 = "{ENGINEERING_TITLE_14}";
-    const SID_ENGINEERING_TEXT_14 = "{ENGINEERING_TEXT_14}";
-    const SID_ENGINEERING_TITLE_15 = "{ENGINEERING_TITLE_15}";
-    const SID_ENGINEERING_TEXT_15 = "{ENGINEERING_TEXT_15}";
-    const SID_ENGINEERING_TITLE_16 = "{ENGINEERING_TITLE_16}";
-    const SID_ENGINEERING_TEXT_16 = "{ENGINEERING_TEXT_16}";
-    const SID_ENGINEERING_TITLE_17 = "{ENGINEERING_TITLE_17}";
-    const SID_ENGINEERING_TEXT_17 = "{ENGINEERING_TEXT_17}";
 
 
 
@@ -335,7 +313,6 @@ class StringIdentifier {
 
     const SID_TRANSFORMATION_NUMERIQUE        	= "{TRANSFORMATION_NUMERIQUE}";
     const SID_SCIENCES_ENTREPRISE        	= "{SCIENCES_ENTREPRISE}";
-    const SID_INGENIERIE        	= "{INGENIERIE}";
 
     const SID_REA_WEB = "{REA_WEB}";
     const SID_REA_MOBILE = "{REA_MOBILE}";
@@ -461,7 +438,6 @@ class StringIdentifier {
 		StringIdentifier::SID_MOUVEMENT,
 		StringIdentifier::SID_LANG,
         StringIdentifier::SID_PLAN,
-        StringIdentifier::SID_INGENIERIE,
         StringIdentifier::SID_NUMERIQUE,
         StringIdentifier::SID_ENTREPRISE,
 
@@ -495,6 +471,8 @@ class StringIdentifier {
         StringIdentifier::SID_DIGITAL_BASEDEDONNE_TEXT,
         StringIdentifier::SID_DIGITAL_REFERENCEMENT,
         StringIdentifier::SID_DIGITAL_REFERENCEMENT_TEXT,
+        StringIdentifier::SID_DIGITAL_AUDIT_SI,
+        StringIdentifier::SID_DIGITAL_AUDIT_SI_TEXT,
         StringIdentifier::SID_DIGITAL_SECURITE,
         StringIdentifier::SID_DIGITAL_SECURITE_TEXT,
 
@@ -514,29 +492,6 @@ class StringIdentifier {
         StringIdentifier::SID_ENGINEERING_GE,
         StringIdentifier::SID_ENGINEERING_GE_TEXT,
 
-
-        StringIdentifier::SID_ENGINEERING_TITLE_7,
-        StringIdentifier::SID_ENGINEERING_TEXT_7,
-        StringIdentifier::SID_ENGINEERING_TITLE_8,
-        StringIdentifier::SID_ENGINEERING_TEXT_8,
-        StringIdentifier::SID_ENGINEERING_TITLE_9,
-        StringIdentifier::SID_ENGINEERING_TEXT_9,
-        StringIdentifier::SID_ENGINEERING_TITLE_10,
-        StringIdentifier::SID_ENGINEERING_TEXT_10,
-        StringIdentifier::SID_ENGINEERING_TITLE_11,
-        StringIdentifier::SID_ENGINEERING_TEXT_11,
-        StringIdentifier::SID_ENGINEERING_TITLE_12,
-        StringIdentifier::SID_ENGINEERING_TEXT_12,
-        StringIdentifier::SID_ENGINEERING_TITLE_13,
-        StringIdentifier::SID_ENGINEERING_TEXT_13,
-        StringIdentifier::SID_ENGINEERING_TITLE_14,
-        StringIdentifier::SID_ENGINEERING_TEXT_14,
-        StringIdentifier::SID_ENGINEERING_TITLE_15,
-        StringIdentifier::SID_ENGINEERING_TEXT_15,
-        StringIdentifier::SID_ENGINEERING_TITLE_16,
-        StringIdentifier::SID_ENGINEERING_TEXT_16,
-        StringIdentifier::SID_ENGINEERING_TITLE_17,
-        StringIdentifier::SID_ENGINEERING_TEXT_17,
 
 		/*HOME*/
 		StringIdentifier::SID_HOME_STAT_EXPERIENCE,
