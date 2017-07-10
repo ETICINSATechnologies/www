@@ -28,8 +28,8 @@ $DICT_FR->translate(StringIdentifier::SID_LANG, "<i class=\"fr flag\"></i> Fran�
 $DICT_FR->translate(StringIdentifier::SID_MOUVEMENT, "Découvrir le mouvement");
 $DICT_FR->translate(StringIdentifier::SID_PLAN, "Plan du site");
 $DICT_FR->translate(StringIdentifier::SID_INGENIERIE, "Ingénierie");
-$DICT_FR->translate(StringIdentifier::SID_NUMERIQUE, "Transformation Numérique");
-$DICT_FR->translate(StringIdentifier::SID_ENTREPRISE, "Science de l'entreprise");
+$DICT_FR->translate(StringIdentifier::SID_NUMERIQUE, "Transformation numérique");
+$DICT_FR->translate(StringIdentifier::SID_ENTREPRISE, "Sciences de l'entreprise");
 
 /*FR_HOME*/
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_EXPERIENCE, "Années d'expérience");
@@ -119,14 +119,14 @@ $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_H2_BS, "Biosciences");
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_H2_TR, "Traduction technique");
 $DICT_FR->translate(StringIdentifier::SID_COMPETENCES_H2_SC, "Sciences de l'entreprise");
 
-$DICT_FR->translate(StringIdentifier::SID_MARKETING, "Marketing");
-$DICT_FR->translate(StringIdentifier::SID_MARKETING_P1, "Nous nous attachons comprendre le contexte dans lequel votre entreprise fonctionne, sa cible, ses objectifs afin de produire une communication en adéquation avec les buts de votre entreprise. ");
+$DICT_FR->translate(StringIdentifier::SID_MARKETING, "Sciences de l'entreprise");
+$DICT_FR->translate(StringIdentifier::SID_MARKETING_P1, "Nous nous attachons à comprendre le contexte dans lequel votre entreprise fonctionne, sa cible, ses objectifs afin de produire une communication en adéquation avec les buts de votre entreprise. ");
 $DICT_FR->translate(StringIdentifier::SID_MARKETING_SATISFACTION, "Etude de satisfaction");
 $DICT_FR->translate(StringIdentifier::SID_MARKETING_SATISFACTION_TEXT, "Mesurer la satisfaction de vos clients et déterminer les origines de leur (in)satisfaction");
 $DICT_FR->translate(StringIdentifier::SID_MARKETING_CONCURRENCE, "Analyse concurrentielle ");
 $DICT_FR->translate(StringIdentifier::SID_MARKETING_CONCURRENCE_TEXT, "Elle vous permet de connaître l’image de votre marque ou produit par rapport aux concurrents dans l’esprit du consommateur cible");
 $DICT_FR->translate(StringIdentifier::SID_MARKETING_TRADUCTION, "Traduction");
-$DICT_FR->translate(StringIdentifier::SID_MARKETING_TRADUCTION_TEXT, "Nous vous proposons de traduire vos présentations de produit, argumentaires commerciaux et autres outils marketing");
+$DICT_FR->translate(StringIdentifier::SID_MARKETING_TRADUCTION_TEXT, "Nous vous proposons de traduire vos présentations de produits, argumentaires commerciaux et autres outils marketing");
 $DICT_FR->translate(StringIdentifier::SID_MARKETING_STRATEGIE, "Stratégie de digitalisation");
 $DICT_FR->translate(StringIdentifier::SID_MARKETING_STRATEGIE_TEXT, "");
 $DICT_FR->translate(StringIdentifier::SID_MARKETING_FAISABILITE, "Etude de faisabilité ");
@@ -135,12 +135,12 @@ $DICT_FR->translate(StringIdentifier::SID_MARKETING_MARCHE, "Étude de marché")
 $DICT_FR->translate(StringIdentifier::SID_MARKETING_MARCHE_TEXT, "L’étude de marché vous permettra de déterminer si votre projet vaut le coup d’être lancé.");
 
 
-$DICT_FR->translate(StringIdentifier::SID_DIGITAL, "Digitalisation");
+$DICT_FR->translate(StringIdentifier::SID_DIGITAL, "Transformation numérique");
 $DICT_FR->translate(StringIdentifier::SID_DIGITAL_P1, "ETIC vous accompagne dans la digitalisation de vos activités ! Aussi bien pour votre visibilité et votre communication extérieure,
-            que pour votre gestion interne, nous pouvons réaliser des prestations en informatiques
+            que pour votre gestion interne, nous pouvons réaliser des prestations en informatique
             et réseaux pour créer ou améliorer les outils dont vous avez besoin. ");
-$DICT_FR->translate(StringIdentifier::SID_DIGITAL_APPWEB, "Application web");
-$DICT_FR->translate(StringIdentifier::SID_DIGITAL_APPWEB_TEXT, "Réalisation d'application web");
+$DICT_FR->translate(StringIdentifier::SID_DIGITAL_APPWEB, "Applications web");
+$DICT_FR->translate(StringIdentifier::SID_DIGITAL_APPWEB_TEXT, "Réalisation d'applications web");
 $DICT_FR->translate(StringIdentifier::SID_DIGITAL_APPMOBILE, "Applications mobiles");
 $DICT_FR->translate(StringIdentifier::SID_DIGITAL_APPMOBILE_TEXT, "Réalisation d'applications mobiles");
 $DICT_FR->translate(StringIdentifier::SID_DIGITAL_LOGICIEL, "Logiciel");
@@ -157,7 +157,7 @@ $DICT_FR->translate(StringIdentifier::SID_DIGITAL_SECURITE_TEXT, "Partenaires av
 
 $DICT_FR->translate(StringIdentifier::SID_ENGINEERING, "Ingénierie");
 $DICT_FR->translate(StringIdentifier::SID_ENGINEERING_P1, "ETIC vous accompagne dans la digitalisation de vos activités ! Aussi bien pour votre visibilité et votre communication extérieure,
-            que pour votre gestion interne, nous pouvons réaliser des prestations en informatiques
+            que pour votre gestion interne, nous pouvons réaliser des prestations en informatique
             et réseaux pour créer ou améliorer les outils dont vous avez besoin. ");
 $DICT_FR->translate(StringIdentifier::SID_ENGINEERING_URBANISME, "Construction et Urbanisme");
 $DICT_FR->translate(StringIdentifier::SID_ENGINEERING_URBANISME_TEXT, "Nous vous accompagnons dans vos projets, du diagnostic urbain à la géotechnique");
@@ -168,7 +168,7 @@ $DICT_FR->translate(StringIdentifier::SID_ENGINEERING_ENVIRONNEMENT_TEXT, "Nous 
 $DICT_FR->translate(StringIdentifier::SID_ENGINEERING_ENERGIE, "Énergie");
 $DICT_FR->translate(StringIdentifier::SID_ENGINEERING_ENERGIE_TEXT, "De la production de l'énergie à sa gestion, nous vous accompagnons dans vos projets" );
 $DICT_FR->translate(StringIdentifier::SID_ENGINEERING_SGM, "Sciences des matériaux");
-$DICT_FR->translate(StringIdentifier::SID_ENGINEERING_SGM_TEXT, "Les consultans d'ETIC sont particulièrement performant dans le domaine des semi-conducteurs, des polymères et des matériaux inorganiques");
+$DICT_FR->translate(StringIdentifier::SID_ENGINEERING_SGM_TEXT, "Les consultants d'ETIC sont particulièrement performants dans le domaine des semi-conducteurs, des polymères et des matériaux inorganiques");
 
 $DICT_FR->translate(StringIdentifier::SID_ENGINEERING_GE, "Génie Électrique");
 $DICT_FR->translate(StringIdentifier::SID_ENGINEERING_GE_TEXT, "L’électricité est présente partout dans notre société et est l’élément central des projets innovants");
