@@ -311,8 +311,6 @@ class StringIdentifier {
 	const SID_TELECHARGER_PLAQUETTE        	= "{TELECHARGER_PLAQUETTE}";
 	const SID_TELECHARGER_PORTFOLIO        	= "{TELECHARGER_PORTFOLIO}";
 
-    const SID_TRANSFORMATION_NUMERIQUE        	= "{TRANSFORMATION_NUMERIQUE}";
-    const SID_SCIENCES_ENTREPRISE        	= "{SCIENCES_ENTREPRISE}";
 
     const SID_REA_WEB = "{REA_WEB}";
     const SID_REA_MOBILE = "{REA_MOBILE}";
@@ -708,9 +706,6 @@ class StringIdentifier {
 		StringIdentifier::SID_TELECHARGER_PORTFOLIO,
 
 
-        StringIdentifier::SID_TRANSFORMATION_NUMERIQUE,
-        StringIdentifier::SID_SCIENCES_ENTREPRISE,
-        StringIdentifier::SID_INGENIERIE,
 
         StringIdentifier::SID_REA_WEB,
         StringIdentifier::SID_REA_MOBILE,
