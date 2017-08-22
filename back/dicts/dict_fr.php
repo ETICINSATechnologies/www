@@ -37,14 +37,7 @@ $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_ENG, "en France en 2016");
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_TOP, "Des meilleures Junior-Entreprises");
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_DOMAINES, "Domaines de compétences");
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_SATISFACTION, "De satisfaction client");
-$DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_1, "Lauréat du Prix d'Excellence 2016<br>
-Lauréat du Label Ingénieur 2016 <br>
-Demi finaliste du Prix d’Excellence 2014 <br>
-Finaliste du Label Ingénieur 2014 <br>
-Lauréat du Challenge Junior Pérenne de 2013 <br>
-Lauréat du Challenge Junior Engagée de 2013 <br>
-Lauréat du Label Entrepreneur en 2013 <br>
-Finaliste du Prix d’Excellence en 2012 et en 2013");
+$DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_1, "<img src=\"front/assets/home/PrizeFR.png\" style=\"max-width: 100%;\">");
 $DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_2, "Demi Finaliste du Prix d’Excellence en 2007 <br>
 Finaliste du Label Ingénieur en 2007 <br> 
 Top 30 des J.E. de France depuis 2001 (sur 170) <br>
@@ -656,7 +649,7 @@ $DICT_FR->translate(StringIdentifier::SID_REA_WEB_WHY, "Avec plus de 600 étudia
 $DICT_FR->translate(StringIdentifier::SID_REA_MOBILE_WHY, "Forts de nos 600 étudiants en Informatique et Télécommunications ainsi que de notre grande expérience en réalisation d’applications mobiles, acquise via nos nombreux projets développés sur tous types de plateformes mobiles, nous nous engageons à vous délivrer des prestations de qualité.");
 $DICT_FR->translate(StringIdentifier::SID_CREA_LOGICIEL_WHY, "Grâce à son large panel de compétences informatiques, ETIC saura s’adapter à vos besoins afin d’assurer une prestation d’excellence. Nous disposons d’un panel de plus de 600 étudiants en Informatique et Télécommunications formés à haut niveau et capable de répondre précisément à vos besoins. ");
 $DICT_FR->translate(StringIdentifier::SID_DOC_INFORMATIQUE_WHY, "Avec une formation d’ingénieur méthodique et rigoureuse, les quelques 600 étudiants en Informatique et Télécommunications, maîtrisant les divers langages de programmation, pourront vous aider à rédiger et structurer de manière claire et efficace vos documents informatiques.");
-$DICT_FR->translate(StringIdentifier::SID_CREA_BASES_WHY, "Nous disposons d’un panel de plus de 600 étudiants en Informatique et Télécommunications maîtrisant parfaitement sur la création et la gestion de bases de données. ETIC saura vous fournir des services fiables, sécurisés, et adaptés à vos besoins.");
+$DICT_FR->translate(StringIdentifier::SID_CREA_BASES_WHY, "Nous disposons d’un panel de plus de 600 étudiants en Informatique et Télécommunications maîtrisant parfaitement la création et la gestion de bases de données. ETIC saura vous fournir des services fiables, sécurisés, et adaptés à vos besoins.");
 $DICT_FR->translate(StringIdentifier::SID_REF_WEB_WHY, "Grâce à son partenariat avec Google via la mention Google Adwords, ETIC dispose d’une connaissance approfondie et reconnue sur le référencement de site web.");
 $DICT_FR->translate(StringIdentifier::SID_AUDIT_SI_WHY, "Grâce à ses domaines de compétence variés, ETIC saura allier ses compétences en audit et en informatique pour vous proposer un audit de vos SI dans l’optique de développer les performances de votre entreprise.");
 $DICT_FR->translate(StringIdentifier::SID_SECU_INFO_WHY, "Notre partenariat avec Insecurity, association reconnue de sécurité informatique de l’INSA Lyon.");
@@ -666,7 +659,7 @@ $DICT_FR->translate(StringIdentifier::SID_ETUDE_SATISFACTION_WHY, "- Adapter vot
 - Le suivi de la satisfaction de vos clients est un élément stratégique pour garantir la croissance de votre entreprise. 
 ");
 $DICT_FR->translate(StringIdentifier::SID_ANALYSE_CONCU_WHY, "Nous apportons un éclairage ingénieur  sur nos données récoltées afin de compléter notre analyse");
-$DICT_FR->translate(StringIdentifier::SID_TRAD_WHY, "Nos élèves étudiants  d’échange qui viennent de tous les pays d’Europe mais aussi d’Amérique du Sud et d’Asie.");
+$DICT_FR->translate(StringIdentifier::SID_TRAD_WHY, "Nos élèves étudiants d’échange qui viennent de tous les pays d’Europe mais aussi d’Amérique du Sud et d’Asie.");
 $DICT_FR->translate(StringIdentifier::SID_STRATEGIE_DIGI_WHY, "?");
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_FAISABILITE_WHY, "Notre haute formation d’ingénieurs nationalement reconnue
 Notre partenariat avec EM Lyon Junior-Conseil qui nous permet une étude complète de vos produits.");
@@ -919,3 +912,5 @@ $DICT_FR->translate(StringIdentifier::SID_ELECTRIQUE_EXEMPLE, "<div class=\"item
                     </div>
                 </div>
                 ");
+
+$DICT_FR->translate(StringIdentifier::SID_SLOGAN, "<img src=\"front/assets/home/sloganfr.svg\" style=\"margin-top: 5px; max-width: 100%;\">");

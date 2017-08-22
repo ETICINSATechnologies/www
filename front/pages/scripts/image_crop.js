@@ -1,5 +1,5 @@
 $(window).resize(function() {
-	var windowHeight = $(window).height() - $(".ui.top.fixed.tabular.menu").height();
+	var windowHeight = $(window).height() - $(".ui.top.fixed.tabular.menu").height() - $("#slogan").height() ;
 	var windowWidth = $(window).width();
 	var ratioWindow = windowWidth/windowHeight;
 	var imgHeight = $("#splash").height();
@@ -7,7 +7,7 @@ $(window).resize(function() {
 	var ratioImg = imgWidth/imgHeight;
 
 	if(ratioImg>ratioWindow){	//image trop large
-		$(".cropper").attr("style", 'height:' + windowHeight +'px; width:auto; display:block; margin-left:-100%; margin-right:-100%; ');
+		$(".cropper").attr("style", 'height:' + windowHeight + 'px; width:auto; display:block; margin-left:-100%; margin-right:-100%; ');
 		$("#splash").attr("style", "height:" + windowHeight +"px; display:block; margin-left:auto; margin-right:auto;");
 	}
 	else{	//image trop haute
@@ -17,14 +17,15 @@ $(window).resize(function() {
 });
 
 $(document).ready(function() {
-	var windowHeight = $(window).height() - $(".ui.top.fixed.tabular.menu").height();
+	var windowHeight = $(window).height() - $(".ui.top.fixed.tabular.menu").height()  - $("#slogan").height();
 	var windowWidth = $(window).width();
 	var ratioWindow = windowWidth/windowHeight;
 	var imgHeight = $("#splash").height();
 	var imgWidth = $("#splash").width();
 	var ratioImg = imgWidth/imgHeight;
 
-	if(ratioImg>ratioWindow){	//image trop large
+	if(ratioImg>ratioWindow){
+		///image trop large
 		$(".cropper").attr("style", 'height:' + windowHeight +'px; width:auto; display:block; margin-left:-100%; margin-right:-100%; ');
 		$("#splash").attr("style", "height:" + windowHeight +"px; display:block; margin-left:auto; margin-right:auto;");
 	}

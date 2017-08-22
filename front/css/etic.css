@@ -94,10 +94,11 @@
 *			home.html 			*
 *											*/
 .cropper.home-header {
-    background-image: url('../assets/home/lyon.jpg');
-	background-size: cover;
+    background-image: url('../assets/home/team2.jpg');
+	/*background-size: cover;*/
 	background-repeat: no-repeat;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
+    background-position: center center;
 }
 
 /*										*
@@ -191,4 +192,51 @@
     color :lightgray;
     font-weight: 900;
 }
+
+#slogan {
+    background-color: whitesmoke;
+    height: 100px;
+    line-height: 100px;
+    white-space: nowrap;
+    font-size: xx-large;
+    font-weight: 100;
+    font-family: "Arial Rounded MT Bold";
+    color : #009900;
+
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    background-image: url('../assets/home/scrolldown2.png');
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,.4);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 60%;
+    cursor: pointer;
+}
+
+.floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+
+}
+
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 10px); }
+    to   { transform: translate(0, -0px); }
+}
+
+
 
