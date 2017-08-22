@@ -27,6 +27,9 @@ $DICT_EN->translate(StringIdentifier::SID_DEVIS, "Ask for an estimate");
 $DICT_EN->translate(StringIdentifier::SID_LANG, "<i class=\"gb flag\"></i> English");
 $DICT_EN->translate(StringIdentifier::SID_MOUVEMENT, "About Junior-Entreprises");
 $DICT_EN->translate(StringIdentifier::SID_PLAN,"Site map");
+$DICT_EN->translate(StringIdentifier::SID_INGENIERIE, "Engineering");
+$DICT_EN->translate(StringIdentifier::SID_NUMERIQUE, "Digitalisation");
+$DICT_EN->translate(StringIdentifier::SID_ENTREPRISE, "Business Sciences");
 
 
 /*FR_HOME*/
