@@ -22,8 +22,6 @@ $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES, "Our partners");
 $DICT_EN->translate(StringIdentifier::SID_EVENEMENTS, "Our events");
 $DICT_EN->translate(StringIdentifier::SID_CONFIANCE, "References");
 $DICT_EN->translate(StringIdentifier::SID_BLOG, "Blog");
-$DICT_EN->translate(StringIdentifier::SID_MARKETING, "Marketing");
-$DICT_EN->translate(StringIdentifier::SID_MARKETING_P1, "Nous nous attachons comprendre le contexte dans lequel votre entreprise fonctionne, sa cible, ses objectifs afin de produire une communication en adéquation avec les buts de votre entreprise. ");
 $DICT_EN->translate(StringIdentifier::SID_PLAQUETTE, "Brochure");
 $DICT_EN->translate(StringIdentifier::SID_DEVIS, "Ask for an estimate");
 $DICT_EN->translate(StringIdentifier::SID_LANG, "<i class=\"gb flag\"></i> English");
@@ -37,14 +35,7 @@ $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_ENG, "in France in 2016");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_TOP, "Best Junior-Entreprises");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_DOMAINES, "Fields of proficiency");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_SATISFACTION, "Clients satisfied");
-$DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_1, "Laureate of the Prix d'excellence 2016 <br>
-Laureate of the Label Ingénieur in 2016<br>
-Semi-finalist Prix d'excellence 2014 <br>
-Finalist of the Label Ingénieur in 2014<br>
-Laureate of the Challenge Junior Pérenne in 2013 <br>
-Laureate of the Challenge Junior Engagée in 2013 <br>
-Laureate of the Label Entrepreneur in 2013 <br>
-Finalist of the Prix d’Excellence in 2012 and 2013");
+$DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_1, "<img src=\"front/assets/home/PrizeEN.png\" style=\"max-width: 100%;\">");
 $DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_2, "Finalist of the Label Ingénieur in 2016<br>
 Finalist of the Label ingénieur in 2007 <br> 
 Top 30 best JE in France since 2001 (out of 170) <br>
@@ -502,3 +493,331 @@ $DICT_EN->translate(StringIdentifier::SID_RESP_DC,"Commercial Manager");
 $DICT_EN->translate(StringIdentifier::SID_PROJECT_IDEA,"A project ? An idea ?");
 $DICT_EN->translate(StringIdentifier::SID_TELECHARGER_PLAQUETTE,"Download our brochure");
 $DICT_EN->translate(StringIdentifier::SID_TELECHARGER_PORTFOLIO,"Download our portfolio");
+
+$DICT_EN->translate(StringIdentifier::SID_REA_WEB, "Web applications development");
+$DICT_EN->translate(StringIdentifier::SID_REA_MOBILE, "Mobile application development (Android/iOS/crossplatform)");
+$DICT_EN->translate(StringIdentifier::SID_CREA_LOGICIEL, "Software development and update");
+$DICT_EN->translate(StringIdentifier::SID_DOC_INFORMATIQUE, "IT documents standardization ");
+$DICT_EN->translate(StringIdentifier::SID_CREA_BASES, "Database creation and management");
+$DICT_EN->translate(StringIdentifier::SID_REF_WEB, "Referencing of your website");
+$DICT_EN->translate(StringIdentifier::SID_AUDIT_SI, "Audit of your information system");
+$DICT_EN->translate(StringIdentifier::SID_SECU_INFO, "Digital security");
+
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_MARCHE, "Market research");
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_SATISFACTION, "Satisfaction survey");
+$DICT_EN->translate(StringIdentifier::SID_ANALYSE_CONCU, "Competitive analysis");
+$DICT_EN->translate(StringIdentifier::SID_TRAD, "Translation");
+$DICT_EN->translate(StringIdentifier::SID_STRATEGIE_DIGI, "Digitalization");
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_FAISABILITE, "Feasibility study");
+
+$DICT_EN->translate(StringIdentifier::SID_MECANIQUE, "Mechanics");
+$DICT_EN->translate(StringIdentifier::SID_CONSTRUCTION, "Construction and urban design");
+$DICT_EN->translate(StringIdentifier::SID_SCIENCE_MATERIAUX, "Materials science");
+$DICT_EN->translate(StringIdentifier::SID_ENVIRONNEMENT, "Environment");
+$DICT_EN->translate(StringIdentifier::SID_ENERGIE, "Energy");
+$DICT_EN->translate(StringIdentifier::SID_ELECTRIQUE, "Electrical engineering");
+
+
+$DICT_EN->translate(StringIdentifier::SID_DESC_TITLE, "Description");
+$DICT_EN->translate(StringIdentifier::SID_WHY_TITLE, "Why you should choose ETIC? ");
+$DICT_EN->translate(StringIdentifier::SID_EXEMPLE_TITLE, "STUDY EXAMPLE");
+$DICT_EN->translate(StringIdentifier::SID_OTHER_TITLE, "OTHERS STUDIES THAT MAY BE OF INTEREST TO YOU");
+
+
+
+$DICT_EN->translate(StringIdentifier::SID_REA_WEB_DESC, "Web applications are an essential part of digitization. Their adaptability and their ergonomics make it a tool to stimulate and improve your activity and your visibility");
+$DICT_EN->translate(StringIdentifier::SID_REA_MOBILE_DESC, "Mobile applications have changed the way we do business. Whether it is to facilitate day-to-day operations, to develop a new sector within your company, to promote something or to sell a new service to your customers, these new essentials on smartphones or tablets are an excellent way to make business!");
+$DICT_EN->translate(StringIdentifier::SID_CREA_LOGICIEL_DESC, "The needs of each company is different, and you can't find the software that meets all your requirements. No problem, we will develop it specifically for you! The same applies for software that is no longer at the maximum of its performance. It is important for your business to always benefit from the most powerful tools, and we can provide them to you. ");
+$DICT_EN->translate(StringIdentifier::SID_DOC_INFORMATIQUE_DESC, "Having clear and comprehensive documentation is the basis for optimized use of your computer hardware. It is also the first step for the training of new users, and maintenance as well.");
+$DICT_EN->translate(StringIdentifier::SID_CREA_BASES_DESC, "The management of your databases is essential. We can create one adapted to your needs and uses, but also maintain those you are already using.");
+$DICT_EN->translate(StringIdentifier::SID_REF_WEB_DESC, "SEO gives your website better visibility when your customers search for it on a web browser.");
+$DICT_EN->translate(StringIdentifier::SID_AUDIT_SI_DESC, "The purpose of the audit of your Information System is to identify and assess the various risks of your IT activities.");
+$DICT_EN->translate(StringIdentifier::SID_SECU_INFO_DESC, "Partners with Insecurity, a recognized computer security association of INSA Lyon, we offer a range of studies related to computer security, from code auditing to pentest and the development of secure code.");
+
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_MARCHE_DESC, "Market research will help you determine if your project is worth the effort.
+This involves looking for potential customers and their consumption trends. We offer you a three-step methodology: market research, analysis of your business environment and identification of potential competitors. These steps are keys to the development of your product. Market research also provides information about the position to adopt in this market.");
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_SATISFACTION_DESC, "This study allows you to measure the satisfaction of your customers and to determine the origins of their (in)satisfaction. We analyze the needs of your customers and help you to redefine your offer in order to adapt it to market expectations.");
+$DICT_EN->translate(StringIdentifier::SID_ANALYSE_CONCU_DESC, "It allows you to know the image of your brand or product compared to competitors in the mind of the targeted consumer.
+Watch for best practices from competing companies. We offer you a new and modern point of view.");
+$DICT_EN->translate(StringIdentifier::SID_TRAD_DESC, "With more than 8 languages taught at INSA Lyon, we offer you the possibility to translate your product presentations, sales pitches and other marketing tools. Our students, foreigners or French, proficient in these languages, can offer you translations in French, Chinese, German, Spanish, Italian, Japanese, Portuguese, or Arabic.");
+$DICT_EN->translate(StringIdentifier::SID_STRATEGIE_DIGI_DESC, "?");
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_FAISABILITE_DESC, "This study allows you to measure the feasibility and viability of your projects on a technical level. We propose you to complement it with a commercial and economic study done by our partners of the EM Lyon Junior Consulting");
+
+$DICT_EN->translate(StringIdentifier::SID_MECANIQUE_DESC, "We support you in your innovative projects. From R&D to design, our 325 students in mechanical engineering will be able to advise you on your projects and bring you the technical knowledge you need.
+They are also trained in mechatronics, automation and manufacturing processes, enabling you to carry out specific or cross-functional projects.");
+$DICT_EN->translate(StringIdentifier::SID_CONSTRUCTION_DESC, "INSA Lyon offers a complete and quality education to future engineers in civil engineering and urban planning, thus offering us the possibility to accompany you in all of your projects. The various specializations, whether in the fields of urban planning (urban diagnosis, urban network management, urban sociology), construction (buildings' structure, general processes of construction, soil strengthening), building physics (Building thermal, acoustic, earthquake resistant) and geotechnical engineering (geology, soil mechanics, simulation of structures), allow students to have a wide range of skills.");
+$DICT_EN->translate(StringIdentifier::SID_SCIENCE_MATERIAUX_DESC, "The consultants of ETIC are always able to use the latest technologies and techniques. They are particularly efficient in the field of semiconductors but also polymers and inorganic materials. They can help you in the choice of materials for your project and also in the elaboration of the chosen materials. Our consultants also know software such as ANSYS which is very useful for the choice of materials. They also master micro-technologies and make, for example, biosensors or photovoltaic cells. Another major area of their competence is control. ETIC can perform non-destructive testing for a very wide range of materials by measuring, for example, the damage of a material by acoustic emission. ETIC's consultants can also carry out experiments on already corroded parts.");
+$DICT_EN->translate(StringIdentifier::SID_ENVIRONNEMENT_DESC, "The preservation of the environment is today a major concern. This is why we suggest you to help you in your environmental projects.
+From waste management to the treatment of water, air and smoke, and renewable energies, ETIC will know how to help you with its own techniques and processes.");
+$DICT_EN->translate(StringIdentifier::SID_ENERGIE_DESC, "The field of energy is today a major stake to take into account in your projects. From energy production to management, and optimization, ETIC will know how to help you in your projects. This involves the study of heat transfer in a building, the study of renewable energies, the study of thermal and refrigeration machines or the regulation of processes to improve management");
+$DICT_EN->translate(StringIdentifier::SID_ELECTRIQUE_DESC, "Electricity is present throughout our society and is the central element of innovative projects. We can support you in your projects requiring electrical systems. We can work on your projects of conversion of energy, embedded systems, telecommunications, industrial automation, signal and image processing, electric vehicles, or on energy distribution networks.");
+
+$DICT_EN->translate(StringIdentifier::SID_REA_WEB_WHY, "With more than 600 students in IT and Telecommunication, 35 years of experience, and more than 40% of our turnover in this area, ETIC ensures quality and excellence in all our web services.");
+$DICT_EN->translate(StringIdentifier::SID_REA_MOBILE_WHY, "With our 600 students in Computer Science and Telecommunications as well as our extensive experience in mobile application development, acquired through our numerous projects developed on all types of mobile platforms, we are committed to delivering quality services to you.");
+$DICT_EN->translate(StringIdentifier::SID_CREA_LOGICIEL_WHY, "Thanks to its wide range of computer skills, ETIC will be able to adapt to your needs in order to ensure excellence in delivery. We have a panel of more than 600 students in Information Technology and Telecommunications trained at a high level and able to answer precisely your needs.");
+$DICT_EN->translate(StringIdentifier::SID_DOC_INFORMATIQUE_WHY, "With a rigorous and methodical engineer training, the 600 students in Computer Science and Telecommunications, who master the various programming languages, will be able to help you to write and structure your computer documents in a clear and effective way.");
+$DICT_EN->translate(StringIdentifier::SID_CREA_BASES_WHY, "We have a panel of more than 600 students in Computer Science and Telecommunications, perfectly mastering the creation and management of databases. ETIC will provide you with reliable, secured services adapted to your needs.");
+$DICT_EN->translate(StringIdentifier::SID_REF_WEB_WHY, "Through its partnership with Google via Google Adwords, ETIC has a thorough and recognized knowledge of SEO.");
+$DICT_EN->translate(StringIdentifier::SID_AUDIT_SI_WHY, "Thanks to its various fields of competence, ETIC will combine its audit and IT skills to offer you an audit of your Information System in order to develop the performance of your company.");
+$DICT_EN->translate(StringIdentifier::SID_SECU_INFO_WHY, "Our partnership with Insecurity, a recognized computer security association of INSA Lyon.");
+
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_MARCHE_WHY, "Our technical knowledge on many issues provides a deeper understanding of the various markets and their evolution. ");
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_SATISFACTION_WHY, "- Adapt your marketing and communication approach according to the expectations of your clients.
+- Monitoring your customers' satisfaction is a strategic element to ensure the growth of your business.
+");
+$DICT_EN->translate(StringIdentifier::SID_ANALYSE_CONCU_WHY, "We bring an engineered view on our data collected in order to complete our analysis");
+$DICT_EN->translate(StringIdentifier::SID_TRAD_WHY, "Our exchange students who come from all countries of Europe but also from South America and Asia.");
+$DICT_EN->translate(StringIdentifier::SID_STRATEGIE_DIGI_WHY, "?");
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_FAISABILITE_WHY, "Our high level of nationally recognized engineer courses
+Our partnership with EM Lyon Junior-Conseil that allows us a complete study of your products.");
+
+$DICT_EN->translate(StringIdentifier::SID_MECANIQUE_WHY, "INSA Lyon has the largest engineering training in Mechanical Engineering in Europe, thus providing a great technical opportunity for your projects.
+More than 325 students are gratuated every year and ready to put their expertise and ideas at the service of companies. Eight laboratories involved allow us to be at the forefront of the latest technologies and to constantly innovate. We also have two campuses, one in Oyonnax, near the plastics processing companies, to combine innovation and practical application in a company.");
+$DICT_EN->translate(StringIdentifier::SID_CONSTRUCTION_WHY, "The students are trained to use AutoCad software and the double diplomas offered in this course (architecture ...) offers you the opportunity to carry out cross-functional and technical projects with us.");
+$DICT_EN->translate(StringIdentifier::SID_SCIENCE_MATERIAUX_WHY,"Our consultants are particularly well-trained and ETIC can rely on INSA laboratories: Materials Laboratory: Science and Engineering (MATEIS), Polymer Materials Engineering (IMP), Lyon Institute of Nanotechnology (INL).");
+$DICT_EN->translate(StringIdentifier::SID_ENVIRONNEMENT_WHY, "INSA Lyon : this is 360 students in the Department of Energy and Environment, ready to help you with your projects. They will also be able to rely on 5 specialized laboratories present on the Doua campus");
+$DICT_EN->translate(StringIdentifier::SID_ENERGIE_WHY, "With these Electrical Engineering and Engineering Energy and Environment departments, INSA Lyon has at its disposal more than 750 students specialized in the field of energy. In addition, 6 specialized laboratories provide an ideal framework to ensure relevant study follow-up.");
+$DICT_EN->translate(StringIdentifier::SID_ELECTRIQUE_WHY, "With 450 students specializing in electrical engineering working on both classical and innovative technologies, ETIC INSA Technologies will be able to answer your technical projects but also advise you and accompany you. The high quality multidisciplinarity taught combined with the 22 laboratories present at INSA Lyon allow ETIC INSA Technologies to answer to your complex projects.");
+
+$DICT_EN->translate(StringIdentifier::SID_REA_WEB_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Realization of cybercommerce sites</div>                        
+                        <div class=\"description\">Intuitive and attractive, these sites are tools for making online sales, a great way to reach a wider customer base.</div>
+                        </br>
+                        <div class=\"description\"><i>We have been solicited for cybercommerce sites in very diverse sectors like the sale of wine, light fixtures, perfumes, and agricultural equipment.</i></div>
+
+                    </div>
+                </div>
+                <div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Realization of showcase sites</div>
+                        <div class=\"description\">Simple and effective, this is a great way for your business or startup to quickly gain visibility.</div>
+                        </br>
+                        <div class=\"description\"><i>Here is the link of a site that we developed internally for a congress we organized in the region of Lyon : <a href =\"http://cra2016.etic-insa.com/\">cra2016.etic-insa.com</a> </i></div>
+                    </div>
+                </div>
+                <div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Creation of management platforms  </div>
+                        <div class=\"description\">A solution adapted to follow your activities, your budget, and the progress of your objectives</div>
+                        </br>
+                        <div class=\"description\"><i>We have realized real-time KPI tracking software for one of the business processes of a large industry account. </i></div>
+                    </div>
+                </div>
+                <div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Creation of collaborative platforms / forum</div>
+                        <div class=\"description\">Whether it is a work tool for your company or for a whole community, it is the solution for sharing and disseminating information. </div>
+                       </br>
+                        <div class=\"description\"><i>Here is a site similar to a platform of exchange on calls for tenders, where are also relayed articles of press, the comments of the users as well as their tweets : 
+                            <a href =\"https://www.leschantiersdelentreprenalisme.fr/\">leschantiersdelentreprenalisme.fr</a>
+                        </i></div>
+                    </div>
+                </div>");
+$DICT_EN->translate(StringIdentifier::SID_REA_MOBILE_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Native mobile applications (Android, iOS (Apple))</div>
+                        <div class=\"description\">Mobile applications are very diverse. Whether you want to extend your marketing or advertising functionality, share information or create a new form of business, everything is possible, regardless of the device you use!</div>
+                        </br>
+                        <div class=\"description\"><i>We realized an application on Android tablet, able to flash QR-codes internal to the company and to display content: documents texts, photos, videos according to the needs of the user.</i></div>
+
+                    </div>
+                </div>
+                <div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Cross-platform mobile applications</div>
+                        </br>
+                        <div class=\"description\"><i>We realized a tracking application via a GPS and scoring system, with integration of challenges for mountain bikes and BMX practitioners. </i></div>
+                    </div>
+                </div>
+               
+                ");
+$DICT_EN->translate(StringIdentifier::SID_CREA_LOGICIEL_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Softwares</div>
+                        <div class=\"description\">Software to meet a specific need, adapted to users and available hardware. Any kind of language can be used. </div>
+                        </br>
+                        <div class=\"description\"><i>In particular, we have taken over and implemented a Serious Game, aimed at pupils, which makes it possible to learn pedagogically and intuitive methods of problem solving in companies. </i></div>
+
+                    </div>
+                </div>
+                ");
+$DICT_EN->translate(StringIdentifier::SID_DOC_INFORMATIQUE_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\"> User and developer standardized documentation for your IT infrastructure.</div>
+                        </br>
+                        <div class=\"description\"><i>We compiled a complex program and wrote a documentation for the understanding of its architecture and its modification. It is important to highlight that all our computer projects are documented, it is an area that we are particularly in control of </i></div>
+
+                    </div>
+                </div>");
+$DICT_EN->translate(StringIdentifier::SID_CREA_BASES_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Customised database for your business.</div>
+                        </br>
+                        <div class=\"description\"><i>We have developed a database for a medical organization that can store information for more than 1000 patients, which can be modified and modulated for future system extensions or updates.</i></div>
+                    </div>
+                </div>");
+$DICT_EN->translate(StringIdentifier::SID_REF_WEB_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">A thorough analysis of the state and architecture of your website, and the implementation of actions to increase its SEO (redesign, update, SEO Adwords, ...)</div>
+                        </br>
+                        <div class=\"description\"><i>For example, we have been contacted to refocus and improve the referencing of a recruitment site by spontaneous application, or to set up a referencing policy for a site selling softwares</i></div>
+                    </div>
+                </div>");
+$DICT_EN->translate(StringIdentifier::SID_AUDIT_SI_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Report on the state of your system and our advice in digital strategy to increase its performance</div>
+                        </br>
+                        <div class=\"description\">An efficient information system is a guarantee of quality for your activities. We can evaluate it taking into account all your needs, and advise you make it as best as possible.</div>
+                    </div>
+                </div>");
+$DICT_EN->translate(StringIdentifier::SID_SECU_INFO_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Code Audits</div>
+                        </br>
+                        <div class=\"description\">Even with tools already in place, it is never too late to check for safety. Thanks to a code audit, we will be able to give you a complete overview of the security of your IT tools. </div>
+
+                    </div>
+                </div>
+                <div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Intrusion tests (pentest)</div>
+                        </br>
+                        <div class=\"description\">Want to test the safety of your tools? We are able to do controlled intrusion tests to test the effectiveness of your protections. </div>
+                    </div>
+                </div>
+                <div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Secure code development</div>
+                        </br>
+                        <div class=\"description\">If your tools are not yet in place, make the choice to install them in a completely secure environment that we can provide you with. </div>
+                    </div>
+                </div>");
+
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_MARCHE_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Schneider electric </div>
+                        </br>
+                        <div class=\"description\">The client seeks to know how other companies are working, about developing and tracking their mobile app on connected objects. </div>
+                    </div>
+                </div>");
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_SATISFACTION_EXEMPLE, "NEEDED");
+$DICT_EN->translate(StringIdentifier::SID_ANALYSE_CONCU_EXEMPLE, "NEEDED");
+$DICT_EN->translate(StringIdentifier::SID_TRAD_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Websites' translation </div>
+                        </br>
+                        <div class=\"description\">We have completely translated a website from English to German for a multinational company with more than 45 laboratories in 20 countries around the world.   </div>
+                    </div>
+                </div>");
+$DICT_EN->translate(StringIdentifier::SID_STRATEGIE_DIGI_EXEMPLE, "?");
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_FAISABILITE_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"description\">We studied the feasibility of the evolution towards prefabrication processes of thermal and electrical systems. This prefabrication would make it possible to produce subsystems in factories and to facilitate the implementation on the building sites</div>
+                    </div>
+                </div>
+");
+
+$DICT_EN->translate(StringIdentifier::SID_MECANIQUE_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Thermal modeling of a Eickhoff gearbox for a wind turbine</div>
+                        </br>
+                        <div class=\"description\">Analysis, design of the virtual model, implementation of the data</div>
+                        
+                    </div>
+                </div>
+                <div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Design of an umbrella stand</div>
+                        </br>
+                        <div class=\"description\">The customer wanted to develop an idea of an umbrella stand for hotels and luxury restaurants. This umbrella holder had to be able to dry the umbrellas it contained and possess a water-collecting tank. We therefore selected some students specialized in mechanics to realize the design in CAD and then the real prototype of the object.</div>
+                    </div>
+                </div>
+                ");
+
+$DICT_EN->translate(StringIdentifier::SID_CONSTRUCTION_EXEMPLE, "NEEDED");
+
+$DICT_EN->translate(StringIdentifier::SID_SCIENCE_MATERIAUX_EXEMPLE,"<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Search for thermo-bonded component </div>
+                        </br>
+                        <div class=\"description\">ETIC has carried out a study to find thermobonding compounds with very precise characteristics. The results of the study allowed our client to continue his project with materials adapted to his needs.</div>
+                       
+                    </div>
+                </div>
+                <div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Fire-oriented test of a panel</div>
+                        </br>
+                        <div class=\"description\">ETIC's consultants also carried out tests on the flame retardant characteristics of a panel. ETIC can carry out tests taking into account the requirements of the different regions of the world and always control according to the material / material / reaction trio.</div>    
+                    </div>
+                </div>
+               ");
+$DICT_EN->translate(StringIdentifier::SID_ENVIRONNEMENT_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Improvement of a chemical waste treatment unit</div>                      
+                        <div class=\"description\">We worked on the prototype of a liquid chemical waste treatment unit with a flow rate of 100 kg / hour. The treated fluid consisted essentially of water (80% to 90%). This prototype is used today for demonstrations to potential customers</div>
+                        </br>
+                        <div class=\"description\"><i>ETIC was faced with a problem of dissipation of heat and pressure. We had to find solutions to upgrade and / or dissipate the energy produced by the hydrothermal oxidation process.</i></div>
+                    </div>
+                </div>
+                <div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Estimation of greenhouse gases</div>
+                        <div class=\"description\">The town hall of Saint-Priest has been committed to sustainable development since 2009 and signed Agenda 21. </div>
+                        </br>
+                        <div class=\"description\"><i>ETIC was therefore mandated to consolidate the energy component of the city's action plan. We have completed an estimate of the carbon emissions of the municipality of Saint Priest, which will enable the municipality to determine which buildings or activities to improve in order to emit less CO2 into the atmosphere, and to know the extent of its emissions.</i></div>
+                    </div>
+                </div>
+                ");
+$DICT_EN->translate(StringIdentifier::SID_ENERGIE_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Energy diagnosis of the Lyon Tramway network </div>
+                        </br>
+                        <div class=\"description\">We carried out a diagnosis of the Lyon Tramway network in order to propose consistent technical improvements. This large project was an opportunity for ETIC INSA Technologies and students from INSA's energy department to work together with a large energy group to carry out an innovative urban project at the heart of the current concerns.</div>
+                    </div>
+                </div>
+                <div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Customisable thermodynamic model</div>
+                        <div class=\"description\">The aim of this study was to create a customisable thermodynamic model that can be parameterized according to various characteristics (geometry, temperature, hygrometry, emission and consumption of gas, etc.) for insect storage. We created a reliable tool to ensure an extremely realistic model. </div>
+                        </br>
+                        <div class=\"description\"><i>In parallel with this theoretical model, a dimensioning of the air conditioning, ventilation and ambient storage devices for storage may be requested</i></div>                        
+                    </div>             
+                </div>");
+$DICT_EN->translate(StringIdentifier::SID_ELECTRIQUE_EXEMPLE, "<div class=\"item\">
+                    <i class=\"large check circle middle aligned icon\"></i>
+                    <div class=\"content\">
+                        <div class=\"ui medium header\">Web-based software for charging station of electric vehicles </div>
+                        </br>
+                        <div class=\"description\">We carried out a multidisciplinary study combining electricity and computing. The study carried out for a large group consisted first of all of the prospective study on the implementation of charging stations for electric vehicles and then of designing a tool automating the electrical impact of terminals' connection as well as the estimation of the number of posts per city. The software made it possible to provide, on a map, the strategic locations of the terminals with respect to the electrical network. </div>
+                    </div>
+                </div>
+                ");
+
+$DICT_EN->translate(StringIdentifier::SID_SLOGAN, "<img src=\"front/assets/home/sloganen.svg\" style=\"margin-top: 5px; max-width: 100%;\">");

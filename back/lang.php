@@ -414,6 +414,8 @@ class StringIdentifier {
     const SID_ENERGIE_EXEMPLE = "{ENERGIE_EXEMPLE}";
     const SID_ELECTRIQUE_EXEMPLE = "{ELECTRIQUE_EXEMPLE}";
 
+    const SID_SLOGAN = "{SLOGAN}";
+
 	// tableau des identifiants
 	const SIDS = array(
 	    StringIdentifier::SID_LANGUAGE,
@@ -804,7 +806,9 @@ class StringIdentifier {
         StringIdentifier::SID_SCIENCE_MATERIAUX_EXEMPLE,
         StringIdentifier::SID_ENVIRONNEMENT_EXEMPLE,
         StringIdentifier::SID_ENERGIE_EXEMPLE,
-        StringIdentifier::SID_ELECTRIQUE_EXEMPLE
+        StringIdentifier::SID_ELECTRIQUE_EXEMPLE,
+
+        StringIdentifier::SID_SLOGAN
 
 		);
 
