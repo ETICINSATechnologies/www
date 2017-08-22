@@ -107,6 +107,71 @@ $DICT_EN->translate(StringIdentifier::SID_ETUDE_P_6, "As soon as the project is 
 $DICT_EN->translate(StringIdentifier::SID_ETUDE_P_7, "When the project is over, you will have a 3 months guarantee for each deliverable. This period allows you to give us feedbacks if you have any issue with the results.");
 $DICT_EN->translate(StringIdentifier::SID_ETUDE_P_8, "Une fois la mission réalisée, nous vous demandons de répondre à un Questionnaire de satisfaction. Celui-ci a pour but d'améliorer en permanence la qualité de nos services.");
 
+
+
+
+$DICT_EN->translate(StringIdentifier::SID_MARKETING, "Marketing");
+$DICT_EN->translate(StringIdentifier::SID_MARKETING_P1, "We want to understand the context in which your company operate, its target, its goals in order to produce the communication necessary for its objectives.");
+$DICT_EN->translate(StringIdentifier::SID_MARKETING_SATISFACTION, "Satisfaction study");
+$DICT_EN->translate(StringIdentifier::SID_MARKETING_SATISFACTION_TEXT, "This study will allow you to measure the fullfillment of your clients and to find out the origin of it. We analyse the needs of your clients and help you to redefine your offer in order to adapt it the market expectations.");
+$DICT_EN->translate(StringIdentifier::SID_MARKETING_CONCURRENCE, "Competitors Analysis");
+$DICT_EN->translate(StringIdentifier::SID_MARKETING_CONCURRENCE_TEXT, "This study allow you to know the image of your brand or product with respect to the competitors in the minds of the consumers.
+");
+$DICT_EN->translate(StringIdentifier::SID_MARKETING_TRADUCTION, "Translation");
+$DICT_EN->translate(StringIdentifier::SID_MARKETING_TRADUCTION_TEXT, "With more than eight different languages taught at INSA Lyon, we propose to translate your produt presentation, commercial speech and other marketing tools.");
+$DICT_EN->translate(StringIdentifier::SID_MARKETING_STRATEGIE, "Digitalisation strategy");
+$DICT_EN->translate(StringIdentifier::SID_MARKETING_STRATEGIE_TEXT, "");
+$DICT_EN->translate(StringIdentifier::SID_MARKETING_FAISABILITE, "Feasibility study");
+$DICT_EN->translate(StringIdentifier::SID_MARKETING_FAISABILITE_TEXT, "This study allows you to measure the feasibility and the viability of your projects, in a technical perspective. We propose to complete it by a commercial and economical study done by our partners at EM Lyon Junior Conseil.");
+$DICT_EN->translate(StringIdentifier::SID_MARKETING_MARCHE, "Market Study");
+$DICT_EN->translate(StringIdentifier::SID_MARKETING_MARCHE_TEXT, "The market study will allow you to know if your project is worth giving a shot. It will focus on the search of potentiel clients and their consumers trends.");
+
+
+$DICT_EN->translate(StringIdentifier::SID_DIGITAL, "Digitalisation");
+$DICT_EN->translate(StringIdentifier::SID_DIGITAL_P1, "ETIC helps you in the digitalisation of your activites ! ");
+$DICT_EN->translate(StringIdentifier::SID_DIGITAL_APPWEB, "Development of web applications");
+$DICT_EN->translate(StringIdentifier::SID_DIGITAL_APPWEB_TEXT, "Web applications are a must-have of the digitalisation. Their adaptability and ergonomic make them a tool of choice to boost and improve your activity and visibility.");
+$DICT_EN->translate(StringIdentifier::SID_DIGITAL_APPMOBILE, "Development of mobile applications");
+$DICT_EN->translate(StringIdentifier::SID_DIGITAL_APPMOBILE_TEXT, "Mobile application transformed our way of doing business. In order too ease internal operation, to develop a new branch in your company or to make publicity, these must-have are excellent way to do it !");
+$DICT_EN->translate(StringIdentifier::SID_DIGITAL_LOGICIEL, "Development/Upgrading of software");
+$DICT_EN->translate(StringIdentifier::SID_DIGITAL_LOGICIEL_TEXT, "The needs of every company is different and you can’t find the software that meet the needs. No worry, we develop it for you ! As for the software that is out of date, it is important for your activity to always benefit from the most effective tools and we can provide them.");
+$DICT_EN->translate(StringIdentifier::SID_DIGITAL_DOCUMENTS, "Standardisation of documents");
+$DICT_EN->translate(StringIdentifier::SID_DIGITAL_DOCUMENTS_TEXT, "With an engineering formation rigorous and methodical, not less than six hundred students in Computing and Telecommunication, mastering a variety of programming languages will help you write and structure in a clear manner your documents.");
+$DICT_EN->translate(StringIdentifier::SID_DIGITAL_BASEDEDONNEE, "Development and management of data bases");
+$DICT_EN->translate(StringIdentifier::SID_DIGITAL_BASEDEDONNE_TEXT, "We dispose of more than six hundred of students in Computing and Telecommunication mastering perfectly the development and management of data bases. ETIC will provides you safe, secured and adapted to your needs services.");
+$DICT_EN->translate(StringIdentifier::SID_DIGITAL_REFERENCEMENT, "Referencing your web site");
+$DICT_EN->translate(StringIdentifier::SID_DIGITAL_REFERENCEMENT_TEXT, "Thanks to its partnership with Google by Google Adwords, ETIC dispose of a deep and a well known knowledge on the referencing of your web site.");
+
+$DICT_EN->translate(StringIdentifier::SID_DIGITAL_AUDIT_SI, "Implementation of an audit on your information system.");
+$DICT_EN->translate(StringIdentifier::SID_DIGITAL_AUDIT_SI_TEXT, "Thanks to its variety  will be able to propose an audit of your information system in order to increase the performances of your company.");
+
+$DICT_EN->translate(StringIdentifier::SID_DIGITAL_SECURITE, "Computer Security");
+
+$DICT_EN->translate(StringIdentifier::SID_DIGITAL_SECURITE_TEXT, "As a partner with Insecurity, a recognised association in computer security of INSA Lyon, we propose a panel of studies on the computer security from the code audit, to the pentest and the development of a secured code.");
+
+
+$DICT_EN->translate(StringIdentifier::SID_ENGINEERING, "Engineering");
+$DICT_EN->translate(StringIdentifier::SID_ENGINEERING_P1, "ETIC will help you in your engineering projects !");
+$DICT_EN->translate(StringIdentifier::SID_ENGINEERING_URBANISME, "Construction and urbanism");
+$DICT_EN->translate(StringIdentifier::SID_ENGINEERING_URBANISME_TEXT, "INSA Lyon offers a complete formation of quality for the futures civil engineers. There is a wide variety of options in many field such as urbanism, construction, building physics and geotechnology, allowing students to have many skills.");
+$DICT_EN->translate(StringIdentifier::SID_ENGINEERING_MECANIQUE, "Mechanical Engineering");
+$DICT_EN->translate(StringIdentifier::SID_ENGINEERING_MECANIQUE_TEXT, "From R&D to conception, our 325 student in mechanical engineering will advise you and provide every technical knowledge you will need. They are also formed at mecatronics, automatic and manufacturing processes.");
+$DICT_EN->translate(StringIdentifier::SID_ENGINEERING_ENVIRONNEMENT, "Environement");
+$DICT_EN->translate(StringIdentifier::SID_ENGINEERING_ENVIRONNEMENT_TEXT, "The preservation of environment is a major concern today. That is why we propose to follow you in your environmental projects. From the waste management, the treatment of water, air and smokes, ETIC will know how to help you by providing clean processes.");
+$DICT_EN->translate(StringIdentifier::SID_ENGINEERING_ENERGIE, "Energy");
+$DICT_EN->translate(StringIdentifier::SID_ENGINEERING_ENERGIE_TEXT, "The field of energy is a major issue today. From the production of energy to its management,	 its optimisation, ETIC will know how to help you in your projects. This goes by the study of heat transfer, renewable energies, thermal machine etc." );
+$DICT_EN->translate(StringIdentifier::SID_ENGINEERING_SGM, "Material Science");
+$DICT_EN->translate(StringIdentifier::SID_ENGINEERING_SGM_TEXT, "ETIC consultants are particularly effective in the field of semi-conductors but also of polymers and non-organic materials. They can help you in the choice of materials in your project and their elaboration. Our consultant are familiar with software like ANSYS.");
+
+$DICT_EN->translate(StringIdentifier::SID_ENGINEERING_GE, "Electrical Engineering");
+$DICT_EN->translate(StringIdentifier::SID_ENGINEERING_GE_TEXT, "The electricity is present all over our society today and is a major element of innovative projects. We will follow you in your projects needing electrical systems. We can take action in your projects about energy conversion, telecommunication, signal processing, electrical vehicle, or distribution networks.");
+
+
+
+
+
+
+
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_H2_IF, "Computer science");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_H2_GM, "Mechanics");
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_H2_GCU, "Civil engineering");
