@@ -33,7 +33,7 @@ function check_input() {
 	}
 	if(!preg_match('/\d+/', $_POST['in_budget']) && $_POST['in_budget'] != "") { // vérification du budget
 		return false;
-	}	
+	}
 	if(!preg_match('/\w+/', $_POST['in_duration']) && $_POST['in_duration'] != "") { // vérification du durée
 		return false;
 	}
@@ -44,14 +44,14 @@ $response = make_response();
 
 if(isset($_POST['action'])) {
 	if(!strcmp($_POST['action'], 'make')) {
-		$response = make_response(Securimage::getCaptchaHtml(), true);		
+		$response = make_response(Securimage::getCaptchaHtml(), true);
 	} else if(!strcmp($_POST['action'], 'check')) {	// Captcha validation
 		$image = new Securimage();
 		if ($image->check($_POST['captcha_code']) == true) {
 			if(check_input()) {
 				$mailer = new Mailer();
 				$sent = $mailer->SendMail(
-					array("responsable-dsi@etic-insa.com", "president@etic-insa.com", "responsable-unite-daffaires@etic-insa.com", "vice-president@etic-insa.com"), 
+					array("eachard@etic-insa.com", "margaux.grouvel@etic-insa.com", "mailys.pascail@etic-insa.com"), 
 					new NewRequestMail(),
 					array(
 						"LASTNAME" 	=> htmlentities($_POST['in_lastname']),
