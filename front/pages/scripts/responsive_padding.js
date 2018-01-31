@@ -14,7 +14,7 @@ $(window).resize(function() {
 		$("#topmenu").html(big);
 		$("#topmenu #link_home1").attr("id", "link_home");
 	} else {
-		if (windowWidth < 770 ) {
+		if (windowWidth < 830 ) {
 			$("#topmenu").html(smallpush);
 			$("#topmenu #link_home3").attr("id", "link_home");
 		} else {
@@ -67,7 +67,7 @@ $(document).ready(function() {
 		$("#topmenu").html(big);
 		$("#topmenu #link_home1").attr("id", "link_home");
 	} else {
-		if (windowWidth < 770 ) {
+		if (windowWidth < 830 ) {
 			$("#topmenu").html(smallpush);
 			$("#topmenu #link_home3").attr("id", "link_home");
 		} else {

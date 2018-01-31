@@ -22,7 +22,7 @@ $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES, "Nos partenaires");
 $DICT_FR->translate(StringIdentifier::SID_EVENEMENTS, "Nos évènements");
 $DICT_FR->translate(StringIdentifier::SID_CONFIANCE, "Références");
 $DICT_FR->translate(StringIdentifier::SID_BLOG, "Blog");
-$DICT_FR->translate(StringIdentifier::SID_PLAQUETTE, "Plaquette");
+$DICT_FR->translate(StringIdentifier::SID_PLAQUETTE, "Plaquette commerciale");
 $DICT_FR->translate(StringIdentifier::SID_DEVIS, "Demander un devis");
 $DICT_FR->translate(StringIdentifier::SID_LANG, "<i class=\"fr flag\"></i> Français");
 $DICT_FR->translate(StringIdentifier::SID_MOUVEMENT, "Découvrir le mouvement");
@@ -54,9 +54,9 @@ Finaliste du Label Informatique en 1999
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
 Lauréat du Label Technique 1998");
 
-$DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS, "Nos offres et services");
+$DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS, "Nos services");
 $DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_SUB, "De nombreux domaines d'ingénierie");
-$DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_P, "Grâce à une formation technique diversifiée et de qualité à l'INSA Lyon, ETIC INSA Technologies est en mesure de vous offrir tout un panel de services. De l'informatique à la mécanique, en passant par les télécommunications, l'électronique, le génie civil et bien d'autres, découvrez tous nos domaines de compétences répartis en 3 grandes catégories.");
+$DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_P, "ETIC INSA Technologies, Junior-Entreprise de l’INSA Lyon bénéficie du haut niveau de formation de cette école afin de vous proposer un large panel de prestations. Transformation numérique, Ingénierie mécanique, électronique, urbaine et bien d’autres et Développement business et marketing, découvrez nos offres et leur Business Units.");
 $DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_DET, "PLUS DE DETAILS");
 
 $DICT_FR->translate(StringIdentifier::SID_HOME_TRUST, "ILS NOUS ONT FAIT CONFIANCE");
@@ -487,6 +487,47 @@ $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_2, "Les partenaires premiu
 $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_3, "Nos partenariats Junior-Entreprises en France");
 $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_4, "Nos partenariats Junior-Entreprises à l'étranger");
 
+$DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_AMARIS, "Amaris");
+$DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_EY, "EY");
+$DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_BNP, "BNP Paribas");
+$DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_INSA, "INSA de Lyon");
+$DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_CNJE, "Confédération Nationale des Junior-Entreprises");
+$DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_EMLYON, "EM Lyon Junior Conseil");
+$DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_JUNIORINSA, "Juniors INSA");
+$DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_JEUNESLYON, "Jeunes Lyon");
+
+$DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_AMARIS_TEXT, "Amaris est un groupe international de conseil en technologies et en management avec un développement rapide et des solutions innovantes pour des projets exigeants. L'activité de la société consiste à soutenir ses clients dans la réalisation de leurs projets en agissant au sein de leur organisation afin d'améliorer leur efficacité et améliorer leurs performances. L'activité d'Amaris repose sur les 5 domaines d'expertise suivants : conseil en affaires et management, systèmes et technologies de l'information, ingénierie et hautes technologies, télécommunications, biotechnologies et pharmacie. Amaris intervient auprès de grands comptes internationaux et de groupes familiaux dans de nombreux secteurs tels l’énergie, l’automobile, la banque.
+
+                </br></br>La valeur ajoutée d'Amaris réside dans la qualité de ses équipes et leur attention aux détails, ainsi que dans la manière dont la société capitalise sur leur savoir-faire.
+");
+$DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_EY_TEXT, " Big four ayant la plus grande croissance mondiale en 2016, EY est un cabinet d’audit de plus de 230 800 collaborateurs répartis sur le globe.
+                </br></br>Les collaborateurs EY œuvrent à développer des missions d’audit, d’expertise comptable et de conseil créatrices de valeur pour ses clients, en privilégiant des approches sectorielles. Dans un monde traversé de changements rapides et incessants et qui, au-delà des difficultés, présente de nombreuses perspectives, EY a choisi un objectif ambitieux : Building a better working world.
+                </br></br>Partenaire des Junior-Entreprise depuis plus de 3 ans, EY nous accompagne de manière personnalisée sur nos différentes problématiques et afin de tirer le meilleur de notre Junior-Entreprise et de nous permettre de nous améliorer au quotidien. 
+");
+$DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_BNP_TEXT, " Premier de la zone Euro et 5ème mondiale, BNP Paribas est un groupe bancaire international, présent dans 74 pays, avec plus de 189 000 employés.
+                </br></br>La banque compte plus de 30 millions de clients entre ses activités de banque de détail dans ses quatre marchés domestiques, la France, la Belgique, l'Italie et le Luxembourg et ses autres marques. La banque de détail est également développée dans le bassin méditerranéen, en Turquie, en Pologne et dans l'Ouest des États-Unis.
+                </br></br>BNP Paribas est la marque française dont la valeur est la plus élevée.
+");
+$DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_INSA_TEXT, "Première école d’ingénieurs post-bac, l’INSA Lyon offre une haute formation d’ingénieurs. Avec près de 5 000 ingénieurs hautement qualifiés sur le campus, l’INSA Lyon nous offre un large panels d’étudiants experts. Diversité, excellence, ouverture d'esprit et innovation sont les moteurs de l'INSA Lyon qui, au cours de quasi soixante année d'existence, a défendu une vision de l'ingénieur avant-gardiste, toujours moderne aujourd'hui. L'ingénieur INSA n'est pas un ingénieur comme les autres. Il est doté d'excellentes compétences scientifiques et techniques mais il est aussi capable de comprendre les enjeux de sa société et de s'inscrire dans l'évolution de son monde. École à dimension internationale, l’INSA Lyon possède plus de 250 universités partenaires au travers du monde et se classe parmi les 10 meilleures formation d’ingénieurs en Europe. Soutenue par ses 22 laboratoires de recherche, elle a également l’ambition de devenir un centre de recherche et d'innovation reconnu dans le monde, exerçant une forte attractivité sur le monde industriel et économique.
+");
+$DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_CNJE_TEXT, " Regroupant plus de 170 structures en France, la Confédération Nationale des Junior-Entreprises œuvre depuis 50 ans pour accompagner et développer le mouvement des Junior-Entreprises.
+                </br></br>Elle a pour missions :
+                </br> - Le développement du mouvement des Junior-Entreprises, notamment par l’intégration de nouvelles structures
+                </br>- La formation et l’accompagnement des Junior-Entrepreneurs dans leur montée en compétences
+                </br>- La promotion et la protection de la marque Junior-Entreprise et la pormotion de l’entreprenariat
+");
+$DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_EMLYON_TEXT, "Troisième Junior-Entreprise de France, em lyon junior conseil est la Junior-Entreprise d’emlyon business school.
+                </br></br>Elle accompagne depuis 1972 des entreprises de France et d’Europe en réalisant des études de conseil en audit, communication, entrepreneuriat, finance, marketing et stratégie.
+
+                </br></br>Nous répondons ainsi aux problématiques rencontrées par nos clients, qu’ils soient de grands groupes, des PME ou des entrepreneurs en ajoutant les compétences d’une école de commerce à nos domaines d’expertise.
+");
+$DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_JUNIORINSA_TEXT, " Regroupement des Junior-Entreprises du réseau INSA, Junior INSA nous offre une structure nationale efficace capable de réaliser des missions rapidement dans toute la France.
+
+                </br></br>Fort de plus de 40 spécialités, conçues autour d’un enseignement d’excellence adossé à une recherche scientifique de pointe. Nous proposons des prestations autour de différents domaines, notamment l’informatique et la sécurité, la mécanique, le génie des matériaux, les mathématiques et bien d’autres.
+");
+$DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_JEUNESLYON_TEXT, "Réseau de l’agglomération lyonnaise, les Jeunes Lyon sont l’association de 7 Junior-Entreprises lyonnaises. Les J.E. de l’emlyon business school, l’ESDES, l’IAE Lyon, l’INSA Lyon, l’ISARA, Lyon 2, ainsi que de Sciences Po Lyon se sont associées afin de proposer un plus large panel de compétences à nos clients. Le regroupement promeut la marque et le mouvement des Junior-Entreprises au sein de l’agglomération lyonnaise.
+");
+
 $DICT_FR->translate(StringIdentifier::SID_VALEURS_H1, "Nos valeurs");
 $DICT_FR->translate(StringIdentifier::SID_VALEURS_1, "Fiabilité");
 $DICT_FR->translate(StringIdentifier::SID_VALEURS_2, "Ouverture");
@@ -506,7 +547,8 @@ $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_7,"Une phase d’analyse 
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_8,"Un binôme chargé d’affaires/correspondant qualité sur chaque étude");
 
 $DICT_FR->translate(StringIdentifier::SID_PRESIDENT_H1,"Le mot de la présidente");
-$DICT_FR->translate(StringIdentifier::SID_PRESIDENT_P,"Fort de 11 domaines de compétences allant de l’informatique à la mécanique en passant par les sciences de l’entreprise, ETIC INSA Technologies se positionne sur des études techniques, industrielles et commerciales. <br>Créée en 1981, et accumulant plus de 35 années d’expérience, nous sommes aujourd’hui lauréats du Prix d’Excellence, récompensant la meilleure Junior-Entreprise de France. Notre qualité de gestion de projet nous a également valu le Label Ingénieur, primant la meilleure étude technique de l’année, ce qui fait de nous un interlocuteur de choix pour vous accompagner dans vos projets. Affiliés à l’INSA Lyon nous sommes fiers de pouvoir mettre plus de 50 membres actifs ainsi que 3000 intervenants potentiels à votre disposition.");
+$DICT_FR->translate(StringIdentifier::SID_PRESIDENT_P,"Créée en 1981, ETIC INSA Technologies est la Junior-Entreprise de l’INSA Lyon. Depuis plus de 35 ans, engagement, réactivité et qualité sont les maîtres mots d’ETIC et l’ensemble de notre équipe s’engage quotidiennement pour vous, selon ces valeurs. 
+ <br>Le soutien de nos partenaires ainsi que la formation d’excellence de l’INSA Lyon dans plus de 10 domaines de l’ingénierie nous permettent de vous proposer des services pluridisciplinaires de haute qualité. Meilleure Junior-Entreprise de France en 2016, nous nous distinguons de nouveau cette année grâce à notre qualité de gestion de projet ainsi que nos compétences techniques de pointe. Interlocuteur de choix pour vous accompagner dans vos projets, nous sommes fiers de mettre à votre disposition plus de 40 collaborateurs ainsi que 3 000 consultants experts potentiels.");
 $DICT_FR->translate(StringIdentifier::SID_PRESIDENT_SIGN,"Eline Achard, présidente 2017-2018");
 $DICT_FR->translate(StringIdentifier::SID_BUREAU,"Le bureau");
 $DICT_FR->translate(StringIdentifier::SID_CA,"Le conseil d'administration");
@@ -514,7 +556,7 @@ $DICT_FR->translate(StringIdentifier::SID_EQUIPES,"Nos équipes");
 
 $DICT_FR->translate(StringIdentifier::SID_DSI,"DSI");
 $DICT_FR->translate(StringIdentifier::SID_QUALITE,"Performance");
-$DICT_FR->translate(StringIdentifier::SID_UA,"Unité d'Affaire");
+$DICT_FR->translate(StringIdentifier::SID_UA,"Unité d'Affaires");
 $DICT_FR->translate(StringIdentifier::SID_GRC,"Relation Client");
 $DICT_FR->translate(StringIdentifier::SID_COM,"Communication");
 $DICT_FR->translate(StringIdentifier::SID_TRESOR,"Trésorerie");

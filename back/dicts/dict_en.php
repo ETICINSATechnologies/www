@@ -22,7 +22,7 @@ $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES, "Our partners");
 $DICT_EN->translate(StringIdentifier::SID_EVENEMENTS, "Our events");
 $DICT_EN->translate(StringIdentifier::SID_CONFIANCE, "References");
 $DICT_EN->translate(StringIdentifier::SID_BLOG, "Blog");
-$DICT_EN->translate(StringIdentifier::SID_PLAQUETTE, "Brochure");
+$DICT_EN->translate(StringIdentifier::SID_PLAQUETTE, "Commercial brochure");
 $DICT_EN->translate(StringIdentifier::SID_DEVIS, "Ask for an estimate");
 $DICT_EN->translate(StringIdentifier::SID_LANG, "<i class=\"gb flag\"></i> English");
 $DICT_EN->translate(StringIdentifier::SID_MOUVEMENT, "About Junior-Entreprises");
@@ -55,16 +55,17 @@ Finalist of the Label Informatique in 1999
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
 Laureate of the Label Technique 1998");
 
-$DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS, "Our offers and services");
+$DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS, "Our services");
 $DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS_SUB, "Many engineering fields");
-$DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS_P, "Thanks to a high quality training at INSA Lyon, ETIC INSA Technologies has the means to provide you with a wide variety of services. Computer science, mechanics, telecommunications, electronics, civil engineering and many others, discover our fields of proficiency split into 3 categories.");
+$DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS_P, "ETIC INSA Technologies, INSA Lyon's Junior-Entreprise profits school's high level formation in order to profide you a wide panel of activities.
+ Digital transformation, Mechanical, Electronic, Urban Engineering and many others, Business Development and Marketing, Discover our services and their Business Units.");
 $DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS_DET, "MORE DETAILS");
 
 $DICT_EN->translate(StringIdentifier::SID_HOME_TRUST, "THEY TRUSTED US");
 $DICT_EN->translate(StringIdentifier::SID_HOME_TEMOIGNAGE, "Feedbacks");
 $DICT_EN->translate(StringIdentifier::SID_HOME_TEMOIGNAGE_SUB, "We are interested in our clients and partners feedbacks");
 $DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_H1, "Prize list");
-$DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_SUB, "A high-performing Junior-Entrepreprise over time");
+$DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_SUB, "A high-performing Junior-Entreprise over time");
 
 $DICT_EN->translate(StringIdentifier::SID_ETUDE_H2_1, "Your request");
 $DICT_EN->translate(StringIdentifier::SID_ETUDE_H2_2, "Commercial proposition");
@@ -462,6 +463,72 @@ $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_1, "Our premium partners")
 $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_2, "CNJE's premium partners");
 $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_3, "Our Junior-Entreprises partnerships in France");
 $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_4, "Our Junior-Entreprises partnershups worldwide");
+
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_AMARIS, "Amaris");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_EY, "EY");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_BNP, "BNP Paribas");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_INSA, "INSA de Lyon");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_CNJE, "Confédération Nationale des Junior-Entreprises");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_EMLYON, "EM Lyon Junior Conseil");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_JUNIORINSA, "Juniors INSA");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_JEUNESLYON, "Jeunes Lyon");
+
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_AMARIS_TEXT, "Amaris is an international technology and management consulting firm
+growing at a very fast rate and providing innovative solutions to rather
+demanding and complex projects. Its core activity being the council of clients
+throughout the entire process of carrying out their projects by offering the
+right services to improve efficiency and performance. It operates within five
+main areas of expertise: Business Consulting and Management, IT
+(Information Technology), Engineering and High-Tech, Telecoms,
+Biotechnology and Pharmaceuticals. Amaris does business with companies
+everywhere in the spectrum from small family business to international
+groups and in various fields such as energy, transports and finance.
+
+                </br></br>Amaris’ key added value would be the high quality of its teams and the
+significant importance dedicated to small details, as well as the firm’s vital
+reliance on the developed skills of its talented human resources");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_EY_TEXT, " EY is an accounting and audit firm with more than 230 800
+collaborators around the world making it one of the Big Four accounting firms
+in the planet.
+             </br></br>EY’s collaborators operate in audit, accounting and consulting that provide
+the clients with high value prioritising sector-wide approach. In a constantly
+evolving world that offers, should you look beyond the barriers, plenty of
+opportunities, EY went for a rather ambitious goal: Building a better working
+world.
+                </br></br>EY’s partnership with Junior-Entreprises has already celebrated its third
+anniversary and counting, they have been assisting us through different
+issues, each time offering customisable help that adapts to our very specific
+problems, which has been allowing us to make the most of our Junior-
+Entreprise and never cease to improve daily.
+");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_BNP_TEXT, " BNP Paribas is the first banking group eurozonewide and fifth
+worldwide, implemented in over 74 countries, with a labour force of 189 000
+employees.
+               </br></br>The numbers rise up to 30 million retail banking clients in its four
+domestic markets: France, Belgium, Luxembourg and Italy as well as its other
+trademarks. The retail banking is also very developed in Mediterranean
+countries, in Turkey, Poland and the Western United States.
+             </br></br>BNP Paribas is the french trademark with the highest value ever.
+");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_INSA_TEXT, "Première école d’ingénieurs post-bac, l’INSA Lyon offre une haute formation d’ingénieurs. Avec près de 5 000 ingénieurs hautement qualifiés sur le campus, l’INSA Lyon nous offre un large panels d’étudiants experts. Diversité, excellence, ouverture d'esprit et innovation sont les moteurs de l'INSA Lyon qui, au cours de quasi soixante année d'existence, a défendu une vision de l'ingénieur avant-gardiste, toujours moderne aujourd'hui. L'ingénieur INSA n'est pas un ingénieur comme les autres. Il est doté d'excellentes compétences scientifiques et techniques mais il est aussi capable de comprendre les enjeux de sa société et de s'inscrire dans l'évolution de son monde. École à dimension internationale, l’INSA Lyon possède plus de 250 universités partenaires au travers du monde et se classe parmi les 10 meilleures formation d’ingénieurs en Europe. Soutenue par ses 22 laboratoires de recherche, elle a également l’ambition de devenir un centre de recherche et d'innovation reconnu dans le monde, exerçant une forte attractivité sur le monde industriel et économique.
+");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_CNJE_TEXT, " Regroupant plus de 170 structures en France, la Confédération Nationale des Junior-Entreprises œuvre depuis 50 ans pour accompagner et développer le mouvement des Junior-Entreprises.
+                </br></br>Elle a pour missions :
+                </br> - Le développement du mouvement des Junior-Entreprises, notamment par l’intégration de nouvelles structures
+                </br>- La formation et l’accompagnement des Junior-Entrepreneurs dans leur montée en compétences
+                </br>- La promotion et la protection de la marque Junior-Entreprise et la pormotion de l’entreprenariat
+");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_EMLYON_TEXT, "Troisième Junior-Entreprise de France, em lyon junior conseil est la Junior-Entreprise d’emlyon business school.
+                </br></br>Elle accompagne depuis 1972 des entreprises de France et d’Europe en réalisant des études de conseil en audit, communication, entrepreneuriat, finance, marketing et stratégie.
+
+                </br></br>Nous répondons ainsi aux problématiques rencontrées par nos clients, qu’ils soient de grands groupes, des PME ou des entrepreneurs en ajoutant les compétences d’une école de commerce à nos domaines d’expertise.
+");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_JUNIORINSA_TEXT, " Regroupement des Junior-Entreprises du réseau INSA, Junior INSA nous offre une structure nationale efficace capable de réaliser des missions rapidement dans toute la France.
+
+                </br></br>Fort de plus de 40 spécialités, conçues autour d’un enseignement d’excellence adossé à une recherche scientifique de pointe. Nous proposons des prestations autour de différents domaines, notamment l’informatique et la sécurité, la mécanique, le génie des matériaux, les mathématiques et bien d’autres.
+");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_JEUNESLYON_TEXT, "Réseau de l’agglomération lyonnaise, les Jeunes Lyon sont l’association de 7 Junior-Entreprises lyonnaises. Les J.E. de l’emlyon business school, l’ESDES, l’IAE Lyon, l’INSA Lyon, l’ISARA, Lyon 2, ainsi que de Sciences Po Lyon se sont associées afin de proposer un plus large panel de compétences à nos clients. Le regroupement promeut la marque et le mouvement des Junior-Entreprises au sein de l’agglomération lyonnaise.
+");
 
 $DICT_EN->translate(StringIdentifier::SID_VALEURS_H1, "Our values");
 $DICT_EN->translate(StringIdentifier::SID_VALEURS_1, "Reliability");
