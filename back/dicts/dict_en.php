@@ -63,6 +63,7 @@ $DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS_DET, "MORE DETAILS");
 
 $DICT_EN->translate(StringIdentifier::SID_HOME_TRUST, "THEY TRUSTED US");
 $DICT_EN->translate(StringIdentifier::SID_HOME_TEMOIGNAGE, "Feedbacks");
+$DICT_EN->translate(StringIdentifier::SID_HOME_REFERENCES, "References");
 $DICT_EN->translate(StringIdentifier::SID_HOME_TEMOIGNAGE_SUB, "We are interested in our clients and partners feedbacks");
 $DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_H1, "Prize list");
 $DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_SUB, "A high-performing Junior-Entreprise over time");
@@ -455,6 +456,9 @@ $DICT_EN->translate(StringIdentifier::SID_CONFIANCE_1, "They trusted us");
 $DICT_EN->translate(StringIdentifier::SID_CONFIANCE_2, "Institutions");
 $DICT_EN->translate(StringIdentifier::SID_CONFIANCE_3, "Small structures");
 $DICT_EN->translate(StringIdentifier::SID_CONFIANCE_4, "Feedbacks");
+$DICT_EN->translate(StringIdentifier::SID_CONFIANCE_QUOTE_1_HEAD, "We have especially appreaciated their reactivity and motivation");
+$DICT_EN->translate(StringIdentifier::SID_CONFIANCE_QUOTE_2_HEAD, "«We have especially appreaciated their reactivity and motivation»");
+$DICT_EN->translate(StringIdentifier::SID_CONFIANCE_QUOTE_3_HEAD, " We have especially appreaciated their reactivity and motivation ");
 $DICT_EN->translate(StringIdentifier::SID_CONFIANCE_QUOTE_1, "« Notre travail avec ETIC INSA Technologies a été très fructueux. Les compétences techniques et humaines des intervenants nous ont permis d’avancer rapidement sur le projet électronique que nous leur avions soumis. J’ai particulièrement apprécié leur réactivité et leur motivation.Les résultats obtenus nous permettent d’affirmer que nous ferons de nouveau appel à ETIC INSA si le besoin apparaît sur un futur projet. » <b>Faustine Vanhulle – Innovation Group – ElcoBrandt</b>");
 $DICT_EN->translate(StringIdentifier::SID_CONFIANCE_QUOTE_2, "« ETIC apporte une véritable valeur ajoutée au projet. Les équipes d’étudiants sont surprenantes de professionnalisme, de créativité et de rigueur. Nous avons avancé ensemble, dans un contexte complexe et des délais limités. Le courage et la solidarité ont été des valeurs communicatives et déterminantes pour la réussite de ce programme ambitieux. En effet, en plus des compétences techniques et de gestion de projet qui caractérisent l’INSA, ETIC dispose d’excellents commerciaux ! Depuis cette expérience, je les recommande régulièrement. » <b>Barbara Coudène</b>");
 $DICT_EN->translate(StringIdentifier::SID_CONFIANCE_QUOTE_3, "« Non seulement porteur du progrès technique, l’ingénieur doit de plus en plus être créateur de valeur. Il doit pouvoir imaginer la société de demain. Pour accompagner cette évolution, il devient important de le sensibiliser très tôt à une culture d’innovation et un esprit d’entreprendre. ETIC INSA Technologies, la Junior-Entreprise de l’INSA de Lyon, est une des vitrines de cette volonté. Nous sommes fiers de soutenir chaque année ces jeunes talents qui délivrent toutes leurs compétences aux professionnels qui parient sur l’innovation et le dynamisme. Depuis sa création en 1981, ETIC INSA Technologies ne cesse de se développer et de se distinguer. C’est aujourd’hui l’une des 4 meilleures Junior-Entreprises de France. Donner le goût et les outils pour entreprendre, telle est l’ambition de l’INSA de Lyon, qui accompagne ses élèves vers une nouvelle génération d’ingénieur, capable de construire notre société future. » <b>Eric Maurincomme, Directeur de l’INSA de Lyon</b>");

@@ -108,7 +108,8 @@ class StringIdentifier {
 	const SID_HOME_SKILLS_DET = "{HOME_SKILLS_DET}";
 	const SID_HOME_TRUST = "{HOME_TRUST}";
 	const SID_HOME_TEMOIGNAGE = "{HOME_TEMOIGNAGE}";
-	const SID_HOME_TEMOIGNAGE_SUB = "{HOME_TEMOIGNAGE_SUB}";
+    const SID_HOME_REFERENCES = "{HOME_REFERENCES}";
+    const SID_HOME_TEMOIGNAGE_SUB = "{HOME_TEMOIGNAGE_SUB}";
 	const SID_HOME_PALMARES_H1 = "{HOME_PALMARES_H1}";
 	const SID_HOME_PALMARES_SUB = "{HOME_PALMARES_SUB}";
 
@@ -205,6 +206,9 @@ class StringIdentifier {
 	const SID_CONFIANCE_2 = "{CONFIANCE_2}";
 	const SID_CONFIANCE_3 = "{CONFIANCE_3}";
 	const SID_CONFIANCE_4 = "{CONFIANCE_4}";
+    const SID_CONFIANCE_QUOTE_1_HEAD = "{CONFIANCE_QUOTE_1_HEAD}";
+    const SID_CONFIANCE_QUOTE_2_HEAD = "{CONFIANCE_QUOTE_2_HEAD}";
+    const SID_CONFIANCE_QUOTE_3_HEAD = "{CONFIANCE_QUOTE_3_HEAD}";
 	const SID_CONFIANCE_QUOTE_1 = "{CONFIANCE_QUOTE_1}"; // paragraphe de la première ciatation dans la page confiance
 	const SID_CONFIANCE_QUOTE_2 = "{CONFIANCE_QUOTE_2}";
 	const SID_CONFIANCE_QUOTE_3 = "{CONFIANCE_QUOTE_3}";
@@ -528,7 +532,8 @@ class StringIdentifier {
 		StringIdentifier::SID_HOME_SKILLS_DET,
 		StringIdentifier::SID_HOME_TRUST,
 		StringIdentifier::SID_HOME_TEMOIGNAGE,
-		StringIdentifier::SID_HOME_TEMOIGNAGE_SUB,
+        StringIdentifier::SID_HOME_REFERENCES,
+        StringIdentifier::SID_HOME_TEMOIGNAGE_SUB,
 		StringIdentifier::SID_HOME_PALMARES_H1,
 		StringIdentifier::SID_HOME_PALMARES_SUB,
 
@@ -622,7 +627,10 @@ class StringIdentifier {
 		StringIdentifier::SID_CONFIANCE_2,
 		StringIdentifier::SID_CONFIANCE_3,
 		StringIdentifier::SID_CONFIANCE_4,
-		StringIdentifier::SID_CONFIANCE_QUOTE_1,
+        StringIdentifier::SID_CONFIANCE_QUOTE_1_HEAD,
+        StringIdentifier::SID_CONFIANCE_QUOTE_2_HEAD,
+        StringIdentifier::SID_CONFIANCE_QUOTE_3_HEAD,
+        StringIdentifier::SID_CONFIANCE_QUOTE_1,
 		StringIdentifier::SID_CONFIANCE_QUOTE_2,
 		StringIdentifier::SID_CONFIANCE_QUOTE_3,
 
