@@ -156,9 +156,7 @@ $DICT_FR->translate(StringIdentifier::SID_DIGITAL_SECURITE_TEXT, "Partenaires av
 
 
 $DICT_FR->translate(StringIdentifier::SID_ENGINEERING, "Ingénierie");
-$DICT_FR->translate(StringIdentifier::SID_ENGINEERING_P1, "ETIC vous accompagne dans la digitalisation de vos activités ! Aussi bien pour votre visibilité et votre communication extérieure,
-            que pour votre gestion interne, nous pouvons réaliser des prestations en informatique
-            et réseaux pour créer ou améliorer les outils dont vous avez besoin. ");
+$DICT_FR->translate(StringIdentifier::SID_ENGINEERING_P1, "Nous vous accompagnons dans vos projets innovants.");
 $DICT_FR->translate(StringIdentifier::SID_ENGINEERING_URBANISME, "Construction et Urbanisme");
 $DICT_FR->translate(StringIdentifier::SID_ENGINEERING_URBANISME_TEXT, "Nous vous accompagnons dans vos projets, du diagnostic urbain à la géotechnique");
 $DICT_FR->translate(StringIdentifier::SID_ENGINEERING_MECANIQUE, "Mécanique");
