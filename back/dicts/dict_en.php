@@ -9,7 +9,7 @@ $DICT_EN = new Dictionary('en');
 
 $DICT_EN->translate(StringIdentifier::SID_LANGUAGE, "en");
 
-$DICT_EN->translate(StringIdentifier::SID_TITLE, "Junior-Entreprise ETIC INSA Technologies");
+$DICT_EN->translate(StringIdentifier::SID_TITLE, "ETIC INSA Technologies : Meilleure Junior-Entreprise de France en 2016");
 $DICT_EN->translate(StringIdentifier::SID_TITLE_MENU, "ETIC INSA Technologies");
 $DICT_EN->translate(StringIdentifier::SID_HOME, "Home");
 $DICT_EN->translate(StringIdentifier::SID_PRESTA, "Our services");
