@@ -136,10 +136,16 @@ class StringIdentifier {
 	const SID_ETUDE_STEP_1 = "{ETUDE_STEP_1}";
 	const SID_ETUDE_STEP_2 = "{ETUDE_STEP_2}";
 	const SID_ETUDE_STEP_3 = "{ETUDE_STEP_3}";
+    const SID_ETUDE_STEP_4 = "{ETUDE_STEP_4}";
+    const SID_ETUDE_STEP_5 = "{ETUDE_STEP_5}";
+    const SID_ETUDE_STEP_6 = "{ETUDE_STEP_6}";
 
-	const SID_ETUDE_BULLSHIT_1 = "{SID_ETUDE_BULLSHIT_1}";
-	const SID_ETUDE_BULLSHIT_2 = "{SID_ETUDE_BULLSHIT_2}";
-	const SID_ETUDE_BULLSHIT_3 = "{SID_ETUDE_BULLSHIT_3}";
+	const SID_ETUDE_DESCRIPTION_1 = "{SID_ETUDE_DESCRIPTION_1}";
+	const SID_ETUDE_DESCRIPTION_2 = "{SID_ETUDE_DESCRIPTION_2}";
+	const SID_ETUDE_DESCRIPTION_3 = "{SID_ETUDE_DESCRIPTION_3}";
+    const SID_ETUDE_DESCRIPTION_4 = "{SID_ETUDE_DESCRIPTION_4}";
+    const SID_ETUDE_DESCRIPTION_5 = "{SID_ETUDE_DESCRIPTION_5}";
+    const SID_ETUDE_DESCRIPTION_6 = "{SID_ETUDE_DESCRIPTION_6}";
 
 	const SID_ETUDE_P_1 = "{ETUDE_P_1}"; // premier paragraphe de la page  déroulement d'une étude
 	const SID_ETUDE_P_2 = "{ETUDE_P_2}";
@@ -559,10 +565,16 @@ class StringIdentifier {
 		StringIdentifier::SID_ETUDE_STEP_1,
 		StringIdentifier::SID_ETUDE_STEP_2,
 		StringIdentifier::SID_ETUDE_STEP_3,
+        StringIdentifier::SID_ETUDE_STEP_4,
+        StringIdentifier::SID_ETUDE_STEP_5,
+        StringIdentifier::SID_ETUDE_STEP_6,
 
-		StringIdentifier::SID_ETUDE_BULLSHIT_1,
-		StringIdentifier::SID_ETUDE_BULLSHIT_2,
-		StringIdentifier::SID_ETUDE_BULLSHIT_3,
+		StringIdentifier::SID_ETUDE_DESCRIPTION_1,
+		StringIdentifier::SID_ETUDE_DESCRIPTION_2,
+		StringIdentifier::SID_ETUDE_DESCRIPTION_3,
+        StringIdentifier::SID_ETUDE_DESCRIPTION_4,
+        StringIdentifier::SID_ETUDE_DESCRIPTION_5,
+        StringIdentifier::SID_ETUDE_DESCRIPTION_6,
 
 		StringIdentifier::SID_ETUDE_P_1,
 		StringIdentifier::SID_ETUDE_P_2,

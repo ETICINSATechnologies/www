@@ -90,9 +90,9 @@ $DICT_EN->translate(StringIdentifier::SID_ETUDE_STEP_1, "Before the project");
 $DICT_EN->translate(StringIdentifier::SID_ETUDE_STEP_2, "During the project");
 $DICT_EN->translate(StringIdentifier::SID_ETUDE_STEP_3, "After the project");
 
-$DICT_EN->translate(StringIdentifier::SID_ETUDE_BULLSHIT_1, "First contact in order to analyze your needs and offer you the most relevant solution.");
-$DICT_EN->translate(StringIdentifier::SID_ETUDE_BULLSHIT_2, "All our studies are carefully and regularly observed by our quality division to make sure all the work is properly and rigorously done.");
-$DICT_EN->translate(StringIdentifier::SID_ETUDE_BULLSHIT_3, "We follow our projects after their completion to make sure our clients are satisfied with our work.");
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_DESCRIPTION_1, "First contact in order to analyze your needs and offer you the most relevant solution.");
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_DESCRIPTION_2, "All our studies are carefully and regularly observed by our quality division to make sure all the work is properly and rigorously done.");
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_DESCRIPTION_3, "We follow our projects after their completion to make sure our clients are satisfied with our work.");
 
 $DICT_EN->translate(StringIdentifier::SID_ETUDE_P_1, "Ask us for an estimate on our website, we will answer in the next 24 hours. Once first contact has been made, we will affect a chargé d’affaires, a member of ETIC who will be your main interlocutor. He or she will select, among all the students at INSA Lyon, the most skilled contributors to implement the technical part of your project.");
 $DICT_EN->translate(StringIdentifier::SID_ETUDE_P_2, "Once the contributors have been selected, a reunion will be organized by the chargé d’affaires to define clearly your needs and specifications. Following this reunion, the chargé d’affaires will send you a commercial proposition, a documents including a detailed specification, a methodology of implementation, a more precise budget and a timetable. ");
@@ -553,8 +553,11 @@ $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_7,"An analysis phase vali
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_8,"A pair : chargé d’affaires/quality correspondent for each project");
 
 $DICT_EN->translate(StringIdentifier::SID_PRESIDENT_H1,"The president's words");
-$DICT_EN->translate(StringIdentifier::SID_PRESIDENT_P,"With 11 fields of proficiency ranging from computer science to mechanics, including business science, ETIC INSA Technologies implements technical, industrial and commercial studies. <br>
-Created in 1981, and cumulating more than 35 years of experience, we are today laureates of the Prix d’Excellence, awarding the best Junior-Entreprise in France. The quality of our project management also earned us the Label Ingénieur, awarding the best technical project of the year, which makes us an interlocutor of choice to accompany you in your projects. Affiliated to INSA Lyon, we are proud to be able to put more than 50 active members and 3000 potential contributors at your disposal.");
+$DICT_EN->translate(StringIdentifier::SID_PRESIDENT_P,"Created in 1981, ETIC INSA Technologies is INSA Lyon's Junior-Entreprise. For more than 35 years, engagement, responsiveness and quality are ETIC's keywords, and the whole team are investing following these values.
+With our partners' support and INSA Lyon's excellent formation in more than 10 fields of engineering, we are able to offer you our high-quality multidisciplinary services.
+Best Junior-Entreprise of France in 2016, we keep succeeding thanks to our project management skill and high technical expertise.
+We are proud to be able to put more than 40 active members and 3000 potential contributors at your disposal. 
+With more than 35 years of experience, we are today laureates of the Prix d’Excellence, awarding the best Junior-Entreprise in France. ");
 $DICT_EN->translate(StringIdentifier::SID_PRESIDENT_SIGN,"Eline Achard, president 2017-2018");
 $DICT_EN->translate(StringIdentifier::SID_BUREAU,"The chamber");
 $DICT_EN->translate(StringIdentifier::SID_CA,"The board of directors");

@@ -85,13 +85,19 @@ $DICT_FR->translate(StringIdentifier::SID_ETUDE_H3_6, "Phase de recette + 3 mois
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_H3_7, "3 mois de garantie");
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_H3_8, "Vos retours sont importants");
 
-$DICT_FR->translate(StringIdentifier::SID_ETUDE_STEP_1, "Avant l'étude");
-$DICT_FR->translate(StringIdentifier::SID_ETUDE_STEP_2, "Pendant l'étude");
-$DICT_FR->translate(StringIdentifier::SID_ETUDE_STEP_3, "Après l'étude");
+$DICT_FR->translate(StringIdentifier::SID_ETUDE_STEP_1, "Rendez-vous");
+$DICT_FR->translate(StringIdentifier::SID_ETUDE_STEP_2, "Constitution de l'équipe technique");
+$DICT_FR->translate(StringIdentifier::SID_ETUDE_STEP_3, "Proposition d'étude");
+$DICT_FR->translate(StringIdentifier::SID_ETUDE_STEP_4, "Suivi client");
+$DICT_FR->translate(StringIdentifier::SID_ETUDE_STEP_5, "Livraison & Recette");
+$DICT_FR->translate(StringIdentifier::SID_ETUDE_STEP_6, "Garantie");
 
-$DICT_FR->translate(StringIdentifier::SID_ETUDE_BULLSHIT_1, "Premier contact afin d’analyser au mieux votre besoin et vous proposer la solution la plus adaptée.");
-$DICT_FR->translate(StringIdentifier::SID_ETUDE_BULLSHIT_2, "L’ensemble de nos études fait l’objet d’un suivi régulier par le pôle qualité afin de s’assurer de la conformité et de la rigueur du travail effectué.");
-$DICT_FR->translate(StringIdentifier::SID_ETUDE_BULLSHIT_3, "Le suivi de nos projets après leur réalisation nous permet de nous assurer de la satisfaction de nos clients.");
+$DICT_FR->translate(StringIdentifier::SID_ETUDE_DESCRIPTION_1, "Analyse de votre demande </br> Réponse sous 24h </br> Affectation d'un chargé d'affaires");
+$DICT_FR->translate(StringIdentifier::SID_ETUDE_DESCRIPTION_2, "Recrutement des consultants de l'étude parmi les meilleurs étudiants de l'INSA");
+$DICT_FR->translate(StringIdentifier::SID_ETUDE_DESCRIPTION_3, "Réunion de qualification de votre besoin </br> Définition du cahier des charges avec vous et nos consultants </br>Rédaction de la proposition d'étude");
+$DICT_FR->translate(StringIdentifier::SID_ETUDE_DESCRIPTION_4, "Suivi continu de l'étude </br> Rendu des différents livrables </br> Validations client </br> Phases de recette");
+$DICT_FR->translate(StringIdentifier::SID_ETUDE_DESCRIPTION_5, "Rendu du livrable final </br> Test client </br> Correction par nos consultants </br> Validation finale");
+$DICT_FR->translate(StringIdentifier::SID_ETUDE_DESCRIPTION_6, "Votre livrable est garanti jusqu'à 3 mois en fonction de sa nature");
 
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_P_1, "Demandez nous un devis via notre site, nous vous répondrons sous 24h. Une fois le premier contact effectué nous vous affecterons un chargé d’affaires, membre d’ETIC qui sera votre interlocuteur privilégié. Celui-ci sera également chargé de sélectionner, parmi les étudiants de l’INSA Lyon,  les intervenants les plus compétents qui réaliseront la partie technique de votre projet. ");
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_P_2, "Une fois les intervenants sélectionnés, une réunion sera organisée par le chargé d’affaires pour définir clairement votre besoin et vos spécifications. A la suite de cette réunion, le chargé d’affaires vous fera parvenir une proposition commerciale, document réunissant un cahier des charges détaillé, une méthodologie de réalisation, un budget approfondi ainsi qu’un échéancier. ");
