@@ -633,7 +633,7 @@ $DICT_EN->translate(StringIdentifier::SID_RESP_DC,"Commercial Manager");
 
 
 $DICT_EN->translate(StringIdentifier::SID_PROJECT_IDEA,"A project ? An idea ?");
-$DICT_EN->translate(StringIdentifier::SID_TELECHARGER_PLAQUETTE,"Download our brochure");
+$DICT_EN->translate(StringIdentifier::SID_TELECHARGER_PLAQUETTE,"Download our commercial brochure");
 $DICT_EN->translate(StringIdentifier::SID_TELECHARGER_PORTFOLIO,"Download our portfolio");
 
 $DICT_EN->translate(StringIdentifier::SID_REA_WEB, "Web applications development");

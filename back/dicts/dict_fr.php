@@ -638,7 +638,7 @@ $DICT_FR->translate(StringIdentifier::SID_RESP_DC,"Responsable Développement Co
 
 $DICT_FR->translate(StringIdentifier::SID_PROJECT_IDEA,"Un projet ? Une idée ?");
 
-$DICT_FR->translate(StringIdentifier::SID_TELECHARGER_PLAQUETTE,"Télécharger notre plaquette");
+$DICT_FR->translate(StringIdentifier::SID_TELECHARGER_PLAQUETTE,"Télécharger notre plaquette commerciale");
 $DICT_FR->translate(StringIdentifier::SID_TELECHARGER_PORTFOLIO,"Télécharger notre portfolio");
 
 
