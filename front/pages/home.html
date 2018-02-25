@@ -169,62 +169,49 @@
     <div class="ui  stackable grid container" style=" margin-top: 2%; margin-bottom: 2%;">
 
         <div class="row">
-            <div class="fifteen wide center aligned column">
-                <div class="ui three wide steps    fade">
+
+                <div class="ui six steps fade">
                     <div class="step">
-                        <i class="comments outline icon"></i>
                         <div class="content">
-                            <div class="title">{ETUDE_STEP_1}</div>
+                            <h3 class="text-green title">{ETUDE_STEP_1}</h3>
                             <p>{SID_ETUDE_DESCRIPTION_1}</p>
                         </div>
-
                     </div>
                     <div class="step">
-                        <i class="users icon"></i>
                         <div class="content">
-                            <div class="title">{ETUDE_STEP_2}</div>
+                            <h3 class="text-green title">{ETUDE_STEP_2}</h3>
                             <p>{SID_ETUDE_DESCRIPTION_2}</p>
                         </div>
                     </div>
                     <div class="step">
-                        <i class="suitcase icon"></i>
                         <div class="content">
-                            <div class="title">{ETUDE_STEP_3}</div>
+                            <h3 class=" text-green title">{ETUDE_STEP_3}</h3>
                             <p>{SID_ETUDE_DESCRIPTION_3}</p>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="one wide center aligned column"></div>
-        </div>
-        <div class="row">
-            <div class="one wide center aligned column"></div>
-            <div class="fifteen wide center aligned column">
-                <div class="ui three wide steps    fade">
                     <div class="step">
-                        <i class="checkmark icon"></i>
                         <div class="content">
-                            <div class="title">{ETUDE_STEP_4}</div>
+                            <h3 class="text-green title">{ETUDE_STEP_4}</h3>
                             <p>{SID_ETUDE_DESCRIPTION_4}</p>
                         </div>
                     </div>
                     <div class="step">
-                        <i class="mail outline icon"></i>
                         <div class="content">
-                            <div class="title">{ETUDE_STEP_5}</div>
+                            <h3 class="text-green title">{ETUDE_STEP_5}</h3>
                             <p>{SID_ETUDE_DESCRIPTION_5}</p>
                         </div>
                     </div>
                     <div class="step">
-                        <i class="checkmark box icon"></i>
                         <div class="content">
-                            <div class="title">{ETUDE_STEP_6}</div>
-                            <p id="before">{SID_ETUDE_DESCRIPTION_6}</p>
+                            <h3 class="text-green title">{ETUDE_STEP_6}</h3>
+                            <p>{SID_ETUDE_DESCRIPTION_6}</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+
+
+
     </div>
 </div>
 
@@ -330,10 +317,10 @@
                     <div class="swiper-slide">
                         <div class="ui grid center aligned" style="margin: 5%;">
                             <div class="ui centered four doubling cards ">
-                                <a class="green card    scale" href="" target="_blank" style="max-width: 150px;">
+                                <div class="green card    scale"  style="max-width: 150px;">
                                     <div class="ui small image"><img src="./front/assets/trust/ape.png" alt="APE"/>
                                     </div>
-                                </a>
+                                </div>
                                 <a class="green card    scale" href="http://bde-insa-lyon.fr/" target="_blank" style="max-width: 150px;">
                                     <div class="ui small image"><img src="./front/assets/trust/bde.png" alt="BDEInsa"/>
                                     </div>
@@ -343,10 +330,10 @@
                                     <div class="ui small image"><img src="./front/assets/trust/rai.png" alt="RAI"/>
                                     </div>
                                 </a>
-                                <a class="green card    scale" href="" target="_blank" style="max-width: 150px;">
+                                <div class="green card    scale"  style="max-width: 150px;">
                                     <div class="ui small image"><img src="./front/assets/trust/voxxl.png" alt="Voxxl"/>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -454,47 +441,6 @@
     <br>
 </div>
 
-<!--<div class="ui center aligned vertical stripe segment">-->
-<!--<br>-->
-<!--<div class="ui huge center aligned header    fade">-->
-<!--{HOME_TEMOIGNAGE}-->
-<!--<div class="sub header">{HOME_TEMOIGNAGE_SUB}</div>-->
-<!--</div>-->
-<!--<div class="ui middle aligned stackable grid container    fade">-->
-<!--<div class="row">-->
-<!--<div class="swiper-container">-->
-<!--<div class="swiper-wrapper">-->
-<!--<div class="swiper-slide">-->
-<!--<div class="ui vertical stripe segment">-->
-<!--<p class="swiper-part">{CONFIANCE_QUOTE_1}</p>-->
-<!--</div>-->
-<!--</div>-->
-<!--<div class="swiper-slide">-->
-<!--<div class="ui vertical stripe segment">-->
-<!--<p class="swiper-part">{CONFIANCE_QUOTE_2}</p>-->
-<!--</div>-->
-<!--</div>-->
-<!--<div class="swiper-slide">-->
-<!--<div class="ui vertical stripe segment">-->
-<!--<p class="swiper-part">{CONFIANCE_QUOTE_3}</p>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--&lt;!&ndash; Add Pagination &ndash;&gt;-->
-<!--<div class="swiper-pagination"></div>-->
-<!--&lt;!&ndash; Add Arrows &ndash;&gt;-->
-<!--<div class="swiper-button-next"></div>-->
-<!--<div class="swiper-button-prev"></div>-->
-<!--</div>-->
-<!--</div>-->
-<!--<div class="row">-->
-<!--<div class="center aligned column">-->
-<!--<a class="ui green huge button    pulse" href="{LINK_TRUST}">{HOME_TRUST}</a>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--<br>-->
-<!--</div>-->
 
 
 <div class="ui center aligned vertical stripe segment">
@@ -513,9 +459,17 @@
                   <img alt="img" src="./front/assets/home/trophy2.png" class="ui big image">
               </div> -->
         </div>
+
+        <div class="row" style="margin-top: 50px;">
+            <div class="center aligned column">
+                <a class="ui green huge button" id="pulse" href="{LINK_DEVIS}">{CONTACT}</a>
+            </div>
+        </div>
     </div>
 
 </div>
+
+
 
 
 <br>

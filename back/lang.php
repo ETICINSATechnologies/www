@@ -28,6 +28,7 @@ class StringIdentifier {
 	const SID_BLOG ="{BLOG}"; // lien vers la page ils nous ont fait confiance
 	const SID_PLAQUETTE ="{PLAQUETTE}"; // lien vers la plaquette
 	const SID_DEVIS ="{DEVIS}"; // lien vers le formulaire
+    const SID_CONTACT ="{CONTACT}"; // lien vers le formulaire
 	const SID_MOUVEMENT ="{MOUVEMENT}"; // lien vers la pres du mouvement
 	const SID_LANG = "{LANGUAGE}";
     const SID_PLAN = "{PLAN}";
@@ -469,6 +470,7 @@ class StringIdentifier {
 		StringIdentifier::SID_BLOG,
 		StringIdentifier::SID_PLAQUETTE,
 		StringIdentifier::SID_DEVIS,
+        StringIdentifier::SID_CONTACT,
 		StringIdentifier::SID_MOUVEMENT,
 		StringIdentifier::SID_LANG,
         StringIdentifier::SID_PLAN,
