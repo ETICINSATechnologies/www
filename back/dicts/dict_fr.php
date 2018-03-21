@@ -970,4 +970,4 @@ $DICT_FR->translate(StringIdentifier::SID_ELECTRIQUE_EXEMPLE, "<div class=\"item
                 </div>
                 ");
 
-$DICT_FR->translate(StringIdentifier::SID_SLOGAN, "<img src=\"front/assets/home/sloganfr.svg\" style=\"margin-top: 5px; max-width: 100%;\">");
+$DICT_FR->translate(StringIdentifier::SID_SLOGAN, "<img src=\"front/assets/home/sloganfr.png\" style=\"margin-top: 5px; max-width: 100%;\">");
