@@ -10,19 +10,19 @@
     </div>
     -->
     <a href="#slogan">
-    <div class="scroll-down floating" id="scroller">
-        &nbsp;
-    </div>
+        <div class="scroll-down floating" id="scroller">
+            &nbsp;
+        </div>
     </a>
 </div>
-<div class="ui center aligned vertical stripe segement" >
+<div class="ui center aligned vertical stripe segement">
     <div class="ui center aligned header fade" id="slogan">
         <div style="max-width: 100%;">{SLOGAN}</div>
     </div>
 </div>
-<div class="ui center aligned vertical stripe segment" >
+<div class="ui center aligned vertical stripe segment">
     <br>
-    <div class="ui huge center aligned header    fade">
+    <div class="ui huge center aligned header  darkgreen  fade">
         {HOME_SKILLS}
         <div class="sub header">{HOME_SKILLS_SUB}</div>
     </div>
@@ -40,7 +40,9 @@
                             <div class="ui dimmer">
                                 <div class="content">
                                     <div class="center">
-                                        <div class="ui inverted button">{DIGITAL_P1}</div>
+                                        <p class="cardp">
+                                            {DIGITAL_P1}
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -55,22 +57,9 @@
                             <div class="ui dimmer">
                                 <div class="content">
                                     <div class="center">
-                                        <div class="ui inverted button">{MARKETING_P1}</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <img alt="img" style="" src="front/assets/subcategory/Etudemarche1.jpg">
-                        </div>
-                        <div class="content">
-                            <a class="ui white inverted center aligned header" href="{LINK_ENTREPRISE}">{ENTREPRISE}</a>
-                        </div>
-                    </div>
-                    <div class="card scale study">
-                        <div class="blurring dimmable image" style="background-color:#FFFFFF;">
-                            <div class="ui dimmer">
-                                <div class="content">
-                                    <div class="center">
-                                        <div class="ui inverted button">{ENGINEERING_P1}</div>
+                                        <p class="cardp">
+                                            {ENGINEERING_P1}
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -79,6 +68,23 @@
                         <div class="content">
                             <a class="ui white inverted center aligned header"
                                href="{LINK_INGENIERIE}">{INGENIERIE}</a>
+                        </div>
+                    </div>
+                    <div class="card scale study">
+                        <div class="blurring dimmable image" style="background-color:#FFFFFF;">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <p class="cardp">
+                                            {MARKETING_P1}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img alt="img" style="" src="front/assets/subcategory/etudefaisabilite.jpg">
+                        </div>
+                        <div class="content">
+                            <a class="ui white inverted center aligned header" href="{LINK_ENTREPRISE}">{ENTREPRISE}</a>
                         </div>
                     </div>
                 </div>
@@ -153,29 +159,182 @@
         </div>
     </div>
 </div>
+
 <div class="ui center aligned vertical stripe segment">
     <br>
-    <div class="ui huge center aligned header    fade">
-        {HOME_TEMOIGNAGE}
-        <div class="sub header">{HOME_TEMOIGNAGE_SUB}</div>
+    <div class="ui huge center aligned header  darkgreen  fade">
+        {ETUDE}
     </div>
-    <div class="ui middle aligned stackable grid container    fade">
+
+    <div class="ui  stackable grid container" style=" margin-top: 2%; margin-bottom: 2%;">
+
+        <div class="row">
+
+                <div class="ui six steps fade">
+                    <div class="step">
+                        <div class="content">
+                            <h3 class="ui lightgreen title">{ETUDE_STEP_1}</h3>
+                            <p>{SID_ETUDE_DESCRIPTION_1}</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="content">
+                            <h3 class="ui lightgreen title">{ETUDE_STEP_2}</h3>
+                            <p>{SID_ETUDE_DESCRIPTION_2}</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="content">
+                            <h3 class="ui lightgreen title">{ETUDE_STEP_3}</h3>
+                            <p>{SID_ETUDE_DESCRIPTION_3}</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="content">
+                            <h3 class="ui lightgreen title">{ETUDE_STEP_4}</h3>
+                            <p>{SID_ETUDE_DESCRIPTION_4}</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="content">
+                            <h3 class="ui lightgreen title">{ETUDE_STEP_5}</h3>
+                            <p>{SID_ETUDE_DESCRIPTION_5}</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="content">
+                            <h3 class="ui lightgreen title">{ETUDE_STEP_6}</h3>
+                            <p>{SID_ETUDE_DESCRIPTION_6}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+    </div>
+</div>
+
+
+<div class="ui center aligned vertical stripe segment">
+    <br>
+    <div class="ui huge center aligned header darkgreen   fade">
+        {HOME_REFERENCES}
+    </div>
+    <div class="ui middle aligned stackable grid container    ">
         <div class="row">
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="ui vertical stripe segment">
-                            <p class="swiper-part">{CONFIANCE_QUOTE_1}</p>
+                        <div class="ui  grid center aligned" style="margin: 5%;">
+                            <div class="ui centered four doubling cards  ">
+                                <a class="green card    scale " href="http://www.veolia.fr/" target="_blank" style="max-width: 150px;">
+                                    <div class="ui small image"><img src="./front/assets/trust/veolia.png"
+                                                                     alt="Veolia"/></div>
+                                </a>
+                                <a class="green card    scale" href="http://www.bnpparibas.com/" target="_blank" style="max-width: 150px;">
+                                    <div class="ui small image"><img src="./front/assets/trust/bnp.png" alt="BNP"/>
+                                    </div>
+                                </a>
+
+                                <a class="green card    scale" href="http://www.lvmh.fr/" target="_blank" style="max-width: 150px;">
+                                    <div class="ui small image"><img src="./front/assets/trust/lvmh.png" alt="LVMH"/>
+                                    </div>
+                                </a>
+                                <a class="green card    scale" href="http://www.eiffage.com/" target="_blank" style="max-width: 150px;">
+                                    <div class="ui small image"><img src="./front/assets/trust/eiffage.png"
+                                                                     alt="Eiffage"/></div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="ui vertical stripe segment">
-                            <p class="swiper-part">{CONFIANCE_QUOTE_2}</p>
+                        <div class="ui grid center aligned" style="margin: 5%;">
+                            <div class="ui centered four doubling cards ">
+                                <a class="green card    scale" href="https://www.edf.fr/" target="_blank" style="max-width: 150px;">
+                                    <div class="ui small image"><img src="./front/assets/trust/logo-edf.png" alt="EDF"/>
+                                    </div>
+                                </a>
+                                <a class="green card    scale" href="http://www.alstom.com/" target="_blank" style="max-width: 150px;">
+                                    <div class="ui small image"><img src="./front/assets/trust/logo-alstom.png"
+                                                                     alt="Alstom"/></div>
+                                </a>
+                                <a class="green card    scale" href="http://www.keolis.com/" target="_blank" style="max-width: 150px;">
+                                    <div class="ui small image"><img src="./front/assets/trust/logo-keolis.png"
+                                                                     alt="Keolis"/></div>
+                                </a>
+                                <a class="green card    scale" href="http://www.accorhotels.com/" target="_blank" style="max-width: 150px;">
+                                    <div class="ui small image"><img src="./front/assets/trust/logo-accor.png"
+                                                                     alt="Accor"/></div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="ui vertical stripe segment">
-                            <p class="swiper-part">{CONFIANCE_QUOTE_3}</p>
+                        <div class="ui grid center aligned" style="margin: 5%;">
+                            <div class="ui centered four doubling cards ">
+                                <a class="green card    scale" href="http://www.areva.com/" target="_blank" style="max-width: 150px;">
+                                    <div class="ui small image"><img src="./front/assets/trust/logo-areva.png"
+                                                                     alt="Areva"/></div>
+                                </a>
+                                <a class="green card    scale" href="http://www.alptis.org/" target="_blank" style="max-width: 150px;">
+                                    <div class="ui small image"><img src="./front/assets/trust/logo-alptis.png"
+                                                                     alt="Alptis"/></div>
+                                </a>
+                                <a class="green card    scale" href="http://www.credit-agricole.fr/" target="_blank" style="max-width: 150px;">
+                                    <div class="ui small image"><img src="./front/assets/trust/logo-credit-agricole.png"
+                                                                     alt="CreditAgricole"/></div>
+                                </a>
+                                <a class="green card    scale" href="http://www.holcim.com/" target="_blank" style="max-width: 150px;">
+                                    <div class="ui small image"><img src="./front/assets/trust/logo-holcim.png"
+                                                                     alt="Holcim"/></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="ui grid center aligned" style="margin: 5%;">
+                            <div class="ui centered four doubling cards ">
+                                <a class="green card    scale" href="http://www.ville-saint-priest.fr/" target="_blank" style="max-width: 150px;">
+                                    <div class="ui small image"><img src="./front/assets/trust/saint_priest.png"
+                                                                     alt="SaintPriest"/></div>
+                                </a>
+                                <a class="green card    scale" href="https://www.insa-lyon.fr/" target="_blank" style="max-width: 150px;">
+                                    <div class="ui small image"><img src="./front/assets/trust/logo-insa.png"
+                                                                     alt="INSALyon"/></div>
+                                </a>
+                                <a class="green card    scale" href="http://portail.cea.fr/" target="_blank" style="max-width: 150px;">
+                                    <div class="ui small image"><img src="./front/assets/trust/cea.png" alt="CEA"/>
+                                    </div>
+                                </a>
+                                <a class="green card    scale" href="http://www.grandlyon.com/" target="_blank" style="max-width: 150px;">
+                                    <div class="ui small image"><img src="./front/assets/trust/grand_lyon.png"
+                                                                     alt="GrandLyon"/></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="ui grid center aligned" style="margin: 5%;">
+                            <div class="ui centered four doubling cards ">
+                                <div class="green card    scale"  style="max-width: 150px;">
+                                    <div class="ui small image"><img src="./front/assets/trust/ape.png" alt="APE"/>
+                                    </div>
+                                </div>
+                                <a class="green card    scale" href="http://bde-insa-lyon.fr/" target="_blank" style="max-width: 150px;">
+                                    <div class="ui small image"><img src="./front/assets/trust/bde.png" alt="BDEInsa"/>
+                                    </div>
+                                </a>
+                                <a class="green card    scale" href="http://www.initiative-rhonealpes.fr/"
+                                   target="_blank" style="max-width: 150px;">
+                                    <div class="ui small image"><img src="./front/assets/trust/rai.png" alt="RAI"/>
+                                    </div>
+                                </a>
+                                <div class="green card    scale"  style="max-width: 150px;">
+                                    <div class="ui small image"><img src="./front/assets/trust/voxxl.png" alt="Voxxl"/>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -186,14 +345,102 @@
                 <div class="swiper-button-prev"></div>
             </div>
         </div>
-        <div class="row">
-            <div class="center aligned column">
-                <a class="ui green huge button    pulse" href="{LINK_TRUST}">{HOME_TRUST}</a>
+    </div>
+    <br>
+</div>
+
+<div class="ui center aligned vertical stripe segment">
+    <br>
+    <div class="ui huge center aligned header  darkgreen  fade">
+        {HOME_TEMOIGNAGE}
+    </div>
+    <div class="sub header">{HOME_TEMOIGNAGE_SUB}</div>
+    <div class="ui middle aligned stackable grid container    fade">
+        <div class="row" style="margin-top : 20px">
+            </br>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div style="margin-left: 5%;margin-right: 5%;">
+                            <div class="ui stackable grid">
+                                <div class="row">
+                                    <div class="six wide column">
+                                        <div class="ui small image">
+                                            <img src="./front/assets/trust/brandt.png" alt="BRA"/>
+                                        </div>
+                                    </div>
+                                    <div class="seven wide column">
+                                        <h3 class="ui header lightgreen">{CONFIANCE_QUOTE_1_HEAD}</h3>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div>
+                                        <p>
+                                            {CONFIANCE_QUOTE_1}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div style="margin-left: 5%;margin-right: 5%;">
+                            <div class="ui stackable grid">
+                                <div class="row">
+                                    <div class="six wide column">
+                                        <div class="ui small image">
+                                            <img src="./front/assets/trust/logo-insa-small.png" alt="INSALyon"/>
+                                        </div>
+                                    </div>
+                                    <div class="seven wide column">
+                                        <h3 class="ui header lightgreen">{CONFIANCE_QUOTE_2_HEAD}</h3>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div>
+                                        <p>
+                                            {CONFIANCE_QUOTE_2}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div style="margin-left: 5%;margin-right: 5%;">
+                            <div class="ui stackable grid">
+                                <div class="row">
+                                    <div class="six wide column">
+                                        <div class="ui small image">
+                                            <img src="./front/assets/trust/logo-insa-small.png" alt="INSALyon"/>
+                                        </div>
+                                    </div>
+                                    <div class="seven wide column">
+                                        <h3 class="ui header lightgreen">{CONFIANCE_QUOTE_3_HEAD}</h3>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div>
+                                        <p>
+                                            {CONFIANCE_QUOTE_3}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
         </div>
     </div>
     <br>
 </div>
+
 
 
 <div class="ui center aligned vertical stripe segment">
@@ -202,19 +449,27 @@
     <br>
     <div class="ui middle aligned stackable grid container">
         <div class="row">
-          <!--  <div class="two wide column">
-                <img alt="img" src="./front/assets/home/trophy1.png" class="ui big image">
-            </div> -->
+            <!--  <div class="two wide column">
+                  <img alt="img" src="./front/assets/home/trophy1.png" class="ui big image">
+              </div> -->
             <div class="sixteen wide center aligned column    fade">
                 <h3>{HOME_PALMARES_1}</h3>
             </div>
-          <!--  <div class="two wide column">
-                <img alt="img" src="./front/assets/home/trophy2.png" class="ui big image">
-            </div> -->
+            <!--  <div class="two wide column">
+                  <img alt="img" src="./front/assets/home/trophy2.png" class="ui big image">
+              </div> -->
+        </div>
+
+        <div class="row" style="margin-top: 50px;">
+            <div class="center aligned column">
+                <a class="ui green huge button" id="pulse" href="{LINK_DEVIS}">{CONTACT}</a>
+            </div>
         </div>
     </div>
 
 </div>
+
+
 
 
 <br>

@@ -22,8 +22,9 @@ $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES, "Our partners");
 $DICT_EN->translate(StringIdentifier::SID_EVENEMENTS, "Our events");
 $DICT_EN->translate(StringIdentifier::SID_CONFIANCE, "References");
 $DICT_EN->translate(StringIdentifier::SID_BLOG, "Blog");
-$DICT_EN->translate(StringIdentifier::SID_PLAQUETTE, "Brochure");
+$DICT_EN->translate(StringIdentifier::SID_PLAQUETTE, "Commercial brochure");
 $DICT_EN->translate(StringIdentifier::SID_DEVIS, "Ask for an estimate");
+$DICT_EN->translate(StringIdentifier::SID_CONTACT, "Contact us");
 $DICT_EN->translate(StringIdentifier::SID_LANG, "<i class=\"gb flag\"></i> English");
 $DICT_EN->translate(StringIdentifier::SID_MOUVEMENT, "About Junior-Entreprises");
 $DICT_EN->translate(StringIdentifier::SID_PLAN,"Site map");
@@ -55,16 +56,18 @@ Finalist of the Label Informatique in 1999
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
 Laureate of the Label Technique 1998");
 
-$DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS, "Our offers and services");
+$DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS, "Our services");
 $DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS_SUB, "Many engineering fields");
-$DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS_P, "Thanks to a high quality training at INSA Lyon, ETIC INSA Technologies has the means to provide you with a wide variety of services. Computer science, mechanics, telecommunications, electronics, civil engineering and many others, discover our fields of proficiency split into 3 categories.");
+$DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS_P, "ETIC INSA Technologies, INSA Lyon's Junior-Entreprise profits school's high level formation in order to profide you a wide panel of activities.
+ Digital transformation, Mechanical, Electronic, Urban Engineering and many others, Business Development and Marketing, Discover our services and their Business Units.");
 $DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS_DET, "MORE DETAILS");
 
 $DICT_EN->translate(StringIdentifier::SID_HOME_TRUST, "THEY TRUSTED US");
 $DICT_EN->translate(StringIdentifier::SID_HOME_TEMOIGNAGE, "Feedbacks");
+$DICT_EN->translate(StringIdentifier::SID_HOME_REFERENCES, "References");
 $DICT_EN->translate(StringIdentifier::SID_HOME_TEMOIGNAGE_SUB, "We are interested in our clients and partners feedbacks");
 $DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_H1, "Prize list");
-$DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_SUB, "A high-performing Junior-Entrepreprise over time");
+$DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_SUB, "A high-performing Junior-Entreprise over time");
 
 $DICT_EN->translate(StringIdentifier::SID_ETUDE_H2_1, "Your request");
 $DICT_EN->translate(StringIdentifier::SID_ETUDE_H2_2, "Commercial proposition");
@@ -84,13 +87,24 @@ $DICT_EN->translate(StringIdentifier::SID_ETUDE_H3_6, "Recipe phase + 3 month gu
 $DICT_EN->translate(StringIdentifier::SID_ETUDE_H3_7, "3 month guarantee");
 $DICT_EN->translate(StringIdentifier::SID_ETUDE_H3_8, "Your feedbacks are important");
 
-$DICT_EN->translate(StringIdentifier::SID_ETUDE_STEP_1, "Before the project");
-$DICT_EN->translate(StringIdentifier::SID_ETUDE_STEP_2, "During the project");
-$DICT_EN->translate(StringIdentifier::SID_ETUDE_STEP_3, "After the project");
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_STEP_1, "Meeting");
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_STEP_2, "Constitution of the technical team");
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_STEP_3, "Study proposal");
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_STEP_4, "Customer care");
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_STEP_5, "Delivery");
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_STEP_6, "Guarantee");
 
-$DICT_EN->translate(StringIdentifier::SID_ETUDE_BULLSHIT_1, "First contact in order to analyze your needs and offer you the most relevant solution.");
-$DICT_EN->translate(StringIdentifier::SID_ETUDE_BULLSHIT_2, "All our studies are carefully and regularly observed by our quality division to make sure all the work is properly and rigorously done.");
-$DICT_EN->translate(StringIdentifier::SID_ETUDE_BULLSHIT_3, "We follow our projects after their completion to make sure our clients are satisfied with our work.");
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_DESCRIPTION_1, "Analysis of your request </br> 24h response </br> Assignment of a chargé d'affaires");
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_DESCRIPTION_2, "Recruitment of study consultants among the best students of INSA");
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_DESCRIPTION_3, "Qualification of your need meeting  </br> Definition of the specifications </br> Drafting of the study proposal");
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_DESCRIPTION_4, "Continuous follow-up of the study </br> Render of the different deliverables </br> Customer validations");
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_DESCRIPTION_5, "Render of the final deliverable </br> Customer test </br> Correction by our consultants </br> Final validation");
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_DESCRIPTION_6, "Your deliverable is guaranteed for up to 3 months depending on its nature");
+
+
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_DESCRIPTION_1, "First contact in order to analyze your needs and offer you the most relevant solution.");
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_DESCRIPTION_2, "All our studies are carefully and regularly observed by our quality division to make sure all the work is properly and rigorously done.");
+$DICT_EN->translate(StringIdentifier::SID_ETUDE_DESCRIPTION_3, "We follow our projects after their completion to make sure our clients are satisfied with our work.");
 
 $DICT_EN->translate(StringIdentifier::SID_ETUDE_P_1, "Ask us for an estimate on our website, we will answer in the next 24 hours. Once first contact has been made, we will affect a chargé d’affaires, a member of ETIC who will be your main interlocutor. He or she will select, among all the students at INSA Lyon, the most skilled contributors to implement the technical part of your project.");
 $DICT_EN->translate(StringIdentifier::SID_ETUDE_P_2, "Once the contributors have been selected, a reunion will be organized by the chargé d’affaires to define clearly your needs and specifications. Following this reunion, the chargé d’affaires will send you a commercial proposition, a documents including a detailed specification, a methodology of implementation, a more precise budget and a timetable. ");
@@ -454,14 +468,81 @@ $DICT_EN->translate(StringIdentifier::SID_CONFIANCE_1, "They trusted us");
 $DICT_EN->translate(StringIdentifier::SID_CONFIANCE_2, "Institutions");
 $DICT_EN->translate(StringIdentifier::SID_CONFIANCE_3, "Small structures");
 $DICT_EN->translate(StringIdentifier::SID_CONFIANCE_4, "Feedbacks");
-$DICT_EN->translate(StringIdentifier::SID_CONFIANCE_QUOTE_1, "« Notre travail avec ETIC INSA Technologies a été très fructueux. Les compétences techniques et humaines des intervenants nous ont permis d’avancer rapidement sur le projet électronique que nous leur avions soumis. J’ai particulièrement apprécié leur réactivité et leur motivation.Les résultats obtenus nous permettent d’affirmer que nous ferons de nouveau appel à ETIC INSA si le besoin apparaît sur un futur projet. » <b>Faustine Vanhulle – Innovation Group – ElcoBrandt</b>");
-$DICT_EN->translate(StringIdentifier::SID_CONFIANCE_QUOTE_2, "« ETIC apporte une véritable valeur ajoutée au projet. Les équipes d’étudiants sont surprenantes de professionnalisme, de créativité et de rigueur. Nous avons avancé ensemble, dans un contexte complexe et des délais limités. Le courage et la solidarité ont été des valeurs communicatives et déterminantes pour la réussite de ce programme ambitieux. En effet, en plus des compétences techniques et de gestion de projet qui caractérisent l’INSA, ETIC dispose d’excellents commerciaux ! Depuis cette expérience, je les recommande régulièrement. » <b>Barbara Coudène</b>");
-$DICT_EN->translate(StringIdentifier::SID_CONFIANCE_QUOTE_3, "« Non seulement porteur du progrès technique, l’ingénieur doit de plus en plus être créateur de valeur. Il doit pouvoir imaginer la société de demain. Pour accompagner cette évolution, il devient important de le sensibiliser très tôt à une culture d’innovation et un esprit d’entreprendre. ETIC INSA Technologies, la Junior-Entreprise de l’INSA de Lyon, est une des vitrines de cette volonté. Nous sommes fiers de soutenir chaque année ces jeunes talents qui délivrent toutes leurs compétences aux professionnels qui parient sur l’innovation et le dynamisme. Depuis sa création en 1981, ETIC INSA Technologies ne cesse de se développer et de se distinguer. C’est aujourd’hui l’une des 4 meilleures Junior-Entreprises de France. Donner le goût et les outils pour entreprendre, telle est l’ambition de l’INSA de Lyon, qui accompagne ses élèves vers une nouvelle génération d’ingénieur, capable de construire notre société future. » <b>Eric Maurincomme, Directeur de l’INSA de Lyon</b>");
+$DICT_EN->translate(StringIdentifier::SID_CONFIANCE_QUOTE_1_HEAD, "I particularly appreciated their responsiveness and motivation");
+$DICT_EN->translate(StringIdentifier::SID_CONFIANCE_QUOTE_2_HEAD, "The student teams are full of professionalism, creativity and rigor");
+$DICT_EN->translate(StringIdentifier::SID_CONFIANCE_QUOTE_3_HEAD, "We are proud to support each year these young talents");
+$DICT_EN->translate(StringIdentifier::SID_CONFIANCE_QUOTE_1, "« Our work with ETIC INSA Technologies has been very successful. The technical and human skills of the stakeholders allowed us to move quickly on the electronic project that we submitted to them. I particularly appreciated their responsiveness and motivation. The results obtained allow us to affirm that we will call on ETIC INSA again if the need appears on a future project.» <b>Faustine Vanhulle – Innovation Group – ElcoBrandt</b>");
+$DICT_EN->translate(StringIdentifier::SID_CONFIANCE_QUOTE_2, "« ETIC brings a real added value to the project. The student teams are full of professional, creative and rigorous. We have moved forward together, in a complex context and limited time. Courage and solidarity have been communicative and decisive values for the success of this ambitious program. Indeed, in addition to the technical and project management skills that characterize INSA, ETIC has excellent sales people! Since that experience, I recommend them regularly.» <b>Barbara Coudène</b>");
+$DICT_EN->translate(StringIdentifier::SID_CONFIANCE_QUOTE_3, "« Not only a bearer of technical progress, the engineer must increasingly be a creator of value. He must be able to imagine the society of tomorrow. To accompany this evolution, it becomes important to raise awareness very early to a culture of innovation and a spirit of entrepreneurship. ETIC INSA Technologies, the Junior Enterprise of INSA Lyon, is one of the showcases of this desire. We are proud to support each year these young talents who deliver all their skills to professionals who bet on innovation and dynamism. Since its creation in 1981, ETIC INSA Technologies continues to develop and distinguish itself. It is today one of the 4 best Junior-Entreprises of France.» <b>Eric Maurincomme, Director of INSA Lyon</b>");
 
 $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_1, "Our premium partners");
 $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_2, "CNJE's premium partners");
 $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_3, "Our Junior-Entreprises partnerships in France");
 $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_4, "Our Junior-Entreprises partnershups worldwide");
+
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_AMARIS, "Amaris");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_EY, "EY");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_BNP, "BNP Paribas");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_INSA, "INSA de Lyon");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_CNJE, "Confédération Nationale des Junior-Entreprises");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_EMLYON, "EM Lyon Junior Conseil");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_JUNIORINSA, "Juniors INSA");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_JEUNESLYON, "Jeunes Lyon");
+
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_AMARIS_TEXT, "Amaris is an international technology and management consulting firm
+growing at a very fast rate and providing innovative solutions to rather
+demanding and complex projects. Its core activity being the council of clients
+throughout the entire process of carrying out their projects by offering the
+right services to improve efficiency and performance. It operates within five
+main areas of expertise: Business Consulting and Management, IT
+(Information Technology), Engineering and High-Tech, Telecoms,
+Biotechnology and Pharmaceuticals. Amaris does business with companies
+everywhere in the spectrum from small family business to international
+groups and in various fields such as energy, transports and finance.
+
+                </br></br>Amaris’ key added value would be the high quality of its teams and the
+significant importance dedicated to small details, as well as the firm’s vital
+reliance on the developed skills of its talented human resources");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_EY_TEXT, " EY is an accounting and audit firm with more than 230 800
+collaborators around the world making it one of the Big Four accounting firms
+in the planet.
+             </br></br>EY’s collaborators operate in audit, accounting and consulting that provide
+the clients with high value prioritising sector-wide approach. In a constantly
+evolving world that offers, should you look beyond the barriers, plenty of
+opportunities, EY went for a rather ambitious goal: Building a better working
+world.
+                </br></br>EY’s partnership with Junior-Entreprises has already celebrated its third
+anniversary and counting, they have been assisting us through different
+issues, each time offering customisable help that adapts to our very specific
+problems, which has been allowing us to make the most of our Junior-
+Entreprise and never cease to improve daily.
+");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_BNP_TEXT, " BNP Paribas is the first banking group eurozonewide and fifth
+worldwide, implemented in over 74 countries, with a labour force of 189 000
+employees.
+               </br></br>The numbers rise up to 30 million retail banking clients in its four
+domestic markets: France, Belgium, Luxembourg and Italy as well as its other
+trademarks. The retail banking is also very developed in Mediterranean
+countries, in Turkey, Poland and the Western United States.
+             </br></br>BNP Paribas is the french trademark with the highest value ever.
+");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_INSA_TEXT, "The first post-baccalaureate engineering school, INSA Lyon offers a high level of engineering education. With nearly 5,000 highly qualified engineers on campus, INSA Lyon offers a large panel of expert students. Diversity, excellence, open-mindedness and innovation are the driving forces behind INSA Lyon, which, for almost sixty years, has defended a vision of the avant-garde engineer. The INSA engineer is not an engineer like the others. He has excellent scientific and technical skills, but he is also able to understand the issues of his society and to be part of the evolution of his world. School with an international dimension, INSA Lyon has more than 250 partner universities throughout the world and ranks among the 10 best engineering courses in Europe. Supported by its 22 research laboratories, it also aims to become a recognized research and innovation center in the world, with a strong appeal in the industrial and economic world.");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_CNJE_TEXT, " Grouping more than 170 structures in France, the National Confederation of Junior Enterprises has been working for 50 years to support and develop the movement of Junior-Enterprises.
+                </br></br>Its missions are:
+                </br> - The development of the Junior-Enterprises movement, notably through the integration of new structures
+                </br>- Training and support for Junior Entrepreneurs in their skills development
+                </br>- The promotion and protection of the Junior-Entreprise brand and the promotion of entrepreneurship
+");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_EMLYON_TEXT, "Third Junior-Entreprise of France, em lyon junior conseil is emlyon business school's Junior-Entreprise.
+                </br></br>Since 1972, she has been supporting companies in France and Europe with consulting studies in audit, communication, entrepreneurship, finance, marketing and strategy.
+
+                </br></br>We respond to the problems encountered by our clients, whether they are large groups, SMEs or entrepreneurs by adding the skills of a business school to our areas of expertise.
+");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_JUNIORINSA_TEXT, " As a group of junior companies from the INSA network, Junior INSA offers us an efficient national structure capable of carrying out missions quickly throughout France.
+
+                </br></br>With more than 40 specialties, designed around an education of excellence backed by cutting-edge scientific research. We offer services in a variety of areas, including computer and safety, mechanics, materials engineering, mathematics and many more.
+");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_JEUNESLYON_TEXT, "A network of the Lyons urban area, the Jeunes Lyon are the association of 7 Junior-Entreprises of Lyon. The Junior-Enterprises of the emlyon business school, ESDES, IAE Lyon, INSA Lyon, ISARA, Lyon 2, and Sciences Po Lyon have joined forces to offer a broader range of skills to our customers. The group promotes the brand and movement of Junior Enterprises in the Lyon area.");
 
 $DICT_EN->translate(StringIdentifier::SID_VALEURS_H1, "Our values");
 $DICT_EN->translate(StringIdentifier::SID_VALEURS_1, "Reliability");
@@ -469,6 +550,12 @@ $DICT_EN->translate(StringIdentifier::SID_VALEURS_2, "Opening");
 $DICT_EN->translate(StringIdentifier::SID_VALEURS_3, "Commitment");
 $DICT_EN->translate(StringIdentifier::SID_VALEURS_4, "Boldness");
 $DICT_EN->translate(StringIdentifier::SID_VALEURS_5, "Personal Development");
+$DICT_EN->translate(StringIdentifier::SID_VALEURS_P_1, "Our reliability is reflected in the rigor shown by our employees");
+$DICT_EN->translate(StringIdentifier::SID_VALEURS_P_2, "Our teams can work on all types of projects, whatever their size");
+$DICT_EN->translate(StringIdentifier::SID_VALEURS_P_3, "We commit ourselves and mobilize our teams to reach or exceed your expectations");
+$DICT_EN->translate(StringIdentifier::SID_VALEURS_P_4, "We are continually working to improve our services and methods");
+$DICT_EN->translate(StringIdentifier::SID_VALEURS_P_5, "This value reflects the investment and motivation of our teams");
+
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H1, "Our quality method");
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_1, "ETIC INSA Technologies wishes to provide high quality services to its clients in order to make sure of the good implementation of the project it is entrusted with, respecting determined deadlines and specifications. By doing so, it gives its members, engineering students, a high performing structure that allows them to learn and confront the real requirements of the professional world, while preserving a good mood for everyone.");
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_2, "With this purpose in mind, and for more than 35 years, ETIC INSA Technologies has been supported and controlled by the CNJE (National Confederation of Juniors Entreprises). Once a year, the Junior-Entreprise is audited on its processus, its project monitoring and treasury management. The success of this audit is the sine qua non condition to maintain the Junior-Entreprise brand. Even more, ETIC is now committed to the ISO 9001 certification standards (2008) in order to offer the best answer to the demands of our clients.");
@@ -482,8 +569,11 @@ $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_7,"An analysis phase vali
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_8,"A pair : chargé d’affaires/quality correspondent for each project");
 
 $DICT_EN->translate(StringIdentifier::SID_PRESIDENT_H1,"The president's words");
-$DICT_EN->translate(StringIdentifier::SID_PRESIDENT_P,"With 11 fields of proficiency ranging from computer science to mechanics, including business science, ETIC INSA Technologies implements technical, industrial and commercial studies. <br>
-Created in 1981, and cumulating more than 35 years of experience, we are today laureates of the Prix d’Excellence, awarding the best Junior-Entreprise in France. The quality of our project management also earned us the Label Ingénieur, awarding the best technical project of the year, which makes us an interlocutor of choice to accompany you in your projects. Affiliated to INSA Lyon, we are proud to be able to put more than 50 active members and 3000 potential contributors at your disposal.");
+$DICT_EN->translate(StringIdentifier::SID_PRESIDENT_P,"Created in 1981, ETIC INSA Technologies is INSA Lyon's Junior-Entreprise. For more than 35 years, engagement, responsiveness and quality are ETIC's keywords, and the whole team are investing following these values.
+With our partners' support and INSA Lyon's excellent formation in more than 10 fields of engineering, we are able to offer you our high-quality multidisciplinary services.
+Best Junior-Entreprise of France in 2016, we keep succeeding thanks to our project management skill and high technical expertise.
+We are proud to be able to put more than 40 active members and 3000 potential contributors at your disposal. 
+With more than 35 years of experience, we are today laureates of the Prix d’Excellence, awarding the best Junior-Entreprise in France. ");
 $DICT_EN->translate(StringIdentifier::SID_PRESIDENT_SIGN,"Eline Achard, president 2017-2018");
 $DICT_EN->translate(StringIdentifier::SID_BUREAU,"The chamber");
 $DICT_EN->translate(StringIdentifier::SID_CA,"The board of directors");
@@ -888,4 +978,4 @@ $DICT_EN->translate(StringIdentifier::SID_ELECTRIQUE_EXEMPLE, "<div class=\"item
                 </div>
                 ");
 
-$DICT_EN->translate(StringIdentifier::SID_SLOGAN, "<img src=\"front/assets/home/sloganen.svg\" style=\"margin-top: 5px; max-width: 100%;\">");
+$DICT_EN->translate(StringIdentifier::SID_SLOGAN, "<img src=\"front/assets/home/sloganen.png\" style=\"margin-top: 5px; max-width: 100%;\">");

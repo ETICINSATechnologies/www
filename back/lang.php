@@ -28,6 +28,7 @@ class StringIdentifier {
 	const SID_BLOG ="{BLOG}"; // lien vers la page ils nous ont fait confiance
 	const SID_PLAQUETTE ="{PLAQUETTE}"; // lien vers la plaquette
 	const SID_DEVIS ="{DEVIS}"; // lien vers le formulaire
+    const SID_CONTACT ="{CONTACT}"; // lien vers le formulaire
 	const SID_MOUVEMENT ="{MOUVEMENT}"; // lien vers la pres du mouvement
 	const SID_LANG = "{LANGUAGE}";
     const SID_PLAN = "{PLAN}";
@@ -108,7 +109,8 @@ class StringIdentifier {
 	const SID_HOME_SKILLS_DET = "{HOME_SKILLS_DET}";
 	const SID_HOME_TRUST = "{HOME_TRUST}";
 	const SID_HOME_TEMOIGNAGE = "{HOME_TEMOIGNAGE}";
-	const SID_HOME_TEMOIGNAGE_SUB = "{HOME_TEMOIGNAGE_SUB}";
+    const SID_HOME_REFERENCES = "{HOME_REFERENCES}";
+    const SID_HOME_TEMOIGNAGE_SUB = "{HOME_TEMOIGNAGE_SUB}";
 	const SID_HOME_PALMARES_H1 = "{HOME_PALMARES_H1}";
 	const SID_HOME_PALMARES_SUB = "{HOME_PALMARES_SUB}";
 
@@ -135,10 +137,16 @@ class StringIdentifier {
 	const SID_ETUDE_STEP_1 = "{ETUDE_STEP_1}";
 	const SID_ETUDE_STEP_2 = "{ETUDE_STEP_2}";
 	const SID_ETUDE_STEP_3 = "{ETUDE_STEP_3}";
+    const SID_ETUDE_STEP_4 = "{ETUDE_STEP_4}";
+    const SID_ETUDE_STEP_5 = "{ETUDE_STEP_5}";
+    const SID_ETUDE_STEP_6 = "{ETUDE_STEP_6}";
 
-	const SID_ETUDE_BULLSHIT_1 = "{SID_ETUDE_BULLSHIT_1}";
-	const SID_ETUDE_BULLSHIT_2 = "{SID_ETUDE_BULLSHIT_2}";
-	const SID_ETUDE_BULLSHIT_3 = "{SID_ETUDE_BULLSHIT_3}";
+	const SID_ETUDE_DESCRIPTION_1 = "{SID_ETUDE_DESCRIPTION_1}";
+	const SID_ETUDE_DESCRIPTION_2 = "{SID_ETUDE_DESCRIPTION_2}";
+	const SID_ETUDE_DESCRIPTION_3 = "{SID_ETUDE_DESCRIPTION_3}";
+    const SID_ETUDE_DESCRIPTION_4 = "{SID_ETUDE_DESCRIPTION_4}";
+    const SID_ETUDE_DESCRIPTION_5 = "{SID_ETUDE_DESCRIPTION_5}";
+    const SID_ETUDE_DESCRIPTION_6 = "{SID_ETUDE_DESCRIPTION_6}";
 
 	const SID_ETUDE_P_1 = "{ETUDE_P_1}"; // premier paragraphe de la page  déroulement d'une étude
 	const SID_ETUDE_P_2 = "{ETUDE_P_2}";
@@ -205,6 +213,9 @@ class StringIdentifier {
 	const SID_CONFIANCE_2 = "{CONFIANCE_2}";
 	const SID_CONFIANCE_3 = "{CONFIANCE_3}";
 	const SID_CONFIANCE_4 = "{CONFIANCE_4}";
+    const SID_CONFIANCE_QUOTE_1_HEAD = "{CONFIANCE_QUOTE_1_HEAD}";
+    const SID_CONFIANCE_QUOTE_2_HEAD = "{CONFIANCE_QUOTE_2_HEAD}";
+    const SID_CONFIANCE_QUOTE_3_HEAD = "{CONFIANCE_QUOTE_3_HEAD}";
 	const SID_CONFIANCE_QUOTE_1 = "{CONFIANCE_QUOTE_1}"; // paragraphe de la première ciatation dans la page confiance
 	const SID_CONFIANCE_QUOTE_2 = "{CONFIANCE_QUOTE_2}";
 	const SID_CONFIANCE_QUOTE_3 = "{CONFIANCE_QUOTE_3}";
@@ -214,12 +225,36 @@ class StringIdentifier {
 	const SID_PARTENAIRES_3 = "{PARTENAIRES_3}";
 	const SID_PARTENAIRES_4 = "{PARTENAIRES_4}";
 
+    const SID_PARTENAIRES_AMARIS = "{PARTENAIRES_AMARIS}";
+    const SID_PARTENAIRES_EY = "{PARTENAIRES_EY}";
+    const SID_PARTENAIRES_BNP = "{PARTENAIRES_BNP}";
+    const SID_PARTENAIRES_INSA = "{PARTENAIRES_INSA}";
+    const SID_PARTENAIRES_CNJE = "{PARTENAIRES_CNJE}";
+    const SID_PARTENAIRES_EMLYON = "{PARTENAIRES_EMLYON}";
+    const SID_PARTENAIRES_JUNIORINSA = "{PARTENAIRES_JUNIORINSA}";
+    const SID_PARTENAIRES_JEUNESLYON = "{PARTENAIRES_JEUNESLYON}";
+
+    const SID_PARTENAIRES_AMARIS_TEXT = "{PARTENAIRES_AMARIS_TEXT}";
+    const SID_PARTENAIRES_EY_TEXT = "{PARTENAIRES_EY_TEXT}";
+    const SID_PARTENAIRES_BNP_TEXT = "{PARTENAIRES_BNP_TEXT}";
+    const SID_PARTENAIRES_INSA_TEXT = "{PARTENAIRES_INSA_TEXT}";
+    const SID_PARTENAIRES_CNJE_TEXT = "{PARTENAIRES_CNJE_TEXT}";
+    const SID_PARTENAIRES_EMLYON_TEXT = "{PARTENAIRES_EMLYON_TEXT}";
+    const SID_PARTENAIRES_JUNIORINSA_TEXT = "{PARTENAIRES_JUNIORINSA_TEXT}";
+    const SID_PARTENAIRES_JEUNESLYON_TEXT = "{PARTENAIRES_JEUNESLYON_TEXT}";
+
+
 	const SID_VALEURS_H1 = "{VALEURS_H1}";
 	const SID_VALEURS_1 = "{VALEURS_1}";
 	const SID_VALEURS_2 = "{VALEURS_2}";
 	const SID_VALEURS_3 = "{VALEURS_3}";
 	const SID_VALEURS_4 = "{VALEURS_4}";
 	const SID_VALEURS_5 = "{VALEURS_5}";
+    const SID_VALEURS_P_1 = "{VALEURS_P_1}";
+    const SID_VALEURS_P_2 = "{VALEURS_P_2}";
+    const SID_VALEURS_P_3 = "{VALEURS_P_3}";
+    const SID_VALEURS_P_4 = "{VALEURS_P_4}";
+    const SID_VALEURS_P_5 = "{VALEURS_P_5}";
 	const SID_ENGAGEMENT_H1 = "{ENGAGEMENT_H1}";
 	const SID_ENGAGEMENT_P_1 = "{ENGAGEMENT_P_1}";
 	const SID_ENGAGEMENT_P_2 = "{ENGAGEMENT_P_2}";
@@ -435,6 +470,7 @@ class StringIdentifier {
 		StringIdentifier::SID_BLOG,
 		StringIdentifier::SID_PLAQUETTE,
 		StringIdentifier::SID_DEVIS,
+        StringIdentifier::SID_CONTACT,
 		StringIdentifier::SID_MOUVEMENT,
 		StringIdentifier::SID_LANG,
         StringIdentifier::SID_PLAN,
@@ -509,7 +545,8 @@ class StringIdentifier {
 		StringIdentifier::SID_HOME_SKILLS_DET,
 		StringIdentifier::SID_HOME_TRUST,
 		StringIdentifier::SID_HOME_TEMOIGNAGE,
-		StringIdentifier::SID_HOME_TEMOIGNAGE_SUB,
+        StringIdentifier::SID_HOME_REFERENCES,
+        StringIdentifier::SID_HOME_TEMOIGNAGE_SUB,
 		StringIdentifier::SID_HOME_PALMARES_H1,
 		StringIdentifier::SID_HOME_PALMARES_SUB,
 
@@ -535,10 +572,16 @@ class StringIdentifier {
 		StringIdentifier::SID_ETUDE_STEP_1,
 		StringIdentifier::SID_ETUDE_STEP_2,
 		StringIdentifier::SID_ETUDE_STEP_3,
+        StringIdentifier::SID_ETUDE_STEP_4,
+        StringIdentifier::SID_ETUDE_STEP_5,
+        StringIdentifier::SID_ETUDE_STEP_6,
 
-		StringIdentifier::SID_ETUDE_BULLSHIT_1,
-		StringIdentifier::SID_ETUDE_BULLSHIT_2,
-		StringIdentifier::SID_ETUDE_BULLSHIT_3,
+		StringIdentifier::SID_ETUDE_DESCRIPTION_1,
+		StringIdentifier::SID_ETUDE_DESCRIPTION_2,
+		StringIdentifier::SID_ETUDE_DESCRIPTION_3,
+        StringIdentifier::SID_ETUDE_DESCRIPTION_4,
+        StringIdentifier::SID_ETUDE_DESCRIPTION_5,
+        StringIdentifier::SID_ETUDE_DESCRIPTION_6,
 
 		StringIdentifier::SID_ETUDE_P_1,
 		StringIdentifier::SID_ETUDE_P_2,
@@ -603,7 +646,10 @@ class StringIdentifier {
 		StringIdentifier::SID_CONFIANCE_2,
 		StringIdentifier::SID_CONFIANCE_3,
 		StringIdentifier::SID_CONFIANCE_4,
-		StringIdentifier::SID_CONFIANCE_QUOTE_1,
+        StringIdentifier::SID_CONFIANCE_QUOTE_1_HEAD,
+        StringIdentifier::SID_CONFIANCE_QUOTE_2_HEAD,
+        StringIdentifier::SID_CONFIANCE_QUOTE_3_HEAD,
+        StringIdentifier::SID_CONFIANCE_QUOTE_1,
 		StringIdentifier::SID_CONFIANCE_QUOTE_2,
 		StringIdentifier::SID_CONFIANCE_QUOTE_3,
 
@@ -613,6 +659,11 @@ class StringIdentifier {
 		StringIdentifier::SID_VALEURS_3,
 		StringIdentifier::SID_VALEURS_4,
 		StringIdentifier::SID_VALEURS_5,
+        StringIdentifier::SID_VALEURS_P_1,
+        StringIdentifier::SID_VALEURS_P_2,
+        StringIdentifier::SID_VALEURS_P_3,
+        StringIdentifier::SID_VALEURS_P_4,
+        StringIdentifier::SID_VALEURS_P_5,
 		StringIdentifier::SID_ENGAGEMENT_H1,
 		StringIdentifier::SID_ENGAGEMENT_P_1,
 		StringIdentifier::SID_ENGAGEMENT_P_2,
@@ -629,6 +680,26 @@ class StringIdentifier {
 		StringIdentifier::SID_PARTENAIRES_2,
 		StringIdentifier::SID_PARTENAIRES_3,
 		StringIdentifier::SID_PARTENAIRES_4,
+
+		StringIdentifier::SID_PARTENAIRES_AMARIS,
+		StringIdentifier::SID_PARTENAIRES_EY,
+        StringIdentifier::SID_PARTENAIRES_BNP,
+        StringIdentifier::SID_PARTENAIRES_INSA,
+        StringIdentifier::SID_PARTENAIRES_CNJE,
+        StringIdentifier::SID_PARTENAIRES_EMLYON,
+        StringIdentifier::SID_PARTENAIRES_JUNIORINSA,
+        StringIdentifier::SID_PARTENAIRES_JEUNESLYON,
+
+
+        StringIdentifier::SID_PARTENAIRES_AMARIS_TEXT,
+        StringIdentifier::SID_PARTENAIRES_EY_TEXT,
+        StringIdentifier::SID_PARTENAIRES_BNP_TEXT,
+        StringIdentifier::SID_PARTENAIRES_INSA_TEXT,
+        StringIdentifier::SID_PARTENAIRES_CNJE_TEXT,
+        StringIdentifier::SID_PARTENAIRES_EMLYON_TEXT,
+        StringIdentifier::SID_PARTENAIRES_JUNIORINSA_TEXT,
+        StringIdentifier::SID_PARTENAIRES_JEUNESLYON_TEXT,
+
 
 		StringIdentifier::SID_PRESIDENT_H1,
 		StringIdentifier::SID_PRESIDENT_P,
