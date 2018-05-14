@@ -31,6 +31,7 @@ $DICT_EN->translate(StringIdentifier::SID_PLAN,"Site map");
 $DICT_EN->translate(StringIdentifier::SID_INGENIERIE, "Engineering");
 $DICT_EN->translate(StringIdentifier::SID_NUMERIQUE, "Digitalisation");
 $DICT_EN->translate(StringIdentifier::SID_ENTREPRISE, "Business Sciences");
+$DICT_EN->translate(StringIdentifier::SID_ARTICLES, "News");
 
 
 /*FR_HOME*/
@@ -979,3 +980,7 @@ $DICT_EN->translate(StringIdentifier::SID_ELECTRIQUE_EXEMPLE, "<div class=\"item
                 ");
 
 $DICT_EN->translate(StringIdentifier::SID_SLOGAN, "<img src=\"front/assets/home/sloganen.png\" style=\"margin-top: 5px; max-width: 100%;\">");
+$DICT_EN->translate(StringIdentifier::SID_NEXT_READ, "Read next");
+$DICT_EN->translate(StringIdentifier::SID_READ_MORE, "Read more");
+
+$DICT_EN->translate(StringIdentifier::SID_FB_BUTTON, "Share");

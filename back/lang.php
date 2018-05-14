@@ -35,6 +35,7 @@ class StringIdentifier {
     const SID_INGENIERIE = "{INGENIERIE}";
     const SID_NUMERIQUE = "{NUMERIQUE}";
     const SID_ENTREPRISE = "{ENTREPRISE}";
+    const SID_ARTICLES = "{ARTICLES}";
 
     const SID_MARKETING = "{MARKETING}";
     const SID_MARKETING_P1 = "{MARKETING_P1}";
@@ -450,6 +451,10 @@ class StringIdentifier {
     const SID_ELECTRIQUE_EXEMPLE = "{ELECTRIQUE_EXEMPLE}";
 
     const SID_SLOGAN = "{SLOGAN}";
+    const SID_NEXT_READ = "{NEXT_READ}";
+    const SID_READ_MORE = "{READ_MORE}";
+
+    const SID_FB_BUTTON = "{FB_BUTTON}";
 
 	// tableau des identifiants
 	const SIDS = array(
@@ -477,6 +482,7 @@ class StringIdentifier {
         StringIdentifier::SID_NUMERIQUE,
         StringIdentifier::SID_ENTREPRISE,
         StringIdentifier::SID_INGENIERIE,
+        StringIdentifier::SID_ARTICLES,
 
 
         StringIdentifier::SID_MARKETING,
@@ -879,7 +885,11 @@ class StringIdentifier {
         StringIdentifier::SID_ENERGIE_EXEMPLE,
         StringIdentifier::SID_ELECTRIQUE_EXEMPLE,
 
-        StringIdentifier::SID_SLOGAN
+        StringIdentifier::SID_SLOGAN,
+        StringIdentifier::SID_NEXT_READ,
+        StringIdentifier::SID_READ_MORE,
+
+        StringIdentifier::SID_FB_BUTTON
 
 		);
 
@@ -896,6 +906,8 @@ class StringIdentifier {
 	const LINK_NETWORK = "{LINK_NETWORK}";
 	const LINK_MOUVEMENT ="{LINK_MOUVEMENT}"; // lien vers la pres. du mouvement
     const LINK_PLAN = "{LINK_PLAN}";
+    const LINK_ARTICLES = "{LINK_ARTICLES}";
+    const LINK_ARTICLE_1 = "{LINK_ARTICLE_1}";
 
     const LINK_INGENIERIE = "{LINK_INGENIERIE}";
     const LINK_NUMERIQUE = "{LINK_NUMERIQUE}";
@@ -937,6 +949,8 @@ class StringIdentifier {
 		StringIdentifier::LINK_NETWORK,
 		StringIdentifier::LINK_MOUVEMENT,
         StringIdentifier::LINK_PLAN,
+        StringIdentifier::LINK_ARTICLES,
+        StringIdentifier::LINK_ARTICLE_1,
 
         StringIdentifier::LINK_INGENIERIE,
         StringIdentifier::LINK_NUMERIQUE,
