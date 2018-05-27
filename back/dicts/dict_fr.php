@@ -564,7 +564,7 @@ $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_8,"Un binôme chargé d�
 $DICT_FR->translate(StringIdentifier::SID_PRESIDENT_H1,"Le mot de la présidente");
 $DICT_FR->translate(StringIdentifier::SID_PRESIDENT_P,"Créée en 1981, ETIC INSA Technologies est la Junior-Entreprise de l’INSA Lyon. Depuis plus de 35 ans, engagement, réactivité et qualité sont les maîtres mots d’ETIC et l’ensemble de notre équipe s’engage quotidiennement pour vous, selon ces valeurs. 
  <br>Le soutien de nos partenaires ainsi que la formation d’excellence de l’INSA Lyon dans plus de 10 domaines de l’ingénierie nous permettent de vous proposer des services pluridisciplinaires de haute qualité. Meilleure Junior-Entreprise de France en 2016, nous nous distinguons de nouveau cette année grâce à notre qualité de gestion de projet ainsi que nos compétences techniques de pointe. Interlocuteur de choix pour vous accompagner dans vos projets, nous sommes fiers de mettre à votre disposition plus de 40 collaborateurs ainsi que 3 000 consultants experts potentiels.");
-$DICT_FR->translate(StringIdentifier::SID_PRESIDENT_SIGN,"Eline Achard, présidente 2017-2018");
+$DICT_FR->translate(StringIdentifier::SID_PRESIDENT_SIGN,"Maïlys Pascail, présidente 2018-2019");
 $DICT_FR->translate(StringIdentifier::SID_BUREAU,"Le bureau");
 $DICT_FR->translate(StringIdentifier::SID_CA,"Le conseil d'administration");
 $DICT_FR->translate(StringIdentifier::SID_EQUIPES,"Nos équipes");
