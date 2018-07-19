@@ -308,6 +308,56 @@ body {
     text-justify: inter-word;
 }
 
+.row-article {
+    background: #9BCA8B11;
+    border-top: 5px solid #005360BB;
+    border-bottom: 5px solid #005360BB;
+    padding: 5px 0 5px 0;
+    margin-bottom: 30px;
+}
+
+.row-article:hover {
+    cursor: pointer;
+}
+
+.row-article-image {
+    padding: 2%;
+    background: #9BCA8B;
+}
+
+.article-title {
+    line-height: 1;
+    font-size: 48px;
+    max-width: 90%;
+    padding-top: 50px;
+    margin: 0 auto 15px;
+    text-align: center;
+
+}
+
+.article-subtitle {
+    font-size: 15px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+
+.article-content {
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: large;
+    margin-bottom: 50px;
+
+}
+
+.article-paragraph {
+    margin-bottom: 30px;
+}
+
+.article-card {
+    color:#2D2D2C;
+}
 
 
 

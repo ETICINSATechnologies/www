@@ -1,0 +1,110 @@
+<div class="ui breadcrumb">
+    <a class="section" href="{LINK_HOME}">{HOME}</a>
+    <i class="right angle icon divider"></i>
+    <a class="section" href="{LINK_ARTICLES}">{ARTICLES}</a>
+    <i class="right angle icon divider"></i>
+    <div class="active section">Lorem</div>
+</div>
+<div class="ui center aligned bg-header" id="fade">
+    <h1 class="title-header scale">{ARTICLES}</h1>
+</div>
+
+<!--  A remplir à la main pour le moment... -->
+
+<div class="ui middle aligned grid stackable container">
+    <div class="row">
+        <div class="sixteen wide column">
+            <div class="ui center aligned article-title darkgreen">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.
+            </div>
+        </div>
+        <div class="sixteen wide column">
+            <div class="ui center aligned article-subtitle lightgreen">
+                ETIC Team | 17 Janvier 2015
+            </div>
+        </div>
+        <div class="sixteen wide column center aligned" style="margin: 10px;">
+            <div class="fb-share-button" data-href="{LINK_ARTICLE_1}" data-layout="button" data-size="small"
+                 data-mobile-iframe="true" style="margin-right: 10px;"><a target="_blank"
+                                                                    href="https://www.facebook.com/sharer/sharer.php?u={LINK_ARTICLE_1}&amp;src=sdkpreparse"
+                                                                    class="fb-xfbml-parse-ignore">{FB_BUTTON}</a></div>
+
+                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" >Tweet</a>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="sixteen wide column">
+            <img class="ui centered large image" src="./front/assets/blog/logocrp.png" alt="logo"
+                 style="margin-bottom: 5%">
+        </div>
+    </div>
+
+    <div class="row article-content sixteen wide column">
+        <p class="article-paragraph">
+            Post quorum necem nihilo lenius ferociens Gallus ut leo cadaveribus pastus multa huius modi scrutabatur.
+            quae singula narrare non refert, me professione modum, quod evitandum est, excedamus.
+        </p>
+        <p class="article-paragraph">
+            Nisi mihi Phaedrum, inquam, tu mentitum aut Zenonem putas, quorum utrumque audivi, cum mihi nihil sane
+            praeter sedulitatem probarent, omnes mihi Epicuri sententiae satis notae sunt. atque eos, quos nominavi, cum
+            Attico nostro frequenter audivi, cum miraretur ille quidem utrumque, Phaedrum autem etiam amaret, cotidieque
+            inter nos ea, quae audiebamus, conferebamus, neque erat umquam controversia, quid ego intellegerem, sed quid
+            probarem.
+        </p>
+        <p class="article-paragraph">
+            Martinus agens illas provincias pro praefectis aerumnas innocentium graviter gemens saepeque obsecrans, ut
+            ab omni culpa inmunibus parceretur, cum non inpetraret, minabatur se discessurum: ut saltem id metuens
+            perquisitor malivolus tandem desineret quieti coalitos homines in aperta pericula proiectare.
+        </p>
+        <p class="article-paragraph">
+            Latius iam disseminata licentia onerosus bonis omnibus Caesar nullum post haec adhibens modum orientis
+            latera cuncta vexabat nec honoratis parcens nec urbium primatibus nec plebeiis.
+        </p>
+        <p class="article-paragraph">
+            Quid? qui se etiam nunc subsidiis patrimonii aut amicorum liberalitate sustentant, hos perire patiemur? An,
+            si qui frui publico non potuit per hostem, hic tegitur ipsa lege censoria; quem is frui non sinit, qui est,
+            etiamsi non appellatur, hostis, huic ferri auxilium non oportet? Retinete igitur in provincia diutius eum,
+            qui de sociis cum hostibus, de civibus cum sociis faciat pactiones, qui hoc etiam se pluris esse quam
+            collegam putet, quod ille vos tristia voltuque deceperit, ipse numquam se minus quam erat, nequam esse
+            simularit. Piso autem alio quodam modo gloriatur se brevi tempore perfecisse, ne Gabinius unus omnium
+            nequissimus existimaretur.
+
+        </p>
+    </div>
+
+    <div class="row sixteen wide column">
+        <a class="ui olive card centered article-card" href="#" style="width: 400px; margin-bottom: 50px;">
+            <div class="image">
+                <img alt="img" style="" src="./front/assets/blog/logocrp.png">
+            </div>
+            <div class="content">
+                <div class="fly left" style="margin-bottom: 10px;">
+                    {NEXT_READ}
+                </div>
+                <span class="right floated center aligned header darkgreen">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
+                                    risus.
+    </span>
+
+            </div>
+
+        </a>
+
+    </div>
+
+</div>
+<script type="text/javascript" src="front/pages/scripts/card_animation.js"></script>
+
+
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = 'https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v3.0';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
