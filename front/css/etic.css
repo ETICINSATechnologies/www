@@ -359,5 +359,10 @@ body {
     color:#2D2D2C;
 }
 
+.article-signature {
+    text-align: right;
+    float: right;
+}
+
 
 
