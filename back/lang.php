@@ -952,6 +952,7 @@ class StringIdentifier {
         StringIdentifier::LINK_PLAN,
         StringIdentifier::LINK_ARTICLES,
         StringIdentifier::LINK_ARTICLE_1,
+        StringIdentifier::LINK_ARTICLE_2,
 
         StringIdentifier::LINK_INGENIERIE,
         StringIdentifier::LINK_NUMERIQUE,
