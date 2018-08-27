@@ -908,6 +908,7 @@ class StringIdentifier {
     const LINK_PLAN = "{LINK_PLAN}";
     const LINK_ARTICLES = "{LINK_ARTICLES}";
     const LINK_ARTICLE_1 = "{LINK_ARTICLE_1}";
+    const LINK_ARTICLE_2 = "{LINK_ARTICLE_2}";
 
     const LINK_INGENIERIE = "{LINK_INGENIERIE}";
     const LINK_NUMERIQUE = "{LINK_NUMERIQUE}";
