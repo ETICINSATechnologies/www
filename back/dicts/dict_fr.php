@@ -505,7 +505,7 @@ $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_INSA, "INSA de Lyon");
 $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_CNJE, "Confédération Nationale des Junior-Entreprises");
 $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_EMLYON, "EM Lyon Junior Conseil");
 $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_JUNIORINSA, "Juniors INSA");
-$DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_JEUNESLYON, "Jeunes Lyon");
+$DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_JEUNESLYON, "Junior-Entreprises Lyonnaises");
 
 $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_AMARIS_TEXT, "Amaris est un groupe international de conseil en technologies et en management avec un développement rapide et des solutions innovantes pour des projets exigeants. L'activité de la société consiste à soutenir ses clients dans la réalisation de leurs projets en agissant au sein de leur organisation afin d'améliorer leur efficacité et améliorer leurs performances. L'activité d'Amaris repose sur les 5 domaines d'expertise suivants : conseil en affaires et management, systèmes et technologies de l'information, ingénierie et hautes technologies, télécommunications, biotechnologies et pharmacie. Amaris intervient auprès de grands comptes internationaux et de groupes familiaux dans de nombreux secteurs tels l’énergie, l’automobile, la banque.
 
@@ -536,20 +536,20 @@ $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_JUNIORINSA_TEXT, " Regroup
 
                 </br></br>Fort de plus de 40 spécialités, conçues autour d’un enseignement d’excellence adossé à une recherche scientifique de pointe. Nous proposons des prestations autour de différents domaines, notamment l’informatique et la sécurité, la mécanique, le génie des matériaux, les mathématiques et bien d’autres.
 ");
-$DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_JEUNESLYON_TEXT, "Réseau de l’agglomération lyonnaise, les Jeunes Lyon sont l’association de 7 Junior-Entreprises lyonnaises. Les J.E. de l’emlyon business school, l’ESDES, l’IAE Lyon, l’INSA Lyon, l’ISARA, Lyon 2, ainsi que de Sciences Po Lyon se sont associées afin de proposer un plus large panel de compétences à nos clients. Le regroupement promeut la marque et le mouvement des Junior-Entreprises au sein de l’agglomération lyonnaise.
+$DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_JEUNESLYON_TEXT, "Réseau de l’agglomération lyonnaise, les Junior-Entreprises Lyonnaises sont l’association de 8 Junior-Entreprises lyonnaises. Les J.E. de Centrale Rhône-Alpes, de l'emlyon business school, de l’ESDES, de l’IAE Lyon, de l’INSA Lyon, de l’ISARA, de Lyon 2, ainsi que de Sciences Po Lyon se sont associées afin de proposer un plus large panel de compétences à nos clients. Le regroupement promeut la marque et le mouvement des Junior-Entreprises au sein de l’agglomération lyonnaise.
 ");
 
 $DICT_FR->translate(StringIdentifier::SID_VALEURS_H1, "Nos valeurs");
-$DICT_FR->translate(StringIdentifier::SID_VALEURS_1, "Fiabilité");
-$DICT_FR->translate(StringIdentifier::SID_VALEURS_2, "Ouverture");
+$DICT_FR->translate(StringIdentifier::SID_VALEURS_1, "Humanisme");
+$DICT_FR->translate(StringIdentifier::SID_VALEURS_2, "Excellence");
 $DICT_FR->translate(StringIdentifier::SID_VALEURS_3, "Engagement");
-$DICT_FR->translate(StringIdentifier::SID_VALEURS_4, "Audace");
-$DICT_FR->translate(StringIdentifier::SID_VALEURS_5, "Développement personnel");
-$DICT_FR->translate(StringIdentifier::SID_VALEURS_P_1, "Notre exigence de fiabilité se traduit par la rigueur dont font preuve nos collaborateurs");
-$DICT_FR->translate(StringIdentifier::SID_VALEURS_P_2, "Nos équipes s'engagent sur tout types de projets, quelque soit leur taille");
-$DICT_FR->translate(StringIdentifier::SID_VALEURS_P_3, "Nous nous engageons et mobilisons nos équipes pour atteindre, voire dépasser vos attentes");
-$DICT_FR->translate(StringIdentifier::SID_VALEURS_P_4, "Nous travaillons continuellement à améliorer nos services et méthodes");
-$DICT_FR->translate(StringIdentifier::SID_VALEURS_P_5, "Cette valeur traduit l’investissement et la motivation au quotidien de nos équipes");
+$DICT_FR->translate(StringIdentifier::SID_VALEURS_4, "Ouverture");
+$DICT_FR->translate(StringIdentifier::SID_VALEURS_5, "Dépassement");
+$DICT_FR->translate(StringIdentifier::SID_VALEURS_P_1, "Qui maintient l'humain au centre du système");
+$DICT_FR->translate(StringIdentifier::SID_VALEURS_P_2, "Dans un processus d'amélioration continue afin de rendre ETIC toujours plus performante");
+$DICT_FR->translate(StringIdentifier::SID_VALEURS_P_3, "Auprès de nos partenaires, du mouvement, de notre école et de nos clients, mais aussi vis à vis des enjeux de notre époque");
+$DICT_FR->translate(StringIdentifier::SID_VALEURS_P_4, "Vers toutes les opportunités qui se présentent à ETIC, une J.E. qui garantit l'égalité des chances");
+$DICT_FR->translate(StringIdentifier::SID_VALEURS_P_5, "Afin de ne rien considérer comme acquis et de viser toujours plus loin");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H1, "Notre politique qualité");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_1, "ETIC INSA Technologies tient à fournir des <strong>services de qualité</strong> à ses clients afin de leur assurer la réalisation des missions confiées dans les <strong>délais impartis</strong> et le <strong>respect du cahier des charges</strong>. Et ce, en offrant à ses membres, élèves ingénieurs INSA, une <strong>structure performante</strong> qui leur permet d’<strong>apprendre</strong> et de se confronter aux réelles exigences du monde professionnel, le tout dans un climat de <strong>confiance</strong> mutuelle.");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_2, "Pour cela, et depuis maintenant <strong>plus de 30 ans</strong>, ETIC INSA Technologies est <strong>soutenue</strong> et contrôlée par la CNJE (Confédération Nationale des Juniors Entreprises). Une fois par an, la Junior-Entreprise est <strong>auditée sur ses processus</strong>, le suivi des études et la gestion de la trésorerie. La réussite de cet audit est la condition sine qua non au maintien de la marque Junior-Entreprise. De plus, ETIC s’engage aujourd’hui dans une démarche de certification ISO 9001 : 2008, dans le but d'offrir la meilleure réponse aux exigences de nos clients.");
@@ -562,6 +562,17 @@ $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_6,"Traitement de la solli
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_7,"Une phase d’analyse validée par le client");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_8,"Un binôme chargé d’affaires/correspondant qualité sur chaque étude");
 
+$DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H2, "Notre politique RSE");
+$DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_1, "Aujourd’hui ETIC INSA Technologies s’engage dans une démarche de responsabilité sociale et environnementale  en plaçant ces nouveaux enjeux de notre société au cœur de sa stratégie. Nous mettons en place des actions au quotidien afin de faire partager notre engagement avec le plus de personnes possibles, nos clients,  nos membres, notre école, nos partenaires et tout le mouvement des Junior-Entreprises.");
+$DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_TEXTE, "Nos engagements :");
+$DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_2, "Accompagner l'innovation en RSE en aidant les entreprises à mener à bien leurs projets.");
+$DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_3, "Conseiller les professionnels afin de faire évoluer leurs projets et leur entreprise vers un plus grand respect des Hommes et de l'environnement.");
+$DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_4, "Collaborer avec la fondation du groupe INSA, qui a pour but de mettre en relation les chercheurs de l'INSA et les entreprises pour les accompagner dans leur démarche RSE.");
+$DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_5, "Mettre en place des actions en interne : management inclusif, tri sélectif, économies d'énergie, diversité, égalité des chances...");
+$DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_6, "Sensibiliser nos membres aux enjeux RSE et leur faire vivre une expérience qui leur donnera envie d'impacter en positif l'entreprise où ils travailleront demain, car la Junior-Entreprise est l'école de l'entreprise et nous voulons qu'ils apprennent ce qu'est une entreprise humaniste.");
+$DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_7, "Faire prendre conscience à tous les étudiants de l'INSA Lyon et d'ailleurs des enjeux de l'entreprise de demain.");
+$DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_8, "Etre précurseurs dans le mouvement des Junior-Entreprises et inspirer les autres à nous rejoindre dans cette dynamique, à la portée de chaque Junior-Entrepreneur.");
+
 $DICT_FR->translate(StringIdentifier::SID_PRESIDENT_H1,"Le mot de la présidente");
 $DICT_FR->translate(StringIdentifier::SID_PRESIDENT_P,"Créée en 1981, ETIC INSA Technologies est la Junior-Entreprise de l’INSA Lyon. Depuis plus de 35 ans, engagement, réactivité et qualité sont les maîtres mots d’ETIC et l’ensemble de notre équipe s’engage quotidiennement pour vous, selon ces valeurs. 
  <br>Le soutien de nos partenaires ainsi que la formation d’excellence de l’INSA Lyon dans plus de 10 domaines de l’ingénierie nous permettent de vous proposer des services pluridisciplinaires de haute qualité. Meilleure Junior-Entreprise de France en 2016, nous nous distinguons de nouveau cette année grâce à notre qualité de gestion de projet ainsi que nos compétences techniques de pointe. Interlocuteur de choix pour vous accompagner dans vos projets, nous sommes fiers de mettre à votre disposition plus de 40 collaborateurs ainsi que 3 000 consultants experts potentiels.");
@@ -570,7 +581,7 @@ $DICT_FR->translate(StringIdentifier::SID_BUREAU,"Le bureau");
 $DICT_FR->translate(StringIdentifier::SID_CA,"Le conseil d'administration");
 $DICT_FR->translate(StringIdentifier::SID_EQUIPES,"Nos équipes");
 
-$DICT_FR->translate(StringIdentifier::SID_DSI,"DSI");
+$DICT_FR->translate(StringIdentifier::SID_DSI,"SI");
 $DICT_FR->translate(StringIdentifier::SID_QUALITE,"Performance");
 $DICT_FR->translate(StringIdentifier::SID_UA,"Unité d'Affaires");
 $DICT_FR->translate(StringIdentifier::SID_GRC,"Relation Client");
@@ -630,7 +641,7 @@ $DICT_FR->translate(StringIdentifier::SID_VP,"Vice-Président");
 $DICT_FR->translate(StringIdentifier::SID_SG,"Secrétaire Générale");
 $DICT_FR->translate(StringIdentifier::SID_TRESO,"Trésorière");
 $DICT_FR->translate(StringIdentifier::SID_VTRESO,"Vice-Trésorier");
-$DICT_FR->translate(StringIdentifier::SID_RESP_DSI,"Responsable DSI");
+$DICT_FR->translate(StringIdentifier::SID_RESP_DSI,"Responsable des SI");
 $DICT_FR->translate(StringIdentifier::SID_RESP_QUALITE,"Responsable Performance");
 $DICT_FR->translate(StringIdentifier::SID_RESP_UA_V, "Responsable Ventes");
 $DICT_FR->translate(StringIdentifier::SID_RESP_UA_RM, "Responsable Réalisation");

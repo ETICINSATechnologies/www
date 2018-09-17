@@ -488,7 +488,7 @@ $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_INSA, "INSA de Lyon");
 $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_CNJE, "Confédération Nationale des Junior-Entreprises");
 $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_EMLYON, "EM Lyon Junior Conseil");
 $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_JUNIORINSA, "Juniors INSA");
-$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_JEUNESLYON, "Jeunes Lyon");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_JEUNESLYON, "Junior-Entreprises Lyonnaises");
 
 $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_AMARIS_TEXT, "Amaris is an international technology and management consulting firm
 growing at a very fast rate and providing innovative solutions to rather
@@ -543,19 +543,19 @@ $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_JUNIORINSA_TEXT, " As a gr
 
                 </br></br>With more than 40 specialties, designed around an education of excellence backed by cutting-edge scientific research. We offer services in a variety of areas, including computer and safety, mechanics, materials engineering, mathematics and many more.
 ");
-$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_JEUNESLYON_TEXT, "A network of the Lyons urban area, the Jeunes Lyon are the association of 7 Junior-Entreprises of Lyon. The Junior-Enterprises of the emlyon business school, ESDES, IAE Lyon, INSA Lyon, ISARA, Lyon 2, and Sciences Po Lyon have joined forces to offer a broader range of skills to our customers. The group promotes the brand and movement of Junior Enterprises in the Lyon area.");
-
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_JEUNESLYON_TEXT, "
+A network of the Lyon urban area, Junior-Entreprises Lyonnaises is the association of 8 Junior-Entreprises Lyon. Centrale Rhône-Alpes, emlyon business school, ESDES, IAE Lyon, INSA Lyon, ISARA, Lyon 2, and Sciences Po Lyon have joined together to offer a wider range of skills to our customers. The group promotes the brand and movement of Junior Enterprises in the Lyon area.");
 $DICT_EN->translate(StringIdentifier::SID_VALEURS_H1, "Our values");
-$DICT_EN->translate(StringIdentifier::SID_VALEURS_1, "Reliability");
-$DICT_EN->translate(StringIdentifier::SID_VALEURS_2, "Opening");
+$DICT_EN->translate(StringIdentifier::SID_VALEURS_1, "Humanism");
+$DICT_EN->translate(StringIdentifier::SID_VALEURS_2, "Excellency");
 $DICT_EN->translate(StringIdentifier::SID_VALEURS_3, "Commitment");
-$DICT_EN->translate(StringIdentifier::SID_VALEURS_4, "Boldness");
-$DICT_EN->translate(StringIdentifier::SID_VALEURS_5, "Personal Development");
-$DICT_EN->translate(StringIdentifier::SID_VALEURS_P_1, "Our reliability is reflected in the rigor shown by our employees");
-$DICT_EN->translate(StringIdentifier::SID_VALEURS_P_2, "Our teams can work on all types of projects, whatever their size");
-$DICT_EN->translate(StringIdentifier::SID_VALEURS_P_3, "We commit ourselves and mobilize our teams to reach or exceed your expectations");
-$DICT_EN->translate(StringIdentifier::SID_VALEURS_P_4, "We are continually working to improve our services and methods");
-$DICT_EN->translate(StringIdentifier::SID_VALEURS_P_5, "This value reflects the investment and motivation of our teams");
+$DICT_EN->translate(StringIdentifier::SID_VALEURS_4, "Opening");
+$DICT_EN->translate(StringIdentifier::SID_VALEURS_5, "Overtaking");
+$DICT_EN->translate(StringIdentifier::SID_VALEURS_P_1, "Who keeps the human at the center of the system");
+$DICT_EN->translate(StringIdentifier::SID_VALEURS_P_2, "In a process of continuous improvement to make ETIC always more efficient");
+$DICT_EN->translate(StringIdentifier::SID_VALEURS_P_3, "With our partners, the movement, our school and our customers, but also with the issues of our time");
+$DICT_EN->translate(StringIdentifier::SID_VALEURS_P_4, "To all the opportunities presented to ETIC, a J.E. which guarantees equal opportunities");
+$DICT_EN->translate(StringIdentifier::SID_VALEURS_P_5, "In order not to take anything for granted and aim always further");
 
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H1, "Our quality method");
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_1, "ETIC INSA Technologies wishes to provide high quality services to its clients in order to make sure of the good implementation of the project it is entrusted with, respecting determined deadlines and specifications. By doing so, it gives its members, engineering students, a high performing structure that allows them to learn and confront the real requirements of the professional world, while preserving a good mood for everyone.");
@@ -568,6 +568,17 @@ $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_5,"Mastery of the deliver
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_6,"Solicitation treated in 24h");
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_7,"An analysis phase validated by the client");
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_8,"A pair : chargé d’affaires/quality correspondent for each project");
+
+$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H2, "Our CSR policy");
+$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_1, "Today ETIC INSA Technologies is committed to a social and environmental responsibility approach by placing these new challenges of our society at the heart of its strategy. We implement actions on a daily basis to share our commitment with as many people as possible, our customers, our members, our school, our partners and the entire movement of Junior-Enterprises.");
+$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_TEXTE, "Our engagements :");
+$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_2, "Support innovation in CSR by helping companies to carry out their projects.");
+$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_3, "To advise the professionals in order to evolve their projects and their company towards a greater respect of the Men and the environment.");
+$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_4, "Collaborate with the INSA group foundation, which aims to connect INSA researchers and companies to support them in their CSR approach.");
+$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_5, "Implement actions internally: inclusive management, selective sorting, energy saving, diversity, equal opportunities ...");
+$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_6, "Sensitize our members to CSR issues and give them an experience that will make them want to have a positive impact on the company where they will work tomorrow, because the Junior-Entreprise is the school of the company and we want them to learn this what is a humanist enterprise.");
+$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_7, "Make all students at INSA Lyon and elsewhere aware of the challenges of tomorrow's business.");
+$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_8, "Be precursors in the movement of Junior-Enterprises and inspire others to join us in this dynamic, within reach of each Junior-Entrepreneur.");
 
 $DICT_EN->translate(StringIdentifier::SID_PRESIDENT_H1,"The president's words");
 $DICT_EN->translate(StringIdentifier::SID_PRESIDENT_P,"Created in 1981, ETIC INSA Technologies is INSA Lyon's Junior-Entreprise. For more than 35 years, engagement, responsiveness and quality are ETIC's keywords, and the whole team are investing following these values.

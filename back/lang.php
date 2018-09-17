@@ -257,11 +257,12 @@ class StringIdentifier {
     const SID_VALEURS_P_4 = "{VALEURS_P_4}";
     const SID_VALEURS_P_5 = "{VALEURS_P_5}";
 	const SID_ENGAGEMENT_H1 = "{ENGAGEMENT_H1}";
+	const SID_ENGAGEMENT_H2 = "{ENGAGEMENT_H2}";
 	const SID_ENGAGEMENT_P_1 = "{ENGAGEMENT_P_1}";
 	const SID_ENGAGEMENT_P_2 = "{ENGAGEMENT_P_2}";
-
 	const SID_ENGAGEMENT_H2_1 = "{ENGAGEMENT_H2_1}";
 	const SID_ENGAGEMENT_H2_2 = "{ENGAGEMENT_H2_2}";
+	const SID_ENGAGEMENT_H2_P_1 = "{ENGAGEMENT_H2_P_1}";
 	const SID_ENGAGEMENT_P_3 = "{ENGAGEMENT_P_3}";
 	const SID_ENGAGEMENT_P_4 = "{ENGAGEMENT_P_4}";
 	const SID_ENGAGEMENT_P_5 = "{ENGAGEMENT_P_5}";
@@ -269,7 +270,16 @@ class StringIdentifier {
 	const SID_ENGAGEMENT_P_7 = "{ENGAGEMENT_P_7}";
 	const SID_ENGAGEMENT_P_8 = "{ENGAGEMENT_P_8}";
 
-	const SID_PRESIDENT_H1 = "{PRESIDENT_H1}";
+	const SID_ENGAGEMENT_TEXTE = "{ENGAGEMENT_TEXTE}";
+	const SID_ENGAGEMENT_H2_P_2 = "{ENGAGEMENT_H2_P_2}";
+	const SID_ENGAGEMENT_H2_P_3 = "{ENGAGEMENT_H2_P_3}";
+	const SID_ENGAGEMENT_H2_P_4 = "{ENGAGEMENT_H2_P_4}";
+	const SID_ENGAGEMENT_H2_P_5 = "{ENGAGEMENT_H2_P_5}";
+	const SID_ENGAGEMENT_H2_P_6 = "{ENGAGEMENT_H2_P_6}";
+	const SID_ENGAGEMENT_H2_P_7 = "{ENGAGEMENT_H2_P_7}";
+	const SID_ENGAGEMENT_H2_P_8 = "{ENGAGEMENT_H2_P_8}";
+
+    const SID_PRESIDENT_H1 = "{PRESIDENT_H1}";
 	const SID_PRESIDENT_P = "{PRESIDENT_P}";
 	const SID_PRESIDENT_SIGN = "{PRESIDENT_SIGN}";
 	const SID_BUREAU = "{BUREAU}";
@@ -671,8 +681,10 @@ class StringIdentifier {
         StringIdentifier::SID_VALEURS_P_4,
         StringIdentifier::SID_VALEURS_P_5,
 		StringIdentifier::SID_ENGAGEMENT_H1,
+		StringIdentifier::SID_ENGAGEMENT_H2,
 		StringIdentifier::SID_ENGAGEMENT_P_1,
 		StringIdentifier::SID_ENGAGEMENT_P_2,
+		StringIdentifier::SID_ENGAGEMENT_H2_P_1,
 		StringIdentifier::SID_ENGAGEMENT_H2_1,
 		StringIdentifier::SID_ENGAGEMENT_P_3,
 		StringIdentifier::SID_ENGAGEMENT_P_4,
@@ -681,6 +693,15 @@ class StringIdentifier {
 		StringIdentifier::SID_ENGAGEMENT_P_6,
 		StringIdentifier::SID_ENGAGEMENT_P_7,
 		StringIdentifier::SID_ENGAGEMENT_P_8,
+
+		StringIdentifier::SID_ENGAGEMENT_TEXTE,
+		StringIdentifier::SID_ENGAGEMENT_H2_P_2,
+		StringIdentifier::SID_ENGAGEMENT_H2_P_3,
+		StringIdentifier::SID_ENGAGEMENT_H2_P_4,
+		StringIdentifier::SID_ENGAGEMENT_H2_P_5,
+		StringIdentifier::SID_ENGAGEMENT_H2_P_6,
+		StringIdentifier::SID_ENGAGEMENT_H2_P_7,
+		StringIdentifier::SID_ENGAGEMENT_H2_P_8,
 
 		StringIdentifier::SID_PARTENAIRES_1,
 		StringIdentifier::SID_PARTENAIRES_2,
