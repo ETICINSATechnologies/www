@@ -74,7 +74,6 @@ function submit() {
 }
 
 function check_input() {
-	console.log("eeeeeeeeeeee");
 	// test des entrées requises
 	var in_lastname 	= $("#in_lastname").val();
 	if(!re_test("[A-Za-z\\-\\s]+", in_lastname, function(){
@@ -151,7 +150,21 @@ function field_error(fieldId, error) {
   	});
 }
 
+function gtag_report_conversion(url) {
+    var callback = function () {
+        if (typeof(url) != 'undefined') {
+            window.location = url;
+        }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-870414380/CNR6CIfA-4wBEKzwhZ8D',
+        'event_callback': callback
+    });
+    return false;
+}
+
 function form_success() {
+    gtag_report_conversion();
 	//alert('success');
 	// on ajoute un message d'erreur
 	$('#errors_container').html(
