@@ -57,6 +57,7 @@ function submit() {
 				captcha_code: 	$("#in_captcha").val()
 			},
 			success : function(data, textString, jqXHR){
+
 				obj = JSON.parse(data);
 				if(obj.good) {
 					form_success();
@@ -73,6 +74,7 @@ function submit() {
 }
 
 function check_input() {
+	console.log("eeeeeeeeeeee");
 	// test des entrées requises
 	var in_lastname 	= $("#in_lastname").val();
 	if(!re_test("[A-Za-z\\-\\s]+", in_lastname, function(){
