@@ -59,7 +59,7 @@ Laureate of the Label Technique 1998");
 
 $DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS, "Our services");
 $DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS_SUB, "Many engineering fields");
-$DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS_P, "ETIC INSA Technologies, INSA Lyon's Junior-Entreprise profits school's high level formation in order to profide you a wide panel of activities.
+$DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS_P, "ETIC INSA Technologies, INSA Lyon's Junior-Entreprise profits school's high level formation in order to provide you a wide panel of activities.
  Digital transformation, Mechanical, Electronic, Urban Engineering and many others, Business Development and Marketing, Discover our services and their Business Units.");
 $DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS_DET, "MORE DETAILS");
 
