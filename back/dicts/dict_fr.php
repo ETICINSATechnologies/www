@@ -58,7 +58,7 @@ Lauréat du Label Technique 1998");
 
 $DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS, "Nos services");
 $DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_SUB, "De nombreux domaines d'ingénierie");
-$DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_P, "ETIC INSA Technologies, Junior-Entreprise de l’INSA Lyon bénéficie du haut niveau de formation de cette école afin de vous proposer un large panel de prestations. Transformation numérique, Ingénierie mécanique, électronique, urbaine et bien d’autres et Développement business et marketing, découvrez nos offres et leur Business Units.");
+$DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_P, "ETIC INSA Technologies, Junior-Entreprise de l’INSA Lyon bénéficie du haut niveau de formation de cette école afin de vous proposer un large panel de prestations. Transformation numérique, Ingénierie mécanique, électronique, urbaine et bien d’autres. Découvrez nos offres et leur Business Units.");
 $DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_DET, "PLUS DE DETAILS");
 
 $DICT_FR->translate(StringIdentifier::SID_HOME_TRUST, "ILS NOUS ONT FAIT CONFIANCE");
