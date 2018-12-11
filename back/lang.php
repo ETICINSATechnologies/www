@@ -257,6 +257,7 @@ class StringIdentifier {
     const SID_VALEURS_P_4 = "{VALEURS_P_4}";
     const SID_VALEURS_P_5 = "{VALEURS_P_5}";
 	const SID_ENGAGEMENT_H1 = "{ENGAGEMENT_H1}";
+	const SID_MISSION_H1 = "{MISSION_H1}";
 	const SID_ENGAGEMENT_H2 = "{ENGAGEMENT_H2}";
 	const SID_ENGAGEMENT_P_1 = "{ENGAGEMENT_P_1}";
 	const SID_ENGAGEMENT_P_2 = "{ENGAGEMENT_P_2}";
@@ -269,6 +270,7 @@ class StringIdentifier {
 	const SID_ENGAGEMENT_P_6 = "{ENGAGEMENT_P_6}";
 	const SID_ENGAGEMENT_P_7 = "{ENGAGEMENT_P_7}";
 	const SID_ENGAGEMENT_P_8 = "{ENGAGEMENT_P_8}";
+	const SID_MISSION = "{MISSION}";
 
 	const SID_ENGAGEMENT_TEXTE = "{ENGAGEMENT_TEXTE}";
 	const SID_ENGAGEMENT_H2_P_2 = "{ENGAGEMENT_H2_P_2}";
@@ -693,6 +695,9 @@ class StringIdentifier {
 		StringIdentifier::SID_ENGAGEMENT_P_6,
 		StringIdentifier::SID_ENGAGEMENT_P_7,
 		StringIdentifier::SID_ENGAGEMENT_P_8,
+
+        StringIdentifier::SID_MISSION_H1,
+        StringIdentifier::SID_MISSION,
 
 		StringIdentifier::SID_ENGAGEMENT_TEXTE,
 		StringIdentifier::SID_ENGAGEMENT_H2_P_2,
