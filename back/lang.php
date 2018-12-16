@@ -938,6 +938,7 @@ class StringIdentifier {
     const LINK_ARTICLE_3 = "{LINK_ARTICLE_3}";
     const LINK_ARTICLE_4 = "{LINK_ARTICLE_4}";
     const LINK_ARTICLE_5 = "{LINK_ARTICLE_5}";
+    const LINK_ARTICLE_6 = "{LINK_ARTICLE_6}";
 
     const LINK_INGENIERIE = "{LINK_INGENIERIE}";
     const LINK_NUMERIQUE = "{LINK_NUMERIQUE}";
@@ -985,6 +986,7 @@ class StringIdentifier {
         StringIdentifier::LINK_ARTICLE_3,
         StringIdentifier::LINK_ARTICLE_4,
         StringIdentifier::LINK_ARTICLE_5,
+        StringIdentifier::LINK_ARTICLE_6,
 
         StringIdentifier::LINK_INGENIERIE,
         StringIdentifier::LINK_NUMERIQUE,

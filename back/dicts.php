@@ -39,6 +39,7 @@ $links->translate(StringIdentifier::LINK_ARTICLE_2, "page.php?page=jewc");
 $links->translate(StringIdentifier::LINK_ARTICLE_3, "page.php?page=infographie_anciens");
 $links->translate(StringIdentifier::LINK_ARTICLE_4, "page.php?page=caracterisation_thermique");
 $links->translate(StringIdentifier::LINK_ARTICLE_5, "page.php?page=rse_etic");
+$links->translate(StringIdentifier::LINK_ARTICLE_6, "page.php?page=temoignage_ancien");
 
 $links->translate(StringIdentifier::LINK_REA_WEB, "page.php?page=subcategory_websites");
 $links->translate(StringIdentifier::LINK_REA_MOBILE,"page.php?page=subcategory_mobile");
