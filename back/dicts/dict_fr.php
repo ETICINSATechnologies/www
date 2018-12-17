@@ -69,6 +69,48 @@ raison de notre activité.<br/> Voici quelques-uns de leurs témoignages");
 $DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_H1, "Palmarès");
 $DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_SUB, "Une Junior-Entrepreprise performante sur la durée");
 
+
+$DICT_FR->translate(StringIdentifier::SID_JEWC_HEADER,"<div class=\"ui middle aligned grid stackable container\">
+    <div class=\"row\">
+        <div class=\"sixteen wide column\">
+            <div class=\"ui center aligned article-title darkgreen\">
+                Retours sur le JEWC, congrès ayant réuni à Lyon des Junior-Entrepreneurs du monde entier !
+            </div>
+        </div>
+        <div class=\"sixteen wide column\">
+            <div class=\"ui center aligned article-subtitle lightgreen\">
+                Par le Conseil d'Administration | 28 août 2018
+            </div>
+        </div>
+        <div class=\"sixteen wide column center aligned\" style=\"margin: 10px;\">
+            <div class=\"fb-share-button\" data-href=\"{LINK_ARTICLE_2}\" data-layout=\"button\" data-size=\"small\"
+                 data-mobile-iframe=\"true\" style=\"margin-right: 10px;\"><a target=\"_blank\"
+                                                                          href=\"https://www.facebook.com/sharer/sharer.php?u={LINK_ARTICLE_2}&amp;src=sdkpreparse\"
+                                                                          class=\"fb-xfbml-parse-ignore\">{FB_BUTTON}</a>
+            </div>
+
+            <a href=\"https://twitter.com/share?ref_src=twsrc%5Etfw\" class=\"twitter-share-button\"
+               data-show-count=\"false\">Tweet</a>
+
+        </div>
+    </div>");
+$DICT_FR->translate(StringIdentifier::SID_JEWC_IMG,"<div class=\"row\">
+        <div class=\"sixteen wide column\">
+            <img class=\"ui centered large image\" src=\"./front/assets/article/article2_jewc/jewc.jpg\"
+                 alt=\"logo\"
+                 style=\"margin-bottom: 5%\">
+        </div>
+    </div>");
+$DICT_FR->translate(StringIdentifier::SID_JEWC_P1,"Plus de 20 000 étudiants uniquement en France travaillent avec des professionnels chaque année pour donner vie à leurs projets en mettant en application les cours qu’ils reçoivent dans leurs établissements d’enseignement supérieur. On appelle ces étudiants des Junior-Entrepreneurs.");
+$DICT_FR->translate( StringIdentifier::SID_JEWC_P2,"Le concept de Junior-Entreprise né en France en 1967 s’est étendu à une grande partie du monde en 50 ans ! Tous les deux ans, un rassemblement international des Juniors-Entrepreneurs a lieu. Cet été, il a eu lieu dans notre école, à l’INSA Lyon. Découvrez les témoignages de nos 5 ETICiens présents à cet événement :");
+$DICT_FR->translate(StringIdentifier::SID_JEWC_P3,"« Le JEWC nous a permis de nous rendre compte de l’ampleur du mouvement des Junior-Entreprises dans le monde. Nous avons pu échanger sur les réglementations auxquelles sont soumises les Junior-Entreprises selon le pays dans lequel elles sont implantées. Il était intéressant de voir que le cadre légal, qui protège et rend plus performantes les Junior-Entreprises françaises, n’était pas le même partout. » - Maïlys Pascail");
+$DICT_FR->translate( StringIdentifier::SID_JEWC_P4," «  C’était un événement riche en rencontres et en découvertes. J’ai eu l’occasion de rencontrer des Junior-Entrepreneurs italiens, allemands, espagnols et brésiliens ! Nous avons pu discuter entre nous et échanger de précieux conseils.
+            Le concept de Junior-Entreprise s’étend de plus en plus et pourrait intéresser des professionnels ou des particuliers à travers le monde entier. En effet, il y a selon moi plusieurs avantages à travailler avec une Junior-Entreprise : le service, la proximité et la disponibilité que l’étudiant apporte. De plus, grâce au grand panel d’écoles possédant une telle structure, il est possible de trouver la Junior-Entreprise qui répondra parfaitement à son besoin ! » - Feriel Ben Marzouk");
+$DICT_FR->translate(StringIdentifier::SID_JEWC_P5,"« Le JEWC rassemble autour du même sujet des étudiants venant du monde entier. Les Junior-Entreprises sont présentes dans énormément de pays et c’est incroyable de voir à quel point chaque structure est unique. Les décisions du Global Council lors de cet événement renforcent davantage notre mouvement et permettent de garantir encore plus la satisfaction de nos clients. » - Elliot Trabac");
+$DICT_FR->translate(StringIdentifier::SID_JEWC_P6,"« Lyon, pendant 4 jours, a accueilli des Junior-Entrepreneurs d'horizons très différents partageant pourtant la même volonté de concrétiser des projets professionnels. Chaque mouvement local se développe dans son environnement grâce à son engagement dans l’école, la vie politique ou auprès des jeunes de la région. Par exemple, au Brésil les Junior-Entreprises contribuent au développement économique du pays. C’est impressionnant de constater qu’à travers le monde les structures doivent faire face à des problématiques très différentes de celles que nous pouvons rencontrer en France.   » - Justine Lhuillier");
+$DICT_FR->translate(StringIdentifier::SID_JEWC_P7,"« Ces quatre jours de congrès ont été une parenthèse extraordinaire dans notre quotidien d’élèves ingénieurs Junior-Entrepreneurs. Nous avons rencontré des personnes venues du monde entier avec toutes une vision bien spécifique du monde des J.E., de la place qu’elles occupent dans leur pays ou encore de l’entreprise de demain.
+            De l’intelligence artificielle à l’entreprise RSE du futur, les formations dispensées par les Junior-Entreprises et les intervenants proposaient d’échanger sur les enjeux actuels de nos sociétés et de confronter les différents points de vue des pays, écoles et cultures. Nous retiendrons de cet évènement que c’est en travaillant et en échangeant ensemble que nous construirons le monde de demain. Mais aussi que la peur de l’inconnu et la peur d’échouer ne doivent plus nous freiner dans nos projets et dans notre vie : faites de ces peurs un moteur et surpassez-vous ! #WeAreJE #WeGenerateImpact #BeyondBorders. » - Charlotte Diroux");
+
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_H2_1, "Votre demande");
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_H2_2, "Proposition commerciale");
 $DICT_FR->translate(StringIdentifier::SID_ETUDE_H2_3, "Facture d'acompte");
@@ -178,7 +220,6 @@ $DICT_FR->translate(StringIdentifier::SID_ENGINEERING_SGM_TEXT, "Les consultants
 
 $DICT_FR->translate(StringIdentifier::SID_ENGINEERING_GE, "Génie Électrique");
 $DICT_FR->translate(StringIdentifier::SID_ENGINEERING_GE_TEXT, "L’électricité est présente partout dans notre société et est l’élément central des projets innovants");
-
 
 
 
@@ -987,3 +1028,39 @@ $DICT_FR->translate(StringIdentifier::SID_NEXT_READ, "A lire ensuite");
 $DICT_FR->translate(StringIdentifier::SID_READ_MORE, "Lire la suite");
 
 $DICT_FR->translate(StringIdentifier::SID_FB_BUTTON, "Partager");
+
+$DICT_FR->translate(StringIdentifier::SID_ETIC_RSE_SOUS_TITRE,"Notre Vision RSE à ETIC");
+$DICT_FR->translate(StringIdentifier::SID_ETIC_RSE_AUTEUR_DATE, "Par le Conseil d'Administration | 22 novembre 2018");
+$DICT_FR->translate(StringIdentifier::SID_ETIC_RSE_P1, "Se réinventer chaque jour. Être acteur de l’avenir en sortant des rangs, en croyant en l’Homme avant de croire en la technique, en aimant la technique non pas pour créer une société artificielle mais en l’aimant comme levier du progrès. En restant toujours humble face à la science mais en promettant de faire œuvre à notre rythme sans jamais nous résigner. Voilà l’incroyable héritage que nous a légué le fondateur de l’INSA, Gaston Berger. Plus qu’une aspiration, c’est un devoir envers la société qu’il nous confie. Prospective et Humanisme. Deux mots pour un modèle unique. Prospective pour la préparation du futur, Humanisme pour ne jamais oublier que la seule chose qui mérite d’être au cœur du système est l’Homme.");
+$DICT_FR->translate(StringIdentifier::SID_ETIC_RSE_P2, " Sans avoir l’audace de considérer comme acquise cette sagesse, les valeurs de Gaston Berger sont inscrites dans notre ADN d’ingénieurs INSA. Notre éducation et notre vie INSAliennes nous ont appris à comprendre, à challenger et à partager cette philosophie afin de construire le monde de demain. Mais si nous sommes des ingénieurs différents et engagés, nous ne le sommes pas que dans nos études, nous le sommes aussi en tant que personne, au quotidien, dans nos actions et nos projets.");
+$DICT_FR->translate(StringIdentifier::SID_ETIC_RSE_P3,  "ETIC INSA Technologies s’est construite sur ce modèle, collectivement, avec audace et humilité, et a su tirer le meilleur de chaque mandat qui l’a portée depuis 1981. Il en ressort une richesse exceptionnelle de nos processus ainsi qu’une volonté de qualité et de bienveillance envers toutes nos parties prenantes. Nous croyons en la RSE et nous voulons en être acteurs : ETIC INSA Technologies est une Junior-Entreprise Humaniste, résultat de la fusion du modèle Junior-Entrepreneur et de l’ADN si particulier de l’INSA Lyon.");
+$DICT_FR->translate(StringIdentifier::SID_ETIC_RSE_P4,  "C’est pourquoi nous avons choisi cette année de créer notre propre Système de Management de la RSE. Nous avons également choisi, de ne pas faire auditer notre démarche par un organisme extérieur car il s’agit d’un investissement financier important, actuellement peu pertinent pour notre structure. D’une part, nous avons accès gratuitement à toutes les normes ISO et à des personnes compétentes en RSE grâce à l’Institut Gaston Berger (IGB), structure chargée de garantir, projeter et valoriser le modèle INSA. D’autre part, nous préférons sensibiliser nos successeurs aux enjeux sociaux et environnementaux afin que la poursuite ou non de notre démarche soit un choix personnel et non une obligation, prévenant ainsi les potentielles dérives vers des actions de Green Washing.");
+$DICT_FR->translate(StringIdentifier::SID_ETIC_RSE_P5,    " <div class=\"row\">
+            <div class=\"ui center aligned article-subtitle\">
+                <bold class=\"centered\">Actions mises en place et axes de travail</bold>
+            </div>
+            <div class=\"sixteen wide column\">
+                <img class=\"ui centered image\" src=\"./front/assets/article/article5_rse/rse.png\"
+                     alt=\"logo\"
+                     style=\"margin-bottom: 0%\">
+            </div>
+        </div>
+        " );
+$DICT_FR->translate(StringIdentifier::SID_ETIC_RSE_COTENT,"<div class=\"row sixteen wide column\">
+        <a class=\"ui olive card centered article-card\" href=\"{LINK_ARTICLE_4}\" style=\"width: 400px; margin-bottom: 50px;\">
+            <div class=\"image\">
+                <img alt=\"img\" style=\"\" src=\"./front/assets/article/article4_thermique/labo.jpg\">
+            </div>
+            <div class=\"content\">
+                <div class=\"fly left\" style=\"margin-bottom: 10px;\">
+                    {NEXT_READ}
+                </div>
+                <span class=\"right floated center aligned header darkgreen\">
+                    Caractérisation thermique de matériaux composites dédiés au stockage de chaleur par réaction chimique pour des applications dans le domaine du bâtiment
+                </span>
+
+            </div>
+
+        </a>
+
+    </div>");

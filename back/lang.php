@@ -115,6 +115,16 @@ class StringIdentifier {
 	const SID_HOME_PALMARES_H1 = "{HOME_PALMARES_H1}";
 	const SID_HOME_PALMARES_SUB = "{HOME_PALMARES_SUB}";
 
+    const SID_JEWC_HEADER ="{JEWC_HEADER}";
+    const SID_JEWC_IMG ="{JEWC_IMG}";
+    const SID_JEWC_P1 ="{JEWC_P1}";
+    const SID_JEWC_P2 ="{JEWC_P2}";
+    const SID_JEWC_P3 ="{JEWC_P3}";
+    const SID_JEWC_P4 ="{JEWC_P4}";
+    const SID_JEWC_P5 ="{JEWC_P5}";
+    const SID_JEWC_P6 ="{JEWC_P6}";
+    const SID_JEWC_P7 ="{JEWC_P7}";
+
 
 
 	const SID_ETUDE_H2_1 = "{ETUDE_H2_1}"; // premier titre de niveau 2 de la page  déroulement d'une étude
@@ -466,6 +476,16 @@ class StringIdentifier {
 
     const SID_FB_BUTTON = "{FB_BUTTON}";
 
+    const SID_ETIC_RSE_SOUS_TITRE= "{ETIC_RSE_SOUS_TITRE}";
+    const SID_ETIC_RSE_P1="{ETIC_RSE_P1}";
+    const SID_ETIC_RSE_P2="{ETIC_RSE_P2}" ;
+    const SID_ETIC_RSE_P3="{ETIC_RSE_P3}" ;
+    const SID_ETIC_RSE_P4="{ETIC_RSE_P4}" ;
+    const SID_ETIC_RSE_P5 ="{ETIC_RSE_P5}";
+    const SID_ETIC_RSE_AUTEUR_DATE="{ETIC_RSE_AUTEUR_DATE}";
+    const SID_ETIC_RSE_COTENT="{ETIC_RSE_COTENT}";
+
+
 	// tableau des identifiants
 	const SIDS = array(
 	    StringIdentifier::SID_LANGUAGE,
@@ -565,6 +585,16 @@ class StringIdentifier {
         StringIdentifier::SID_HOME_TEMOIGNAGE_SUB,
 		StringIdentifier::SID_HOME_PALMARES_H1,
 		StringIdentifier::SID_HOME_PALMARES_SUB,
+
+        StringIdentifier::SID_JEWC_HEADER,
+        StringIdentifier::SID_JEWC_IMG,
+        StringIdentifier::SID_JEWC_P1,
+        StringIdentifier::SID_JEWC_P2,
+        StringIdentifier::SID_JEWC_P3,
+        StringIdentifier::SID_JEWC_P4,
+        StringIdentifier::SID_JEWC_P5,
+        StringIdentifier::SID_JEWC_P6,
+        StringIdentifier::SID_JEWC_P7,
 
 
 		StringIdentifier::SID_ETUDE_H2_1,
@@ -910,7 +940,18 @@ class StringIdentifier {
         StringIdentifier::SID_NEXT_READ,
         StringIdentifier::SID_READ_MORE,
 
-        StringIdentifier::SID_FB_BUTTON
+        StringIdentifier::SID_FB_BUTTON,
+
+        StringIdentifier::SID_ETIC_RSE_SOUS_TITRE,
+        StringIdentifier::SID_ETIC_RSE_P1,
+        StringIdentifier::SID_ETIC_RSE_P2,
+        StringIdentifier::SID_ETIC_RSE_P3,
+        StringIdentifier::SID_ETIC_RSE_P4,
+        StringIdentifier::SID_ETIC_RSE_P5,
+        StringIdentifier::SID_ETIC_RSE_AUTEUR_DATE,
+        StringIdentifier::SID_ETIC_RSE_COTENT
+
+
 
 		);
 
@@ -960,6 +1001,9 @@ class StringIdentifier {
     const LINK_ENERGIE = "{LINK_ENERGIE}";
     const LINK_ELECTRIQUE = "{LINK_ELECTRIQUE}";
 
+
+
+
 	const LINKS = array(
 		StringIdentifier::LINK_DEVIS,
 		StringIdentifier::LINK_HOME,
@@ -1005,7 +1049,7 @@ class StringIdentifier {
         StringIdentifier::LINK_SCIENCE_MATERIAUX,
         StringIdentifier::LINK_ENVIRONNEMENT,
         StringIdentifier::LINK_ENERGIE,
-        StringIdentifier::LINK_ELECTRIQUE
+        StringIdentifier::LINK_ELECTRIQUE,
 		);
 }
 
