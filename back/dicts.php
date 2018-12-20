@@ -40,6 +40,7 @@ $links->translate(StringIdentifier::LINK_ARTICLE_3, "page.php?page=infographie_a
 $links->translate(StringIdentifier::LINK_ARTICLE_4, "page.php?page=caracterisation_thermique");
 $links->translate(StringIdentifier::LINK_ARTICLE_5, "page.php?page=rse_etic");
 
+
 $links->translate(StringIdentifier::LINK_REA_WEB, "page.php?page=subcategory_websites");
 $links->translate(StringIdentifier::LINK_REA_MOBILE,"page.php?page=subcategory_mobile");
 $links->translate(StringIdentifier::LINK_CREA_LOGICIEL,"page.php?page=subcategory_software");
