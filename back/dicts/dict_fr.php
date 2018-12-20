@@ -58,7 +58,7 @@ Lauréat du Label Technique 1998");
 
 $DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS, "Nos services");
 $DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_SUB, "De nombreux domaines d'ingénierie");
-$DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_P, "ETIC INSA Technologies, Junior-Entreprise de l’INSA Lyon bénéficie du haut niveau de formation de cette école afin de vous proposer un large panel de prestations. Transformation numérique, Ingénierie mécanique, électronique, urbaine et bien d’autres et Développement business et marketing, découvrez nos offres et leur Business Units.");
+$DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_P, "ETIC INSA Technologies, Junior-Entreprise de l’INSA Lyon bénéficie du haut niveau de formation de cette école afin de vous proposer un large panel de prestations. Transformation numérique, Ingénierie mécanique, électronique, urbaine et bien d’autres. Découvrez nos offres et leur Business Units.");
 $DICT_FR->translate(StringIdentifier::SID_HOME_SKILLS_DET, "PLUS DE DETAILS");
 
 $DICT_FR->translate(StringIdentifier::SID_HOME_TRUST, "ILS NOUS ONT FAIT CONFIANCE");
@@ -551,6 +551,7 @@ $DICT_FR->translate(StringIdentifier::SID_VALEURS_P_3, "Auprès de nos partenair
 $DICT_FR->translate(StringIdentifier::SID_VALEURS_P_4, "Vers toutes les opportunités qui se présentent à ETIC, une J.E. qui garantit l'égalité des chances");
 $DICT_FR->translate(StringIdentifier::SID_VALEURS_P_5, "Afin de ne rien considérer comme acquis et de viser toujours plus loin");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H1, "Notre politique qualité");
+$DICT_FR->translate(StringIdentifier::SID_MISSION_H1, "Notre mission");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_1, "ETIC INSA Technologies tient à fournir des <strong>services de qualité</strong> à ses clients afin de leur assurer la réalisation des missions confiées dans les <strong>délais impartis</strong> et le <strong>respect du cahier des charges</strong>. Et ce, en offrant à ses membres, élèves ingénieurs INSA, une <strong>structure performante</strong> qui leur permet d’<strong>apprendre</strong> et de se confronter aux réelles exigences du monde professionnel, le tout dans un climat de <strong>confiance</strong> mutuelle.");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_2, "Pour cela, et depuis maintenant <strong>plus de 30 ans</strong>, ETIC INSA Technologies est <strong>soutenue</strong> et contrôlée par la CNJE (Confédération Nationale des Juniors Entreprises). Une fois par an, la Junior-Entreprise est <strong>auditée sur ses processus</strong>, le suivi des études et la gestion de la trésorerie. La réussite de cet audit est la condition sine qua non au maintien de la marque Junior-Entreprise. De plus, ETIC s’engage aujourd’hui dans une démarche de certification ISO 9001 : 2008, dans le but d'offrir la meilleure réponse aux exigences de nos clients.");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H2_1,"Cette démarche s'articule autour de trois grands axes...");
@@ -561,6 +562,7 @@ $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_5,"Maîtrise du livrable 
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_6,"Traitement de la sollicitation sous 24h");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_7,"Une phase d’analyse validée par le client");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_P_8,"Un binôme chargé d’affaires/correspondant qualité sur chaque étude");
+$DICT_FR->translate(StringIdentifier::SID_MISSION,"<br>ETIC INSA Technologies est une Junior-Entreprise, une association loi 1901 à but non lucratif et à vocation pédagogique et économique.</br> Notre mission : compléter la formation théorique dispensée dans notre établissement d'enseignement supérieur, l'INSA Lyon, par des applications pratiques en entreprise. Le chiffre d’affaires généré permet de rémunérer les consultants ayant réalisé l’aspect technique des missions.</p>");
 
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H2, "Notre politique RSE");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_1, "Aujourd’hui ETIC INSA Technologies s’engage dans une démarche de responsabilité sociale et environnementale  en plaçant ces nouveaux enjeux de notre société au cœur de sa stratégie. Nous mettons en place des actions au quotidien afin de faire partager notre engagement avec le plus de personnes possibles, nos clients,  nos membres, notre école, nos partenaires et tout le mouvement des Junior-Entreprises.");
