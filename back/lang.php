@@ -489,6 +489,13 @@ class StringIdentifier {
     const SID_ETIC_RSE_COTENT="{ETIC_RSE_COTENT}";
 
 
+    const SID_ARTICLE_VOITURE_H1 = "{ARTICLE_VOITURE_H1}";
+    const SID_ARTICLE_VOITURE_CONTENT = "{ARTICLE_VOITURE_CONTENT}";
+    const SID_ARTICLE_VOITURE_H2 = "{ARTICLE_VOITURE_H2}";
+    const SID_ARTICLE_VOITURE_OVERVIEW = "{ARTICLE_VOITURE_OVERVIEW}";
+
+
+    // tableau des identifiants
 
     // article sur la Caracterisation_thermique
     const SID_CARACTERISATION_THERMIQUE_SECTION = "{CARACTERISATION_THERMIQUE_SECTION}";
@@ -1021,9 +1028,15 @@ class StringIdentifier {
 
         //PLAQUETTE
         StringIdentifier::SID_PLAQUETTE_LIEN,
-        StringIdentifier::SID_PLAQUETTE_ONLINE
+        StringIdentifier::SID_PLAQUETTE_ONLINE,
 
 
+        StringIdentifier::SID_FB_BUTTON,
+
+        StringIdentifier::SID_ARTICLE_VOITURE_H1,
+        StringIdentifier::SID_ARTICLE_VOITURE_CONTENT,
+        StringIdentifier::SID_ARTICLE_VOITURE_H2,
+        StringIdentifier::SID_ARTICLE_VOITURE_OVERVIEW
 
 		);
 

@@ -42,6 +42,7 @@ $links->translate(StringIdentifier::LINK_ARTICLE_5, "page.php?page=rse_etic");
 $links->translate(StringIdentifier::LINK_ARTICLE_6, "page.php?page=temoignage_ancien");
 
 
+
 $links->translate(StringIdentifier::LINK_REA_WEB, "page.php?page=subcategory_websites");
 $links->translate(StringIdentifier::LINK_REA_MOBILE,"page.php?page=subcategory_mobile");
 $links->translate(StringIdentifier::LINK_CREA_LOGICIEL,"page.php?page=subcategory_software");
