@@ -988,7 +988,7 @@ class StringIdentifier {
         StringIdentifier::SID_ETIC_RSE_P4,
         StringIdentifier::SID_ETIC_RSE_P5,
         StringIdentifier::SID_ETIC_RSE_AUTEUR_DATE,
-        StringIdentifier::SID_ETIC_RSE_COTENT
+        StringIdentifier::SID_ETIC_RSE_COTENT,
 
 
         StringIdentifier::SID_FB_BUTTON,
