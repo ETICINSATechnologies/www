@@ -995,3 +995,27 @@ $DICT_EN->translate(StringIdentifier::SID_NEXT_READ, "Read next");
 $DICT_EN->translate(StringIdentifier::SID_READ_MORE, "Read more");
 
 $DICT_EN->translate(StringIdentifier::SID_FB_BUTTON, "Share");
+
+$DICT_EN->translate(StringIdentifier::SID_ARTICLE_VOITURE_H1, "Self-driving car : between opportunities and challenges");
+$DICT_EN->translate(StringIdentifier::SID_ARTICLE_VOITURE_H2, "By Jacques Olier, consultant at ETIC INSA Technologies | July 19th 2018");
+$DICT_EN->translate(StringIdentifier::SID_ARTICLE_VOITURE_CONTENT, "
+                    <p class=\"article-paragraph\">
+                        Self-driving cars have been a dream for generations of engineers, but nowadays, the informations about its actual commissioning are getting more and more precise. It is estimated that self-driving vehicles will be put in circulation starting from 2025 in some restricted areas.
+                    </p>
+                    <p class=\"article-paragraph\">
+                        In the mean time, some driving phases (such as highways) will be 100% done by the machine. This paradigm change in cars use will lead to major changes in terms of conception: first, regarding the passenger compartment, which has always been designed around the conductor, whose role will soon disappear. Then, regarding the car on a more general scale; it is going to slowly become an object providing a service (transport) more than a purchase itself.                    </p>
+                    <p class=\"article-paragraph\">
+                        As a result, manufacturers will go from constructors to mobility providers. They have to make their activity evolve as the number of self-driving cars increases. Although, having this much self-driving vehicles on our roads, we must remind ourselves about the concerns around them (more detailed in the White Book on Self-driving and Connected vehicles («Livre Blanc sur les Véhicules Autonomes et Connectés») by the Inria (French Institute for Research in Computer Science and Automation)). Those concerns will condition their apparition: determine the responsibilities in an accident, be able to insure the full capacity of the vehicle to handle every driving situation possible (even the more extreme ones), or also guarantee its safety against cyber attacks (1Go of data is created by the car every second, which then has to communicate with the infrastructures!                    </p>
+                    <p class=\"article-paragraph\">
+                        At the dawn of major transformations, the car industry has to start re-imagining itself in order to accompany the challenges of self-driving cars, and therefore, keeping a profitable business.
+                    </p>
+                    <p class=\"article-paragraph\">
+                        To go further:
+                    <a href=\"https://www.inria.fr/actualite/actualites-inria/livre-blanc-vehicules-autonomes-et-connectes\">Inria publishes its white book about self-driving and connected vehicles</a>
+                    </p>
+                    <br/>
+                    <p class=\"article-signature sixteen wide column\">
+                        By Jacques Olivier, consultant at ETIC INSA Technologies                    
+                    </p>
+                </div>");
+$DICT_EN->translate(StringIdentifier::SID_ARTICLE_VOITURE_OVERVIEW, "Self-driving cars have been a dream for generations of engineers, but nowadays, the informations about its actual commissioning are getting more and more precise. It is estimated that self-driving vehicles will be put in circulation starting from 2025 in some restricted areas. In the mean time...");

@@ -987,3 +987,29 @@ $DICT_FR->translate(StringIdentifier::SID_NEXT_READ, "A lire ensuite");
 $DICT_FR->translate(StringIdentifier::SID_READ_MORE, "Lire la suite");
 
 $DICT_FR->translate(StringIdentifier::SID_FB_BUTTON, "Partager");
+
+$DICT_FR->translate(StringIdentifier::SID_ARTICLE_VOITURE_H1, "La voiture autonome : entre opportunités et défis ");
+$DICT_FR->translate(StringIdentifier::SID_ARTICLE_VOITURE_CONTENT, "
+                    <p class=\"article-paragraph\">
+                        Si la voiture autonome est un rêve qui a taraudé plusieurs générations d’ingénieurs, jamais les informations n’ont été aussi précises quant à sa concrétisation sur nos routes. On estime aujourd’hui que des véhicules sans chauffeur pourront être mis en circulation dès 2025 sur des lieux à accès restreint.
+                    </p>
+                    <p class=\"article-paragraph\">
+                        Dans le même temps, certaines phases de conduite (notamment l’autoroute) pourront être déléguées à 100 % à la machine. Ce changement de paradigme dans l’utilisation de la voiture va entrainer des bouleversements majeurs en termes de conception : d’abord au niveau des habitacles, où le design a toujours été construit autour du rôle du conducteur qui n’existera bientôt plus. Ensuite au niveau de la voiture au sens large; elle va progressivement devenir un objet permettant un service de transport plus qu’un achat à part entière.
+                    </p>
+                    <p class=\"article-paragraph\">
+                        De ce fait, les fabricants vont tendre à passer de constructeurs à fournisseurs de mobilité. Ils doivent donc faire évoluer leur activité à mesure que le niveau d’autonomie de nos voitures augmente. Avant de voir réellement les véhicules autonomes sur nos routes, il convient cependant de rappeler quelques questions posées à leur propos (détaillées dans le Livre blanc sur les Véhicules Autonomes et Connectés de l’INRIA). Celles-ci conditionneront l'apparition de ces véhicules : déterminer les responsabilités en cas d’accident, assurer la capacité complète du véhicule à gérer toutes les situations de conduite y compris les plus extrêmes, ou bien garantir la sécurité de la voiture contre les cyber-attaques (1 Go de données sont produits par la voiture chaque seconde, qui doit communiquer avec les infrastructures) !
+                    </p>
+                    <p class=\"article-paragraph\">
+                        A l’aube de transformations majeures, l’industrie automobile doit ainsi commencer à se réinventer dès aujourd’hui pour accompagner les défis de la voiture autonome, et ainsi continuer de générer un business rentable.
+                    </p>
+                    <p class=\"article-paragraph\">
+                        Pour aller plus loin :
+                    <a href=\"https://www.inria.fr/actualite/actualites-inria/livre-blanc-vehicules-autonomes-et-connectes\">Inria publie son livre blanc sur les véhicules autonomes et connectés</a>
+                    </p>
+                    <br/>
+                    <p class=\"article-signature sixteen wide column\">
+                        Par Jacques Olier, consultant chez ETIC INSA Technologies.
+                    </p>
+                </div>");
+$DICT_FR->translate(StringIdentifier::SID_ARTICLE_VOITURE_H2, "Par Jacques Olier, consultant chez ETIC INSA Technologies | 19 juillet 2018");
+$DICT_FR->translate(StringIdentifier::SID_ARTICLE_VOITURE_OVERVIEW, "Si la voiture autonome est un rêve qui a taraudé plusieurs générations d’ingénieurs, jamais les informations n’ont été aussi précises quant à sa concrétisation sur nos routes. On estime aujourd’hui que des véhicules sans chauffeur pourront être mis en circulation dès 2025 sur des lieux à accès restreint. Dans le même temps...");
