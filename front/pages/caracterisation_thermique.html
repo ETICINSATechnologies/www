@@ -3,7 +3,7 @@
     <i class="right angle icon divider"></i>
     <a class="section" href="{LINK_ARTICLES}">{ARTICLES}</a>
     <i class="right angle icon divider"></i>
-    <div class="active section">Caractérisation thermique de matériaux composites</div>
+    <div class="active section">{CARACTERISATION_THERMIQUE_SECTION}</div>
 </div>
 <div class="ui center aligned bg-header" id="fade">
     <h1 class="title-header scale">{ARTICLES}</h1>
@@ -13,12 +13,12 @@
     <div class="row">
         <div class="sixteen wide column">
             <div class="ui center aligned article-title darkgreen">
-                Caractérisation thermique de matériaux composites dédiés au stockage de chaleur par réaction chimique pour des applications dans le domaine du bâtiment
+               {CARACTERISATION_THERMIQUE}
             </div>
         </div>
         <div class="sixteen wide column">
             <div class="ui center aligned article-subtitle lightgreen">
-                Par le Julie DUSSOUILLEZ | 31 octobre 2018
+                {CARACTERISATION_THERMIQUE_AUTEUR}
             </div>
         </div>
         <div class="sixteen wide column center aligned" style="margin: 10px;">
@@ -36,33 +36,33 @@
 
     <div class="row article-content sixteen wide column">
         <p class="article-paragraph">
-            Je m’appelle Julie Dussouillez, je suis en deuxième année de thèse au laboratoire CETHIL (Centre d’Énergétique et de Thermique de Lyon) et je travaille sur la caractérisation thermique de matériaux composites. Par des réactions chimiques, ces derniers permettent de stocker de la chaleur.  Dans le cadre de cette thèse, les applications visées seront celles liées au bâtiment.
+            {CARACTERISATION_THERMIQUE_P1}
         </p>
         <p class="article-paragraph">
-            Le stockage thermochimique repose sur le principe d’une réaction renversable : endothermique dans un sens et exothermique dans l’autre. Ce type de stockage de chaleur, basé sur des cycles d’hydratation et de déshydratation de cristaux de sels réactifs, s’inscrit dans un contexte de réduction de la consommation d’énergie des bâtiments et de valorisation des énergies renouvelables. Pour cela, je travaille avec des sels dits hygroscopiques, c’est-à-dire qu’ils ont la particularité de dégager de la chaleur lorsqu’ils sont mis en contact avec un air humide. À terme, l'idée serait d’utiliser cette énergie pour chauffer nos bâtiments par le vecteur air, à l’aide de conduits d’aération.
+            {CARACTERISATION_THERMIQUE_P2}
         </p>
         <p class="article-paragraph">
-            La réaction chimique d’hydratation et de déshydratation des cristaux de sel est explicitée en Figure 1. Si on considère un réacteur remplit de sel et que l'on fait passer un flux d'air froid et humide en entrée, une réaction chimique exothermique se déclenche lors de l'hydratation des sels. Cet air froid et humide ressort ainsi chaud et sec. Inversement pour régénérer et donc déshydrater les sels, il faut leur apporter de la chaleur, qui peut provenir de panneaux solaires thermiques par exemple, pour rester dans les  EnR.
+            {CARACTERISATION_THERMIQUE_P3}
         </p>
         <img class="ui centered image" src="./front/assets/article/article4_thermique/figure1.png"
              alt="logo"
              style="margin-bottom: 0%">
         <div class="sixteen wide column">
             <div class="ui center aligned article-subtitle">
-                <i>Figure 1: Équation de la réaction chimique renversable</i>
+                <i>{CARACTERISATION_THERMIQUE_FIGURE1} </i>
             </div>
         </div>
         <br/><br/>
         <br/><br/>
         <p class="article-paragraph">
-            La grande force de ce type de stockage thermique, par rapport aux stockages plus ''classiques'' comme le sensible ou latent (on peut citer l’eau chaude par exemple), est qu'il n'y a aucune perte thermique entre la période de charge et de décharge. Ici la chaleur est stockée sous forme de ''potentiel chimique''. Finalement ce qui est stocké c'est, d'un côté de l'eau, et de l'autre des sels réactifs. Tant que les deux n'ont pas été mis en contact, aucune réaction chimique ne se produit et il n’y a donc aucun dégagement de chaleur. De plus, la densité énergétique des sels hygroscopiques (c’est-à-dire leur capacité à stocker/déstocker la chaleur) est bien supérieure aux autres types de stockage thermique. En effet, en termes d’ordre de grandeur, si on considère une maison relativement bien isolée de 100m², dont les besoins en chauffage seraient de 6.5 GJ, soit 1800 KWh, il faudrait 25m3 d’eau en stockage sensible contre seulement 3m3 en chimique (cf. Figure 2)
+            {CARACTERISATION_THERMIQUE_P4}
         </p>
         <img class="ui centered image" src="./front/assets/article/article4_thermique/figure2.png"
              alt="logo"
              style="margin-bottom: 0%">
         <div class="sixteen wide column">
             <div class="ui center aligned article-subtitle">
-                <i class="centered">Figure 2: Caractéristiques du stockage thermochimique</i>
+                <i class="centered">{CARACTERISATION_THERMIQUE_FIGURE2}</i>
             </div>
         </div>
         <br/><br/>
@@ -70,15 +70,15 @@
 
         <br/><br/>
         <p class="article-paragraph">
-            Néanmoins, les études menées dans ce domaine montrent que les transferts de masse lors des expérimentations restent faibles et loin des valeurs théoriques attendues. Conformément à la réaction présentée en Figure 1, lors de l'hydratation des sels, une réaction chimique se déclenche entre les molécules d'eau et les cristaux de sel pour dégager de la chaleur. Mais il y a aussi des réactions parasites qui se créent entre les molécules d'eau et qui conduisent à la formation d'hydrates sur les couches superficielles des cristaux. Cela crée une agglomération de matière qui limite, voire empêche toute hydratation, et donc tout transfert de chaleur.
+            {CARACTERISATION_THERMIQUE_P5}
         </p>
 
         <p class="article-paragraph">
-            Pour faire le parallèle avec notre vie de tous les jours, c'est exactement le même phénomène qui se passe dans nos salières. Lorsque l’air ambiant est trop humide, on conseille souvent d’ajouter du riz pour adsorber l'humidité. Étant donné que dans le cadre de ma thèse je ne vais pas pouvoir utiliser du riz pour enlever l’humidité, l’utilisation de matrices poreuses a été envisagée, afin de remédier à ce problème. Ces matrices sont des matériaux hôtes dans lesquels les cristaux de sel seront incrustés. Ceci devrait permettre de séparer physiquement chacun des cristaux les uns des autres, d'éviter le phénomène d'agglomération et donc d'augmenter les transferts de masse et de chaleur.
+            {CARACTERISATION_THERMIQUE_P6}
         </p>
 
         <p class="article-paragraph">
-            L'idée de ma thèse c'est tout d'abord de caractériser thermiquement parlant 3 sels (dont un en particulier qui n'est quasiment pas connu dans la littérature), qui ont été considérés comme les plus prometteurs pour cette application bâtiment. Je vais ensuite pouvoir tester les matrices poreuses, préalablement imprégnées respectivement des trois types de sels,  à l’aide d’un banc d'essai que je suis en train de réaliser. Ce qui me permettra, je l'espère, d'identifier le meilleur sel pour le chauffage de demain !
+            {CARACTERISATION_THERMIQUE_P7}
         </p>
 
         <br/>
@@ -102,7 +102,7 @@
                     {NEXT_READ}
                 </div>
                 <span class="right floated center aligned header darkgreen">
-                Infographie des anciens 2018 !
+                {SID_CARACTERISATION_THERMIQUE_INFOGRAPHIE}
      </span>
 
             </div>

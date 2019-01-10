@@ -3,7 +3,7 @@
 require_once "back/lang.php";
 
 //
-// ------------------------------------ DICTIONNAIRE FRANCAIS ------------------------------------
+// ------------------------------------ DICTIONNAIRE ANGLAIS ------------------------------------
 //
 $DICT_EN = new Dictionary('en');
 
@@ -995,4 +995,36 @@ $DICT_EN->translate(StringIdentifier::SID_NEXT_READ, "Read next");
 $DICT_EN->translate(StringIdentifier::SID_READ_MORE, "Read more");
 
 $DICT_EN->translate(StringIdentifier::SID_FB_BUTTON, "Share");
+
+
+$DICT_EN->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_SECTION, "Thermal characterization of composite materials");
+$DICT_EN->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE, "Thermal characterization of composite materials intended for heat storage via chemical reactions for applications in the building industry.");
+$DICT_EN->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_AUTEUR, " By Julie DUSSOUILLEZ|31 october 2018");
+$DICT_EN->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_P1, "I am Julie Dussouillez, currently on the second year of my thesis at the laboratory CETHIL (Centre for Energy and Thermal Sciences of Lyon) and am working on the thermal characterization of composite materials. In the scope of this thesis, the applications targeted shall be in the building industry.");
+$DICT_EN->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_P2, "Thermochemical storage relies on the basis of reversible reactions: endothermic in one direction and exothermic in the other. This type of heat storage, based on cycles of hydration and dehydration of reactive salt crystals, fits within a context where the energetical consumption of buildings is reduced and renewable energies are valued. To achieve this, I make use of hygroscopic salts, in other words salts that feature a release of heat when exposed to humid air. On the long term, the goal would be to use this energy to heat our buildings via air convection through air vents.");
+$DICT_EN->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_P3, "The chemical reaction for hydration and dehydration of the salt crystals is illustrated in Figure 1. If we consider a reactor filled with salt into which we allow a stream of cold humid air in, an exothermic chemical reaction occurs during the hydration of the salts. The cold humid air thus turns warm and dry. Conversely, to regenerate and therefore dehydrate the salts, we need a means heat them. This can be obtained for example via thermal solar panels to remain in the scope of renewable energies.");
+$DICT_EN->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_FIGURE1, "Figure 1: Equation of the reversible chemical reaction");
+$DICT_EN->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_P4, "The forte of this kind of thermal storage, as compared to more “classical” storages such as sensible or latent (hot water for example), is that there is virtually no loss thermal loss between the charging and discharging periods. Here, heat is stored in the form of “chemical potential”. In the end what is really stored is water on one side and reactive salts on the other. Provided those two remain isolated, no chemical reaction can occur and there is no release of heat. Also, the energy density of hygroscopic salts (their ability to store/release heat) is well above those of other types of thermal storage. Indeed, in order of magnitude, if we consider a 100 m2 house relatively well insulated whose energetic demand for heating amounts to 6.5GJ or 1800KWh, we would need 25m3 of water in sensible storage versus only 3m3 for chemical storage (refer to Figure 2).");
+$DICT_EN->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_FIGURE2, "Figure 2: Characterisation of thermochemical storage");
+$DICT_EN->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_P5, "Nonetheless, studies carried out in this field demonstrate that mass transfers during tests remain too low and far off from the theoretical values expected. As per the reaction depicted in Figure 1, during hydration of the salts, a chemical reaction, that releases heat, occurs between the water molecules and the salt crystals. However, side reactions involving water molecules occur simultaneously and lead to the formation of hydrates on the surface of the crystals. This creates an agglomeration of residue that limit, if not prevent hydration and thus heat transfer.");
+$DICT_EN->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_P6, "This issue happens in the everyday life, an example being salt shakers. When the surrounding air is too humid, it is often good practice to add rice to absorb humidity. Given that using rice is not an option in the scope of my thesis to lessen the humidity level, the use of porous matrices was considered as a solution to this issue. These matrices are host materials in which the salt crystals are incrusted. This should physically separate the crystals from each other, avoid the issue of agglomeration and therefore increase the mass and heat transfers.");
+$DICT_EN->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_P7, "My thesis has for initial purpose to thermally characterise 3 salts (one of which have been barely documented), that were considered as most promising for this application in the building industry. I shall then be able to test porous matrices, coated with each salt respectively beforehand, using a workbench I am currently developing. The later, I hope, will allow me to identify the best salt for tomorrow’s heating!");
+$DICT_EN->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_INFOGRAPHIE, "Infographie des anciens 2018 !");
+$DICT_EN->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_DESCRIPTION_ARTICLE, "I am Julie Dussouillez, currently on the second year of my thesis at the laboratory CETHIL (Centre for Energy and Thermal Sciences of Lyon) and am working on the thermal characterization of...");
+
+//DOWNLOAD PLAQUETTE OR READ ONLINE
+$DICT_EN->translate(StringIdentifier::SID_PLAQUETTE_LIEN, "/back/download/PlaquetteETIC_Ang.pdf");
+$DICT_EN->translate(StringIdentifier::SID_PLAQUETTE_ONLINE, "https://fr.calameo.com/read/005529697c0949fc89b4f"); //Mettre le bon lien quand on aura le bon fichier
+
+
+//ARTICLE SUR LES ANCIENS
+$DICT_FR->translate(StringIdentifier::SID_ANCIEN_SECTION, "Journey of the Seniors 2018");
+$DICT_FR->translate(StringIdentifier::SID_ANCIEN, "Journey of the Seniors 2018");
+$DICT_FR->translate(StringIdentifier::SID_ANCIEN_AUTEUR, "By le Administrative Council| 20 september 2018");
+$DICT_FR->translate(StringIdentifier::SID_ANCIEN_P1, "What’s become of them? This year again, the senior ETICiens managed to put forward their experience within the Junior Enterprise; here’s the highlights of their journeyWhat’s become of them? This year again, the senior ETICiens managed to put forward their experience within the Junior Enterprise; here’s the highlights of their journey...");
+$DICT_FR->translate(StringIdentifier::SID_ANCIEN_P2, "Globally, the thrilling experience that is ETIC allows first-hand exposure to the business world and therefore the formation of a first social network with the help of ETIC’s momentum and partners. The senior ETICiens find internships or jobs much more easily and as such, more than half of them had the opportunity to work overseas after graduating!!");
+$DICT_FR->translate(StringIdentifier::SID_ANCIEN_P3, "If the entrepreneurial world attracts you, come over and join us: upon leaving ETIC, 1 out 3 Junior-Entrepreneur went on to set up their own firm!  As a member, you will benefit from numerous workshops that will prepare the you extensively for the corporate world.");
+$DICT_FR->translate(StringIdentifier::SID_ANCIEN_DESCRIPTION_ARTICLE, "What’s become of them? This year again, the senior ETICiens managed to put forward their experience within the Junior Enterprise; here’s the highlights of their journey…");
+$DICT_FR->translate(StringIdentifier::SID_ANCIEN_NEXT_ARTICLE, "Feedback on the JEWC, congress gathering Junior Entrepreneurs from all over the world in Lyon !");
+
 
