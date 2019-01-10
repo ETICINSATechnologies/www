@@ -124,6 +124,7 @@ class StringIdentifier {
     const SID_JEWC_P5 ="{JEWC_P5}";
     const SID_JEWC_P6 ="{JEWC_P6}";
     const SID_JEWC_P7 ="{JEWC_P7}";
+    const SID_JEWC_AUTHOR ="{JEWC_AUTHOR}";
 
 
 
@@ -595,6 +596,7 @@ class StringIdentifier {
         StringIdentifier::SID_JEWC_P5,
         StringIdentifier::SID_JEWC_P6,
         StringIdentifier::SID_JEWC_P7,
+        StringIdentifier::SID_JEWC_AUTHOR,
 
 
 		StringIdentifier::SID_ETUDE_H2_1,
