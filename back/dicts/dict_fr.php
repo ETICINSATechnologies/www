@@ -531,7 +531,7 @@ $DICT_FR->translate(StringIdentifier::SID_CONFIANCE_4, "Témoignages");
 $DICT_FR->translate(StringIdentifier::SID_CONFIANCE_QUOTE_1_HEAD, "J’ai particulièrement apprécié leur réactivité et leur motivation");
 $DICT_FR->translate(StringIdentifier::SID_CONFIANCE_QUOTE_2_HEAD, "Les équipes d’étudiants sont surprenantes de professionnalisme, de créativité et de rigueur");
 $DICT_FR->translate(StringIdentifier::SID_CONFIANCE_QUOTE_3_HEAD, "Nous sommes fiers de soutenir chaque année ces jeunes talents");
-$DICT_FR->translate(StringIdentifier::SID_CONFIANCE_QUOTE_1, "« Notre travail avec ETIC INSA Technologies a été très fructueux. Les compétences techniques et humaines des intervenants nous ont permis d’avancer rapidement sur le projet électronique que nous leur avions soumis. J’ai particulièrement apprécié leur réactivité et leur motivation.Les résultats obtenus nous permettent d’affirmer que nous ferons de nouveau appel à ETIC INSA si le besoin apparaît sur un futur projet. » <b>Faustine Vanhulle – Innovation Group – ElcoBrandt</b>");
+$DICT_FR->translate(StringIdentifier::SID_CONFIANCE_QUOTE_1, "« Notre travail avec ETIC INSA Technologies a été très fructueux. Les compétences techniques et humaines des intervenants nous ont permis d’avancer rapidement sur le projet électronique que nous leur avions soumis. J’ai particulièrement apprécié leur réactivité et leur motivation. Les résultats obtenus nous permettent d’affirmer que nous ferons de nouveau appel à ETIC INSA si le besoin apparaît sur un futur projet. » <b>Faustine Vanhulle – Innovation Group – ElcoBrandt</b>");
 $DICT_FR->translate(StringIdentifier::SID_CONFIANCE_QUOTE_2, "« ETIC apporte une véritable valeur ajoutée au projet. Les équipes d’étudiants sont surprenantes de professionnalisme, de créativité et de rigueur. Nous avons avancé ensemble, dans un contexte complexe et des délais limités. Le courage et la solidarité ont été des valeurs communicatives et déterminantes pour la réussite de ce programme ambitieux. En effet, en plus des compétences techniques et de gestion de projet qui caractérisent l’INSA, ETIC dispose d’excellents commerciaux ! Depuis cette expérience, je les recommande régulièrement. » <b>Barbara Coudène</b>");
 $DICT_FR->translate(StringIdentifier::SID_CONFIANCE_QUOTE_3, "« Non seulement porteur du progrès technique, l’ingénieur doit de plus en plus être créateur de valeur. Il doit pouvoir imaginer la société de demain. Pour accompagner cette évolution, il devient important de le sensibiliser très tôt à une culture d’innovation et un esprit d’entreprendre. ETIC INSA Technologies, la Junior-Entreprise de l’INSA de Lyon, est une des vitrines de cette volonté. Nous sommes fiers de soutenir chaque année ces jeunes talents qui délivrent toutes leurs compétences aux professionnels qui parient sur l’innovation et le dynamisme. Depuis sa création en 1981, ETIC INSA Technologies ne cesse de se développer et de se distinguer. C’est aujourd’hui l’une des 4 meilleures Junior-Entreprises de France. » <b>Eric Maurincomme, Directeur de l’INSA de Lyon</b>");
 
@@ -1036,8 +1036,10 @@ $DICT_FR->translate(StringIdentifier::SID_READ_MORE, "Lire la suite");
 
 $DICT_FR->translate(StringIdentifier::SID_FB_BUTTON, "Partager");
 
+// ARTICLE VOITURE AUTONOME
 $DICT_FR->translate(StringIdentifier::SID_ARTICLE_VOITURE_H1, "La voiture autonome : entre opportunités et défis ");
 $DICT_FR->translate(StringIdentifier::SID_ARTICLE_VOITURE_CONTENT, "
+                <div>
                     <p class=\"article-paragraph\">
                         Si la voiture autonome est un rêve qui a taraudé plusieurs générations d’ingénieurs, jamais les informations n’ont été aussi précises quant à sa concrétisation sur nos routes. On estime aujourd’hui que des véhicules sans chauffeur pourront être mis en circulation dès 2025 sur des lieux à accès restreint.
                     </p>
@@ -1091,6 +1093,135 @@ $DICT_FR->translate(StringIdentifier::SID_ANCIEN_P2, "De manière générale, l'
 $DICT_FR->translate(StringIdentifier::SID_ANCIEN_P3, "Si le monde de entrepreneuriat t'intéresse, n'hésite plus à nous rejoindre: en sortant d'ETIC, 1 Junior-Entrepreneur sur 3 a créé sa propre entreprise ! En tant que membre d'ETIC tu pourras bénéficier de nombreuses formations qui t'aideront à appréhender le monde professionnel.");
 $DICT_FR->translate(StringIdentifier::SID_ANCIEN_DESCRIPTION_ARTICLE, "Que sont-ils devenus ? Cette année encore, les anciens ETICiens ont réussi à valoriser leur expérience en Junior-Entreprise: voici leurs parcours résumés en quelques chiffres clés....");
 $DICT_FR->translate(StringIdentifier::SID_ANCIEN_NEXT_ARTICLE, "Retours sur le JEWC, congrès ayant réuni à Lyon des Junior-Entrepreneurs du monde entier !");
+
+// ARTICLE RETROSPECTIVE CA 2018
+$DICT_FR->translate(StringIdentifier::SID_RETROSPECTIVE_2018_H1, "Rétrospective de l’année 2018 des membres du Conseil d’Administration d’ETIC");
+$DICT_FR->translate(StringIdentifier::SID_RETROSPECTIVE_2018_AUTEUR, "Par le Conseil d’Administration | 26 janvier 2019");
+$DICT_FR->translate(StringIdentifier::SID_RETROSPECTIVE_2018_RESUME, "Pour l'édition de Janvier du : Un moi une info, les membres du Conseil d'Administration d'ETIC de 2018 reviennent sur les évènements marquants de leur mandat. Entre le Congrès National d'Eté et d'Hiver, le recrutement des nouveaux membres d'ETIC, le changement d'identité de la JE, etc.");
+$DICT_FR->translate(StringIdentifier::SID_RETROSPECTIVE_2018_P1, "
+                <div>
+                    <h2 class=\"article - paragraph\">
+                    Tom - Organisation du CRP-AGP
+                    </h2>
+                    <p class=\"article - paragraph\">
+                    Lors de mes débuts à ETIC, j’ai eu la chance d’être impliqué dans l’organisation d’un événement d’ampleur comme le CRP-AGP (Congrès Régional de Printemps et Assemblée Générale des Présidents). Mobilisant près de 500 Junior-Entrepreneurs durant un week-end, cet événement représentait un réel challenge pour notre J.E. Durant la période d’organisation, j’ai pu collaborer avec de nombreux membres impliqués et motivés afin de réaliser un même objectif, et c’est à ce moment-là que j’ai réalisé la force de l’engagement d’ETIC.
+                    </p>
+                    <p class=\"article - paragraph\">
+                    Après plusieurs mois d’attente, le jour-J est enfin arrivé et les Juniors-Entrepreneurs venus des 4 coins de la région ainsi que de France se sont retrouvés sur notre campus. Ce fut un moment assez particulier d’accueillir toutes ces personnes sur notre lieu de vie quotidien, et l’excitation était palpable. 
+                    </p>
+                    <p class=\"article - paragraph\">
+                    La journée fut longue et intense pour tous les organisateurs mais la réussite était là, le congrès s’est déroulé sans encombres. Enfin, nous avons pu tous ensemble savourer l’effort effectué et clôturer ce congrès en beauté dans les sublimes locaux de l'hôtel de ville de Lyon, au milieu des dorures et autres fresques magnifiques. Ce fut un moment particulier que je ne suis pas prêt de revivre, dont je garde un souvenir mémorable ! 
+                    </p>
+                </div>");
+$DICT_FR->translate(StringIdentifier::SID_RETROSPECTIVE_2018_P2, "
+                <div>
+                    <h2 class=\"article - paragraph\">
+                    Louis - Changement d’identité
+                    </h2>
+                    <p class=\"article - paragraph\">
+                    Lorsque nous sommes rentrés en mandat, le 21 mars dernier, nous avons officiellement dévoilé notre nouvelle identité. Sa diffusion était la première action de communication de grande ampleur à laquelle j’ai pu prendre part. J’étais très excité mais à la fois anxieux de devoir gérer tout cela, mais j’ai tout de suite été rassuré par ce que signifiait ce renouveau : symbole de notre école, de notre expérience, synonyme de notre envie d’engagement et de modernité, ...                    </p>
+                    <p class=\"article - paragraph\">
+                    Le travail de nos anciens a porté ses fruits et l’écosystème avec lequel nous interagissons depuis 38 ans déjà a très bien reçu ce petit rhinocéros vert. Celui-là même qui nous fait grandir au quotidien depuis plus de 10 mois et grâce auquel nous ressortirons de l’expérience d’ETICien avec un bagage plus que confortable.
+                    </p>
+                </div>");
+$DICT_FR->translate(StringIdentifier::SID_RETROSPECTIVE_2018_P3, "
+                <div>
+                <h2 class=\"article - paragraph\">
+                    Justine - Création et mise en place du COS
+                    </h2>
+                    <p class=\"article - paragraph\">
+                    Le mandat 2018-2019 a vu naître une nouvelle structure : le Comité d’Orientation Stratégique. C’est avec l’aide du mandat sortant que nous avons pu créer une équipe de 7 anciens surmotivés dont les mandats s’étalent de 1995 à 2017. Les objectifs de cet organe est d’aider au pilotage et à la prise de décision des équipes d’administrateurs. Concrètement cette année, le COS a soutenu l’équipe dans la restructuration du pôle Affaires, dans le développement de KEROS, nouvel outil de gestion, et dans la mise en place de la démarche RSE. Les évènements suivant les réunions ont permis de sensibiliser les membres à la richesse de leur réseau d’Alumni et ainsi de faciliter les rencontres et échanges informels. L’année 2019 permettra sûrement aux futures équipes de travailler sur des problématiques encore plus riches et déterminantes pour le développement de notre structure !
+                    </p>
+                 </div>");
+$DICT_FR->translate(StringIdentifier::SID_RETROSPECTIVE_2018_P4, "
+                <div>
+                    <h2 class=\"article - paragraph\">
+                     Alex - Congrès National d’Eté
+                    </h2>
+                    <p class=\"article - paragraph\">
+                    </p>
+                    Ce congrès reste pour moi l’un des meilleurs événements auquel j’ai pu participer cette année !
+                    </p>
+                    <p class=\"article - paragraph\">
+                    En plus d’être mon premier congrès national, c’est un univers complètement différent que j’ai découvert pendant ces trois jours aux côtés des autres Junior-Entreprises du Mouvement et des partenaires. 
+                    </p>
+                    <p class=\"article - paragraph\">
+                    Les soirées du vendredi et du samedi soir resteront pour moi mémorables et particulièrement celle du samedi soir pour y avoir vu toute l’énergie des J.E. pendant la remise des prix.
+                    </p>
+                    <p class=\"article - paragraph\">
+                    J’ai hâte de pouvoir réitérer des expériences comme celle-ci et de rencontrer d’autres Junior-Entrepreneurs tout au long de cette année !
+                    </p>
+               </div>");
+$DICT_FR->translate(StringIdentifier::SID_RETROSPECTIVE_2018_P5, "
+               <div>
+               <h2 class=\"article - paragraph\">
+                     Feriel - Junior-Enterprise World Conference
+                    </h2>
+                    <p class=\"article - paragraph\">
+                    C’était un événement riche en rencontres et en découvertes. J’ai eu l’occasion de rencontrer des Junior-Entrepreneurs italiens, allemands, espagnols et brésiliens ! Nous avons pu discuter entre nous et échanger de précieux conseils. Le concept de Junior-Entreprise s’étend de plus en plus et pourrait intéresser des professionnels ou des particuliers à travers le monde entier. En effet, il y a selon moi plusieurs avantages à travailler avec une Junior-Entreprise : le service, la proximité et la disponibilité que l’étudiant apporte. De plus, grâce au grand panel d’écoles possédant une telle structure, il est possible de trouver la Junior-Entreprise qui répondra parfaitement à son besoin ! 
+                    </p>
+               </div>");
+$DICT_FR->translate(StringIdentifier::SID_RETROSPECTIVE_2018_P6, "
+               <div>
+                    <h2 class=\"article - paragraph\">
+                    Elliot - Recrutement d’Octobre et Week-End de Formation
+                    </h2>
+                    <p class=\"article - paragraph\">
+                    Le recrutement de début d’année scolaire est un des points clés d’un mandat à ETIC. Nous l’avons préparé tout l’été afin que tout se passe bien. Plusieurs actions ont été menées durant tout le mois d’Octobre et ce recrutement s’est terminé sur le Week-End de Formation. Pendant deux jours, 60 nouveaux ETICiens ont découvert les bases du fonctionnement en Junior-Entreprise, à travers différents ateliers et formations. En plus de cela, certains ateliers étaient tournés autour de nos valeurs de partage et d’engagement : un atelier sur la réflexion RSE ou encore sur l’explication de la stratégie d’ETIC. Pour finir en beauté, traditionnelle soirée au local pour que chacun apprenne à se connaître !
+                    </p>
+               </div>");
+$DICT_FR->translate(StringIdentifier::SID_RETROSPECTIVE_2018_P7, "
+               <div>
+               <h2 class=\"article - paragraph\">
+                    Reda - Week-End Juniors INSA
+                    </h2>
+               <p class=\"article - paragraph\">
+               Du 9 au 11 Novembre dernier a eu lieu l’annuel Week-End des Junior-Entreprises des INSA (WE JINSA ou WEJ pour les intimes) à Bourges sur le campus de l’INSA Centre Val de Loire. Ce fut pour moi le premier moment de partage avec tous les Junior-Entrepreneurs des 6 INSA français à la fois, aussi bien pour échanger nos best practices que pour renforcer les liens d’amitié entre nous. Ainsi, formations et soirées s’enchainèrent pendant 3 jours et c’était avec une énorme tristesse que nous avons quitté nos confrères Berruyers, Strasbourgeois, Rouennais, Toulousains et Rennais pour regagner Lyon ! Toute l’équipe en garde de très bons souvenirs !
+               </p>
+               </div>");
+$DICT_FR->translate(StringIdentifier::SID_RETROSPECTIVE_2018_P8, "
+               <div>
+               <h2 class=\"article - paragraph\">
+                   Charlotte - Week-End majETIC 
+                    </h2>
+               <p class=\"article - paragraph\">
+               Chaque année, les mandats entrant et sortant font challenger leur stratégie et leurs projets par les anciens au cours d’un des WE précédent la passation. Les anciens, issus de tous les mandats d’ETIC, viennent avec une expérience et une vision de ce qu’est ou de ce que devrait être ETIC très différentes, ce qui assure la richesse et la diversité des débats. Des groupes de réflexion permettent de recueillir le plus d’avis et de conseils possibles sur les sujets actuels de la Junior.
+               </p>
+                <p class=\"article - paragraph\">
+                Ce WE est l’occasion pour les anciens de former les membres actuels sur l’histoire de la Junior, l’origine des valeurs et l’importance des anciens et de la passation. Cette rencontre avec les anciens est toujours impressionnante pour les nouveaux membres et plutôt amusante quand on passe dans le camp des anciens. 
+               </p>
+                <p class=\"article - paragraph\">
+                Le week-end se clôture toujours par la soirée majETIC lors de laquelle tout le monde oublie les différences d’âges et de mandats !
+               </p>
+               </div>");
+$DICT_FR->translate(StringIdentifier::SID_RETROSPECTIVE_2018_P9, "
+               <div>
+               <h2 class=\"article - paragraph\">
+                    Nour - Congrès National d’Hiver
+                    </h2>
+               <p class=\"article - paragraph\">
+               Le CNH 2018 reste un moment mémorable de mon expérience à ETIC ! Comme à tous les congrès, on a reçu des formations très enrichissantes sur les best-practices à adopter en J.E., des retours d’expérience ou encore sur comment bien prendre la parole en public avec Nicolas Rossignol. Les congrès nous permettent aussi de rencontrer d’autres Juniors-Entrepreneurs et d’échanger avec eux. Ce congrès était particulièrement intense parce que nous avons eu la chance de gagner 3 prix sur les 5 présentés. Ce moment fut très émouvant pour toute l’équipe, nous avions du mal à y croire tellement cela semblait incroyable ! 
+               </p>
+               </div>");
+$DICT_FR->translate(StringIdentifier::SID_RETROSPECTIVE_2018_P10, "
+                 <div>
+                    <h2 class=\"article - paragraph\">
+                     Maïlys - La Responsabilité Sociétale des Entreprises à ETIC
+                     </h2>
+                      <p class=\"article - paragraph\">
+                      Depuis le début de mon mandat, je met beaucoup d’énergie pour faire d’ETIC une Junior-Entreprise engagée pour la société et l’environnement. Remporter le prix RSE au Congrès National d’Hiver des Junior-Entreprises en novembre dernier m’a rassuré quant à la pertinence de notre démarche. Nous y avons également dispensé une formation sur la RSE qui a reçu un accueil chaleureux. Je suis heureuse de voir que d’autres J.E. se mobilisent !
+                     </p>
+                     <p class=\"article - paragraph\">
+                      Prochaine étape : la conférence multi-campus sur le thème “Oser la transition vers une entreprise durable” que nous organisons avec les Juniors INSA le 7 février prochain à 16h ! 
+                     </p>
+                      <p class=\"article - paragraph\">
+                      Elle se déroulera à Lyon et sera diffusée en direct à Strasbourg, Toulouse, Bourges, Rouen, Rennes et sur notre chaîne Youtube).
+                     </p>
+                     <p class=\"article - paragraph\">
+                     <a href=\"https://www.facebook.com/events/378303079578827\">Conférence-Débat: Oser la transition vers une entreprise durable</a>
+
+                     </p>
+                  </div>");
 
 $DICT_FR->translate(StringIdentifier::SID_ETIC_RSE_SOUS_TITRE,"Notre Vision RSE à ETIC");
 $DICT_FR->translate(StringIdentifier::SID_ETIC_RSE_AUTEUR_DATE, "Par le Conseil d'Administration | 22 novembre 2018");

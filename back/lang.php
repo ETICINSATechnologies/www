@@ -489,6 +489,7 @@ class StringIdentifier {
     const SID_ETIC_RSE_COTENT="{ETIC_RSE_COTENT}";
 
 
+    //article voiture autonome
     const SID_ARTICLE_VOITURE_H1 = "{ARTICLE_VOITURE_H1}";
     const SID_ARTICLE_VOITURE_CONTENT = "{ARTICLE_VOITURE_CONTENT}";
     const SID_ARTICLE_VOITURE_H2 = "{ARTICLE_VOITURE_H2}";
@@ -527,6 +528,21 @@ class StringIdentifier {
     //PLAQUETTE
     const SID_PLAQUETTE_LIEN= "{PLAQUETTE_LIEN}";
     const SID_PLAQUETTE_ONLINE ="{PLAQUETTE_ONLINE}";
+
+    //article retrospective CA 2018
+    const SID_RETROSPECTIVE_2018_H1 = "{RETROSPECTIVE_2018_H1}";
+    const SID_RETROSPECTIVE_2018_AUTEUR = "{RETROSPECTIVE_2018_AUTEUR}";
+    const SID_RETROSPECTIVE_2018_P1 = "{RETROSPECTIVE_2018_P1}";
+    const SID_RETROSPECTIVE_2018_P2 = "{RETROSPECTIVE_2018_P2}";
+    const SID_RETROSPECTIVE_2018_P3 = "{RETROSPECTIVE_2018_P3}";
+    const SID_RETROSPECTIVE_2018_P4 = "{RETROSPECTIVE_2018_P4}";
+    const SID_RETROSPECTIVE_2018_P5 = "{RETROSPECTIVE_2018_P5}";
+    const SID_RETROSPECTIVE_2018_P6 = "{RETROSPECTIVE_2018_P6}";
+    const SID_RETROSPECTIVE_2018_P7 = "{RETROSPECTIVE_2018_P7}";
+    const SID_RETROSPECTIVE_2018_P8 = "{RETROSPECTIVE_2018_P8}";
+    const SID_RETROSPECTIVE_2018_P9 = "{RETROSPECTIVE_2018_P9}";
+    const SID_RETROSPECTIVE_2018_P10 = "{RETROSPECTIVE_2018_P10}";
+    const SID_RETROSPECTIVE_2018_RESUME ="{RETROSPECTIVE_2018_RESUME}";
 
 	// tableau des identifiants
 	const SIDS = array(
@@ -1036,7 +1052,22 @@ class StringIdentifier {
         StringIdentifier::SID_ARTICLE_VOITURE_H1,
         StringIdentifier::SID_ARTICLE_VOITURE_CONTENT,
         StringIdentifier::SID_ARTICLE_VOITURE_H2,
-        StringIdentifier::SID_ARTICLE_VOITURE_OVERVIEW
+        StringIdentifier::SID_ARTICLE_VOITURE_OVERVIEW,
+
+        // ARTICLE RETROSPECTIVE 2018
+        StringIdentifier::SID_RETROSPECTIVE_2018_H1,
+        StringIdentifier::SID_RETROSPECTIVE_2018_AUTEUR,
+        StringIdentifier::SID_RETROSPECTIVE_2018_P1,
+        StringIdentifier::SID_RETROSPECTIVE_2018_P2,
+        StringIdentifier::SID_RETROSPECTIVE_2018_P3,
+        StringIdentifier::SID_RETROSPECTIVE_2018_P4,
+        StringIdentifier::SID_RETROSPECTIVE_2018_P5,
+        StringIdentifier::SID_RETROSPECTIVE_2018_P6,
+        StringIdentifier::SID_RETROSPECTIVE_2018_P7,
+        StringIdentifier::SID_RETROSPECTIVE_2018_P8,
+        StringIdentifier::SID_RETROSPECTIVE_2018_P9,
+        StringIdentifier::SID_RETROSPECTIVE_2018_P10,
+        StringIdentifier::SID_RETROSPECTIVE_2018_RESUME
 
 		);
 
@@ -1054,12 +1085,13 @@ class StringIdentifier {
 	const LINK_MOUVEMENT ="{LINK_MOUVEMENT}"; // lien vers la pres. du mouvement
     const LINK_PLAN = "{LINK_PLAN}";
     const LINK_ARTICLES = "{LINK_ARTICLES}";
-    const LINK_ARTICLE_1 = "{LINK_ARTICLE_1}";
-    const LINK_ARTICLE_2 = "{LINK_ARTICLE_2}";
-    const LINK_ARTICLE_3 = "{LINK_ARTICLE_3}";
-    const LINK_ARTICLE_4 = "{LINK_ARTICLE_4}";
-    const LINK_ARTICLE_5 = "{LINK_ARTICLE_5}";
-    const LINK_ARTICLE_6 = "{LINK_ARTICLE_6}";
+    const LINK_ARTICLE_1 = "{LINK_ARTICLE_1}"; // la voiture autonome
+    const LINK_ARTICLE_2 = "{LINK_ARTICLE_2}"; // JEWC
+    const LINK_ARTICLE_3 = "{LINK_ARTICLE_3}"; // infographie anciens
+    const LINK_ARTICLE_4 = "{LINK_ARTICLE_4}"; // caractérisation thermique des matériaux
+    const LINK_ARTICLE_5 = "{LINK_ARTICLE_5}"; // RSE
+    const LINK_ARTICLE_6 = "{LINK_ARTICLE_6}"; // témoignage ancien
+    const LINK_ARTICLE_7 = "{LINK_ARTICLE_7}"; // retrospective du CA 2018
 
 
     const LINK_INGENIERIE = "{LINK_INGENIERIE}";
@@ -1112,6 +1144,7 @@ class StringIdentifier {
         StringIdentifier::LINK_ARTICLE_4,
         StringIdentifier::LINK_ARTICLE_5,
         StringIdentifier::LINK_ARTICLE_6,
+        StringIdentifier::LINK_ARTICLE_7,
 
 
         StringIdentifier::LINK_INGENIERIE,
