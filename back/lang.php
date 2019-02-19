@@ -479,6 +479,7 @@ class StringIdentifier {
 
     const SID_FB_BUTTON = "{FB_BUTTON}";
 
+    const SID_ETIC_RSE_P1_DESCRIPTION="{ETIC_RSE_P1_DESCRIPTION}";
     const SID_ETIC_RSE_SOUS_TITRE= "{ETIC_RSE_SOUS_TITRE}";
     const SID_ETIC_RSE_P1="{ETIC_RSE_P1}";
     const SID_ETIC_RSE_P2="{ETIC_RSE_P2}" ;
@@ -1004,6 +1005,7 @@ class StringIdentifier {
 
         StringIdentifier::SID_FB_BUTTON,
 
+        StringIdentifier::SID_ETIC_RSE_P1_DESCRIPTION,
         StringIdentifier::SID_ETIC_RSE_SOUS_TITRE,
         StringIdentifier::SID_ETIC_RSE_P1,
         StringIdentifier::SID_ETIC_RSE_P2,

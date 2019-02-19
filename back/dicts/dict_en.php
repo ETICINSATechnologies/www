@@ -1053,3 +1053,39 @@ $DICT_EN->translate(StringIdentifier::SID_ARTICLE_VOITURE_CONTENT, "
 $DICT_EN->translate(StringIdentifier::SID_ARTICLE_VOITURE_OVERVIEW, "Self-driving cars have been a dream for generations of engineers, but nowadays, the informations about its actual commissioning are getting more and more precise. It is estimated that self-driving vehicles will be put in circulation starting from 2025 in some restricted areas. In the mean time...");
 
 
+$DICT_EN->translate(StringIdentifier::SID_ETIC_RSE_P1, "Reinventing ourselves everyday. Being an actor of the future by thinking outside the box, by believing in humanity before believing in technique, by loving technique not for setting up an artificial society but loving it as a mean of attaining progress... ");
+$DICT_EN->translate(StringIdentifier::SID_ETIC_RSE_SOUS_TITRE,"Our CSR vision at ETIC");
+$DICT_EN->translate(StringIdentifier::SID_ETIC_RSE_AUTEUR_DATE, "By the Executive Board| November 22, 2018");
+$DICT_EN->translate(StringIdentifier::SID_ETIC_RSE_P1, "Reinventing ourselves everyday. Being an actor of the future by thinking outside the box, by believing in humanity before believing in technique, by loving technique not for setting up an artificial society but loving it as a mean of attaining progress. By always staying humble towards science but promising to work at our own pace without ever resigning ourselves. Here is the incredible legacy the founder of INSA, Gaston Berger, left us with. More than an aspiration, this is a moral duty towards society he entrusted us with. Prospective and Humanism. Two words for a single model. «Prospective» as in preparing the future, «Humanism» in order to never forget that the only thing that deserves to be at the heart of the system is humanity ");
+$DICT_EN->translate(StringIdentifier::SID_ETIC_RSE_P2, " Without having the boldness to consider this wisdom taken for granted, the values of Gaston Berger are written in our DNA of INSA engineers. Our education and our lives at INSA taught us to learn, to challenge and to share this philosophy in order to build tomorrow’s world. However, if we are diverse engaged engineers in our studies, we are so as people too, on a daily basis, in our actions and our projects. ");
+$DICT_EN->translate(StringIdentifier::SID_ETIC_RSE_P3,  "ETIC INSA Technologies built itself on this model, collectively, with boldness and humility and has made the most of every mandate since 1981. From this, has emerged a remarkable richness in our process as well as a our will for a certain quality and benevolence towards all our stakeholders. We believe in CSR (Corporate Social Responsibility) and we want to be a part of it : ETIC INSA Technologies is a humanist Junior Enterprise.");
+$DICT_EN->translate(StringIdentifier::SID_ETIC_RSE_P4,  "Therefore this year we chose to develop our own CSR Management System. We also chose not to audit our process by an outside agency because this is a substantial financial investment, which is not relevant  for our structure at the moment. On one side,  we have a free access to all ISO standard and to CSR qualified people  thanks to the Gaston Berger Institute which is a structure in charge of guaranteeing, projecting and promoting the INSA model. On the other hand, we prefer to make our successors mindful of social and environmental issues so that whether or not our process will be carried on, it will be a personal choice and not a duty, preventing in this way potential abuses towards Green Washing actions.");
+$DICT_EN->translate(StringIdentifier::SID_ETIC_RSE_P5,    " <div class=\"row\">
+            <div class=\"ui center aligned article-subtitle\">
+                <bold class=\"centered\">Actions implemented and areas of work</bold>
+            </div>
+            <div class=\"sixteen wide column\">
+                <img class=\"ui centered image\" src=\"./front/assets/article/article5_rse/rse.png\"
+                     alt=\"logo\"
+                     style=\"margin-bottom: 0%\">
+            </div>
+        </div>
+        " );
+$DICT_EN->translate(StringIdentifier::SID_ETIC_RSE_COTENT,"<div class=\"row sixteen wide column\">
+        <a class=\"ui olive card centered article-card\" href=\"{LINK_ARTICLE_4}\" style=\"width: 400px; margin-bottom: 50px;\">
+            <div class=\"image\">
+                <img alt=\"img\" style=\"\" src=\"./front/assets/article/article4_thermique/labo.jpg\">
+            </div>
+            <div class=\"content\">
+                <div class=\"fly left\" style=\"margin-bottom: 10px;\">
+                    {NEXT_READ}
+                </div>
+                <span class=\"right floated center aligned header darkgreen\">
+                    Caractérisation thermique de matériaux composites dédiés au stockage de chaleur par réaction chimique pour des applications dans le domaine du bâtiment
+                </span>
+
+            </div>
+
+        </a>
+
+    </div>");

@@ -24,18 +24,18 @@ function sanitize_path() {
 }
 
 if(isset($_GET['page']) && isset($_GET['lang'])) {
-	// récupération de la page si elle existe
-	$page = sanitize_path();
-	$header = "front/static/header.html";
-	$footer = "front/static/footer.html";
-	if(file_exists($page)) {
-		// on récupère le contenu
-		$content = file_get_contents($header) . file_get_contents($page) . file_get_contents($footer);
-		// on réalise le changement de langue
-		echo $_TRANSLATOR->translate($_GET['lang'], $content);
-	} else {
-		notfound("failed 4 - file not found.");
-	}
-} else {	
-	notfound("failed 5 - missing parameters.");
+    // récupération de la page si elle existe
+    $page = sanitize_path();
+    $header = "front/static/header.html";
+    $footer = "front/static/footer.html";
+    if(file_exists($page)) {
+        // on récupère le contenu
+        $content = file_get_contents($header) . file_get_contents($page) . file_get_contents($footer);
+        // on réalise le changement de langue
+        echo $_TRANSLATOR->translate($_GET['lang'], $content);
+    } else {
+        notfound("failed 4 - file not found.");
+    }
+} else {
+    notfound("failed 5 - missing parameters.");
 }

@@ -1222,7 +1222,7 @@ $DICT_FR->translate(StringIdentifier::SID_RETROSPECTIVE_2018_P10, "
 
                      </p>
                   </div>");
-
+$DICT_FR->translate(StringIdentifier::SID_ETIC_RSE_P1_DESCRIPTION, "Se réinventer chaque jour. Être acteur de l’avenir en sortant des rangs, en croyant en l’Homme avant de croire en la technique, en aimant la technique non pas pour créer une société artificielle mais en l’aimant comme levier du progrès...");
 $DICT_FR->translate(StringIdentifier::SID_ETIC_RSE_SOUS_TITRE,"Notre Vision RSE à ETIC");
 $DICT_FR->translate(StringIdentifier::SID_ETIC_RSE_AUTEUR_DATE, "Par le Conseil d'Administration | 22 novembre 2018");
 $DICT_FR->translate(StringIdentifier::SID_ETIC_RSE_P1, "Se réinventer chaque jour. Être acteur de l’avenir en sortant des rangs, en croyant en l’Homme avant de croire en la technique, en aimant la technique non pas pour créer une société artificielle mais en l’aimant comme levier du progrès. En restant toujours humble face à la science mais en promettant de faire œuvre à notre rythme sans jamais nous résigner. Voilà l’incroyable héritage que nous a légué le fondateur de l’INSA, Gaston Berger. Plus qu’une aspiration, c’est un devoir envers la société qu’il nous confie. Prospective et Humanisme. Deux mots pour un modèle unique. Prospective pour la préparation du futur, Humanisme pour ne jamais oublier que la seule chose qui mérite d’être au cœur du système est l’Homme.");
