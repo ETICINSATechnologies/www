@@ -1,9 +1,19 @@
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132243169-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-132243169-1');
+</script>
+
 <div class="ui breadcrumb">
     <a class="section" href="{LINK_HOME}">{HOME}</a>
     <i class="right angle icon divider"></i>
     <a class="section" href="{LINK_ARTICLES}">{ARTICLES}</a>
     <i class="right angle icon divider"></i>
-    <div class="active section">Témoignage d’un ancien ETICien</div>
+    <div class="active section">{TEMOIGNAGE_ANCIEN_SECTION}</div>
 </div>
 <div class="ui center aligned bg-header" id="fade">
     <h1 class="title-header scale">{ARTICLES}</h1>
@@ -13,12 +23,12 @@
     <div class="row">
         <div class="sixteen wide column">
             <div class="ui center aligned article-title darkgreen">
-                Témoignage d’un ancien ETICien
+                {TEMOIGNAGE_ANCIEN_SECTION}
             </div>
         </div>
         <div class="sixteen wide column">
             <div class="ui center aligned article-subtitle lightgreen">
-                Par Cahê KUCZERA TOPOROWICZ | 17 décembre 2018
+                {TEMOIGNAGE_ANCIEN_AUTEUR}
             </div>
         </div>
         <div class="sixteen wide column center aligned" style="margin: 10px;">
@@ -43,39 +53,40 @@
 
     <div class="row article-content sixteen wide column">
         <p class="article-paragraph">
-            Dans l’édition de Décembre du : Un mois, une info, nous sommes partis à la rencontre du Directeur Régional d’Amaris : Cahê KUCZERA TOPOROWICZ. Il nous partage son aventure au sein de la Junior-Entreprise de l’INSA Lyon et ce que cette expérience lui a apporté.  </p>
-        <p class="article-paragraph">
-            <b>Pourquoi as-tu voulu rejoindre ETIC ?</b><br/>
-            C’était ma deuxième année en France et je parlais à peine français. Un ami brésilien était membre d’ETIC et il m’en a parlé. J’ai trouvé l’idée géniale d’avoir un pied dans le monde de l’entreprise en étant encore à l’école. C’est en effet quelque chose de très commun au Brésil. On peut choisir d’aller en cours le soir afin de pouvoir travailler la journée. En France, les stages étant beaucoup plus encadrés et limités, je me suis dit que ce serait une superbe expérience. En plus, je me suis dit que me forcer à parler avec des clients me permettrait d’améliorer mon français. Pas sûr qu’ils aient compris mon pitch lors des premiers rendez-vous !
+            {TEMOIGNAGE_ANCIEN_P1}
         </p>
         <p class="article-paragraph">
-            <b>Que faisais-tu à ETIC et à quelle période ?</b><br/>
-            J’ai commencé par la prospection en 2009 pendant un semestre. J’ai ensuite été Responsable de l’ancien pôle GRC (Gestion Relation Client) entre 2010 et 2011, et enfin Président du mandat 2011-2012.
+            <b>{TEMOIGNAGE_ANCIEN_Q1}</b><br/>
+            {TEMOIGNAGE_ANCIEN_R1}
         </p>
         <p class="article-paragraph">
-            <b>Quel poste occupes-tu maintenant ?</b><br/>
-            Je suis Directeur Régional chez Amaris. Cela veut dire que j’ai différents pays/régions sous ma responsabilité. Je suis en charge d’assurer le développement des activités pour la Suisse Romande (Genève et Lausanne), la France (Lyon, Grenoble, Aix, Montpelier et Nice) et le Brésil (São Paulo). Ce périmètre représente à ce jour environ 600 salariés. Je dois également assurer la coordination entre le business et l’ensemble d’autres départements composant la société : RH, Finance, Recrutement, Qualité, Communication…. Pas très loin finalement de mon ancien poste de Président chez ETIC.
+            <b>{TEMOIGNAGE_ANCIEN_Q2}</b><br/>
+            {TEMOIGNAGE_ANCIEN_R2}
         </p>
         <p class="article-paragraph">
-            <b>Qu’est-ce que t’as apporté ton expérience à la Junior personnellement ?</b><br/>
-            J’y ai rencontré mon épouse (elle était à la J.E. de l’EM Lyon), les deux témoins de mon mariage (le vice-président et le SG de l’époque) et mes meilleurs amis, pas mal finalement !
+            <b>{TEMOIGNAGE_ANCIEN_Q3}</b><br/>
+                {TEMOIGNAGE_ANCIEN_R3}
         </p>
         <p class="article-paragraph">
-            <b>Qu’est-ce que t’as apporté ton expérience à la Junior professionnellement ?</b><br/>
-            Mon poste actuel ! Pour l’anecdote, lors du forum Rhône Alpes de 2009 j’ai prospecté Amaris en tant que membre d’ETIC. Dans le stand de cette petite société à l’époque de moins de 200 salariés j’ai eu la chance de rencontrer Olivier BROURHANT, l’un des fondateurs et CEO de notre groupe. Ce jour-là j’ai compris l’étendue phénoménale de l’opportunité que j’avais devant moi. La route était tracée il suffisait de l’emprunter (et de tenir les coups durs du trajet !). Aujourd’hui c’est plus de 5000 salariés dans le monde et je suis ravi de faire partie de l’équipe dirigeante.
+            <b>{TEMOIGNAGE_ANCIEN_Q4}</b><br/>
+                {TEMOIGNAGE_ANCIEN_R4}
+       </p>
+        <p class="article-paragraph">
+            <b>{TEMOIGNAGE_ANCIEN_Q5}</b><br/>
+                {TEMOIGNAGE_ANCIEN_R5}
         </p>
         <p class="article-paragraph">
-            <b>Comment ont évolué tes rapports avec la Junior depuis qui tu l’as quittée ?</b><br/>
-            J’essaye de garder contact avec les différents mandats. Mais aussi de les aider si je peux et garder un œil sur l’évolution d’ETIC (j’y ai mis tellement d’énergie à l’époque, cela fait toujours plaisir de voir les choses avancer !). Je ne cache pas qu’ETIC est également une source de talents très prometteurs pour mes équipes… j’aimerais en recruter davantage !
+            <b>{TEMOIGNAGE_ANCIEN_Q6}</b><br/>
+                {TEMOIGNAGE_ANCIEN_R6}
         </p>
         <p class="article-paragraph">
-            <b>Recommanderais-tu l’expérience de Junior-Entrepreneur à un étudiant ?</b><br/>
-            Je pense que mes réponses ci-dessus vous donnent un aperçu de ma réponse !
+            <b>{TEMOIGNAGE_ANCIEN_Q7}</b><br/>
+            {TEMOIGNAGE_ANCIEN_R7}
         </p>
 
         <br/>
         <p class="article-signature sixteen wide column">
-            Par Cahê KUCZERA TOPOROWICZ
+            {TEMOIGNAGE_ANCIEN_AUTEUR2}
         </p>
     </div>
 
@@ -89,7 +100,7 @@
                     {NEXT_READ}
                 </div>
                 <span class="right floated center aligned header darkgreen">
-                Notre Vision RSE à ETIC
+                {TEMOIGNAGE_ANCIEN_VISION}
      </span>
 
             </div>

@@ -1018,14 +1018,14 @@ $DICT_EN->translate(StringIdentifier::SID_PLAQUETTE_ONLINE, "https://fr.calameo.
 
 
 //ARTICLE SUR LES ANCIENS
-$DICT_FR->translate(StringIdentifier::SID_ANCIEN_SECTION, "Journey of the Seniors 2018");
-$DICT_FR->translate(StringIdentifier::SID_ANCIEN, "Journey of the Seniors 2018");
-$DICT_FR->translate(StringIdentifier::SID_ANCIEN_AUTEUR, "By le Administrative Council| 20 september 2018");
-$DICT_FR->translate(StringIdentifier::SID_ANCIEN_P1, "What’s become of them? This year again, the senior ETICiens managed to put forward their experience within the Junior Enterprise; here’s the highlights of their journeyWhat’s become of them? This year again, the senior ETICiens managed to put forward their experience within the Junior Enterprise; here’s the highlights of their journey...");
-$DICT_FR->translate(StringIdentifier::SID_ANCIEN_P2, "Globally, the thrilling experience that is ETIC allows first-hand exposure to the business world and therefore the formation of a first social network with the help of ETIC’s momentum and partners. The senior ETICiens find internships or jobs much more easily and as such, more than half of them had the opportunity to work overseas after graduating!!");
-$DICT_FR->translate(StringIdentifier::SID_ANCIEN_P3, "If the entrepreneurial world attracts you, come over and join us: upon leaving ETIC, 1 out 3 Junior-Entrepreneur went on to set up their own firm!  As a member, you will benefit from numerous workshops that will prepare the you extensively for the corporate world.");
-$DICT_FR->translate(StringIdentifier::SID_ANCIEN_DESCRIPTION_ARTICLE, "What’s become of them? This year again, the senior ETICiens managed to put forward their experience within the Junior Enterprise; here’s the highlights of their journey…");
-$DICT_FR->translate(StringIdentifier::SID_ANCIEN_NEXT_ARTICLE, "Feedback on the JEWC, congress gathering Junior Entrepreneurs from all over the world in Lyon !");
+$DICT_EN->translate(StringIdentifier::SID_ANCIEN_SECTION, "Journey of the Seniors 2018");
+$DICT_EN->translate(StringIdentifier::SID_ANCIEN, "Journey of the Seniors 2018");
+$DICT_EN->translate(StringIdentifier::SID_ANCIEN_AUTEUR, "By le Administrative Council| 20 september 2018");
+$DICT_EN->translate(StringIdentifier::SID_ANCIEN_P1, "What’s become of them? This year again, the senior ETICians managed to put forward their experience within the Junior Enterprise; here’s the highlights of their journey.");
+$DICT_EN->translate(StringIdentifier::SID_ANCIEN_P2, "Globally, the thrilling experience that is ETIC allows first-hand exposure to the business world and therefore the formation of a first social network with the help of ETIC’s momentum and partners. The senior ETICiens find internships or jobs much more easily and as such, more than half of them had the opportunity to work overseas after graduating!!");
+$DICT_EN->translate(StringIdentifier::SID_ANCIEN_P3, "If the entrepreneurial world attracts you, come over and join us: upon leaving ETIC, 1 out 3 Junior-Entrepreneur went on to set up their own firm!  As a member, you will benefit from numerous workshops that will prepare the you extensively for the corporate world.");
+$DICT_EN->translate(StringIdentifier::SID_ANCIEN_DESCRIPTION_ARTICLE, "What’s become of them? This year again, the senior ETICians managed to put forward their experience within the Junior Enterprise; here’s the highlights of their journey…");
+$DICT_EN->translate(StringIdentifier::SID_ANCIEN_NEXT_ARTICLE, "Feedback on the JEWC, congress gathering Junior Entrepreneurs from all over the world in Lyon !");
 
 
 $DICT_EN->translate(StringIdentifier::SID_ARTICLE_VOITURE_H1, "Self-driving car : between opportunities and challenges");
