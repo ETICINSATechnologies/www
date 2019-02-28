@@ -9,11 +9,37 @@
     <h1 class="title-header scale">{ARTICLES}</h1>
 </div>
 
-{JEWC_HEADER}
+<div class="ui middle aligned grid stackable container">
+    <div class="row">
+        <div class="sixteen wide column">
+            <div class="ui center aligned article-title darkgreen">
+                {JEWC_H1}
+            </div>
+        </div>
+        <div class="sixteen wide column">
+            <div class="ui center aligned article-subtitle lightgreen">
+                {JEWC_H2}
+            </div>
+        </div>
+        <div class="sixteen wide column center aligned" style="margin: 10px;">
+            <div class="fb-share-button" data-href="{LINK_ARTICLE_1}" data-layout="button" data-size="small"
+                 data-mobile-iframe="true" style="margin-right: 10px;"><a target="_blank"
+                                                                          href="https://www.facebook.com/sharer/sharer.php?u={LINK_ARTICLE_1}&amp;src=sdkpreparse"
+                                                                          class="fb-xfbml-parse-ignore">{FB_BUTTON}</a>
+            </div>
 
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
+               data-show-count="false">Tweet</a>
 
-{JEWC_IMG}
-
+        </div>
+    </div>
+    <div class="row">
+        <div class="sixteen wide column">
+            <img class="ui centered large image" src="./front/assets/article/article2_jewc/jewc.jpg"
+                 alt="logo"
+                 style="margin-bottom: 5%">
+        </div>
+    </div>
 
     <div class="row article-content sixteen wide column">
         <p class="article-paragraph">

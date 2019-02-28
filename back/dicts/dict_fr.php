@@ -70,37 +70,8 @@ $DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_H1, "Palmarès");
 $DICT_FR->translate(StringIdentifier::SID_HOME_PALMARES_SUB, "Une Junior-Entrepreprise performante sur la durée");
 
 
-$DICT_FR->translate(StringIdentifier::SID_JEWC_HEADER,"<div class=\"ui middle aligned grid stackable container\">
-    <div class=\"row\">
-        <div class=\"sixteen wide column\">
-            <div class=\"ui center aligned article-title darkgreen\">
-                Retours sur le JEWC, congrès ayant réuni à Lyon des Junior-Entrepreneurs du monde entier !
-            </div>
-        </div>
-        <div class=\"sixteen wide column\">
-            <div class=\"ui center aligned article-subtitle lightgreen\">
-                Par le Conseil d'Administration | 28 août 2018
-            </div>
-        </div>
-        <div class=\"sixteen wide column center aligned\" style=\"margin: 10px;\">
-            <div class=\"fb-share-button\" data-href=\"{LINK_ARTICLE_2}\" data-layout=\"button\" data-size=\"small\"
-                 data-mobile-iframe=\"true\" style=\"margin-right: 10px;\"><a target=\"_blank\"
-                                                                          href=\"https://www.facebook.com/sharer/sharer.php?u={LINK_ARTICLE_2}&amp;src=sdkpreparse\"
-                                                                          class=\"fb-xfbml-parse-ignore\">{FB_BUTTON}</a>
-            </div>
-
-            <a href=\"https://twitter.com/share?ref_src=twsrc%5Etfw\" class=\"twitter-share-button\"
-               data-show-count=\"false\">Tweet</a>
-
-        </div>
-    </div>");
-$DICT_FR->translate(StringIdentifier::SID_JEWC_IMG,"<div class=\"row\">
-        <div class=\"sixteen wide column\">
-            <img class=\"ui centered large image\" src=\"./front/assets/article/article2_jewc/jewc.jpg\"
-                 alt=\"logo\"
-                 style=\"margin-bottom: 5%\">
-        </div>
-    </div>");
+$DICT_FR->translate(StringIdentifier::SID_JEWC_H1,"Retours sur le JEWC, congrès ayant réuni à Lyon des Junior-Entrepreneurs du monde entier !");
+$DICT_FR->translate(StringIdentifier::SID_JEWC_H2,"Par le Conseil d'Administration | 28 août 2018");
 $DICT_FR->translate(StringIdentifier::SID_JEWC_P1,"Plus de 20 000 étudiants uniquement en France travaillent avec des professionnels chaque année pour donner vie à leurs projets en mettant en application les cours qu’ils reçoivent dans leurs établissements d’enseignement supérieur. On appelle ces étudiants des Junior-Entrepreneurs.");
 $DICT_FR->translate( StringIdentifier::SID_JEWC_P2,"Le concept de Junior-Entreprise né en France en 1967 s’est étendu à une grande partie du monde en 50 ans ! Tous les deux ans, un rassemblement international des Juniors-Entrepreneurs a lieu. Cet été, il a eu lieu dans notre école, à l’INSA Lyon. Découvrez les témoignages de nos 5 ETICiens présents à cet événement :");
 $DICT_FR->translate(StringIdentifier::SID_JEWC_P3,"« Le JEWC nous a permis de nous rendre compte de l’ampleur du mouvement des Junior-Entreprises dans le monde. Nous avons pu échanger sur les réglementations auxquelles sont soumises les Junior-Entreprises selon le pays dans lequel elles sont implantées. Il était intéressant de voir que le cadre légal, qui protège et rend plus performantes les Junior-Entreprises françaises, n’était pas le même partout. » - Maïlys Pascail");
@@ -549,6 +520,7 @@ $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_CNJE, "Confédération Nat
 $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_EMLYON, "EM Lyon Junior Conseil");
 $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_JUNIORINSA, "Juniors INSA");
 $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_JEUNESLYON, "Junior-Entreprises Lyonnaises");
+$DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_MY_BUSINESS_PLAN, "My Business Plan");
 
 $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_AMARIS_TEXT, "Amaris est un groupe international de conseil en technologies et en management avec un développement rapide et des solutions innovantes pour des projets exigeants. L'activité de la société consiste à soutenir ses clients dans la réalisation de leurs projets en agissant au sein de leur organisation afin d'améliorer leur efficacité et améliorer leurs performances. L'activité d'Amaris repose sur les 5 domaines d'expertise suivants : conseil en affaires et management, systèmes et technologies de l'information, ingénierie et hautes technologies, télécommunications, biotechnologies et pharmacie. Amaris intervient auprès de grands comptes internationaux et de groupes familiaux dans de nombreux secteurs tels l’énergie, l’automobile, la banque.
 
@@ -581,6 +553,9 @@ $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_JUNIORINSA_TEXT, " Regroup
 ");
 $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_JEUNESLYON_TEXT, "Réseau de l’agglomération lyonnaise, les Junior-Entreprises Lyonnaises sont l’association de 8 Junior-Entreprises lyonnaises. Les J.E. de Centrale Rhône-Alpes, de l'emlyon business school, de l’ESDES, de l’IAE Lyon, de l’INSA Lyon, de l’ISARA, de Lyon 2, ainsi que de Sciences Po Lyon se sont associées afin de proposer un plus large panel de compétences à nos clients. Le regroupement promeut la marque et le mouvement des Junior-Entreprises au sein de l’agglomération lyonnaise.
 ");
+$DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_MY_BUSINESS_PLAN_TEXT, "ETIC travaille en partenariat avec My Business Plan, un cabinet de conseil 100% spécialisé sur le business plan, la modélisation financière et la levée de fonds.
+                </br></br>Ils ont accompagné en 7 ans plus de 750 entrepreneurs, TPE/PME et grands groupes sur leur business plan, s'appuyant sur les valeurs qu'ils défendent : pragmatisme, oeil critique, et innovation.");
+
 
 $DICT_FR->translate(StringIdentifier::SID_VALEURS_H1, "Nos valeurs");
 $DICT_FR->translate(StringIdentifier::SID_VALEURS_1, "Humanisme");
@@ -1068,7 +1043,7 @@ $DICT_FR->translate(StringIdentifier::SID_ARTICLE_VOITURE_OVERVIEW, "Si la voitu
 //ARTICLE CARACTERISATION THERMIQUE
 $DICT_FR->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_SECTION, "Caractérisation thermique de matériaux composites");
 $DICT_FR->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE, "Caractérisation thermique de matériaux composites dédiés au stockage de chaleur par réaction chimique pour des applications dans le domaine du bâtiment.");
-$DICT_FR->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_AUTEUR, "Par le Julie DUSSOUILLEZ | 31 octobre 2018");
+$DICT_FR->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_AUTEUR, "Par Julie DUSSOUILLEZ | 31 octobre 2018");
 $DICT_FR->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_P1, "Je m’appelle Julie Dussouillez, je suis en deuxième année de thèse au laboratoire CETHIL (Centre d’Énergétique et de Thermique de Lyon) et je travaille sur la caractérisation thermique de matériaux composites. Par des réactions chimiques, ces derniers permettent de stocker de la chaleur.  Dans le cadre de cette thèse, les applications visées seront celles liées au bâtiment.");
 $DICT_FR->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_P2, "Le stockage thermochimique repose sur le principe d’une réaction renversable : endothermique dans un sens et exothermique dans l’autre. Ce type de stockage de chaleur, basé sur des cycles d’hydratation et de déshydratation de cristaux de sels réactifs, s’inscrit dans un contexte de réduction de la consommation d’énergie des bâtiments et de valorisation des énergies renouvelables. Pour cela, je travaille avec des sels dits hygroscopiques, c’est-à-dire qu’ils ont la particularité de dégager de la chaleur lorsqu’ils sont mis en contact avec un air humide. À terme, l'idée serait d’utiliser cette énergie pour chauffer nos bâtiments par le vecteur air, à l’aide de conduits d’aération.");
 $DICT_FR->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_P3, "La réaction chimique d’hydratation et de déshydratation des cristaux de sel est explicitée en Figure 1. Si on considère un réacteur remplit de sel et que l'on fait passer un flux d'air froid et humide en entrée, une réaction chimique exothermique se déclenche lors de l'hydratation des sels. Cet air froid et humide ressort ainsi chaud et sec. Inversement pour régénérer et donc déshydrater les sels, il faut leur apporter de la chaleur, qui peut provenir de panneaux solaires thermiques par exemple, pour rester dans les  EnR.");
@@ -1079,7 +1054,6 @@ $DICT_FR->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_P5, "Néanmo
 $DICT_FR->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_P6, "Pour faire le parallèle avec notre vie de tous les jours, c'est exactement le même phénomène qui se passe dans nos salières. Lorsque l’air ambiant est trop humide, on conseille souvent d’ajouter du riz pour adsorber l'humidité. Étant donné que dans le cadre de ma thèse je ne vais pas pouvoir utiliser du riz pour enlever l’humidité, l’utilisation de matrices poreuses a été envisagée, afin de remédier à ce problème. Ces matrices sont des matériaux hôtes dans lesquels les cristaux de sel seront incrustés. Ceci devrait permettre de séparer physiquement chacun des cristaux les uns des autres, d'éviter le phénomène d'agglomération et donc d'augmenter les transferts de masse et de chaleur.");
 $DICT_FR->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_P7, "L'idée de ma thèse c'est tout d'abord de caractériser thermiquement parlant 3 sels (dont un en particulier qui n'est quasiment pas connu dans la littérature), qui ont été considérés comme les plus prometteurs pour cette application bâtiment. Je vais ensuite pouvoir tester les matrices poreuses, préalablement imprégnées respectivement des trois types de sels,  à l’aide d’un banc d'essai que je suis en train de réaliser. Ce qui me permettra, je l'espère, d'identifier le meilleur sel pour le chauffage de demain !");
 $DICT_FR->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_DESCRIPTION_ARTICLE, "Je m’appelle Julie Dussouillez, je suis en deuxième année de thèse au laboratoire CETHIL (Centre d’Énergétique et de Thermique de Lyon) et je travaille sur la caractérisation thermique de matériaux composites... ");
-$DICT_FR->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_INFOGRAPHIE, "Infographie des anciens 2018 !");
 
 //TELECHARGER PLAQUETTE OU LECTURE EN LIGNE
 $DICT_FR->translate(StringIdentifier::SID_PLAQUETTE_LIEN, "/back/download/PlaquetteETIC.pdf");
@@ -1092,8 +1066,7 @@ $DICT_FR->translate(StringIdentifier::SID_ANCIEN_AUTEUR, "Par le Conseil d'Admin
 $DICT_FR->translate(StringIdentifier::SID_ANCIEN_P1, " Que sont-ils devenus ? Cette année encore, les anciens ETICiens ont réussi à valoriser leur expérience en Junior-Entreprise: voici leurs parcours résumés en quelques chiffres clés....");
 $DICT_FR->translate(StringIdentifier::SID_ANCIEN_P2, "De manière générale, l'aventure au sein d'ETIC permet un premier contact avec le monde de l'entreprise et donc la création d'un premier réseau grâce aux partenaires et au mouvement notamment. Les anciens ETICiens ont plus de facilité à trouver un stage ou un emploi. Plus de la moitié d'entre eux ont bénéficié d’une expérience à l'étranger après l’obtention de leur diplôme !");
 $DICT_FR->translate(StringIdentifier::SID_ANCIEN_P3, "Si le monde de entrepreneuriat t'intéresse, n'hésite plus à nous rejoindre: en sortant d'ETIC, 1 Junior-Entrepreneur sur 3 a créé sa propre entreprise ! En tant que membre d'ETIC tu pourras bénéficier de nombreuses formations qui t'aideront à appréhender le monde professionnel.");
-$DICT_FR->translate(StringIdentifier::SID_ANCIEN_DESCRIPTION_ARTICLE, "Que sont-ils devenus ? Cette année encore, les anciens ETICiens ont réussi à valoriser leur expérience en Junior-Entreprise: voici leurs parcours résumés en quelques chiffres clés....");
-$DICT_FR->translate(StringIdentifier::SID_ANCIEN_NEXT_ARTICLE, "Retours sur le JEWC, congrès ayant réuni à Lyon des Junior-Entrepreneurs du monde entier !");
+$DICT_FR->translate(StringIdentifier::SID_ANCIEN_DESCRIPTION_ARTICLE, "Que sont-ils devenus ? Cette année encore, les anciens ETICiens ont réussi à valoriser leur expérience en Junior-Entreprise : voici leurs parcours résumés en quelques chiffres clés....");
 
 //ARTICLES SUR LE TEMOIGNAGE ANCIEN
 $DICT_FR->translate(StringIdentifier::SID_TEMOIGNAGE_ANCIEN_SECTION, "Témoignage d’un ancien ETICien");
@@ -1262,7 +1235,7 @@ $DICT_FR->translate(StringIdentifier::SID_ETIC_RSE_P5,    " <div class=\"row\">
             </div>
         </div>
         " );
-$DICT_FR->translate(StringIdentifier::SID_ETIC_RSE_COTENT,"<div class=\"row sixteen wide column\">
+$DICT_FR->translate(StringIdentifier::SID_ETIC_RSE_CONTENT,"<div class=\"row sixteen wide column\">
         <a class=\"ui olive card centered article-card\" href=\"{LINK_ARTICLE_4}\" style=\"width: 400px; margin-bottom: 50px;\">
             <div class=\"image\">
                 <img alt=\"img\" style=\"\" src=\"./front/assets/article/article4_thermique/labo.jpg\">
