@@ -14,6 +14,7 @@ class StringIdentifier {
 
 	// identifiants
 	const SID_TITLE = "{TITLE}"; // titre du site
+    const SID_TITLE_SHORT = "{TITLE_SHORT}"; // titre du site
     const SID_TITLE_MENU ="{TITLE_MENU}"; // titre du menu
 	const SID_HOME = "{HOME}"; // titre du site
 	const SID_PRESTA ="{PRESTA}"; // titre du menu nos prestations
@@ -572,6 +573,7 @@ class StringIdentifier {
 	    StringIdentifier::SID_LANGUAGE,
 
 		StringIdentifier::SID_TITLE,
+        StringIdentifier::SID_TITLE_SHORT,
         StringIdentifier::SID_TITLE_MENU,
 		StringIdentifier::SID_HOME,
 		StringIdentifier::SID_PRESTA,

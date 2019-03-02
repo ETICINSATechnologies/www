@@ -10,6 +10,7 @@ $DICT_FR = new Dictionary('fr');
 $DICT_FR->translate(StringIdentifier::SID_LANGUAGE, "fr");
 
 $DICT_FR->translate(StringIdentifier::SID_TITLE, "ETIC INSA Technologies : Meilleure Junior-Entreprise de France en 2016");
+$DICT_FR->translate(StringIdentifier::SID_TITLE_SHORT, "ETIC INSA Technologies : ");
 $DICT_FR->translate(StringIdentifier::SID_TITLE_MENU, "ETIC INSA Technologies");
 $DICT_FR->translate(StringIdentifier::SID_HOME, "Accueil");
 $DICT_FR->translate(StringIdentifier::SID_PRESTA, "Nos prestations");
