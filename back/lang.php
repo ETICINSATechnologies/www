@@ -73,7 +73,6 @@ class StringIdentifier {
     const SID_DIGITAL_SECURITE = "{DIGITAL_SECURITE}";
     const SID_DIGITAL_SECURITE_TEXT = "{DIGITAL_SECURITE_TEXT}";
 
-
     const SID_ENGINEERING = "{ENGINEERING}";
     const SID_ENGINEERING_P1 = "{ENGINEERING_P1}";
     const SID_ENGINEERING_URBANISME = "{ENGINEERING_URBANISME}";
@@ -116,8 +115,8 @@ class StringIdentifier {
 	const SID_HOME_PALMARES_H1 = "{HOME_PALMARES_H1}";
 	const SID_HOME_PALMARES_SUB = "{HOME_PALMARES_SUB}";
 
-    const SID_JEWC_HEADER ="{JEWC_HEADER}";
-    const SID_JEWC_IMG ="{JEWC_IMG}";
+    const SID_JEWC_H1 ="{JEWC_H1}";
+    const SID_JEWC_H2 ="{JEWC_H2}";
     const SID_JEWC_P1 ="{JEWC_P1}";
     const SID_JEWC_P2 ="{JEWC_P2}";
     const SID_JEWC_P3 ="{JEWC_P3}";
@@ -246,6 +245,7 @@ class StringIdentifier {
     const SID_PARTENAIRES_EMLYON = "{PARTENAIRES_EMLYON}";
     const SID_PARTENAIRES_JUNIORINSA = "{PARTENAIRES_JUNIORINSA}";
     const SID_PARTENAIRES_JEUNESLYON = "{PARTENAIRES_JEUNESLYON}";
+    const SID_PARTENAIRES_MY_BUSINESS_PLAN = "{PARTENAIRES_MY_BUSINESS_PLAN}";
 
     const SID_PARTENAIRES_AMARIS_TEXT = "{PARTENAIRES_AMARIS_TEXT}";
     const SID_PARTENAIRES_EY_TEXT = "{PARTENAIRES_EY_TEXT}";
@@ -255,6 +255,7 @@ class StringIdentifier {
     const SID_PARTENAIRES_EMLYON_TEXT = "{PARTENAIRES_EMLYON_TEXT}";
     const SID_PARTENAIRES_JUNIORINSA_TEXT = "{PARTENAIRES_JUNIORINSA_TEXT}";
     const SID_PARTENAIRES_JEUNESLYON_TEXT = "{PARTENAIRES_JEUNESLYON_TEXT}";
+    const SID_PARTENAIRES_MY_BUSINESS_PLAN_TEXT = "{PARTENAIRES_MY_BUSINESS_PLAN_TEXT}";
 
 
 	const SID_VALEURS_H1 = "{VALEURS_H1}";
@@ -488,7 +489,7 @@ class StringIdentifier {
     const SID_ETIC_RSE_P4="{ETIC_RSE_P4}" ;
     const SID_ETIC_RSE_P5 ="{ETIC_RSE_P5}";
     const SID_ETIC_RSE_AUTEUR_DATE="{ETIC_RSE_AUTEUR_DATE}";
-    const SID_ETIC_RSE_COTENT="{ETIC_RSE_COTENT}";
+    const SID_ETIC_RSE_CONTENT="{ETIC_RSE_CONTENT}";
 
 
     //article voiture autonome
@@ -513,7 +514,6 @@ class StringIdentifier {
     const SID_CARACTERISATION_THERMIQUE_P5= "{CARACTERISATION_THERMIQUE_P5}";
     const SID_CARACTERISATION_THERMIQUE_P6 = "{CARACTERISATION_THERMIQUE_P6}";
     const SID_CARACTERISATION_THERMIQUE_P7 = "{CARACTERISATION_THERMIQUE_P7}";
-    const SID_CARACTERISATION_THERMIQUE_INFOGRAPHIE = "{SID_CARACTERISATION_THERMIQUE_INFOGRAPHIE}";
     const SID_CARACTERISATION_THERMIQUE_DESCRIPTION_ARTICLE = "{CARACTERISATION_THERMIQUE_DESCRIPTION_ARTICLE}";
 
     // article sur la Caracterisation_thermique
@@ -524,8 +524,6 @@ class StringIdentifier {
     const SID_ANCIEN_P2 = "{ANCIEN_P2}";
     const SID_ANCIEN_P3 ="{ANCIEN_P3}";
     const SID_ANCIEN_DESCRIPTION_ARTICLE = "{ANCIEN_DESCRIPTION_ARTICLE}";
-    const SID_ANCIEN_NEXT_ARTICLE ="{ANCIEN_NEXT_ARTICLE}";
-
 
     //ARTICLE SUR LE TEMOIGNAGE ANCIEN
     const SID_TEMOIGNAGE_ANCIEN_SECTION = "{TEMOIGNAGE_ANCIEN_SECTION}";
@@ -669,8 +667,8 @@ class StringIdentifier {
 		StringIdentifier::SID_HOME_PALMARES_H1,
 		StringIdentifier::SID_HOME_PALMARES_SUB,
 
-        StringIdentifier::SID_JEWC_HEADER,
-        StringIdentifier::SID_JEWC_IMG,
+        StringIdentifier::SID_JEWC_H1,
+        StringIdentifier::SID_JEWC_H2,
         StringIdentifier::SID_JEWC_P1,
         StringIdentifier::SID_JEWC_P2,
         StringIdentifier::SID_JEWC_P3,
@@ -833,7 +831,7 @@ class StringIdentifier {
         StringIdentifier::SID_PARTENAIRES_EMLYON,
         StringIdentifier::SID_PARTENAIRES_JUNIORINSA,
         StringIdentifier::SID_PARTENAIRES_JEUNESLYON,
-
+        StringIdentifier::SID_PARTENAIRES_MY_BUSINESS_PLAN,
 
         StringIdentifier::SID_PARTENAIRES_AMARIS_TEXT,
         StringIdentifier::SID_PARTENAIRES_EY_TEXT,
@@ -843,7 +841,7 @@ class StringIdentifier {
         StringIdentifier::SID_PARTENAIRES_EMLYON_TEXT,
         StringIdentifier::SID_PARTENAIRES_JUNIORINSA_TEXT,
         StringIdentifier::SID_PARTENAIRES_JEUNESLYON_TEXT,
-
+        StringIdentifier::SID_PARTENAIRES_MY_BUSINESS_PLAN_TEXT,
 
 		StringIdentifier::SID_PRESIDENT_H1,
 		StringIdentifier::SID_PRESIDENT_P,
@@ -1037,7 +1035,7 @@ class StringIdentifier {
         StringIdentifier::SID_ETIC_RSE_P4,
         StringIdentifier::SID_ETIC_RSE_P5,
         StringIdentifier::SID_ETIC_RSE_AUTEUR_DATE,
-        StringIdentifier::SID_ETIC_RSE_COTENT,
+        StringIdentifier::SID_ETIC_RSE_CONTENT,
 
 
         StringIdentifier::SID_FB_BUTTON,
@@ -1055,7 +1053,6 @@ class StringIdentifier {
         StringIdentifier::SID_CARACTERISATION_THERMIQUE_P5,
         StringIdentifier::SID_CARACTERISATION_THERMIQUE_P6,
         StringIdentifier::SID_CARACTERISATION_THERMIQUE_P7,
-        StringIdentifier::SID_CARACTERISATION_THERMIQUE_INFOGRAPHIE,
         StringIdentifier::SID_CARACTERISATION_THERMIQUE_DESCRIPTION_ARTICLE,
 
         //ARTCLE ANCIEN
@@ -1066,7 +1063,6 @@ class StringIdentifier {
         StringIdentifier::SID_ANCIEN_P2,
         StringIdentifier::SID_ANCIEN_P3,
         StringIdentifier::SID_ANCIEN_DESCRIPTION_ARTICLE,
-        StringIdentifier::SID_ANCIEN_NEXT_ARTICLE,
 
         //ARTICLE TEMOIGANGE ANCIEN
         StringIdentifier:: SID_TEMOIGNAGE_ANCIEN_SECTION,

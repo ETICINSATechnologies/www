@@ -9,7 +9,7 @@ $DICT_EN = new Dictionary('en');
 
 $DICT_EN->translate(StringIdentifier::SID_LANGUAGE, "en");
 
-$DICT_EN->translate(StringIdentifier::SID_TITLE, "ETIC INSA Technologies : Meilleure Junior-Entreprise de France en 2016");
+$DICT_EN->translate(StringIdentifier::SID_TITLE, "ETIC INSA Technologies : Best Junior-Enterprise of France in 2016");
 $DICT_EN->translate(StringIdentifier::SID_TITLE_MENU, "ETIC INSA Technologies");
 $DICT_EN->translate(StringIdentifier::SID_HOME, "Home");
 $DICT_EN->translate(StringIdentifier::SID_PRESTA, "Our services");
@@ -26,7 +26,7 @@ $DICT_EN->translate(StringIdentifier::SID_PLAQUETTE, "Commercial brochure");
 $DICT_EN->translate(StringIdentifier::SID_DEVIS, "Ask for an estimate");
 $DICT_EN->translate(StringIdentifier::SID_CONTACT, "Contact us");
 $DICT_EN->translate(StringIdentifier::SID_LANG, "<i class=\"gb flag\"></i> English");
-$DICT_EN->translate(StringIdentifier::SID_MOUVEMENT, "About Junior-Entreprises");
+$DICT_EN->translate(StringIdentifier::SID_MOUVEMENT, "About Junior-Enterprises");
 $DICT_EN->translate(StringIdentifier::SID_PLAN,"Site map");
 $DICT_EN->translate(StringIdentifier::SID_INGENIERIE, "Engineering");
 $DICT_EN->translate(StringIdentifier::SID_NUMERIQUE, "Digitalisation");
@@ -37,7 +37,7 @@ $DICT_EN->translate(StringIdentifier::SID_ARTICLES, "News");
 /*FR_HOME*/
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_EXPERIENCE, "Years of experience");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_ENG, "in France in 2016");
-$DICT_EN->translate(StringIdentifier::SID_HOME_STAT_TOP, "Best Junior-Entreprises");
+$DICT_EN->translate(StringIdentifier::SID_HOME_STAT_TOP, "Best Junior-Enterprises");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_DOMAINES, "Fields of proficiency");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_SATISFACTION, "Clients satisfied");
 $DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_1, "<img src=\"front/assets/home/PrizeEN.png\" style=\"max-width: 100%;\">");
@@ -49,7 +49,7 @@ Top 12 of the best JE in 2004<br>
 Finalist of the Label Ingénieur in 2001 and 2003<br>
 Finalist of the Label Informatique in 1999<br>
 Laureate of the Label Technique 1998");
-$DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_3, "Ranked among the 12 best Junior-Entreprises from France in 2004 (out of 120 Junior-Entreprises)
+$DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_3, "Ranked among the 12 best Junior-Enterprises from France in 2004 (out of 120 Junior-Enterprises)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
 Finalist of the Label Ingénieur in 2001 and 2003
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; 
@@ -59,7 +59,7 @@ Laureate of the Label Technique 1998");
 
 $DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS, "Our services");
 $DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS_SUB, "Many engineering fields");
-$DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS_P, "ETIC INSA Technologies, INSA Lyon's Junior-Entreprise profits school's high level formation in order to provide you a wide panel of activities.
+$DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS_P, "ETIC INSA Technologies, INSA Lyon's Junior-Enterprise profits school's high level formation in order to provide you a wide panel of activities.
  Digital transformation, Mechanical, Electronic, Urban Engineering and many others, Business Development and Marketing, Discover our services and their Business Units.");
 $DICT_EN->translate(StringIdentifier::SID_HOME_SKILLS_DET, "MORE DETAILS");
 
@@ -68,7 +68,7 @@ $DICT_EN->translate(StringIdentifier::SID_HOME_TEMOIGNAGE, "Feedbacks");
 $DICT_EN->translate(StringIdentifier::SID_HOME_REFERENCES, "References");
 $DICT_EN->translate(StringIdentifier::SID_HOME_TEMOIGNAGE_SUB, "We are interested in our clients and partners feedbacks");
 $DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_H1, "Prize list");
-$DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_SUB, "A high-performing Junior-Entreprise over time");
+$DICT_EN->translate(StringIdentifier::SID_HOME_PALMARES_SUB, "A high-performing Junior-Enterprise over time");
 
 $DICT_EN->translate(StringIdentifier::SID_ETUDE_H2_1, "Your request");
 $DICT_EN->translate(StringIdentifier::SID_ETUDE_H2_2, "Commercial proposition");
@@ -459,11 +459,11 @@ $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_PLUS_SC, "");
 
 $DICT_EN->translate(StringIdentifier::SID_COMPETENCES_MORE, "Learn more...");
 
-$DICT_EN->translate(StringIdentifier::SID_MOUVEMENT_P, "A Junior-Entreprise is an association related to the french law of 1901, managed by students from schools and universities.
-With an educational purpose, they implement projects in their fields of proficiency for their clients. More than 170 structures have been created in France and contributes to the Confédration Nationale des Junior-Entreprises.
+$DICT_EN->translate(StringIdentifier::SID_MOUVEMENT_P, "A Junior-Enterprise is an association related to the french law of 1901, managed by students from schools and universities.
+With an educational purpose, they implement projects in their fields of proficiency for their clients. More than 170 structures have been created in France and contributes to the Confédration Nationale des Junior-Enterprises.
 <br><br>
-ETIC INSA Technologies is the Junior-Entreprise at INSA Lyon.
-Created in 1981, we are the best Junior-Entreprise in France. ETIC INSA Technologies' mission is to implement studies to fulfill the needs and expectations of our clients, respecting the technical aspects, deadline, and cost through a controlled methodology and continuous interactions with the client.");
+ETIC INSA Technologies is the Junior-Enterprise at INSA Lyon.
+Created in 1981, we are the best Junior-Enterprise in France. ETIC INSA Technologies' mission is to implement studies to fulfill the needs and expectations of our clients, respecting the technical aspects, deadline, and cost through a controlled methodology and continuous interactions with the client.");
 
 $DICT_EN->translate(StringIdentifier::SID_CONFIANCE_1, "They trusted us");
 $DICT_EN->translate(StringIdentifier::SID_CONFIANCE_2, "Institutions");
@@ -474,21 +474,21 @@ $DICT_EN->translate(StringIdentifier::SID_CONFIANCE_QUOTE_2_HEAD, "The student t
 $DICT_EN->translate(StringIdentifier::SID_CONFIANCE_QUOTE_3_HEAD, "We are proud to support each year these young talents");
 $DICT_EN->translate(StringIdentifier::SID_CONFIANCE_QUOTE_1, "« Our work with ETIC INSA Technologies has been very successful. The technical and human skills of the stakeholders allowed us to move quickly on the electronic project that we submitted to them. I particularly appreciated their responsiveness and motivation. The results obtained allow us to affirm that we will call on ETIC INSA again if the need appears on a future project.» <b>Faustine Vanhulle – Innovation Group – ElcoBrandt</b>");
 $DICT_EN->translate(StringIdentifier::SID_CONFIANCE_QUOTE_2, "« ETIC brings a real added value to the project. The student teams are full of professional, creative and rigorous. We have moved forward together, in a complex context and limited time. Courage and solidarity have been communicative and decisive values for the success of this ambitious program. Indeed, in addition to the technical and project management skills that characterize INSA, ETIC has excellent sales people! Since that experience, I recommend them regularly.» <b>Barbara Coudène</b>");
-$DICT_EN->translate(StringIdentifier::SID_CONFIANCE_QUOTE_3, "« Not only a bearer of technical progress, the engineer must increasingly be a creator of value. He must be able to imagine the society of tomorrow. To accompany this evolution, it becomes important to raise awareness very early to a culture of innovation and a spirit of entrepreneurship. ETIC INSA Technologies, the Junior Enterprise of INSA Lyon, is one of the showcases of this desire. We are proud to support each year these young talents who deliver all their skills to professionals who bet on innovation and dynamism. Since its creation in 1981, ETIC INSA Technologies continues to develop and distinguish itself. It is today one of the 4 best Junior-Entreprises of France.» <b>Eric Maurincomme, Director of INSA Lyon</b>");
+$DICT_EN->translate(StringIdentifier::SID_CONFIANCE_QUOTE_3, "« Not only a bearer of technical progress, the engineer must increasingly be a creator of value. He must be able to imagine the society of tomorrow. To accompany this evolution, it becomes important to raise awareness very early to a culture of innovation and a spirit of entrepreneurship. ETIC INSA Technologies, the Junior Enterprise of INSA Lyon, is one of the showcases of this desire. We are proud to support each year these young talents who deliver all their skills to professionals who bet on innovation and dynamism. Since its creation in 1981, ETIC INSA Technologies continues to develop and distinguish itself. It is today one of the 4 best Junior-Enterprises of France.» <b>Eric Maurincomme, Director of INSA Lyon</b>");
 
 $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_1, "Our premium partners");
 $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_2, "CNJE's premium partners");
-$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_3, "Our Junior-Entreprises partnerships in France");
-$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_4, "Our Junior-Entreprises partnershups worldwide");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_3, "Our Junior-Enterprises partnerships in France");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_4, "Our Junior-Enterprises partnershups worldwide");
 
 $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_AMARIS, "Amaris");
 $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_EY, "EY");
 $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_BNP, "BNP Paribas");
 $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_INSA, "INSA de Lyon");
-$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_CNJE, "Confédération Nationale des Junior-Entreprises");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_CNJE, "Confédération Nationale des Junior-Enterprises");
 $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_EMLYON, "EM Lyon Junior Conseil");
 $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_JUNIORINSA, "Juniors INSA");
-$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_JEUNESLYON, "Junior-Entreprises Lyonnaises");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_JEUNESLYON, "Junior-Enterprises Lyonnaises");
 
 $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_AMARIS_TEXT, "Amaris is an international technology and management consulting firm
 growing at a very fast rate and providing innovative solutions to rather
@@ -512,11 +512,11 @@ the clients with high value prioritising sector-wide approach. In a constantly
 evolving world that offers, should you look beyond the barriers, plenty of
 opportunities, EY went for a rather ambitious goal: Building a better working
 world.
-                </br></br>EY’s partnership with Junior-Entreprises has already celebrated its third
+                </br></br>EY’s partnership with Junior-Enterprises has already celebrated its third
 anniversary and counting, they have been assisting us through different
 issues, each time offering customisable help that adapts to our very specific
 problems, which has been allowing us to make the most of our Junior-
-Entreprise and never cease to improve daily.
+Enterprise and never cease to improve daily.
 ");
 $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_BNP_TEXT, " BNP Paribas is the first banking group eurozonewide and fifth
 worldwide, implemented in over 74 countries, with a labour force of 189 000
@@ -532,9 +532,9 @@ $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_CNJE_TEXT, " Grouping more
                 </br></br>Its missions are:
                 </br> - The development of the Junior-Enterprises movement, notably through the integration of new structures
                 </br>- Training and support for Junior Entrepreneurs in their skills development
-                </br>- The promotion and protection of the Junior-Entreprise brand and the promotion of entrepreneurship
+                </br>- The promotion and protection of the Junior-Enterprise brand and the promotion of entrepreneurship
 ");
-$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_EMLYON_TEXT, "Third Junior-Entreprise of France, em lyon junior conseil is emlyon business school's Junior-Entreprise.
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_EMLYON_TEXT, "Third Junior-Enterprise of France, em lyon junior conseil is emlyon business school's Junior-Enterprise.
                 </br></br>Since 1972, she has been supporting companies in France and Europe with consulting studies in audit, communication, entrepreneurship, finance, marketing and strategy.
 
                 </br></br>We respond to the problems encountered by our clients, whether they are large groups, SMEs or entrepreneurs by adding the skills of a business school to our areas of expertise.
@@ -543,8 +543,11 @@ $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_JUNIORINSA_TEXT, " As a gr
 
                 </br></br>With more than 40 specialties, designed around an education of excellence backed by cutting-edge scientific research. We offer services in a variety of areas, including computer and safety, mechanics, materials engineering, mathematics and many more.
 ");
-$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_JEUNESLYON_TEXT, "
-A network of the Lyon urban area, Junior-Entreprises Lyonnaises is the association of 8 Junior-Entreprises Lyon. Centrale Rhône-Alpes, emlyon business school, ESDES, IAE Lyon, INSA Lyon, ISARA, Lyon 2, and Sciences Po Lyon have joined together to offer a wider range of skills to our customers. The group promotes the brand and movement of Junior Enterprises in the Lyon area.");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_JEUNESLYON_TEXT, "A network of the Lyon urban area, Junior-Enterprises Lyonnaises is the association of 8 Junior-Enterprises Lyon. Centrale Rhône-Alpes, emlyon business school, ESDES, IAE Lyon, INSA Lyon, ISARA, Lyon 2, and Sciences Po Lyon have joined together to offer a wider range of skills to our customers. The group promotes the brand and movement of Junior Enterprises in the Lyon area.");
+$DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_MY_BUSINESS_PLAN_TEXT, "ETIC is working in close partnership with My Business Plan, a consulting firm 100% specialised in business plans, financial modeling and fundraising.
+                </br></br>Over 7 years, they have accompanied more than 750 entrepreneurs, very small and medium-sized enterprises as well as big companies with their business plans, by leaning on their values: pragmatism, critical look and innovation.");
+
+
 $DICT_EN->translate(StringIdentifier::SID_VALEURS_H1, "Our values");
 $DICT_EN->translate(StringIdentifier::SID_VALEURS_1, "Humanism");
 $DICT_EN->translate(StringIdentifier::SID_VALEURS_2, "Excellency");
@@ -563,7 +566,7 @@ $DICT_EN->translate(StringIdentifier::SID_MISSION,"<br>ETIC INSA Technologies es
 
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H1, "Our quality method");
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_1, "ETIC INSA Technologies wishes to provide high quality services to its clients in order to make sure of the good implementation of the project it is entrusted with, respecting determined deadlines and specifications. By doing so, it gives its members, engineering students, a high performing structure that allows them to learn and confront the real requirements of the professional world, while preserving a good mood for everyone.");
-$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_2, "With this purpose in mind, and for more than 35 years, ETIC INSA Technologies has been supported and controlled by the CNJE (National Confederation of Juniors Entreprises). Once a year, the Junior-Entreprise is audited on its processus, its project monitoring and treasury management. The success of this audit is the sine qua non condition to maintain the Junior-Entreprise brand. Even more, ETIC is now committed to the ISO 9001 certification standards (2008) in order to offer the best answer to the demands of our clients.");
+$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_2, "With this purpose in mind, and for more than 35 years, ETIC INSA Technologies has been supported and controlled by the CNJE (National Confederation of Juniors Enterprises). Once a year, the Junior-Enterprise is audited on its processus, its project monitoring and treasury management. The success of this audit is the sine qua non condition to maintain the Junior-Enterprise brand. Even more, ETIC is now committed to the ISO 9001 certification standards (2008) in order to offer the best answer to the demands of our clients.");
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H2_1,"This process is focused on three main axis :");
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H2_2,"To do this, it relies on an organisation :");
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_P_3,"Continuous and personalized listening of the client");
@@ -580,17 +583,17 @@ $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_2, "Support innovation
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_3, "To advise the professionals in order to evolve their projects and their company towards a greater respect of the Men and the environment.");
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_4, "Collaborate with the INSA group foundation, which aims to connect INSA researchers and companies to support them in their CSR approach.");
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_5, "Implement actions internally: inclusive management, selective sorting, energy saving, diversity, equal opportunities ...");
-$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_6, "Sensitize our members to CSR issues and give them an experience that will make them want to have a positive impact on the company where they will work tomorrow, because the Junior-Entreprise is the school of the company and we want them to learn this what is a humanist enterprise.");
+$DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_6, "Sensitize our members to CSR issues and give them an experience that will make them want to have a positive impact on the company where they will work tomorrow, because the Junior-Enterprise is the school of the company and we want them to learn this what is a humanist enterprise.");
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_7, "Make all students at INSA Lyon and elsewhere aware of the challenges of tomorrow's business.");
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_8, "Be precursors in the movement of Junior-Enterprises and inspire others to join us in this dynamic, within reach of each Junior-Entrepreneur.");
 
 $DICT_EN->translate(StringIdentifier::SID_PRESIDENT_H1,"The president's words");
-$DICT_EN->translate(StringIdentifier::SID_PRESIDENT_P,"Created in 1981, ETIC INSA Technologies is INSA Lyon's Junior-Entreprise. For more than 35 years, engagement, responsiveness and quality are ETIC's keywords, and the whole team are investing following these values.
+$DICT_EN->translate(StringIdentifier::SID_PRESIDENT_P,"Created in 1981, ETIC INSA Technologies is INSA Lyon's Junior-Enterprise. For more than 35 years, engagement, responsiveness and quality are ETIC's keywords, and the whole team are investing following these values.
 With our partners' support and INSA Lyon's excellent formation in more than 10 fields of engineering, we are able to offer you our high-quality multidisciplinary services.
-Best Junior-Entreprise of France in 2016, we keep succeeding thanks to our project management skill and high technical expertise.
+Best Junior-Enterprise of France in 2016, we keep succeeding thanks to our project management skill and high technical expertise.
 We are proud to be able to put more than 40 active members and 3000 potential contributors at your disposal. 
-With more than 35 years of experience, we are today laureates of the Prix d’Excellence, awarding the best Junior-Entreprise in France. ");
-$DICT_EN->translate(StringIdentifier::SID_PRESIDENT_SIGN,"Eline Achard, president 2017-2018");
+With more than 35 years of experience, we are today laureates of the Prix d’Excellence, awarding the best Junior-Enterprise in France. ");
+$DICT_EN->translate(StringIdentifier::SID_PRESIDENT_SIGN,"Maïlys Pascail, president 2018-2019");
 $DICT_EN->translate(StringIdentifier::SID_BUREAU,"The chamber");
 $DICT_EN->translate(StringIdentifier::SID_CA,"The board of directors");
 $DICT_EN->translate(StringIdentifier::SID_EQUIPES,"Our teams");
@@ -623,9 +626,9 @@ $DICT_EN->translate(StringIdentifier::SID_CNE_SUB,"Organized by the CNJE");
 $DICT_EN->translate(StringIdentifier::SID_JDP_SUB,"Organized by Etic");
 $DICT_EN->translate(StringIdentifier::SID_TEDX_SUB,"Organized by Etic");
 
-$DICT_EN->translate(StringIdentifier::SID_CRP_P,"Twice a year, in spring and autumn, the Junior-Entrepreneurs gather to attend to trainings, conferences, and of course meet new people. These events allow the participants to create their network while learning knowledge and best practices. They are organized by a Junior-Entreprise in the region. Etic organized the Spring Regional Congress in 2015 for the Centre-Est region.");
+$DICT_EN->translate(StringIdentifier::SID_CRP_P,"Twice a year, in spring and autumn, the Junior-Entrepreneurs gather to attend to trainings, conferences, and of course meet new people. These events allow the participants to create their network while learning knowledge and best practices. They are organized by a Junior-Enterprise in the region. Etic organized the Spring Regional Congress in 2015 for the Centre-Est region.");
 //$DICT_EN->translate(StringIdentifier::SID_CRA_P,"Congrès Régional d'Automne");
-$DICT_EN->translate(StringIdentifier::SID_CNE_P,"Twice a year, in summer and winter, the Junior-Entrepreneurs of all France gather for a large event. Prestigious speakers handle trainings, and the labels and challenges reward the best Junior-Entreprises in France in several fields. In 2016, Etic won the Prix d'Excellence, awarded to the best french Junior-Entreprise, and the Label Ingénieur, for having implemented the best engineering project.");
+$DICT_EN->translate(StringIdentifier::SID_CNE_P,"Twice a year, in summer and winter, the Junior-Entrepreneurs of all France gather for a large event. Prestigious speakers handle trainings, and the labels and challenges reward the best Junior-Enterprises in France in several fields. In 2016, Etic won the Prix d'Excellence, awarded to the best french Junior-Enterprise, and the Label Ingénieur, for having implemented the best engineering project.");
 //$DICT_EN->translate(StringIdentifier::SID_CNH_P,"Congrès National d'Hiver");
 $DICT_EN->translate(StringIdentifier::SID_JDP_P,"Directed toward students at INSA de Lyon, the Journée du Développement Personnel allow them to attend to trainings made by guest speakers. These trainings, complementary to those of the school, insist on personality more than technical engineering skills.");
 $DICT_EN->translate(StringIdentifier::SID_TEDX_P,"TED is a non-profit organization dedicated to « Ideas Worth Spreading ». Since 1984, this conference organized around topics such as « Technology, Entertainment, Design » develop to support the ideas that change the world. TEDx was created in the spirit of TED's mission, to allow communities, organizations and individuals to organize local TED events. Etic organizes the TEDxINSA, which takes place each year in the rotunda of INSA Lyon. More on
@@ -645,7 +648,7 @@ $DICT_EN->translate(StringIdentifier::SID_DEVIS_RESET, "Reset");
 $DICT_EN->translate(StringIdentifier::SID_DEVIS_SUBMIT, "Send");
 $DICT_EN->translate(StringIdentifier::SID_DEVIS_HEADER, "Ask for an estimate");
 
-$DICT_EN->translate(StringIdentifier::SID_FOOTER_DESCRIPTION, "Junior-Entreprise of INSA Lyon");
+$DICT_EN->translate(StringIdentifier::SID_FOOTER_DESCRIPTION, "Junior-Enterprise of INSA Lyon");
 $DICT_EN->translate(StringIdentifier::SID_FOOTER_RESEAUX, "Social networks");
 $DICT_EN->translate(StringIdentifier::SID_FOOTER_CONTACT, "Contact us");
 
@@ -1003,7 +1006,7 @@ $DICT_EN->translate(StringIdentifier::SID_FB_BUTTON, "Share");
 
 $DICT_EN->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_SECTION, "Thermal characterization of composite materials");
 $DICT_EN->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE, "Thermal characterization of composite materials intended for heat storage via chemical reactions for applications in the building industry.");
-$DICT_EN->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_AUTEUR, " By Julie DUSSOUILLEZ|31 october 2018");
+$DICT_EN->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_AUTEUR, " By Julie DUSSOUILLEZ | 31 october 2018");
 $DICT_EN->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_P1, "I am Julie Dussouillez, currently on the second year of my thesis at the laboratory CETHIL (Centre for Energy and Thermal Sciences of Lyon) and am working on the thermal characterization of composite materials. In the scope of this thesis, the applications targeted shall be in the building industry.");
 $DICT_EN->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_P2, "Thermochemical storage relies on the basis of reversible reactions: endothermic in one direction and exothermic in the other. This type of heat storage, based on cycles of hydration and dehydration of reactive salt crystals, fits within a context where the energetical consumption of buildings is reduced and renewable energies are valued. To achieve this, I make use of hygroscopic salts, in other words salts that feature a release of heat when exposed to humid air. On the long term, the goal would be to use this energy to heat our buildings via air convection through air vents.");
 $DICT_EN->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_P3, "The chemical reaction for hydration and dehydration of the salt crystals is illustrated in Figure 1. If we consider a reactor filled with salt into which we allow a stream of cold humid air in, an exothermic chemical reaction occurs during the hydration of the salts. The cold humid air thus turns warm and dry. Conversely, to regenerate and therefore dehydrate the salts, we need a means heat them. This can be obtained for example via thermal solar panels to remain in the scope of renewable energies.");
@@ -1013,7 +1016,6 @@ $DICT_EN->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_FIGURE2, "Fi
 $DICT_EN->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_P5, "Nonetheless, studies carried out in this field demonstrate that mass transfers during tests remain too low and far off from the theoretical values expected. As per the reaction depicted in Figure 1, during hydration of the salts, a chemical reaction, that releases heat, occurs between the water molecules and the salt crystals. However, side reactions involving water molecules occur simultaneously and lead to the formation of hydrates on the surface of the crystals. This creates an agglomeration of residue that limit, if not prevent hydration and thus heat transfer.");
 $DICT_EN->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_P6, "This issue happens in the everyday life, an example being salt shakers. When the surrounding air is too humid, it is often good practice to add rice to absorb humidity. Given that using rice is not an option in the scope of my thesis to lessen the humidity level, the use of porous matrices was considered as a solution to this issue. These matrices are host materials in which the salt crystals are incrusted. This should physically separate the crystals from each other, avoid the issue of agglomeration and therefore increase the mass and heat transfers.");
 $DICT_EN->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_P7, "My thesis has for initial purpose to thermally characterise 3 salts (one of which have been barely documented), that were considered as most promising for this application in the building industry. I shall then be able to test porous matrices, coated with each salt respectively beforehand, using a workbench I am currently developing. The later, I hope, will allow me to identify the best salt for tomorrow’s heating!");
-$DICT_EN->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_INFOGRAPHIE, "Infographie des anciens 2018 !");
 $DICT_EN->translate(StringIdentifier::SID_CARACTERISATION_THERMIQUE_DESCRIPTION_ARTICLE, "I am Julie Dussouillez, currently on the second year of my thesis at the laboratory CETHIL (Centre for Energy and Thermal Sciences of Lyon) and am working on the thermal characterization of...");
 
 //DOWNLOAD PLAQUETTE OR READ ONLINE
@@ -1024,13 +1026,11 @@ $DICT_EN->translate(StringIdentifier::SID_PLAQUETTE_ONLINE, "https://fr.calameo.
 //ARTICLE SUR LES ANCIENS
 $DICT_EN->translate(StringIdentifier::SID_ANCIEN_SECTION, "Journey of the Seniors 2018");
 $DICT_EN->translate(StringIdentifier::SID_ANCIEN, "Journey of the Seniors 2018");
-$DICT_EN->translate(StringIdentifier::SID_ANCIEN_AUTEUR, "By le Administrative Council| 20 september 2018");
+$DICT_EN->translate(StringIdentifier::SID_ANCIEN_AUTEUR, "By the Administrative Council| 20 september 2018");
 $DICT_EN->translate(StringIdentifier::SID_ANCIEN_P1, "What’s become of them? This year again, the senior ETICians managed to put forward their experience within the Junior Enterprise; here’s the highlights of their journey.");
 $DICT_EN->translate(StringIdentifier::SID_ANCIEN_P2, "Globally, the thrilling experience that is ETIC allows first-hand exposure to the business world and therefore the formation of a first social network with the help of ETIC’s momentum and partners. The senior ETICiens find internships or jobs much more easily and as such, more than half of them had the opportunity to work overseas after graduating!!");
 $DICT_EN->translate(StringIdentifier::SID_ANCIEN_P3, "If the entrepreneurial world attracts you, come over and join us: upon leaving ETIC, 1 out 3 Junior-Entrepreneur went on to set up their own firm!  As a member, you will benefit from numerous workshops that will prepare the you extensively for the corporate world.");
 $DICT_EN->translate(StringIdentifier::SID_ANCIEN_DESCRIPTION_ARTICLE, "What’s become of them? This year again, the senior ETICians managed to put forward their experience within the Junior Enterprise; here’s the highlights of their journey…");
-$DICT_EN->translate(StringIdentifier::SID_ANCIEN_NEXT_ARTICLE, "Feedback on the JEWC, congress gathering Junior Entrepreneurs from all over the world in Lyon !");
-
 
 $DICT_EN->translate(StringIdentifier::SID_ARTICLE_VOITURE_H1, "Self-driving car : between opportunities and challenges");
 $DICT_EN->translate(StringIdentifier::SID_ARTICLE_VOITURE_H2, "By Jacques Olier, consultant at ETIC INSA Technologies | July 19th 2018");
@@ -1075,7 +1075,7 @@ $DICT_EN->translate(StringIdentifier::SID_ETIC_RSE_P5,    " <div class=\"row\">
             </div>
         </div>
         " );
-$DICT_EN->translate(StringIdentifier::SID_ETIC_RSE_COTENT,"<div class=\"row sixteen wide column\">
+$DICT_EN->translate(StringIdentifier::SID_ETIC_RSE_CONTENT,"<div class=\"row sixteen wide column\">
         <a class=\"ui olive card centered article-card\" href=\"{LINK_ARTICLE_4}\" style=\"width: 400px; margin-bottom: 50px;\">
             <div class=\"image\">
                 <img alt=\"img\" style=\"\" src=\"./front/assets/article/article4_thermique/labo.jpg\">
@@ -1093,3 +1093,14 @@ $DICT_EN->translate(StringIdentifier::SID_ETIC_RSE_COTENT,"<div class=\"row sixt
         </a>
 
     </div>");
+
+$DICT_EN->translate(StringIdentifier::SID_JEWC_H1,"Feedback of the JEWC, congress gathering Junior-Entrepreneurs from all around the world in Lyon!");
+$DICT_EN->translate(StringIdentifier::SID_JEWC_H2,"By the Administrative Council | 28th of August 2018");
+$DICT_EN->translate(StringIdentifier::SID_JEWC_P1,"Each year, in France, over 20 000 students apply what they’ve been taught in their higher education institutions by working with professionals to give life to their projects. These students are called Junior-Entrepeneurs.");
+$DICT_EN->translate( StringIdentifier::SID_JEWC_P2,"The concept of Junior-Enterprise was born in France back in 1967 and quickly spread worldwide in just 50 years! Every two year takes place a Junior-Entrepreneurs international gathering. This summer it is happening in our school: at INSA Lyon. Discover the feedback of 5 ETICians presents at this event:");
+$DICT_EN->translate(StringIdentifier::SID_JEWC_P3,"«The JEWC allowed us to realise the scale of the Junior-Entrepeneurs’s movement worldwide. We were able to exchange about legislations that Junior-Enterprises have to abide by depending on the country where they are implemented. It was interesting to see that the legal framework, that protects and helps the Junior-Enterprises become more effective, is different everywhere.» - Maïlys Pascal");
+$DICT_EN->translate( StringIdentifier::SID_JEWC_P4,"«It was an event full of encounters and discoveries. I’ve had the chance to meet Junior-Entrepreneurs from Italy, Germany, Spain and even Brazil! We were able to talk and share valuable advice. The concept of Junior-Enterprise is spreading more and more and could interest both professionals and individuals all around the world. In my opinion, there are several benefits when working with a Junior-Enterprise: the service, the proximity and also the student’s availability. Moreover, due to the wide panel of schools possessing such a structure, it is always possible to find a Junior-Enterprise that can perfectly respond to a specific need.» - Ferial Ben Marzouk");
+$DICT_EN->translate(StringIdentifier::SID_JEWC_P5,"«The JEWC gathers students from all around the world around the same subject. Junior-Entrepreneurs are presents in a large number of countries and it is incredible to see how each structure is unique. The Global Council decisions during this congress strengthen even more our movement and certify an even grater satisfaction from our clients.» - Elliot Trabac");
+$DICT_EN->translate(StringIdentifier::SID_JEWC_P6,"«For 4 days, Lyon welcomed Junior-Entrepreneurs from very different backgrounds, although all sharing the same will to achieve professional projects. Every local movement is developing in its own environment thanks to its commitment in its school, politics or alongside local youth. For example, in Brazil, Junior-Enterprises contribute to the economic development of the country. It is impressing to realise that, around the world, structures have to face very different issues than those that we have to face in France.» - Justine Lhuillier");
+$DICT_EN->translate(StringIdentifier::SID_JEWC_P7,"«Those four days of congress have been an incredible interlude in our daily lives as engineering students Junior-Entrepreneurs. We have met people from all around the world, each with a different and very specific vision of the JE’s world, the role they have in their country and even tomorrow’s companies. From Artificial Intelligence to the future RSE businesses, the trainings given by Junior-Enterprises and the speakers were proposing to discuss about our societies current issues and to confront different points of view from different countries, schools and cultures. From this event, we will remember that working together and sharing is how we will be able to build tomorrow’s world. Also that fear of the unknown and of failure should not slow us down in our projects and in our lives : turn these fears into a motor and exceed yourself! #WeAreJE #WeGenerateImpact #BeyondBorders. » - Charlotte Diroux ");
+$DICT_EN->translate(StringIdentifier::SID_JEWC_AUTHOR, "By the Administration Council");
