@@ -41,6 +41,7 @@ $links->translate(StringIdentifier::LINK_ARTICLE_4, "page.php?page=caracterisati
 $links->translate(StringIdentifier::LINK_ARTICLE_5, "page.php?page=rse_etic");
 $links->translate(StringIdentifier::LINK_ARTICLE_6, "page.php?page=temoignage_ancien");
 $links->translate(StringIdentifier::LINK_ARTICLE_7, "page.php?page=retrospective_2018");
+$links->translate(StringIdentifier::LINK_ARTIClE_8, "page.php?page=fimitech");
 
 
 $links->translate(StringIdentifier::LINK_REA_WEB, "page.php?page=subcategory_websites");

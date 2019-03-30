@@ -1093,7 +1093,7 @@ $DICT_FR->translate(StringIdentifier::SID_TEMOIGNAGE_ANCIEN_VISION,   "Notre Vis
 // ARTICLE RETROSPECTIVE CA 2018
 $DICT_FR->translate(StringIdentifier::SID_RETROSPECTIVE_2018_H1, "Rétrospective de l’année 2018 des membres du Conseil d’Administration d’ETIC");
 $DICT_FR->translate(StringIdentifier::SID_RETROSPECTIVE_2018_AUTEUR, "Par le Conseil d’Administration | 26 janvier 2019");
-$DICT_FR->translate(StringIdentifier::SID_RETROSPECTIVE_2018_RESUME, "Pour l'édition de Janvier du : Un moi une info, les membres du Conseil d'Administration d'ETIC de 2018 reviennent sur les évènements marquants de leur mandat. Entre le Congrès National d'Eté et d'Hiver, le recrutement des nouveaux membres d'ETIC, le changement d'identité de la JE, etc.");
+$DICT_FR->translate(StringIdentifier::SID_RETROSPECTIVE_2018_RESUME, "Pour l'édition de Janvier du : Un moi une info, les membres du Conseil d'Administration d'ETIC de 2018 reviennent sur les évènements marquants de leur mandat. Entre le Congrès National d'Eté et d'Hiver, le recrutement des nouveaux membres d'ETIC, le changement d'identité de la JE ...");
 $DICT_FR->translate(StringIdentifier::SID_RETROSPECTIVE_2018_P1, "
                 <div>
                     <h2 class=\"article - paragraph\">
@@ -1254,3 +1254,15 @@ $DICT_FR->translate(StringIdentifier::SID_ETIC_RSE_CONTENT,"<div class=\"row six
         </a>
 
     </div>");
+
+// ARTTCLE FIMITECH
+
+$DICT_FR->translate(StringIdentifier::SID_FIMITECH_SECTION, "FIMITECH : une nouvelle dimension pour nos projets d’ingénierie");
+$DICT_FR->translate(StringIdentifier::SID_FIMITECH, "FIMITECH : une nouvelle dimension pour nos projets d’ingénierie");
+$DICT_FR->translate(StringIdentifier::SID_FIMITECH_AUTEUR, "par Tom Richard | 25 mars 2019");
+$DICT_FR->translate(StringIdentifier::SID_FIMITECH_P1, "Baptisé “FIMITECH” depuis son inauguration le jeudi 14 février, l’atelier de production technique de l’INSA Lyon permet désormais à tous les étudiants de l’école d’avoir librement accès à tout type de machines industrielles chaque jeudi après-midi.");
+$DICT_FR->translate(StringIdentifier::SID_FIMITECH_P2, "A mi-chemin entre atelier en libre-service et salle de travaux pratiques, les étudiants ont désormais la chance de pouvoir développer leurs projets sous le contrôle et les conseils d’une vingtaine d’enseignants spécialisés. Ainsi, cette plateforme unique dans la région est un excellent moyen d'appréhender l’aspect technique du métier d’ingénieur à travers des projets pédagogiques, personnels ou associatifs.");
+$DICT_FR->translate(StringIdentifier::SID_FIMITECH_P3, "C’est justement dans ce contexte qu’ETIC a naturellement décidé de se rapprocher de cet atelier afin de pouvoir accéder aux divers moyens de production technique pour les études à venir. L’ouverture aux étudiants de cet atelier rend alors possible l’élargissement de nos domaines de compétences grâce à l’utilisation de machines spécifiques (impression 3D, usinage, construction métalliques et enfin  mécatronique). Être accompagné par des experts est aussi doublement bénéfique; cela renforce à la fois la dimension pédagogique de nos projets pour les consultants mais permet aussi de fournir à nos clients un livrable de qualité, validé par le corps enseignant.");
+$DICT_FR->translate(StringIdentifier::SID_FIMITECH_P4, "De plus, ETIC étant l’une des rares Junior-Entreprises à disposer de licences professionnelles de CAO (Conception Assistée par Ordinateur) permettant la réalisation d’études de conception/simulation. Nous pouvons dorénavant proposer des études complètes à nos clients.  En effet, de la conception sur ordinateur à la production d’un prototype, les étudiants de l’INSA Lyon pourront désormais concrétiser des projets d’autant plus professionnalisants pour nos clients en étant consultant à ETIC.");
+$DICT_FR->translate(StringIdentifier::SID_FIMITECH_RESUME, "Baptisé “FIMITECH” depuis son inauguration le jeudi 14 février, l’atelier de production technique de l’INSA Lyon permet désormais à tous les étudiants de l’école...");
+

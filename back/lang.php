@@ -566,6 +566,18 @@ class StringIdentifier {
     const SID_RETROSPECTIVE_2018_P10 = "{RETROSPECTIVE_2018_P10}";
     const SID_RETROSPECTIVE_2018_RESUME ="{RETROSPECTIVE_2018_RESUME}";
 
+
+    //article fimitech
+    const SID_FIMITECH_SECTION = "{FIMITECH_SECTION}";
+    const SID_FIMITECH = "{FIMITECH}";
+    const SID_FIMITECH_AUTEUR = "{FIMITECH_AUTEUR}";
+    const SID_FIMITECH_P1 = "{FIMITECH_P1}";
+    const SID_FIMITECH_P2 = "{FIMITECH_P2}";
+    const SID_FIMITECH_P3 ="{FIMITECH_P3}";
+    const SID_FIMITECH_P4 = "{FIMITECH_P4}";
+    const SID_FIMITECH_RESUME = "{FIMITECH_RESUME}";
+
+
 	// tableau des identifiants
 	const SIDS = array(
 	    StringIdentifier::SID_LANGUAGE,
@@ -1111,7 +1123,17 @@ class StringIdentifier {
         StringIdentifier::SID_RETROSPECTIVE_2018_P8,
         StringIdentifier::SID_RETROSPECTIVE_2018_P9,
         StringIdentifier::SID_RETROSPECTIVE_2018_P10,
-        StringIdentifier::SID_RETROSPECTIVE_2018_RESUME
+        StringIdentifier::SID_RETROSPECTIVE_2018_RESUME,
+
+        //ARTICLE FIMITECH
+        StringIdentifier::SID_FIMITECH,
+        StringIdentifier::SID_FIMITECH_SECTION,
+        StringIdentifier::SID_FIMITECH_AUTEUR,
+        StringIdentifier::SID_FIMITECH_P1,
+        StringIdentifier::SID_FIMITECH_P2 ,
+        StringIdentifier::SID_FIMITECH_P3,
+        StringIdentifier::SID_FIMITECH_P4,
+        StringIdentifier::SID_FIMITECH_RESUME
 
 		);
 
@@ -1136,6 +1158,7 @@ class StringIdentifier {
     const LINK_ARTICLE_5 = "{LINK_ARTICLE_5}"; // RSE
     const LINK_ARTICLE_6 = "{LINK_ARTICLE_6}"; // témoignage ancien
     const LINK_ARTICLE_7 = "{LINK_ARTICLE_7}"; // retrospective du CA 2018
+    const LINK_ARTIClE_8 = "{LINK_ARTICLE_8}"; // fimitech
 
 
     const LINK_INGENIERIE = "{LINK_INGENIERIE}";
@@ -1189,6 +1212,7 @@ class StringIdentifier {
         StringIdentifier::LINK_ARTICLE_5,
         StringIdentifier::LINK_ARTICLE_6,
         StringIdentifier::LINK_ARTICLE_7,
+        StringIdentifier::LINK_ARTIClE_8,
 
 
         StringIdentifier::LINK_INGENIERIE,
