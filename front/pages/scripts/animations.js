@@ -122,7 +122,7 @@ $(document).ready(function() {
     });
 });
 
-(document).ready(function() {
+$(document).ready(function() {
     $('.countback').each( function(i){
         $(this).visibility({
             onBottomVisible: function(){

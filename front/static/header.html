@@ -3,11 +3,17 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132243169-1"></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+        if (document.location.hostname != 'localhost') {
+            window.dataLayer = window.dataLayer || [];
 
-        gtag('config', 'UA-132243169-1');
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+
+            gtag('js', new Date());
+
+            gtag('config', 'UA-132243169-1')
+        }
     </script>
 
   <!-- Standard Meta -->
@@ -78,8 +84,8 @@
                 <div class="ui simple dropdown floated right item">
                     {LANGUAGE} <i class="lightgreen dropdown icon"></i>
                     <div class="menu">
-                        <a class="item" href="page.php?page=home&lang=fr"><i class="fr flag"></i> Français</a>
-                        <a class="item" href="page.php?page=home&lang=en"><i class="gb flag"></i> English</a>
+                        <a id = "lang1_1" class="item" href="page.php?page=home&lang=fr"><i class="fr flag"></i> Français</a>
+                        <a id = "lang2_1" class="item" href="page.php?page=home&lang=en"><i class="gb flag"></i> English</a>
                         <!--<a class="item" href="page.php?page=home&lang=es"><i class="es flag"></i> Espanol</a>
                         <a class="item" href="page.php?page=home&lang=de"><i class="de flag"></i> Deutsch</a>-->
                     </div>
@@ -127,8 +133,8 @@
             <div class="ui simple dropdown floated right item">
                 {LANGUAGE} <i class="lightgreen dropdown icon"></i>
                 <div class="menu">
-                    <a class="item" href="page.php?page=home&amp;lang=fr"><i class="fr flag"></i> Français</a>
-                    <a class="item" href="page.php?page=home&amp;lang=en"><i class="gb flag"></i> English</a>
+                    <a id = "lang1_2" class="item" href="page.php?page=home&amp;lang=fr"><i class="fr flag"></i> Français</a>
+                    <a id = "lang2_2" class="item" href="page.php?page=home&amp;lang=en"><i class="gb flag"></i> English</a>
                     <!--<a class="item" href="page.php?page=home&lang=es"><i class="es flag"></i> Espanol</a>
                     <a class="item" href="page.php?page=home&lang=de"><i class="de flag"></i> Deutsch</a>-->
                 </div>
@@ -178,8 +184,8 @@
 				<div class="ui simple dropdown floated right item">
 					{LANGUAGE} <i class="lightgreen dropdown icon"></i>
 					<div class="menu">
-						<a class="item" href="page.php?page=home&lang=fr"><i class="fr flag"></i> Français</a>
-						<a class="item" href="page.php?page=home&lang=en"><i class="gb flag"></i> English</a>
+						<a  id = "lang1_3" class="item" href ="page.php?page=home&lang=fr"><i class="fr flag"></i> Français</a>
+						<a  id = "lang2_3" class="item" href ="page.php?page=home&lang=en"><i class="gb flag"></i> English</a>
 						<!--<a class="item" href="page.php?page=home&lang=es"><i class="es flag"></i> Espanol</a>
                         <a class="item" href="page.php?page=home&lang=de"><i class="de flag"></i> Deutsch</a>-->
 					</div>
@@ -236,8 +242,8 @@
                 <div class="ui simple dropdown floated right item">
                     {LANGUAGE} <i class="lightgreen dropdown icon"></i>
                     <div class="menu">
-                        <a class="item" href="page.php?page=home&lang=fr"><i class="fr flag"></i> Français</a>
-                        <a class="item" href="page.php?page=home&lang=en"><i class="gb flag"></i> English</a>
+                        <a id = "lang1_4" class="item" href="page.php?page=home&lang=fr"><i class="fr flag"></i> Français</a>
+                        <a id = "lang2_4" class="item" href="page.php?page=home&lang=en"><i class="gb flag"></i> English</a>
                         <!--<a class="item" href="page.php?page=home&lang=es"><i class="es flag"></i> Espanol</a>
                         <a class="item" href="page.php?page=home&lang=de"><i class="de flag"></i> Deutsch</a>-->
                     </div>
@@ -266,5 +272,28 @@
 
 
 <div class="content" style="flex:1">
-<script type="text/javascript" src="./front/pages/scripts/animations.js">
+    <script type="text/javascript" src="./front/pages/scripts/animations.js">
+    </script>
+</div>
+
+<!-- code pour le changement de langue -->
+<script type="text/javascript">
+
+    var url1 = document.URL;
+    url1 = url1.slice(0, -2);
+    url1 = url1 + "fr";
+    document.getElementById("lang1_1").setAttribute("href",url1);
+    document.getElementById("lang1_2").setAttribute("href",url1);
+    document.getElementById("lang1_3").setAttribute("href",url1);
+    document.getElementById("lang1_4").setAttribute("href",url1);
+
+    var url2 = document.URL;
+    url2 = url2.slice(0, -2);
+    url2 = url2 + "en";
+    document.getElementById("lang2_1").setAttribute("href",url2);
+    document.getElementById("lang2_2").setAttribute("href",url2);
+    document.getElementById("lang2_3").setAttribute("href",url2);
+    document.getElementById("lang2_4").setAttribute("href",url2);
+
+
 </script>

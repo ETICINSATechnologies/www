@@ -561,13 +561,13 @@ $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_MY_BUSINESS_PLAN_TEXT, "ET
 $DICT_FR->translate(StringIdentifier::SID_VALEURS_H1, "Nos valeurs");
 $DICT_FR->translate(StringIdentifier::SID_VALEURS_1, "Humanisme");
 $DICT_FR->translate(StringIdentifier::SID_VALEURS_2, "Excellence");
-$DICT_FR->translate(StringIdentifier::SID_VALEURS_3, "Engagement");
-$DICT_FR->translate(StringIdentifier::SID_VALEURS_4, "Ouverture");
+$DICT_FR->translate(StringIdentifier::SID_VALEURS_3, "Ouverture");
+$DICT_FR->translate(StringIdentifier::SID_VALEURS_4, "Engagement");
 $DICT_FR->translate(StringIdentifier::SID_VALEURS_5, "Dépassement");
 $DICT_FR->translate(StringIdentifier::SID_VALEURS_P_1, "Qui maintient l'humain au centre du système");
 $DICT_FR->translate(StringIdentifier::SID_VALEURS_P_2, "Dans un processus d'amélioration continue afin de rendre ETIC toujours plus performante");
-$DICT_FR->translate(StringIdentifier::SID_VALEURS_P_3, "Auprès de nos partenaires, du mouvement, de notre école et de nos clients, mais aussi vis à vis des enjeux de notre époque");
-$DICT_FR->translate(StringIdentifier::SID_VALEURS_P_4, "Vers toutes les opportunités qui se présentent à ETIC, une J.E. qui garantit l'égalité des chances");
+$DICT_FR->translate(StringIdentifier::SID_VALEURS_P_3, "Vers toutes les opportunités qui se présentent à ETIC, une J.E. qui garantit l'égalité des chances");
+$DICT_FR->translate(StringIdentifier::SID_VALEURS_P_4, "Auprès de nos partenaires, du mouvement, de notre école et de nos clients, mais aussi vis à vis des enjeux de notre époque");
 $DICT_FR->translate(StringIdentifier::SID_VALEURS_P_5, "Afin de ne rien considérer comme acquis et de viser toujours plus loin");
 
 
@@ -599,9 +599,9 @@ $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_7, "Faire prendre cons
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_8, "Etre précurseurs dans le mouvement des Junior-Entreprises et inspirer les autres à nous rejoindre dans cette dynamique, à la portée de chaque Junior-Entrepreneur.");
 
 $DICT_FR->translate(StringIdentifier::SID_PRESIDENT_H1,"Le mot de la présidente");
-$DICT_FR->translate(StringIdentifier::SID_PRESIDENT_P,"Créée en 1981, ETIC INSA Technologies est la Junior-Entreprise de l’INSA Lyon. Depuis plus de 35 ans, engagement, réactivité et qualité sont les maîtres mots d’ETIC et l’ensemble de notre équipe s’engage quotidiennement pour vous, selon ces valeurs. 
- <br>Le soutien de nos partenaires ainsi que la formation d’excellence de l’INSA Lyon dans plus de 10 domaines de l’ingénierie nous permettent de vous proposer des services pluridisciplinaires de haute qualité. Meilleure Junior-Entreprise de France en 2016, nous nous distinguons de nouveau cette année grâce à notre qualité de gestion de projet ainsi que nos compétences techniques de pointe. Interlocuteur de choix pour vous accompagner dans vos projets, nous sommes fiers de mettre à votre disposition plus de 40 collaborateurs ainsi que 3 000 consultants experts potentiels.");
-$DICT_FR->translate(StringIdentifier::SID_PRESIDENT_SIGN,"Maïlys Pascail, présidente 2018-2019");
+$DICT_FR->translate(StringIdentifier::SID_PRESIDENT_P," Créée en 1981, ETIC INSA Technologies est la Junior-Entreprise de l’INSA Lyon. Depuis maintenant 38 ans, nous nous engageons au quotidien pour vous accompagner dans la réalisation de vos projets. La formation d’excellence de l’INSA Lyon dans plus de 10 domaines d’ingénierie et le soutien de nos partenaires nous permettent de vous proposer des services d’une grande diversité et d’une haute qualité.<br>
+Finaliste du prix de la meilleure Junior-Entreprise en 2018 et du prix récompensant la meilleure étude en ingénierie en 2019, nous nous distinguons cette année encore grâce à nos compétences techniques pluridisciplinaires et grâce à la qualité de notre gestion de projets. Interlocuteur de choix pour vous accompagner dans la réalisation de vos idées, nous sommes fiers de mettre à votre disposition plus de 70 collaborateurs ainsi que 4000 consultants experts potentiels.");
+$DICT_FR->translate(StringIdentifier::SID_PRESIDENT_SIGN,"Alexandre Lang, président 2019-2020");
 $DICT_FR->translate(StringIdentifier::SID_BUREAU,"Le bureau");
 $DICT_FR->translate(StringIdentifier::SID_CA,"Le conseil d'administration");
 $DICT_FR->translate(StringIdentifier::SID_EQUIPES,"Nos équipes");
@@ -612,6 +612,7 @@ $DICT_FR->translate(StringIdentifier::SID_UA,"Unité d'Affaires");
 $DICT_FR->translate(StringIdentifier::SID_GRC,"Relation Client");
 $DICT_FR->translate(StringIdentifier::SID_COM,"Communication");
 $DICT_FR->translate(StringIdentifier::SID_TRESOR,"Trésorerie");
+$DICT_FR->translate(StringIdentifier::SID_RH,"RH");
 
 $DICT_FR->translate(StringIdentifier::SID_DESC_DSI,"Système d'information");
 $DICT_FR->translate(StringIdentifier::SID_DESC_QUALITE,"Suivi et amélioration continue");
@@ -619,6 +620,7 @@ $DICT_FR->translate(StringIdentifier::SID_DESC_UA,"Vente et réalisation de miss
 $DICT_FR->translate(StringIdentifier::SID_DESC_GRC,"Prise de contact et fidélisation");
 $DICT_FR->translate(StringIdentifier::SID_DESC_COM,"Evénements et cohésion d'équipe");
 $DICT_FR->translate(StringIdentifier::SID_DESC_TRESO,"Gestion des finances");
+$DICT_FR->translate(StringIdentifier::SID_DESC_RH,"Ressources Humaines");
 
 $DICT_FR->translate(StringIdentifier::SID_CRP,"Congrès Régionaux");
 //$DICT_FR->translate(StringIdentifier::SID_CRA,"Congrès Régional d'Automne");
@@ -661,10 +663,10 @@ $DICT_FR->translate(StringIdentifier::SID_FOOTER_RESEAUX, "Réseaux sociaux");
 $DICT_FR->translate(StringIdentifier::SID_FOOTER_CONTACT, "Nous contacter");
 
 
-$DICT_FR->translate(StringIdentifier::SID_PRES, "Présidente");
+$DICT_FR->translate(StringIdentifier::SID_PRES, "Président");
 $DICT_FR->translate(StringIdentifier::SID_VP,"Vice-Président");
 $DICT_FR->translate(StringIdentifier::SID_SG,"Secrétaire Générale");
-$DICT_FR->translate(StringIdentifier::SID_TRESO,"Trésorière");
+$DICT_FR->translate(StringIdentifier::SID_TRESO,"Trésorier");
 $DICT_FR->translate(StringIdentifier::SID_VTRESO,"Vice-Trésorier");
 $DICT_FR->translate(StringIdentifier::SID_RESP_DSI,"Responsable des SI");
 $DICT_FR->translate(StringIdentifier::SID_RESP_QUALITE,"Responsable Performance");

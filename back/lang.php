@@ -307,6 +307,7 @@ class StringIdentifier {
 	const SID_GRC = "{GRC}";
 	const SID_COM = "{COM}";
 	const SID_TRESOR = "{TRESOR}";
+	const SID_RH = "{RH}";
 
 	const SID_DESC_DSI = "{DESC_DSI}";
 	const SID_DESC_QUALITE = "{DESC_QUALITE}";
@@ -314,6 +315,7 @@ class StringIdentifier {
 	const SID_DESC_GRC = "{DESC_GRC}";
 	const SID_DESC_COM = "{DESC_COM}";
 	const SID_DESC_TRESO = "{DESC_TRESO}";
+    const SID_DESC_RH = "{DESC_RH}";
 
 	const SID_PRES = "{PRES}";
 	const SID_VP = "{VP}";
@@ -868,6 +870,7 @@ class StringIdentifier {
 		StringIdentifier::SID_GRC,
 		StringIdentifier::SID_COM,
 		StringIdentifier::SID_TRESOR,
+        StringIdentifier::SID_RH,
 
 		StringIdentifier::SID_DESC_DSI,
 		StringIdentifier::SID_DESC_QUALITE,
@@ -875,6 +878,7 @@ class StringIdentifier {
 		StringIdentifier::SID_DESC_GRC,
 		StringIdentifier::SID_DESC_COM,
 		StringIdentifier::SID_DESC_TRESO,
+        StringIdentifier::SID_DESC_RH,
 
 		StringIdentifier::SID_PRES,
 		StringIdentifier::SID_VP,

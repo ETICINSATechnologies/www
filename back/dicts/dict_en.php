@@ -551,13 +551,13 @@ $DICT_EN->translate(StringIdentifier::SID_PARTENAIRES_MY_BUSINESS_PLAN_TEXT, "ET
 $DICT_EN->translate(StringIdentifier::SID_VALEURS_H1, "Our values");
 $DICT_EN->translate(StringIdentifier::SID_VALEURS_1, "Humanism");
 $DICT_EN->translate(StringIdentifier::SID_VALEURS_2, "Excellency");
-$DICT_EN->translate(StringIdentifier::SID_VALEURS_3, "Commitment");
-$DICT_EN->translate(StringIdentifier::SID_VALEURS_4, "Opening");
+$DICT_EN->translate(StringIdentifier::SID_VALEURS_3, "Open");
+$DICT_EN->translate(StringIdentifier::SID_VALEURS_4, "Commitment");
 $DICT_EN->translate(StringIdentifier::SID_VALEURS_5, "Overtaking");
 $DICT_EN->translate(StringIdentifier::SID_VALEURS_P_1, "Who keeps the human at the center of the system");
 $DICT_EN->translate(StringIdentifier::SID_VALEURS_P_2, "In a process of continuous improvement to make ETIC always more efficient");
-$DICT_EN->translate(StringIdentifier::SID_VALEURS_P_3, "With our partners, the movement, our school and our customers, but also with the issues of our time");
-$DICT_EN->translate(StringIdentifier::SID_VALEURS_P_4, "To all the opportunities presented to ETIC, a J.E. which guarantees equal opportunities");
+$DICT_EN->translate(StringIdentifier::SID_VALEURS_P_3, "To all the opportunities presented to ETIC, a J.E. which guarantees equal opportunities");
+$DICT_EN->translate(StringIdentifier::SID_VALEURS_P_4, "With our partners, the movement, our school and our customers, but also with the issues of our time");
 $DICT_EN->translate(StringIdentifier::SID_VALEURS_P_5, "In order not to take anything for granted and aim always further");
 
 $DICT_EN->translate(StringIdentifier::SID_MISSION_H1, "Our mission");
@@ -593,7 +593,7 @@ With our partners' support and INSA Lyon's excellent formation in more than 10 f
 Best Junior-Enterprise of France in 2016, we keep succeeding thanks to our project management skill and high technical expertise.
 We are proud to be able to put more than 40 active members and 3000 potential contributors at your disposal. 
 With more than 35 years of experience, we are today laureates of the Prix d’Excellence, awarding the best Junior-Enterprise in France. ");
-$DICT_EN->translate(StringIdentifier::SID_PRESIDENT_SIGN,"Maïlys Pascail, president 2018-2019");
+$DICT_EN->translate(StringIdentifier::SID_PRESIDENT_SIGN,"Alexandre Lang, president 2019-2020");
 $DICT_EN->translate(StringIdentifier::SID_BUREAU,"The chamber");
 $DICT_EN->translate(StringIdentifier::SID_CA,"The board of directors");
 $DICT_EN->translate(StringIdentifier::SID_EQUIPES,"Our teams");
@@ -604,6 +604,7 @@ $DICT_EN->translate(StringIdentifier::SID_UA,"Business Unit");
 $DICT_EN->translate(StringIdentifier::SID_GRC,"Client Relationships");
 $DICT_EN->translate(StringIdentifier::SID_COM,"Communication");
 $DICT_EN->translate(StringIdentifier::SID_TRESOR,"Treasury");
+$DICT_EN->translate(StringIdentifier::SID_RH,"HR");
 
 $DICT_EN->translate(StringIdentifier::SID_DESC_DSI,"Information System");
 $DICT_EN->translate(StringIdentifier::SID_DESC_QUALITE,"Continuous monitoring and improvement");
@@ -611,6 +612,7 @@ $DICT_EN->translate(StringIdentifier::SID_DESC_UA,"Sales and mission implementat
 $DICT_EN->translate(StringIdentifier::SID_DESC_GRC,"Making contact and loyalty");
 $DICT_EN->translate(StringIdentifier::SID_DESC_COM,"Events and team building");
 $DICT_EN->translate(StringIdentifier::SID_DESC_TRESO,"Management of our finances");
+$DICT_EN->translate(StringIdentifier::SID_DESC_RH,"Human Ressources");
 
 $DICT_EN->translate(StringIdentifier::SID_CRP,"Congrès Régionaux(Regional Congress)");
 //$DICT_EN->translate(StringIdentifier::SID_CRA,"Congrès Régional d'Automne (Autumn Regional Congress)");
