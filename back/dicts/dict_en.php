@@ -588,11 +588,10 @@ $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_7, "Make all students 
 $DICT_EN->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_8, "Be precursors in the movement of Junior-Enterprises and inspire others to join us in this dynamic, within reach of each Junior-Entrepreneur.");
 
 $DICT_EN->translate(StringIdentifier::SID_PRESIDENT_H1,"The president's words");
-$DICT_EN->translate(StringIdentifier::SID_PRESIDENT_P,"Created in 1981, ETIC INSA Technologies is INSA Lyon's Junior-Enterprise. For more than 35 years, engagement, responsiveness and quality are ETIC's keywords, and the whole team are investing following these values.
+$DICT_EN->translate(StringIdentifier::SID_PRESIDENT_P,"Created in 1981, ETIC INSA Technologies is INSA Lyon's Junior-Enterprise. For the past 38 years, we made sure to be there with you, every step of the way, to aid with the completion of your projects.
 With our partners' support and INSA Lyon's excellent formation in more than 10 fields of engineering, we are able to offer you our high-quality multidisciplinary services.
-Best Junior-Enterprise of France in 2016, we keep succeeding thanks to our project management skill and high technical expertise.
-We are proud to be able to put more than 40 active members and 3000 potential contributors at your disposal. 
-With more than 35 years of experience, we are today laureates of the Prix d’Excellence, awarding the best Junior-Enterprise in France. ");
+Finalist for the award of the best Junior Enterprise in 2018 and the award for the best Engineering study in 2019, we keep succeeding thanks to our project management skill and high technical expertise.
+We are proud to be able to put more than 70 active members and 4000 potential contributors at your disposal.");
 $DICT_EN->translate(StringIdentifier::SID_PRESIDENT_SIGN,"Alexandre Lang, president 2019-2020");
 $DICT_EN->translate(StringIdentifier::SID_BUREAU,"The chamber");
 $DICT_EN->translate(StringIdentifier::SID_CA,"The board of directors");
