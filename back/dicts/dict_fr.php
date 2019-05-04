@@ -598,7 +598,7 @@ $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_6, "Sensibiliser nos m
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_7, "Faire prendre conscience à tous les étudiants de l'INSA Lyon et d'ailleurs des enjeux de l'entreprise de demain.");
 $DICT_FR->translate(StringIdentifier::SID_ENGAGEMENT_H2_P_8, "Etre précurseurs dans le mouvement des Junior-Entreprises et inspirer les autres à nous rejoindre dans cette dynamique, à la portée de chaque Junior-Entrepreneur.");
 
-$DICT_FR->translate(StringIdentifier::SID_PRESIDENT_H1,"Le mot de la présidente");
+$DICT_FR->translate(StringIdentifier::SID_PRESIDENT_H1,"Le mot du président");
 $DICT_FR->translate(StringIdentifier::SID_PRESIDENT_P," Créée en 1981, ETIC INSA Technologies est la Junior-Entreprise de l’INSA Lyon. Depuis maintenant 38 ans, nous nous engageons au quotidien pour vous accompagner dans la réalisation de vos projets. La formation d’excellence de l’INSA Lyon dans plus de 10 domaines d’ingénierie et le soutien de nos partenaires nous permettent de vous proposer des services d’une grande diversité et d’une haute qualité.<br>
 Finaliste du prix de la meilleure Junior-Entreprise en 2018 et du prix récompensant la meilleure étude en ingénierie en 2019, nous nous distinguons cette année encore grâce à nos compétences techniques pluridisciplinaires et grâce à la qualité de notre gestion de projets. Interlocuteur de choix pour vous accompagner dans la réalisation de vos idées, nous sommes fiers de mettre à votre disposition plus de 70 collaborateurs ainsi que 4000 consultants experts potentiels.");
 $DICT_FR->translate(StringIdentifier::SID_PRESIDENT_SIGN,"Alexandre Lang, président 2019-2020");
