@@ -4,7 +4,7 @@
 
 body {
     color : #2D2D2C;
-    font-family: HK Grotesk;
+    font-family: 'HK Grotesk', sans-serif;
 }
 
 
@@ -365,12 +365,5 @@ body {
     text-align: right;
     float: right;
 }
-
-/*
-html *
-{
-    font-family: HK Grotesk ;
-}
-*/
 
 
