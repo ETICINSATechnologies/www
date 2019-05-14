@@ -9,7 +9,7 @@ $DICT_EN = new Dictionary('en');
 
 $DICT_EN->translate(StringIdentifier::SID_LANGUAGE, "en");
 
-$DICT_EN->translate(StringIdentifier::SID_TITLE, "ETIC INSA Technologies : Best Junior-Enterprise of France in 2016");
+$DICT_EN->translate(StringIdentifier::SID_TITLE, "ETIC INSA Technologies : Best Junior-Enterprise of France in 2019");
 $DICT_EN->translate(StringIdentifier::SID_TITLE_MENU, "ETIC INSA Technologies");
 $DICT_EN->translate(StringIdentifier::SID_HOME, "Home");
 $DICT_EN->translate(StringIdentifier::SID_PRESTA, "Our services");
@@ -36,7 +36,7 @@ $DICT_EN->translate(StringIdentifier::SID_ARTICLES, "News");
 
 /*FR_HOME*/
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_EXPERIENCE, "Years of experience");
-$DICT_EN->translate(StringIdentifier::SID_HOME_STAT_ENG, "in France in 2016");
+$DICT_EN->translate(StringIdentifier::SID_HOME_STAT_ENG, "in France in 2019");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_TOP, "Best Junior-Enterprises");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_DOMAINES, "Fields of proficiency");
 $DICT_EN->translate(StringIdentifier::SID_HOME_STAT_SATISFACTION, "Clients satisfied");
@@ -1105,3 +1105,17 @@ $DICT_EN->translate(StringIdentifier::SID_JEWC_P5,"«The JEWC gathers students f
 $DICT_EN->translate(StringIdentifier::SID_JEWC_P6,"«For 4 days, Lyon welcomed Junior-Entrepreneurs from very different backgrounds, although all sharing the same will to achieve professional projects. Every local movement is developing in its own environment thanks to its commitment in its school, politics or alongside local youth. For example, in Brazil, Junior-Enterprises contribute to the economic development of the country. It is impressing to realise that, around the world, structures have to face very different issues than those that we have to face in France.» - Justine Lhuillier");
 $DICT_EN->translate(StringIdentifier::SID_JEWC_P7,"«Those four days of congress have been an incredible interlude in our daily lives as engineering students Junior-Entrepreneurs. We have met people from all around the world, each with a different and very specific vision of the JE’s world, the role they have in their country and even tomorrow’s companies. From Artificial Intelligence to the future RSE businesses, the trainings given by Junior-Enterprises and the speakers were proposing to discuss about our societies current issues and to confront different points of view from different countries, schools and cultures. From this event, we will remember that working together and sharing is how we will be able to build tomorrow’s world. Also that fear of the unknown and of failure should not slow us down in our projects and in our lives : turn these fears into a motor and exceed yourself! #WeAreJE #WeGenerateImpact #BeyondBorders. » - Charlotte Diroux ");
 $DICT_EN->translate(StringIdentifier::SID_JEWC_AUTHOR, "By the Administration Council");
+
+
+
+// ARTTCLE FIMITECH
+
+//$DICT_EN->translate(StringIdentifier::SID_FIMITECH_SECTION, "FIMITECH : a new scope for our engineering projects");
+//$DICT_EN->translate(StringIdentifier::SID_FIMITECH, "FIMITECH : a new scope for our engineering projects");
+//$DICT_EN->translate(StringIdentifier::SID_FIMITECH_AUTEUR, "by Tom Richard | march 25th 2019");
+//$DICT_EN->translate(StringIdentifier::SID_FIMITECH_P1, "Since its official opening on Thursday 14th February, the technical production workshop of INSA Lyon named « FIMITECH » now enables all students of the school to have free access to all kinds of industrial machinery every Thursday afternoon.");
+//$DICT_EN->translate(StringIdentifier::SID_FIMITECH_P2, "");
+//$DICT_EN->translate(StringIdentifier::SID_FIMITECH_P3, "C’est justement dans ce contexte qu’ETIC a naturellement décidé de se rapprocher de cet atelier afin de pouvoir accéder aux divers moyens de production technique pour les études à venir. L’ouverture aux étudiants de cet atelier rend alors possible l’élargissement de nos domaines de compétences grâce à l’utilisation de machines spécifiques (impression 3D, usinage, construction métalliques et enfin  mécatronique). Être accompagné par des experts est aussi doublement bénéfique; cela renforce à la fois la dimension pédagogique de nos projets pour les consultants mais permet aussi de fournir à nos clients un livrable de qualité, validé par le corps enseignant.");
+//$DICT_EN->translate(StringIdentifier::SID_FIMITECH_P4, "De plus, ETIC étant l’une des rares Junior-Entreprises à disposer de licences professionnelles de CAO (Conception Assistée par Ordinateur) permettant la réalisation d’études de conception/simulation. Nous pouvons dorénavant proposer des études complètes à nos clients.  En effet, de la conception sur ordinateur à la production d’un prototype, les étudiants de l’INSA Lyon pourront désormais concrétiser des projets d’autant plus professionnalisants pour nos clients en étant consultant à ETIC.");
+//$DICT_EN->translate(StringIdentifier::SID_FIMITECH_RESUME, "Baptisé “FIMITECH” depuis son inauguration le jeudi 14 février, l’atelier de production technique de l’INSA Lyon permet désormais à tous les étudiants de l’école...");
+

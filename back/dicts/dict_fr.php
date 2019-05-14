@@ -9,7 +9,7 @@ $DICT_FR = new Dictionary('fr');
 
 $DICT_FR->translate(StringIdentifier::SID_LANGUAGE, "fr");
 
-$DICT_FR->translate(StringIdentifier::SID_TITLE, "ETIC INSA Technologies : Meilleure Junior-Entreprise de France en 2016");
+$DICT_FR->translate(StringIdentifier::SID_TITLE, "ETIC INSA Technologies : Meilleure Junior-Entreprise de France en 2019");
 $DICT_FR->translate(StringIdentifier::SID_TITLE_SHORT, "ETIC INSA Technologies : ");
 $DICT_FR->translate(StringIdentifier::SID_TITLE_MENU, "ETIC INSA Technologies");
 $DICT_FR->translate(StringIdentifier::SID_HOME, "Accueil");
@@ -36,7 +36,7 @@ $DICT_FR->translate(StringIdentifier::SID_ARTICLES, "Articles");
 
 /*FR_HOME*/
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_EXPERIENCE, "Années d'expérience");
-$DICT_FR->translate(StringIdentifier::SID_HOME_STAT_ENG, "en France en 2016");
+$DICT_FR->translate(StringIdentifier::SID_HOME_STAT_ENG, "en France en 2019");
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_TOP, "Des meilleures Junior-Entreprises");
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_DOMAINES, "Domaines de compétences");
 $DICT_FR->translate(StringIdentifier::SID_HOME_STAT_SATISFACTION, "De satisfaction client");
@@ -522,6 +522,7 @@ $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_EMLYON, "EM Lyon Junior Co
 $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_JUNIORINSA, "Juniors INSA");
 $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_JEUNESLYON, "Junior-Entreprises Lyonnaises");
 $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_MY_BUSINESS_PLAN, "My Business Plan");
+$DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_ICF, "ICF");
 
 $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_AMARIS_TEXT, "Amaris est un groupe international de conseil en technologies et en management avec un développement rapide et des solutions innovantes pour des projets exigeants. L'activité de la société consiste à soutenir ses clients dans la réalisation de leurs projets en agissant au sein de leur organisation afin d'améliorer leur efficacité et améliorer leurs performances. L'activité d'Amaris repose sur les 5 domaines d'expertise suivants : conseil en affaires et management, systèmes et technologies de l'information, ingénierie et hautes technologies, télécommunications, biotechnologies et pharmacie. Amaris intervient auprès de grands comptes internationaux et de groupes familiaux dans de nombreux secteurs tels l’énergie, l’automobile, la banque.
 
@@ -556,6 +557,9 @@ $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_JEUNESLYON_TEXT, "Réseau 
 ");
 $DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_MY_BUSINESS_PLAN_TEXT, "ETIC travaille en partenariat avec My Business Plan, un cabinet de conseil 100% spécialisé sur le business plan, la modélisation financière et la levée de fonds.
                 </br></br>Ils ont accompagné en 7 ans plus de 750 entrepreneurs, TPE/PME et grands groupes sur leur business plan, s'appuyant sur les valeurs qu'ils défendent : pragmatisme, oeil critique, et innovation.");
+
+$DICT_FR->translate(StringIdentifier::SID_PARTENAIRES_ICF_TEXT, "ETIC travaille
+                </br></br>");
 
 
 $DICT_FR->translate(StringIdentifier::SID_VALEURS_H1, "Nos valeurs");
