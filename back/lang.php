@@ -1168,6 +1168,7 @@ class StringIdentifier {
     const LINK_ARTICLE_7 = "{LINK_ARTICLE_7}"; // retrospective du CA 2018
     const LINK_ARTIClE_8 = "{LINK_ARTICLE_8}"; // fimitech
     const LINK_ARTIClE_9 = "{LINK_ARTICLE_9}"; // fimitech
+    const LINK_ARTIClE_10 = "{LINK_ARTICLE_10}"; // fimitech
 
 
     const LINK_INGENIERIE = "{LINK_INGENIERIE}";
@@ -1223,6 +1224,7 @@ class StringIdentifier {
         StringIdentifier::LINK_ARTICLE_7,
         StringIdentifier::LINK_ARTIClE_8,
         StringIdentifier::LINK_ARTIClE_9,
+        StringIdentifier::LINK_ARTIClE_10,
 
 
         StringIdentifier::LINK_INGENIERIE,

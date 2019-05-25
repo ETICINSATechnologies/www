@@ -43,6 +43,7 @@ $links->translate(StringIdentifier::LINK_ARTICLE_6, "page.php?page=temoignage_an
 $links->translate(StringIdentifier::LINK_ARTICLE_7, "page.php?page=retrospective_2018");
 $links->translate(StringIdentifier::LINK_ARTIClE_8, "page.php?page=fimitech");
 $links->translate(StringIdentifier::LINK_ARTIClE_9, "page.php?page=temoignage_consultant");
+$links->translate(StringIdentifier::LINK_ARTIClE_10, "page.php?page=formation_anciens");
 
 
 $links->translate(StringIdentifier::LINK_REA_WEB, "page.php?page=subcategory_websites");
