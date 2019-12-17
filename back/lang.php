@@ -1170,6 +1170,7 @@ class StringIdentifier {
     const LINK_ARTIClE_9 = "{LINK_ARTICLE_9}"; // fimitech
     const LINK_ARTIClE_10 = "{LINK_ARTICLE_10}"; // fimitech
     const LINK_ARTIClE_11 = "{LINK_ARTICLE_11}"; // fimitech
+    const LINK_ARTIClE_12 = "{LINK_ARTICLE_12}"; // fimitech
 
 
     const LINK_INGENIERIE = "{LINK_INGENIERIE}";
@@ -1227,6 +1228,7 @@ class StringIdentifier {
         StringIdentifier::LINK_ARTIClE_9,
         StringIdentifier::LINK_ARTIClE_10,
         StringIdentifier::LINK_ARTIClE_11,
+        StringIdentifier::LINK_ARTIClE_12,
 
 
         StringIdentifier::LINK_INGENIERIE,
